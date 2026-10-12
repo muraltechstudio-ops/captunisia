@@ -37,6 +37,7 @@ export default function Nav() {
     { href: '/biens', label: 'Nos biens' },
     { href: '/services', label: 'Nos services' },
     { href: '/tarifs', label: 'Tarifs' },
+    { href: '/blog', label: 'Blog' },
     { href: '/equipe', label: "L'equipe" },
     { href: '/contact', label: 'Contact' },
   ]
