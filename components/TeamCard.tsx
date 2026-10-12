@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 
 interface TeamCardProps {
   name: string
@@ -36,8 +35,18 @@ export default function TeamCard({
       className="bg-white rounded-lg shadow-lg p-8 md:p-10"
     >
       {photo ? (
-        <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
-          <Image src={photo} alt={name} width={80} height={80} className="w-full h-full object-cover" />
+        <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', position: 'relative', flexShrink: 0, marginBottom: '1rem' }}>
+          <img
+            src={photo}
+            alt={name}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: photo.includes('emna') ? 'center 20%' : 'center top',
+              borderRadius: '50%',
+            }}
+          />
         </div>
       ) : (
         <div className="w-20 h-20 rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4" style={{ backgroundColor: bgColor }}>
