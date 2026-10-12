@@ -17,7 +17,7 @@ export default function Home() {
   }
 
   return (
-    <>
+    <div>
       <VideoHero />
 
       {/* SECTION A - Barre de reassurance */}
@@ -389,6 +389,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
