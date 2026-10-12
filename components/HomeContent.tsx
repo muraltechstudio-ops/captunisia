@@ -126,7 +126,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               </div>
               <h3 className="font-display text-2xl text-nuit">Emna Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Juriste - Droit des affaires internationales</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Spécialisée dans les transactions immobilieres franco-tunisiennes. Maîtrise du cadre légal tunisien.</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">Spécialisée dans les transactions immobilières franco-tunisiennes. Maîtrise du cadre légal tunisien.</p>
               <p className="text-sm text-gray-600">Français · Arabe · Anglais</p>
             </motion.div>
           </div>
