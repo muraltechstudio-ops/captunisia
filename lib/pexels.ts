@@ -18,7 +18,7 @@ export async function fetchPexelsVideos(query: string, perPage: number = 1): Pro
   const apiKey = process.env.PEXELS_API_KEY
 
   if (!apiKey) {
-    console.warn('PEXELS_API_KEY not found, returning fallback image')
+    console.log('PEXELS_API_KEY not found, using fallback mode')
     return []
   }
 
@@ -34,7 +34,8 @@ export async function fetchPexelsVideos(query: string, perPage: number = 1): Pro
     )
 
     if (!response.ok) {
-      throw new Error(`Pexels API error: ${response.status}`)
+      console.log(`Pexels API error: ${response.status}, using fallback`)
+      return []
     }
 
     const data: PexelsResponse = await response.json()
@@ -49,7 +50,7 @@ export async function fetchPexelsVideos(query: string, perPage: number = 1): Pro
       })
       .filter(Boolean) as string[]
   } catch (error) {
-    console.error('Error fetching Pexels videos:', error)
+    console.log('Error fetching Pexels videos, using fallback:', error)
     return []
   }
 }
