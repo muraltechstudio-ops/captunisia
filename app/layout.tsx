@@ -5,7 +5,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
 const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['300', '400', '500', '600', '700'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant',
@@ -13,7 +13,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 const dmSans = DM_Sans({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-dm-sans',
   display: 'swap',
@@ -31,6 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${cormorant.variable} ${dmSans.variable}`}>
+      <head>
+        <meta charSet="utf-8" />
+      </head>
       <body className="font-sans">
         <Nav />
         <main>{children}</main>
