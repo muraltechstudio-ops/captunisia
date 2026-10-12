@@ -3,15 +3,15 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
-const VIDEOS = ['/videos/video1.mp4', '/videos/video2.mp4', '/videos/video3.mp4', '/videos/video4.mp4']
+const VIDEOS = ['/videos/video1.mp4', '/videos/video2.mp4', '/videos/video3.mp4', '/videos/video4.mp4', '/videos/video5.mp4', '/videos/video6.mp4']
 const DISPLAY_MS = 6000
 const FADE_S = 1.5
 
 export default function VideoHero() {
   const [current, setCurrent] = useState(0)
   const [fading, setFading] = useState(false)
-  const [errors, setErrors] = useState<boolean[]>([false, false, false, false])
-  const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null, null])
+  const [errors, setErrors] = useState<boolean[]>([false, false, false, false, false, false])
+  const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null, null, null, null])
   const timer = useRef<NodeJS.Timeout | null>(null)
   const { scrollY } = useScroll()
   const parallaxY = useTransform(scrollY, [0, 800], [0, 300])
