@@ -9,6 +9,7 @@ export default function ContactForm() {
     email: '',
     phone: '',
     budget: '',
+    formule: '',
     zone: '',
     type: '',
     message: ''
@@ -34,6 +35,7 @@ export default function ContactForm() {
           email: '',
           phone: '',
           budget: '',
+          formule: '',
           zone: '',
           type: '',
           message: ''
@@ -176,6 +178,25 @@ export default function ContactForm() {
             <option value="Houch">Houch</option>
           </select>
         </div>
+      </div>
+
+      <div>
+        <label htmlFor="formule" className="block font-sans text-sm font-medium text-gray-700 mb-2">
+          Formule souhaitee
+        </label>
+        <select
+          id="formule"
+          name="formule"
+          value={formData.formule}
+          onChange={handleChange}
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-azur focus:border-transparent"
+        >
+          <option value="">Je ne sais pas encore</option>
+          <option value="Essentiel - 690€">Essentiel - 690€</option>
+          <option value="Securite - 990€ (recommande)">Securite - 990€ (recommande)</option>
+          <option value="Premium - 1 690€">Premium - 1 690€</option>
+          <option value="Option deplacement physique - +290€/jour">Option deplacement physique - +290€/jour</option>
+        </select>
       </div>
 
       <div>

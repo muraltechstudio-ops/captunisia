@@ -20,7 +20,14 @@ export default function CGVPage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Nature du service</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            CapTunisia intervient exclusivement en qualite d apporteur d affaires. Il ne percoit aucune remuneration de la part de l acquereur. Sa remuneration est integralement a la charge de l agence partenaire tunisienne, dans le cadre d un contrat d apport d affaires distinct. CapTunisia n est pas partie a la transaction immobiliere, ne detient pas de fonds et ne garantit pas la conclusion de la vente.
+            CapTunisia intervient exclusivement en qualite d apporteur d affaires. CapTunisia n est pas partie a la transaction immobiliere, ne detient pas de fonds et ne garantit pas la conclusion de la vente.
+          </p>
+        </div>
+
+        <div className="border-t border-gray-100 mt-8 pt-8">
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Tarifs</h2>
+          <p className="font-sans text-gray-600 leading-relaxed">
+            Les honoraires de CapTunisia sont les suivants : Pack Essentiel 690€ TTC, Pack Securite 990€ TTC, Pack Premium 1 690€ TTC (incluant une journee de deplacement physique en Tunisie). Une option d accompagnement physique supplementaire est disponible a 290€ par journee, frais de deplacement refactures au reel. Le reglement s effectue en deux fois : 50% a la signature du contrat, 50% a la premiere presentation de biens. Moyens de paiement acceptes : virement bancaire, PayPal.
           </p>
         </div>
 

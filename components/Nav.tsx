@@ -36,7 +36,8 @@ export default function Nav() {
   const links = [
     { href: '/biens', label: 'Nos biens' },
     { href: '/services', label: 'Nos services' },
-    { href: '/equipe', label: "L'équipe" },
+    { href: '/tarifs', label: 'Tarifs' },
+    { href: '/equipe', label: "L'equipe" },
     { href: '/contact', label: 'Contact' },
   ]
 

@@ -14,13 +14,13 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
     <div>
       <div className="bg-[#111009] py-5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
-          <span>0 euro pour l acheteur</span>
+          <span>690€ a 1 690€ TTC · Paiement en 2 fois</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>100% dossiers vérifiés</span>
+          <span>100% dossiers verifie</span>
           <span className="hidden md:inline opacity-20">|</span>
           <span>Accompagnement FR / AR / EN</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>Contrat sécurisé dès le départ</span>
+          <span>Contrat securise des le depart</span>
         </div>
       </div>
 
@@ -32,13 +32,18 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing à Hammamet. Des biens introuvables à ce prix en Europe méditerranéenne.' },
-              { title: 'Cadre légal maîtrisé', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gérons chaque étape juridique à votre place.' },
-              { title: '0 euro pour l acheteur', text: 'Notre rémunération est versée par l agence partenaire tunisienne. Vous bénéficiez d un accompagnement complet sans aucun frais.' }
+              { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing a Hammamet. Des biens introuvables a ce prix en Europe mediterraneenne.' },
+              { title: 'Cadre legal maitrise', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gerons chaque etape juridique a votre place.' },
+              { title: 'Honoraires clairs', text: '3 formules de 690€ a 1 690€ TTC, payees en deux fois. Accompagnement physique en Tunisie inclus dans le pack Premium.', link: '/tarifs' }
             ].map((item, i) => (
               <motion.div key={item.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="text-center">
                 <h3 className="font-display text-2xl mb-3 text-nuit">{item.title}</h3>
                 <p className="font-sans text-gray-600 leading-relaxed">{item.text}</p>
+                {item.link && (
+                  <Link href={item.link} className="inline-block text-sm mt-2" style={{ color: '#1B6CA8' }}>
+                    Voir nos tarifs →
+                  </Link>
+                )}
               </motion.div>
             ))}
           </div>
