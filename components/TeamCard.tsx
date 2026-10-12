@@ -35,15 +35,16 @@ export default function TeamCard({
       className="bg-white rounded-lg shadow-lg p-8 md:p-10"
     >
       {photo ? (
-        <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', flexShrink: 0, marginBottom: '1rem' }}>
+        <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 mb-4">
           <img
             src={photo}
             alt={name}
+            className="w-full h-full"
             style={{
-              width: '100%',
-              height: '100%',
               objectFit: 'cover',
-              objectPosition: name.includes('Emna') ? 'center 15%' : 'center center',
+              objectPosition: name.includes('Emna') ? '50% 10%' : 'center center',
+              transform: 'none',
+              scale: 'none'
             }}
           />
         </div>
