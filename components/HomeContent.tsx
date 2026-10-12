@@ -102,7 +102,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl italic text-center text-nuit mb-16">Deux expertises, un seul interlocuteur</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="bg-white shadow-sm p-8">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', position: 'relative', flexShrink: 0, marginBottom: '1rem' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', flexShrink: 0, marginBottom: '1rem' }}>
                 <img
                   src="/cyril-photo.jpg"
                   alt="Cyril Rancurel"
@@ -110,8 +110,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'center top',
-                    borderRadius: '50%',
+                    objectPosition: 'center center',
                   }}
                 />
               </div>
@@ -121,7 +120,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               <p className="text-sm text-gray-600">Français · Anglais</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }} className="bg-white shadow-sm p-8">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', position: 'relative', flexShrink: 0, marginBottom: '1rem' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', flexShrink: 0, marginBottom: '1rem' }}>
                 <img
                   src="/emna-photo.webp"
                   alt="Emna Rancurel"
@@ -129,8 +128,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'center 20%',
-                    borderRadius: '50%',
+                    objectPosition: 'center 15%',
                   }}
                 />
               </div>
