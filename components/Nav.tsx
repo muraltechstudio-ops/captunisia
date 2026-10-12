@@ -55,18 +55,14 @@ export default function Nav() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span
-              className="font-display text-2xl font-bold transition-colors duration-300"
-              style={{ color: isTransparent ? 'white' : '#111009' }}
-            >
-              Cap
-            </span>
-            <span
-              className="font-display text-2xl font-bold transition-colors duration-300"
-              style={{ color: isTransparent ? 'white' : '#1B6CA8' }}
-            >
-              Tunisia
-            </span>
+            <img
+              src={isTransparent ? "/captunisia-logo-white.svg" : "/captunisia-logo-white.svg"}
+              alt="CapTunisia"
+              className="h-10 w-auto transition-all duration-300"
+              style={{
+                filter: isTransparent ? 'none' : 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(189deg) brightness(94%) contrast(87%)'
+              }}
+            />
           </Link>
 
           {/* Desktop Navigation */}

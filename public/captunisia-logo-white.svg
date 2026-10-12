@@ -1,0 +1,40 @@
+<svg width="580" height="130" viewBox="0 0 580 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Ligne décorative gauche -->
+  <line x1="30" y1="65" x2="105" y2="65" stroke="white" stroke-width="0.7" opacity="0.5"/>
+  <!-- Ligne décorative droite -->
+  <line x1="475" y1="65" x2="550" y2="65" stroke="white" stroke-width="0.7" opacity="0.5"/>
+
+  <!-- CAP -->
+  <text
+    x="290"
+    y="58"
+    text-anchor="middle"
+    font-family="'Cormorant Upright', 'Georgia', serif"
+    font-size="22"
+    font-weight="300"
+    fill="white"
+    letter-spacing="18"
+  >CAP</text>
+
+  <!-- TUNISIA -->
+  <text
+    x="290"
+    y="100"
+    text-anchor="middle"
+    font-family="'Cormorant Upright', 'Georgia', serif"
+    font-size="52"
+    font-weight="300"
+    fill="white"
+    letter-spacing="6"
+    font-style="italic"
+  >Tunisia</text>
+
+  <!-- Petit point doré entre CAP et TUNISIA -->
+  <circle cx="290" cy="68" r="1.5" fill="#B8923A"/>
+</svg>
