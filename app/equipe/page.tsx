@@ -41,6 +41,7 @@ export default function EquipePage() {
             languages={['Français', 'Arabe', 'Anglais']}
             phone="+33 7 43 35 41 84"
             index={1}
+            photo="/emna-photo.webp"
           />
         </div>
 
