@@ -9,7 +9,7 @@ export default function TarifsPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <div style={{ backgroundColor: '#F8F6F1' }} className="py-12">
+      <div style={{ backgroundColor: '#F8F6F1' }} className="pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-5xl md:text-6xl italic text-nuit">
             Nos formules d'accompagnement
