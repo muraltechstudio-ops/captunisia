@@ -9,13 +9,13 @@ export default function TarifsPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <div style={{ backgroundColor: '#F8F6F1' }} className="py-20">
+      <div style={{ backgroundColor: '#F8F6F1' }} className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-5xl md:text-6xl italic text-nuit">
-            Nos formules d accompagnement
+            Nos formules d'accompagnement
           </h1>
           <p className="font-sans text-gray-500 mt-4 max-w-xl mx-auto">
-            Des honoraires transparents, sans surprise. Payes directement a CapTunisia, independants des honoraires de l agence tunisienne.
+            Des honoraires transparents, sans surprise. Payés directement à CapTunisia, indépendants des honoraires de l'agence tunisienne.
           </p>
         </div>
       </div>
@@ -37,13 +37,13 @@ export default function TarifsPage() {
                   <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-sm text-gray-700">Selection de biens sur mesure</span>
+                  <span className="text-sm text-gray-700">Sélection de biens sur mesure</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-sm text-gray-700">Mise en relation avec l agence partenaire</span>
+                  <span className="text-sm text-gray-700">Mise en relation avec l'agence partenaire</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -92,7 +92,7 @@ export default function TarifsPage() {
                     <svg className="w-5 h-5 mr-3 mt-0.5 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm">Note de risques personnalisee</span>
+                    <span className="text-sm">Note de risques personnalisée</span>
                   </li>
                 </ul>
                 <Link href="/contact" className="block w-full text-center mt-8 py-3 bg-white font-medium transition-colors hover:bg-white/90" style={{ color: '#1B6CA8' }}>
@@ -118,25 +118,25 @@ export default function TarifsPage() {
                     <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm text-gray-700">Tout le pack Securite</span>
+                    <span className="text-sm text-gray-700">Tout le pack Sécurité</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm text-gray-700">Procuration notariee</span>
+                    <span className="text-sm text-gray-700">Procuration notariée</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm text-gray-700">Accompagnement signature acte definitif</span>
+                    <span className="text-sm text-gray-700">Accompagnement signature acte définitif</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 mr-3 mt-0.5" style={{ color: '#1B6CA8' }} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-sm text-gray-700">1 journee de deplacement physique en Tunisie incluse</span>
+                    <span className="text-sm text-gray-700">1 journée de déplacement physique en Tunisie incluse</span>
                   </li>
                 </ul>
                 <Link href="/contact" className="block w-full text-center mt-8 py-3 border transition-colors" style={{ borderColor: '#1B6CA8', color: '#1B6CA8' }}>
@@ -149,16 +149,16 @@ export default function TarifsPage() {
           {/* Add-on */}
           <div className="mt-14 max-w-2xl mx-auto text-center p-8 rounded-lg border" style={{ backgroundColor: '#F8F6F1', borderColor: 'rgba(184, 146, 58, 0.3)' }}>
             <div className="text-2xl mb-3" style={{ color: '#B8923A' }}>✈</div>
-            <h3 className="font-sans font-semibold text-lg text-nuit">Option complementaire</h3>
-            <p className="text-gray-700 mt-2">Journee d accompagnement physique supplementaire en Tunisie — 290 €/jour</p>
-            <p className="text-sm text-gray-500 mt-2">Frais de deplacement (vol + hebergement) refactures au reel sur justificatifs. Disponible en complement de toutes les formules.</p>
+            <h3 className="font-sans font-semibold text-lg text-nuit">Option complémentaire</h3>
+            <p className="text-gray-700 mt-2">Journée d'accompagnement physique supplémentaire en Tunisie — 290 €/jour</p>
+            <p className="text-sm text-gray-500 mt-2">Frais de déplacement (vol + hébergement) refacturés au réel sur justificatifs. Disponible en complément de toutes les formules.</p>
           </div>
 
-          {/* Modalites */}
+          {/* Notre engagement */}
           <div className="mt-6 max-w-2xl mx-auto bg-gray-50 border border-gray-200 p-6 rounded-lg">
-            <h3 className="font-sans font-semibold mb-3 text-nuit">Modalites de paiement</h3>
+            <h3 className="font-sans font-semibold mb-3 text-nuit">Notre engagement</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Les honoraires sont regles en deux fois : 50% a la signature du contrat d accompagnement, 50% a la premiere presentation de biens. Paiement par virement bancaire ou PayPal. Aucun remboursement n est du si le client renonce a son projet apres engagement de CapTunisia. Les honoraires CapTunisia sont independants et distincts des honoraires de l agence tunisienne, qui restent a la charge du vendeur selon les usages locaux.
+              Le règlement s'effectue en une seule fois à la signature du contrat d'accompagnement. En contrepartie, CapTunisia s'engage à poursuivre ses recherches jusqu'à ce que vous trouviez un bien correspondant à votre projet, sans limite de durée. Moyens de paiement acceptés : virement bancaire, PayPal.
             </p>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function TarifsPage() {
       {/* CTA Final */}
       <div className="py-16 text-center" style={{ backgroundColor: '#1B6CA8' }}>
         <h2 className="font-display text-4xl text-white italic">Une question sur nos formules ?</h2>
-        <p className="text-white/70 font-sans mt-3">Cyril vous repond sous 24h.</p>
+        <p className="text-white/70 font-sans mt-3">Cyril vous répond sous 24h.</p>
         <Link href="/contact" className="inline-block mt-8 px-10 py-3.5 bg-white font-medium transition-colors hover:bg-white/90" style={{ color: '#1B6CA8' }}>
           Nous contacter
         </Link>

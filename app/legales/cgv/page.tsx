@@ -13,7 +13,7 @@ export default function CGVPage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Objet</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Les presentes conditions regissent le service d apport d affaires propose par CapTunisia (Open Crest LLC) consistant a mettre en relation des acquereurs europeens avec des agences immobilieres tunisiennes partenaires.
+            Les présentes conditions régissent le service d'apport d'affaires proposé par CapTunisia (Open Crest LLC) consistant à mettre en relation des acquéreurs européens avec des agences immobilières tunisiennes partenaires.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function CGVPage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Tarifs</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Les honoraires de CapTunisia sont les suivants : Pack Essentiel 690€ TTC, Pack Securite 990€ TTC, Pack Premium 1 690€ TTC (incluant une journee de deplacement physique en Tunisie). Une option d accompagnement physique supplementaire est disponible a 290€ par journee, frais de deplacement refactures au reel. Le reglement s effectue en deux fois : 50% a la signature du contrat, 50% a la premiere presentation de biens. Moyens de paiement acceptes : virement bancaire, PayPal.
+            Les honoraires de CapTunisia sont les suivants : Pack Essentiel 690€ TTC, Pack Sécurité 990€ TTC, Pack Premium 1 690€ TTC (incluant une journée de déplacement physique en Tunisie). Une option d'accompagnement physique supplémentaire est disponible à 290€ par journée, frais de déplacement refacturés au réel. Le règlement s'effectue en une seule fois à la signature du contrat d'accompagnement. En contrepartie, CapTunisia s'engage à poursuivre ses recherches sans limite de durée jusqu'à validation d'un bien par le client. Aucun remboursement n'est dû si le client renonce à son projet après signature du contrat. Moyens de paiement acceptés : virement bancaire, PayPal.
           </p>
         </div>
 
