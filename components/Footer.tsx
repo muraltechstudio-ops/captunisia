@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-nuit text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Navigation */}
           <div>
             <h3 className="font-display text-xl font-semibold mb-4">Navigation</h3>
@@ -21,7 +21,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/equipe" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  L'équipe
+                  L'equipe
                 </Link>
               </li>
               <li>
@@ -37,9 +37,36 @@ export default function Footer() {
             <h3 className="font-display text-xl font-semibold mb-4">Services</h3>
             <ul className="space-y-2 font-sans text-sm text-gray-300">
               <li>Recherche sur mesure</li>
-              <li>Sécurisation juridique</li>
-              <li>Visites organisées</li>
-              <li>Suivi jusqu'à la signature</li>
+              <li>Securisation juridique</li>
+              <li>Visites organisees</li>
+              <li>Suivi jusqu a la signature</li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="font-display text-xl font-semibold mb-4">Legal</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/legales/mentions-legales" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  Mentions legales
+                </Link>
+              </li>
+              <li>
+                <Link href="/legales/confidentialite" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  Confidentialite
+                </Link>
+              </li>
+              <li>
+                <Link href="/legales/cgv" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  CGS
+                </Link>
+              </li>
+              <li>
+                <Link href="/legales/cookies" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  Cookies
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -56,7 +83,7 @@ export default function Footer() {
               <li>+33 7 43 35 41 84</li>
               <li className="pt-2">4 rue du Labech</li>
               <li>34250 Palavas-les-Flots</li>
-              <li className="pt-2">Lun–Sam · 9h–19h</li>
+              <li className="pt-2">Lun-Sam · 9h-19h</li>
             </ul>
           </div>
         </div>
