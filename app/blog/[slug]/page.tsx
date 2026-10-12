@@ -220,13 +220,12 @@ export default function ArticlePage({ params }: Props) {
               {/* Contenu article */}
               <div
                 className="prose prose-lg max-w-none
-                  prose-headings:font-display prose-headings:text-nuit
-                  prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:scroll-mt-24
-                  prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-                  prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4
-                  prose-a:text-[#1B6CA8] prose-a:no-underline hover:prose-a:underline
-                  prose-ul:my-6 prose-li:text-gray-700
-                  prose-strong:text-nuit prose-strong:font-semibold"
+                  prose-p:mb-6 prose-p:leading-relaxed prose-p:text-gray-700
+                  prose-h2:text-2xl prose-h2:font-bold prose-h2:text-[#1B6CA8] prose-h2:mt-12 prose-h2:mb-4
+                  prose-h3:text-xl prose-h3:font-semibold prose-h3:text-[#111009] prose-h3:mt-8 prose-h3:mb-3
+                  prose-strong:text-[#111009]
+                  prose-a:text-[#1B6CA8] prose-a:underline
+                  prose-ul:my-6 prose-li:mb-2"
                 dangerouslySetInnerHTML={{ __html: contentWithIds }}
               />
 
