@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="32" height="32" rx="6" fill="url(#gradient)"/>
+
+  <!-- Letter C -->
+  <path d="M20 8.5C18.5 7.5 16.5 7 14.5 7C10 7 7 10.5 7 15C7 19.5 10 23 14.5 23C16.5 23 18.5 22.5 20 21.5" stroke="#F8F6F1" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small T accent -->
+  <path d="M22 11H25M23.5 9.5V14" stroke="#B8923A" stroke-width="1.5" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B6CA8"/>
+      <stop offset="100%" stop-color="#0d3d6b"/>
+    </linearGradient>
+  </defs>
+</svg>
