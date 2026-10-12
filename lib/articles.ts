@@ -1212,9 +1212,8 @@ export const articles: Article[] = [
         <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
       </div>
     `
-  }
-]
-  ,{
+  },
+  {
     slug: 'processus-achat-immobilier-tunisie-etapes',
     titre: "Processus d'achat immobilier en Tunisie : les 7 étapes détaillées",
     metaTitle: "Processus achat immobilier Tunisie : 7 étapes clés 2026 | Guide complet",
@@ -1298,3 +1297,4 @@ export const articles: Article[] = [
       </div>
     `
   }
+]
