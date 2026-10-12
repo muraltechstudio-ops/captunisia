@@ -102,7 +102,9 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl italic text-center text-nuit mb-16">Deux expertises, un seul interlocuteur</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="bg-white shadow-sm p-8">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4" style={{ backgroundColor: '#1B6CA8' }}>CR</div>
+              <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
+                <Image src="/cyril-photo.jpg" alt="Cyril Rancurel" width={80} height={80} className="w-full h-full object-cover" />
+              </div>
               <h3 className="font-display text-2xl text-nuit">Cyril Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Conseiller et Fondateur</p>
               <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Propriétés-Privées.com, réseau mandataires numero 1 en France. Entrepreneur digital depuis 15 ans.</p>

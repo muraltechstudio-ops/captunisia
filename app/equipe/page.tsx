@@ -31,6 +31,7 @@ export default function EquipePage() {
             languages={['Français', 'Anglais']}
             phone="+33 6 36 22 69 87"
             index={0}
+            photo="/cyril-photo.jpg"
           />
           <TeamCard
             name="Emna Rancurel"

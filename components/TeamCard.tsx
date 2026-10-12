@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 interface TeamCardProps {
   name: string
@@ -10,6 +11,7 @@ interface TeamCardProps {
   languages: string[]
   phone: string
   index: number
+  photo?: string
 }
 
 export default function TeamCard({
@@ -19,8 +21,12 @@ export default function TeamCard({
   tags,
   languages,
   phone,
-  index
+  index,
+  photo
 }: TeamCardProps) {
+  const initials = name.split(' ').map(n => n[0]).join('')
+  const bgColor = index === 0 ? '#1B6CA8' : '#B8923A'
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -29,6 +35,15 @@ export default function TeamCard({
       transition={{ delay: index * 0.2 }}
       className="bg-white rounded-lg shadow-lg p-8 md:p-10"
     >
+      {photo ? (
+        <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
+          <Image src={photo} alt={name} width={80} height={80} className="w-full h-full object-cover" />
+        </div>
+      ) : (
+        <div className="w-20 h-20 rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4" style={{ backgroundColor: bgColor }}>
+          {initials}
+        </div>
+      )}
       <h3 className="font-display text-3xl font-bold text-nuit mb-2">
         {name}
       </h3>
