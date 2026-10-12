@@ -37,7 +37,7 @@ export default function TeamCard({
     >
       {photo ? (
         <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
-          <Image src={photo} alt={name} width={80} height={80} className="w-full h-full object-cover" />
+          <Image src={photo} alt={name} width={80} height={80} className="w-full h-full object-cover" style={{ objectPosition: photo.includes('emna') ? '50% 30%' : '50% 50%' }} />
         </div>
       ) : (
         <div className="w-20 h-20 rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4" style={{ backgroundColor: bgColor }}>
