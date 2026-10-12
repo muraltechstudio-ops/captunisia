@@ -112,7 +112,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }} className="bg-white shadow-sm p-8">
               <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
-                <Image src="/emna-photo.webp" alt="Emna Rancurel" width={80} height={80} className="w-full h-full object-cover" />
+                <Image src="/emna-photo.webp" alt="Emna Rancurel" width={80} height={80} className="w-full h-full object-cover" style={{ objectPosition: '50% 30%' }} />
               </div>
               <h3 className="font-display text-2xl text-nuit">Emna Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Juriste - Droit des affaires internationales</p>
