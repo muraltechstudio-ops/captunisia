@@ -12,7 +12,7 @@ export default function CookiesPage() {
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <p className="font-sans text-gray-600 leading-relaxed">
-            Ce site n utilise pas de cookies publicitaires ou de tracking. Les seuls cookies techniques eventuellement deposes sont necessaires au bon fonctionnement du site (session, securite). Aucun consentement n est requis pour ces cookies (article 82 de la loi Informatique et Libertes - exemption CNIL). Aucune donnee n est transmise a des regies publicitaires.
+            Ce site n'utilise pas de cookies publicitaires ou de tracking. Les seuls cookies techniques éventuellement déposés sont necessaires au bon fonctionnement du site (session, sécurité). Aucun consentement n'est requis pour ces cookies (article 82 de la loi Informatique et Libertes - exemption CNIL). Aucune donnee n'est transmise a des régies publicitaires.
           </p>
         </div>
       </div>

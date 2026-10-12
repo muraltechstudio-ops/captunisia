@@ -25,7 +25,7 @@ export default function ConfidentialitePage() {
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Base legale</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Base légale</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
             Article 6.1.b du RGPD - execution de mesures precontractuelles a la demande de la personne concernee.
           </p>

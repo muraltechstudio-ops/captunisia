@@ -8,7 +8,7 @@ export default function MentionsLegalesPage() {
     <div className="min-h-screen bg-white">
       <div className="max-w-3xl mx-auto px-6 pt-32 pb-20">
         <p className="text-sm text-gray-500 mb-4">Derniere mise a jour : octobre 2026</p>
-        <h1 className="font-display text-5xl text-nuit mb-12">Mentions legales</h1>
+        <h1 className="font-display text-5xl text-nuit mb-12">Mentions légales</h1>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Editeur du site</h2>
@@ -36,21 +36,21 @@ export default function MentionsLegalesPage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Activite</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            CapTunisia est un service d apport d affaires. Il n est pas agent immobilier et n est pas soumis a la loi n 70-9 du 2 janvier 1970 (loi Hoguet) reglementant les activites des agents immobiliers en France. CapTunisia ne realise aucune transaction immobiliere, ne detient aucun fonds pour le compte de tiers et ne signe aucun acte au nom des parties. Son role se limite a la mise en relation entre acquereurs et agences immobilieres tunisiennes partenaires.
+            CapTunisia est un service d apport d affaires. Il n'est pas agent immobilier et n est pas soumis a la loi n 70-9 du 2 janvier 1970 (loi Hoguet) réglementant les activités des agents immobiliers en France. CapTunisia ne réalise aucune transaction immobiliere, ne detient aucun fonds pour le compte de tiers et ne signe aucun acte au nom des parties. Son role se limite a la mise en relation entre acquereurs et agences immobilieres tunisiennes partenaires.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Propriete intellectuelle</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            L ensemble du contenu du site (textes, visuels, structure) est la propriete exclusive d Open Crest LLC. Toute reproduction sans autorisation est interdite.
+            L ensemble du contenu du site (textes, visuels, structure) est la propriété exclusive d Open Crest LLC. Toute reproduction sans autorisation est interdite.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Donnees personnelles</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Pour plus d informations sur le traitement de vos donnees personnelles, consultez notre <a href="/legales/confidentialite" className="text-azur hover:underline">politique de confidentialite</a>.
+            Pour plus d informations sur le traitement de vos donnees personnelles, consultez notre <a href="/légales/confidentialite" className="text-azur hover:underline">politique de confidentialite</a>.
           </p>
         </div>
       </div>

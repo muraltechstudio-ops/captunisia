@@ -59,12 +59,12 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/legales/mentions-legales" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Mentions legales
+                  Mentions légales
                 </Link>
               </li>
               <li>
                 <Link href="/legales/confidentialite" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Confidentialite
+                  Confidentialité
                 </Link>
               </li>
               <li>

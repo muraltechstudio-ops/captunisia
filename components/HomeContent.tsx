@@ -16,7 +16,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
           <span>690 a 1 690 euros TTC - Paiement unique - Engagement sans limite de duree</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>100% dossiers verifies</span>
+          <span>100% dossiers vérifiés</span>
           <span className="hidden md:inline opacity-20">|</span>
           <span>Accompagnement FR / AR / EN</span>
           <span className="hidden md:inline opacity-20">|</span>
@@ -33,7 +33,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing a Hammamet. Des biens introuvables a ce prix en Europe mediterraneenne.' },
-              { title: 'Cadre legal maitrise', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gerons chaque etape juridique a votre place.' },
+              { title: 'Cadre légal maitrise', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gerons chaque etape juridique a votre place.' },
               { title: 'Honoraires clairs', text: '3 formules de 690 a 1 690 euros TTC. Accompagnement physique en Tunisie inclus dans le pack Premium. Engagement sans limite de duree.', link: '/tarifs' }
             ].map((item, i) => (
               <motion.div key={item.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="text-center">
@@ -117,7 +117,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               </div>
               <h3 className="font-display text-2xl text-nuit">Cyril Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Conseiller et Fondateur</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Proprietes-Privees.com, reseau mandataires numero 1 en France. Entrepreneur digital depuis 15 ans.</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Proprietes-Privees.com, réseau mandataires numéro 1 en France. Entrepreneur digital depuis 15 ans.</p>
               <p className="text-sm text-gray-600">Français · Anglais</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }} className="bg-white shadow-sm p-8">
@@ -126,7 +126,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               </div>
               <h3 className="font-display text-2xl text-nuit">Emna Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Juriste - Droit des affaires internationales</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Specialisee dans les transactions immobilieres franco-tunisiennes. Maitrise du cadre legal tunisien.</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">Spécialisée dans les transactions immobilieres franco-tunisiennes. Maîtrise du cadre légal tunisien.</p>
               <p className="text-sm text-gray-600">Français · Arabe · Anglais</p>
             </motion.div>
           </div>
