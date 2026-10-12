@@ -1670,5 +1670,182 @@ export const articles: Article[] = [
         <a href="/biens" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Voir les biens disponibles</a>
       </div>
     `
+  },
+  {
+    slug: 'culture-gastronomie-securite-tunisie',
+    titre: "Culture, gastronomie, sécurité, éducation : la vie quotidienne en Tunisie vue par les expatriés",
+    metaTitle: "Vivre en Tunisie 2026 : culture, gastronomie, sécurité, éducation — guide expatriés",
+    metaDescription: "Tout ce que les expatriés européens disent vraiment de la vie en Tunisie en 2026 : sécurité au quotidien, système éducatif, culture et hospitalité, gastronomie et paysages.",
+    motsCles: ["vivre tunisie culture", "securite tunisie expatrie", "education tunisie francais", "gastronomie tunisienne", "temoignage expatrie tunisie"],
+    datePublication: "2026-07-01",
+    tempsLecture: 10,
+    categorie: "Vivre en Tunisie",
+    extrait: "Au-delà des chiffres et des démarches administratives, vivre en Tunisie c'est d'abord une expérience humaine. Sécurité, école pour les enfants, richesse culturelle, gastronomie, paysages — ce que disent vraiment ceux qui ont fait le choix de s'y installer.",
+    contenu: `
+      <h2>La sécurité en Tunisie : ce que les expatriés vivent vraiment</h2>
+
+      <p>La question de la sécurité est souvent la première que posent les familles qui envisagent de <strong><a href="/blog/vivre-tunisie-retraite-expatrie" class="text-[#1B6CA8] underline">s'installer en Tunisie</a></strong>. Elle mérite une réponse nuancée et honnête, loin des deux extrêmes — ni angélisme béat ni catastrophisme infondé.</p>
+
+      <p>La Tunisie a traversé une période difficile entre 2015 et 2019, marquée par plusieurs attentats terroristes qui ont durement frappé le secteur touristique. Depuis 2020, la situation sécuritaire s'est significativement stabilisée.</p>
+
+      <p>Les attentats majeurs appartiennent désormais à un passé que le pays a su dépasser, et les forces de sécurité tunisiennes ont considérablement renforcé leur dispositif.</p>
+
+      <p>Ce que les expatriés décrivent en 2026 : une vie quotidienne sûre et sereine dans les zones résidentielles et touristiques. La délinquance de droit commun existe — vols à la tire dans les zones très touristiques, quelques arnaques aux étrangers — mais elle est comparable à ce qu'on observe dans n'importe quelle ville méditerranéenne.</p>
+
+      <p>La grande criminalité violente est rare. Pour <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">choisir votre quartier</a></strong>, privilégiez les zones résidentielles établies.</p>
+
+      <h3>Les zones les plus sûres pour les familles expatriées</h3>
+
+      <p>La Marsa, Sidi Bou Saïd, Gammarth, les résidences fermées d'Hammamet et de Yasmine Hammamet, <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> dans les zones touristiques.</p>
+
+      <p>Ces quartiers offrent un cadre de vie aussi sûr — voire plus — que beaucoup de villes françaises de taille moyenne. Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones sécurisées.</p>
+
+      <p>Les précautions de bon sens s'appliquent, comme partout : ne pas afficher ostentatoirement ses objets de valeur, éviter de circuler seul dans des zones isolées la nuit, se renseigner sur les événements locaux avant de se déplacer dans des zones moins fréquentées.</p>
+
+      <p>Avec ces précautions élémentaires, l'immense majorité des expatriés décrivent une vie quotidienne sans inquiétude sécuritaire particulière.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💬 Ce que disent les expatriés</p>
+        <p>"Je me sens plus en sécurité à La Marsa qu'à Marseille ou à Paris", confie Sophie, 54 ans, <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">retraitée installée à La Marsa</a></strong> depuis 2023. "Les gens sont attentionnés, les voisins se connaissent, il y a une vraie vie de quartier. La nuit, je me promène sans aucune crainte."</p>
+      </div>
+
+      <h2>Le système éducatif tunisien pour les familles expatriées</h2>
+
+      <p>Pour les familles qui <strong><a href="/blog/vivre-tunisie-retraite-expatrie" class="text-[#1B6CA8] underline">s'installent en Tunisie</a></strong> avec des enfants, la question de la scolarisation est centrale. Deux filières s'offrent à elles :</p>
+
+      <h3>Le réseau des lycées français</h3>
+
+      <p>La Tunisie accueille l'un des plus importants réseaux d'établissements français à l'étranger, géré par l'AEFE (Agence pour l'Enseignement Français à l'Étranger). Les établissements principaux :</p>
+
+      <p>À Tunis : le <strong>lycée Pierre-Mendès-France</strong> (Mutuelleville) et le <strong>lycée Louis-Massignon</strong> (La Marsa), deux établissements de référence qui scolarisent ensemble plus de 5 000 élèves, de la maternelle à la terminale.</p>
+
+      <p>Ces lycées préparent au baccalauréat français dans d'excellentes conditions et obtiennent des taux de réussite supérieurs aux moyennes nationales.</p>
+
+      <p>À Hammamet, Sousse et Sfax : des établissements homologués par le ministère français de l'Éducation nationale proposent le cursus français jusqu'au collège ou au lycée selon les villes.</p>
+
+      <p>Les frais de scolarité dans le réseau AEFE sont significatifs (entre 4 000 et 8 000 € par an selon les niveaux) mais peuvent être partiellement pris en charge par des bourses du gouvernement français pour les ressortissants français, sous conditions de ressources.</p>
+
+      <p>Pour <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheter près d'un lycée français</a></strong>, consultez nos biens à La Marsa et Hammamet.</p>
+
+      <h3>Les écoles tunisiennes privées francophones</h3>
+
+      <p>Pour les familles qui souhaitent une intégration plus profonde dans la société tunisienne, les écoles privées tunisiennes bilingues (arabe-français) sont une option sérieuse.</p>
+
+      <p>Certaines de ces écoles offrent un enseignement de qualité avec des programmes rigoureux, à des tarifs inférieurs aux lycées français (1 500 à 4 000 €/an). La maîtrise de l'arabe qui en résulte est un atout considérable pour les enfants qui grandissent en Tunisie.</p>
+
+      <h3>L'enseignement public tunisien</h3>
+
+      <p>Le système public tunisien est bilingue arabe-français jusqu'au baccalauréat, avec un niveau globalement correct dans les établissements des zones urbaines.</p>
+
+      <p>Certaines familles d'expatriés choisissent cette voie pour des enfants nés en Tunisie ou qui y grandissent depuis la petite enfance — c'est possible, mais demande une bonne maîtrise de l'arabe.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zones recommandées pour familles</p>
+        <p><strong>La Marsa</strong> : lycée Louis-Massignon, quartier francophone, sécurité maximale. <strong>Hammamet</strong> : école française, plage, qualité de vie. <strong>Sousse</strong> : établissements français, ville dynamique, coût modéré. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent des conseils scolarité pour familles expatriées.</p>
+      </div>
+
+      <h2>La richesse culturelle : un patrimoine qui n'en finit pas de surprendre</h2>
+
+      <p>La Tunisie est un pays de civilisations stratifiées. En 3 000 ans d'histoire, Berbères, Phéniciens, Romains, Byzantins, Arabes, Ottomans et Français ont laissé des traces monumentales sur ce territoire concentré.</p>
+
+      <p>Pour un <strong><a href="/blog/teletravail-tunisie-nomade-numerique" class="text-[#1B6CA8] underline">expatrié</a></strong> curieux, c'est une inépuisable source de découvertes.</p>
+
+      <h3>Les sites archéologiques</h3>
+
+      <p><strong>Carthage</strong>, l'ancienne rivale de Rome dont Caton réclamait la destruction — "Carthago delenda est" — est aujourd'hui un site archéologique classé UNESCO à quelques minutes de La Marsa, avec ses thermes d'Antonin, ses villas puniques et son musée exceptionnel.</p>
+
+      <p><strong>Dougga</strong>, dans le nord-ouest, est l'un des sites romains les mieux préservés d'Afrique du Nord, avec son théâtre, son capitole et son forum encore debout.</p>
+
+      <p><strong>El Djem</strong> abrite le troisième plus grand amphithéâtre romain du monde, dans un état de conservation stupéfiant. <strong>Kairouan</strong>, quatrième ville sainte de l'islam, avec sa Grande Mosquée fondée au VIIe siècle.</p>
+
+      <p>Sbeitla, Bulla Regia, Maktar, Chemtou — la liste est interminable et les sites souvent peu fréquentés, ce qui leur confère une atmosphère unique.</p>
+
+      <h3>Les medinas</h3>
+
+      <p>La <strong>médina de Tunis</strong>, classée UNESCO depuis 1979, est l'une des mieux préservées du monde arabe. Ses souks spécialisés (chéchias, parfums, cuivre, tissus), ses palais beys transformés en musées, ses mosquées, ses zaouïas et ses fondouks forment un labyrinthe fascinant que des années ne suffisent pas à épuiser.</p>
+
+      <p>La médina de Sfax, celle de Sousse, la ksar de <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> — chaque ville a sa propre médina avec sa personnalité distincte.</p>
+
+      <h3>Les arts et la vie culturelle</h3>
+
+      <p>Tunis dispose d'une vie culturelle active souvent méconnue des visiteurs de passage : une scène théâtrale francophone, des festivals de cinéma (les Journées Cinématographiques de Carthage, l'un des plus vieux festivals africains), des expositions d'art contemporain, des concerts de musique malouf (patrimoine musical arabo-andalou), des librairies bien fournies en littérature française et tunisienne.</p>
+
+      <p>La scène gastronomique de La Marsa et Sidi Bou Saïd rivalise avec celle de n'importe quelle capitale méditerranéenne.</p>
+
+      <h2>La gastronomie : une cuisine millénaire à redécouvrir</h2>
+
+      <p>La <strong>cuisine tunisienne</strong> mérite un chapitre entier. Elle est souvent résumée à tort au couscous et au harissa — c'est comme réduire la cuisine française à la baguette et au camembert. La réalité est infiniment plus riche.</p>
+
+      <h3>Les incontournables</h3>
+
+      <p>La <em>chakchouka</em> (ragoût de tomates, poivrons et œufs épicé), la <em>brick à l'œuf</em> (feuille de pâte frite dorée servie avec thon et câpres), la <em>salade méchouia</em> (légumes grillés mixés à l'huile d'olive), le <em>couscous au mérou</em> de Sfax (un classique absolu), la <em>marqa</em> (ragoût de viande aux légumes de saison), les <em>fricassées</em> (petits sandwichs frits au thon harissa), et le <em>lablabi</em> — soupe de pois chiches servie dans un bol de pain émietté avec de l'huile d'olive, du harissa et un œuf poché — le petit-déjeuner du peuple.</p>
+
+      <p>Pour les <strong><a href="/blog/vivre-tunisie-retraite-expatrie" class="text-[#1B6CA8] underline">expatriés</a></strong>, cette richesse gastronomique fait partie intégrante de l'expérience tunisienne.</p>
+
+      <h3>L'huile d'olive tunisienne</h3>
+
+      <p>Les olives tunisiennes méritent une mention spéciale. La Tunisie est le quatrième producteur mondial d'huile d'olive, et les huiles locales (particulièrement celles de Sfax et du Sahel) sont d'une qualité extraordinaire pour un prix dérisoire.</p>
+
+      <p>Un litre d'huile d'olive extra-vierge tunisienne de première pression à froid : 5 à 8 DT (1,50 à 2,50 €). Un rapport qualité-prix imbattable qui fait partie des plaisirs du <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">coût de la vie</a></strong> tunisien.</p>
+
+      <h3>La pâtisserie tunisienne</h3>
+
+      <p>La pâtisserie tunisienne est influencée par les traditions ottomane et andalouse : <em>baklawa</em>, <em>makroudh</em> (semoule farcie aux dattes et frite dans l'huile d'olive), <em>bambalouni</em> (beignets sucrés frits vendus dans les fêtes), <em>assidat zgougou</em> (crème aux pignons de pin, typique de Tunis).</p>
+
+      <p>Accompagnées d'un thé à la menthe ou d'un café turc serré, elles transforment la pause de l'après-midi en rituel.</p>
+
+      <h2>Les paysages : une géographie qui fait voyager sans quitter le pays</h2>
+
+      <p>Vivre en Tunisie, c'est avoir à portée de weekend des paysages d'une diversité saisissante :</p>
+
+      <h3>Le nord</h3>
+
+      <p>La Kroumirie et ses forêts de chênes-lièges, les lacs de Tabarka avec ses coraux, Ain Draham et ses sommets enneigés en hiver, Beja et ses champs de blé dorés au printemps — un nord vert et montagneux que peu de visiteurs connaissent.</p>
+
+      <h3>Le centre</h3>
+
+      <p>Les steppes dorées du Kef, le Djebel Chambi (point culminant du pays à 1 544 m), les gorges de Selja, les sebkhas (lacs salés) miroitants — un paysage de bout du monde à 3 heures de Tunis.</p>
+
+      <h3>Le sud</h3>
+
+      <p>Douz et les premières dunes du Grand Erg Oriental, les ksour berbères de Tataouine et Chenini (ayant inspiré les décors de Star Wars), les chotts (lacs salés) de Chott el-Jérid, l'oasis de Tozeur avec ses dattiers et ses jardins irrigués depuis l'Antiquité.</p>
+
+      <p>Un désert accessible, spectaculaire et encore peu touristique comparé au Maroc.</p>
+
+      <h3>La mer</h3>
+
+      <p>1 300 km de côtes méditerranéennes, des plages de sable blanc de la presqu'île du Cap Bon aux îles Kerkennah, en passant par les criques cachées de Tabarka et les plages désertes de Zarzis.</p>
+
+      <p>Pour profiter de la mer au quotidien, découvrez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens en bord de mer</a></strong> à Hammamet, La Marsa et Djerba.</p>
+
+      <h2>L'hospitalité tunisienne : ce qui fait la différence</h2>
+
+      <p>Au-delà des sites, de la cuisine et des paysages, ce qui marque le plus les expatriés européens en Tunisie, c'est l'<strong>hospitalité</strong> naturelle des Tunisiens.</p>
+
+      <p>La culture tunisienne valorise profondément l'accueil de l'étranger — <em>dhif Allah</em>, "l'invité est l'envoyé de Dieu" selon le proverbe. Cette valeur se traduit au quotidien par une gentillesse spontanée, une curiosité bienveillante, une propension à aider sans rien attendre en retour.</p>
+
+      <p>Les <strong><a href="/blog/teletravail-tunisie-nomade-numerique" class="text-[#1B6CA8] underline">nomades numériques</a></strong> et <strong><a href="/blog/vivre-tunisie-retraite-expatrie" class="text-[#1B6CA8] underline">retraités</a></strong> qui s'installent en Tunisie témoignent unanimement de cette chaleur humaine qui fait toute la différence.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">✅ À retenir</p>
+        <p>La Tunisie n'est pas qu'une destination immobilière avantageuse — c'est un pays à part entière, avec une histoire de 3 000 ans, une culture vivante et complexe, une gastronomie inventive, des paysages d'une diversité incroyable et des habitants d'une hospitalité sincère. Ceux qui s'y installent ne reviennent généralement pas en arrière — non pas par obligation, mais par choix.</p>
+      </div>
+
+      <h2>Concrétiser votre projet d'installation</h2>
+
+      <p>Vous êtes convaincu et vous souhaitez concrétiser votre projet ? CapTunisia vous accompagne de la recherche du bien jusqu'à l'installation.</p>
+
+      <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans les meilleures zones (La Marsa, Gammarth, Hammamet, Djerba, Sousse), découvrez nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> (recherche, vérification juridique, négociation, suivi notarial) et nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">tarifs transparents</a></strong> (Essentiel 690€, Sécurité 990€, Premium 1 690€).</p>
+
+      <p><strong><a href="/contact" class="text-[#1B6CA8] underline">Contactez-nous</a></strong> pour un premier échange sans engagement. Notre équipe franco-tunisienne connaît les deux cultures et facilite votre transition.</p>
+
+      <p>Pour approfondir certains aspects, consultez nos guides complets : <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheter en tant que Français</a></strong>, <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité pour non-résidents</a></strong>, <strong><a href="/blog/investissement-immobilier-tunisie-2026" class="text-[#1B6CA8] underline">opportunités d'investissement 2026</a></strong>.</p>
+
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Prêt à découvrir la Tunisie de l'intérieur ?</p>
+        <p class="text-white/80 mb-6">Accompagnement complet, de la recherche du bien à l'installation. Parlons de votre projet.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
+    `
   }
 ]
