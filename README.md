@@ -7,9 +7,8 @@ Site web Next.js 14 pour CapTunisia — Accompagnement immobilier franco-tunisie
 - **Next.js 14** (App Router)
 - **TypeScript**
 - **Tailwind CSS**
-- **Framer Motion** (animations)
+- **Framer Motion** (animations avec parallax)
 - **Resend** (emails)
-- **Pexels API** (vidéos hero)
 
 ## Installation
 
@@ -19,13 +18,35 @@ npm install
 
 ## Configuration
 
-Créez un fichier `.env.local` avec vos clés API :
+### 1. Variables d'environnement
+
+Créez un fichier `.env.local` :
 
 ```env
 RESEND_API_KEY=your_resend_key_here
-PEXELS_API_KEY=your_pexels_key_here
 NEXT_PUBLIC_SITE_URL=https://captunisia.com
 ```
+
+### 2. Vidéos hero
+
+Le hero utilise 4 vidéos locales en boucle avec effet parallax et crossfade hypnotique.
+
+**Étapes :**
+
+1. Placez 4 fichiers MP4 dans `/public/videos/` :
+   - `video1.mp4`
+   - `video2.mp4`
+   - `video3.mp4`
+   - `video4.mp4`
+
+2. **Où trouver des vidéos ?**
+   - [Coverr.co](https://coverr.co) (gratuit, pas d'attribution requise)
+   - Recherchez : "mediterranean", "villa", "pool", "beach", "tunisia"
+   - Format : paysage (16:9)
+   - Durée idéale : 8-15 secondes chacune
+   - Qualité : HD (1920x1080 minimum)
+
+3. Si aucune vidéo n'est présente, un gradient de fallback s'affiche automatiquement.
 
 ## Développement
 
@@ -44,7 +65,10 @@ npm start
 
 ## Déploiement Vercel
 
-Le site est prêt pour Vercel. Configurez simplement les variables d'environnement dans votre projet Vercel.
+Le site est prêt pour Vercel. 
+
+1. Configurez les variables d'environnement dans votre projet Vercel
+2. Les vidéos dans `/public/videos/` seront automatiquement déployées
 
 ## Structure
 
@@ -58,15 +82,17 @@ Le site est prêt pour Vercel. Configurez simplement les variables d'environneme
   /api/contact       # API route pour formulaire
 /components          # Composants React
 /data                # Données statiques (biens)
-/lib                 # Utilitaires (Resend, Pexels)
+/lib                 # Utilitaires (Resend)
+/public/videos       # Vidéos hero (à remplir par l'utilisateur)
 ```
 
 ## Features
 
-- Hero vidéo avec carousel automatique (Pexels API)
+- **Hero vidéo cinématique** : 4 vidéos locales avec parallax scroll et crossfade hypnotique (1.5s)
+- **Navigation adaptative** : transparente sur le hero, solid white au scroll
 - Filtres de recherche biens immobiliers
 - Formulaire de contact avec Resend
-- Animations Framer Motion
+- Animations Framer Motion (parallax, fadeIn, hover)
 - Design responsive
 - SEO optimisé
 - Images optimisées Next.js

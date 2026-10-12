@@ -2,12 +2,36 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Nav() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isTransparent, setIsTransparent] = useState(pathname === '/')
+
+  useEffect(() => {
+    if (pathname !== '/') {
+      setIsTransparent(false)
+      return
+    }
+
+    const sentinel = document.getElementById('hero-sentinel')
+    if (!sentinel) {
+      setIsTransparent(false)
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsTransparent(entry.isIntersecting)
+      },
+      { threshold: 0 }
+    )
+
+    observer.observe(sentinel)
+    return () => observer.disconnect()
+  }, [pathname])
 
   const links = [
     { href: '/biens', label: 'Nos biens' },
@@ -19,13 +43,30 @@ export default function Nav() {
   const isActive = (href: string) => pathname === href
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+      style={{
+        backgroundColor: isTransparent ? 'transparent' : 'white',
+        borderBottom: isTransparent ? 'none' : '1px solid rgba(0,0,0,0.08)',
+        boxShadow: isTransparent ? 'none' : '0 1px 12px rgba(0,0,0,0.06)'
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="font-display text-3xl font-bold text-nuit">Cap</span>
-            <span className="font-display text-3xl font-bold text-azur">Tunisia</span>
+            <span
+              className="font-display text-2xl font-bold transition-colors duration-300"
+              style={{ color: isTransparent ? 'white' : '#111009' }}
+            >
+              Cap
+            </span>
+            <span
+              className="font-display text-2xl font-bold transition-colors duration-300"
+              style={{ color: isTransparent ? 'white' : '#1B6CA8' }}
+            >
+              Tunisia
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -34,12 +75,17 @@ export default function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`relative font-sans text-base font-medium transition-colors hover:text-azur ${
-                  isActive(link.href) ? 'text-azur' : 'text-gray-700'
-                }`}
+                className="relative font-sans text-base font-medium transition-colors duration-300"
+                style={{
+                  color: isTransparent
+                    ? 'rgba(255,255,255,0.8)'
+                    : isActive(link.href)
+                    ? '#1B6CA8'
+                    : '#374151'
+                }}
               >
                 {link.label}
-                {isActive(link.href) && (
+                {isActive(link.href) && !isTransparent && (
                   <motion.div
                     layoutId="activeIndicator"
                     className="absolute -bottom-6 left-0 right-0 h-0.5 bg-azur"
@@ -54,7 +100,8 @@ export default function Nav() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-azur focus:outline-none"
+            className="md:hidden p-2 rounded-md focus:outline-none transition-colors duration-300"
+            style={{ color: isTransparent ? 'white' : '#374151' }}
             aria-label="Toggle menu"
           >
             <svg

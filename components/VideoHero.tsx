@@ -1,119 +1,136 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
-interface VideoHeroProps {
-  videos: string[]
-}
+const VIDEO_SOURCES = [
+  '/videos/video1.mp4',
+  '/videos/video2.mp4',
+  '/videos/video3.mp4',
+  '/videos/video4.mp4'
+]
 
-export default function VideoHero({ videos }: VideoHeroProps) {
+export default function VideoHero() {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [hasVideos, setHasVideos] = useState(true)
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
+  const containerRef = useRef<HTMLDivElement>(null)
+
+  const { scrollY } = useScroll()
+  const parallaxY = useTransform(scrollY, [0, 800], [0, 320])
 
   useEffect(() => {
-    if (videos.length === 0) return
+    // Check if first video exists
+    const testVideo = document.createElement('video')
+    testVideo.src = VIDEO_SOURCES[0]
+    testVideo.onerror = () => setHasVideos(false)
+  }, [])
 
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % videos.length)
-    }, 5000)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCurrentIndex((prev) => (prev + 1) % VIDEO_SOURCES.length)
+    }, 6000)
 
-    return () => clearInterval(interval)
-  }, [videos.length])
-
-  const fallbackImage = 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=1920&q=80'
+    return () => clearTimeout(timer)
+  }, [currentIndex])
 
   return (
-    <div className="relative h-screen overflow-hidden">
-      {/* Video/Image Background */}
-      {videos.length > 0 ? (
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentIndex}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-            className="absolute inset-0"
-          >
-            <video
-              src={videos[currentIndex]}
+    <div ref={containerRef} className="relative h-[100dvh] overflow-hidden">
+      {/* Parallax Video Wrapper */}
+      <motion.div
+        style={{ y: parallaxY }}
+        className="absolute inset-0 w-full h-full"
+      >
+        {hasVideos ? (
+          VIDEO_SOURCES.map((src, index) => (
+            <motion.video
+              key={src}
+              ref={(el) => { videoRefs.current[index] = el }}
+              src={src}
               autoPlay
               muted
-              loop
               playsInline
-              className="w-full h-full object-cover"
+              loop={false}
+              suppressHydrationWarning
+              animate={{ opacity: currentIndex === index ? 1 : 0 }}
+              transition={{ duration: 1.5, ease: 'easeInOut' }}
+              className="absolute inset-0 w-full h-full object-cover"
+              onEnded={() => {
+                setCurrentIndex((prev) => (prev + 1) % VIDEO_SOURCES.length)
+              }}
             />
-          </motion.div>
-        </AnimatePresence>
-      ) : (
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${fallbackImage})` }}
-        />
-      )}
+          ))
+        ) : (
+          <div
+            className="absolute inset-0 w-full h-full"
+            style={{
+              background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 50%, #B8923A 100%)'
+            }}
+          />
+        )}
+      </motion.div>
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      {/* Dark Gradient Overlay */}
+      <div
+        className="absolute inset-0 z-10"
+        style={{
+          background: 'linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.3))'
+        }}
+      />
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center justify-center px-4">
-        <div className="text-center max-w-4xl mx-auto">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="font-display text-5xl md:text-7xl font-bold mb-4"
-          >
-            <span className="text-white italic">Investir en Tunisie,</span>
-            <br />
-            <span className="text-gold italic">en toute confiance.</span>
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            className="font-sans text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto"
-          >
+      <div className="relative z-20 h-full flex items-center justify-center px-4">
+        <div className="text-center max-w-xl mx-auto">
+          <h1 className="font-display mb-6">
+            <span className="block text-white italic font-light text-[2.8rem] md:text-[5rem] leading-tight">
+              Investir en Tunisie,
+            </span>
+            <span className="block text-gold text-[2.8rem] md:text-[5rem] leading-tight">
+              en toute confiance.
+            </span>
+          </h1>
+          <p className="font-sans text-lg text-white/75 mb-8 max-w-md mx-auto">
             Accompagnement immobilier franco-tunisien — de la recherche à la signature.
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/biens"
-              className="inline-block px-8 py-4 bg-azur text-white font-sans font-semibold rounded-lg hover:bg-azur/90 transition-colors"
+              className="px-6 py-3 bg-azur text-white font-sans font-medium rounded-sm hover:bg-azur/90 transition-colors"
             >
               Voir nos biens
             </Link>
             <Link
               href="/contact"
-              className="inline-block px-8 py-4 border-2 border-white text-white font-sans font-semibold rounded-lg hover:bg-white/10 transition-colors"
+              className="px-6 py-3 border border-white text-white font-sans font-medium rounded-sm bg-transparent hover:bg-white/10 transition-colors"
             >
               Parler à un conseiller
             </Link>
-          </motion.div>
+          </div>
         </div>
       </div>
 
       {/* Scroll Indicator */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        animate={{ y: [0, 8, 0] }}
+        transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20"
       >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5 }}
-          className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2"
+        <svg
+          className="w-6 h-6 text-white/60"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
         >
-          <div className="w-1 h-2 bg-white/50 rounded-full" />
-        </motion.div>
+          <path d="M19 9l-7 7-7-7" />
+        </svg>
       </motion.div>
+
+      {/* Sentinel for nav transition */}
+      <div id="hero-sentinel" className="absolute bottom-0 left-0 right-0 h-1" />
     </div>
   )
 }

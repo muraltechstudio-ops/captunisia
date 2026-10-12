@@ -14,48 +14,21 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
   return (
     <>
       {/* Trust Stats Bar */}
-      <div className="bg-azur text-white py-6">
+      <div className="bg-[#1A1714] text-white py-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="font-sans"
-            >
-              <p className="text-2xl font-bold font-display">0€</p>
-              <p className="text-sm opacity-90">pour l'acheteur</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="font-sans"
-            >
-              <p className="text-2xl font-bold font-display">100%</p>
-              <p className="text-sm opacity-90">dossiers vérifiés</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="font-sans"
-            >
-              <p className="text-2xl font-bold font-display">FR / EN / AR</p>
-              <p className="text-sm opacity-90">Équipe trilingue</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="font-sans"
-            >
-              <p className="text-2xl font-bold font-display">Contrat</p>
-              <p className="text-sm opacity-90">signé dès le départ</p>
-            </motion.div>
+          <div className="flex flex-col md:flex-row items-center justify-center md:divide-x divide-white/20 gap-4 md:gap-8">
+            <div className="font-sans text-[0.8125rem] tracking-[0.08em] uppercase text-white/70 px-8 text-center">
+              0€ pour l'acheteur
+            </div>
+            <div className="font-sans text-[0.8125rem] tracking-[0.08em] uppercase text-white/70 px-8 text-center">
+              100% dossiers vérifiés
+            </div>
+            <div className="font-sans text-[0.8125rem] tracking-[0.08em] uppercase text-white/70 px-8 text-center">
+              FR / EN / AR
+            </div>
+            <div className="font-sans text-[0.8125rem] tracking-[0.08em] uppercase text-white/70 px-8 text-center">
+              Contrat signé dès le départ
+            </div>
           </div>
         </div>
       </div>
