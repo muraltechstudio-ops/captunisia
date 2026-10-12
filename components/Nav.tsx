@@ -58,7 +58,7 @@ export default function Nav() {
             <img
               src={isTransparent ? "/captunisia-logo-white.svg" : "/captunisia-logo-white.svg"}
               alt="CapTunisia"
-              className="h-10 w-auto transition-all duration-300"
+              className="h-20 w-auto transition-all duration-300"
               style={{
                 filter: isTransparent ? 'none' : 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(189deg) brightness(94%) contrast(87%)'
               }}
