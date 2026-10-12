@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <VideoHero />
 
-      {/* SECTION A — Barre de réassurance */}
+      {/* SECTION A - Barre de reassurance */}
       <div className="bg-[#111009] py-5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
           <span>0€ pour l'acheteur</span>
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* SECTION B — Pourquoi la Tunisie */}
+      {/* SECTION B - Pourquoi la Tunisie */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeInUp} className="text-center mb-16">
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION C — Sélection de biens */}
+      {/* SECTION C - Selection de biens */}
       <section className="bg-sable py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeInUp} className="text-center mb-12">
@@ -185,7 +185,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION D — Notre processus */}
+      {/* SECTION D - Notre processus */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h2 {...fadeInUp} className="font-display text-5xl text-center text-nuit mb-16">
@@ -242,7 +242,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION E — L'équipe */}
+      {/* SECTION E - L equipe */}
       <section className="bg-sable py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h2 {...fadeInUp} className="font-display text-5xl italic text-center text-nuit mb-16">
@@ -317,7 +317,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION F — Témoignages */}
+      {/* SECTION F - Temoignages */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h2 {...fadeInUp} className="font-display text-4xl text-center text-nuit mb-16">
@@ -360,7 +360,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION G — CTA final */}
+      {/* SECTION G - CTA final */}
       <section
         className="py-20"
         style={{ background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 100%)' }}
