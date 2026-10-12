@@ -1296,5 +1296,190 @@ export const articles: Article[] = [
         <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
       </div>
     `
+  },
+  {
+    slug: 'vivre-tunisie-retraite-expatrie',
+    titre: "Vivre en Tunisie à la retraite : le guide complet de l'expatrié européen en 2026",
+    metaTitle: "Vivre en Tunisie retraité 2026 : coût de la vie, démarches, santé, avantages et réalités",
+    metaDescription: "Tout savoir sur la retraite en Tunisie en 2026 : coût de la vie, système de santé, démarches administratives, fiscalité, qualité de vie et témoignages d'expatriés français.",
+    motsCles: ["retraite tunisie expatrie", "vivre tunisie francais retraite", "cout vie tunisie 2026", "expatriation tunisie avantages", "s installer tunisie retraite"],
+    datePublication: "2026-06-01",
+    tempsLecture: 10,
+    categorie: "Vivre en Tunisie",
+    extrait: "Soleil 300 jours par an, coût de la vie trois fois inférieur à la France, gastronomie méditerranéenne, accueil chaleureux et mer à portée de main — la Tunisie attire chaque année davantage de retraités européens. Voici ce qu'il faut vraiment savoir avant de franchir le pas.",
+    contenu: `
+      <h2>Pourquoi la Tunisie séduit de plus en plus de retraités européens</h2>
+
+      <p>En 2026, la Tunisie s'est imposée comme l'une des destinations d'expatriation les plus recherchées par les retraités français, belges et suisses.</p>
+
+      <p>Le bouche-à-oreille fonctionne : ceux qui ont franchi le pas en parlent avec enthousiasme, et les chiffres leur donnent raison. Selon les données du ministère tunisien des Affaires étrangères, la communauté française résidente en Tunisie dépasse les 25 000 personnes, un chiffre en progression constante depuis 2020.</p>
+
+      <p>Les raisons de cet engouement sont multiples et convergentes. Le <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">coût de la vie</a></strong>, d'abord : un retraité français avec 1 500 € de pension mensuelle vit confortablement en Tunisie — avec une femme de ménage, des sorties au restaurant plusieurs fois par semaine, et des vacances dans le pays.</p>
+
+      <p>La même pension en France permet à peine de couvrir un loyer dans une ville moyenne. Ensuite la géographie : à 2 heures d'avion de Paris, la Tunisie n'est pas l'autre bout du monde. On peut rentrer voir sa famille pour un week-end prolongé sans se ruiner.</p>
+
+      <p>Et puis il y a ce que les chiffres ne capturent pas : la lumière particulière de l'après-midi sur les medinas, la douceur des hivers, la gentillesse naturelle des Tunisiens avec les étrangers, les marchés colorés, les cafés maures où le temps s'écoule différemment.</p>
+
+      <p>Des retraités qui s'y sont installés pour "essayer" sont souvent toujours là dix ans plus tard. Pour <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">préparer votre installation</a></strong>, il est essentiel de bien comprendre le marché immobilier local.</p>
+
+      <h2>Le coût de la vie : ce que vos économies valent vraiment</h2>
+
+      <p>C'est le premier argument, et il est massif. En 2026, avec la dépréciation continue du dinar tunisien face à l'euro, le pouvoir d'achat d'un Européen en Tunisie est exceptionnellement élevé.</p>
+
+      <h3>Logement</h3>
+
+      <p>Louer un <strong><a href="/biens" class="text-[#1B6CA8] underline">appartement meublé</a></strong> de 3 pièces dans un quartier résidentiel de qualité à La Marsa ou Hammamet coûte entre 600 et 1 200 DT par mois, soit <strong>180 à 360 €</strong>.</p>
+
+      <p>Pour une villa avec jardin dans un quartier calme, comptez 1 500 à 3 000 DT (450 à 900 €). Une villa avec piscine privée à <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> en location annuelle peut se trouver pour 2 500 à 4 000 DT (750 à 1 200 €) par mois — soit ce que coûterait un studio à Paris.</p>
+
+      <p>Si vous envisagez d'acheter plutôt que de louer, consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens disponibles</a></strong> dans les meilleures zones résidentielles.</p>
+
+      <h3>Alimentation</h3>
+
+      <p>Le marché quotidien est l'un des grands plaisirs de la vie en Tunisie. Les légumes et fruits sont frais, locaux, de saison, et d'un prix dérisoire : 1 kg de tomates pour 0,50 €, 1 kg d'oranges pour 0,40 €, un poulet entier pour 3 €.</p>
+
+      <p>Le poisson frais du matin au marché de La Goulette ou de Hammamet : entre 2 et 6 €/kg selon l'espèce. Un couple peut se nourrir très bien — produits frais, cuisinés maison — pour 150 à 250 € par mois.</p>
+
+      <p>Au restaurant : un repas complet dans un bon restaurant tunisien (entrée, plat, dessert, boisson) se situe entre 15 et 35 DT par personne (4,50 à 10 €). Les restaurants gastronomiques à La Marsa ou Sidi Bou Saïd montent jusqu'à 80 à 120 DT par couvert (24 à 36 €) — ce qui resterait raisonnable pour un restaurant équivalent en France.</p>
+
+      <h3>Budget mensuel type d'un couple de retraités</h3>
+
+      <ul class="space-y-2 my-6">
+        <li>Loyer villa 3 pièces avec jardin : 600 €</li>
+        <li>Alimentation (marchés + restaurants 3 fois/semaine) : 400 €</li>
+        <li>Charges (électricité, eau, internet fibre) : 80 €</li>
+        <li>Femme de ménage 3 fois/semaine : 100 €</li>
+        <li>Sorties, culture, loisirs : 200 €</li>
+        <li>Transports (voiture + taxis) : 150 €</li>
+        <li>Santé (assurance + consultations) : 150 €</li>
+      </ul>
+
+      <p><strong>Total : environ 1 680 €/mois pour deux,</strong> avec un niveau de vie très confortable, incluant aide à domicile, sorties régulières et voiture.</p>
+
+      <p>En France, ce même niveau de vie nécessiterait 3 500 à 4 500 € par mois à deux. Pour optimiser votre budget, nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent des conseils sur le coût de la vie réel.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Le pouvoir d'achat en chiffres</p>
+        <p>En 2026, 1 € s'échange contre environ 3,35 DT. Le salaire minimum tunisien (SMIG) est de 530 DT/mois dans le secteur non agricole (≈ 158 €). Cela signifie qu'une heure de femme de ménage coûte 3 à 5 DT (1 à 1,50 €), et qu'un plombier facture 30 à 50 DT (9 à 15 €) pour une intervention. Le différentiel de pouvoir d'achat avec la France est structurel et durable.</p>
+      </div>
+
+      <h2>La gastronomie tunisienne : bien plus qu'un plat de couscous</h2>
+
+      <p>La cuisine tunisienne est l'une des plus riches et des plus complexes du Maghreb, influencée par les cuisines berbère, arabe, andalouse, ottomane et méditerranéenne. Elle est aussi l'une des plus épicées — le harissa, cette pâte de piment rouge incontournable, accompagne pratiquement tous les repas.</p>
+
+      <p>Les <strong>bricks</strong> (feuilles de pâte frites farcies à l'œuf et au thon), la <strong>chakchouka</strong> (ragoût de poivrons, tomates et œufs), le <strong>couscous au poisson</strong> de Sfax, la <strong>ojja</strong>, les <strong>merguez</strong> grillées au charbon de bois, les <strong>pastels</strong> frits, le <strong>lablabi</strong> (soupe de pois chiches épicée) servie dans les gargotes à l'aube — chaque région, chaque saison a ses spécialités.</p>
+
+      <p>Les fruits de mer et poissons sont d'une fraîcheur incomparable : daurade, loup, rouget, poulpe, crevettes de Monastir, langoustes de Tabarka. La Méditerranée est généreuse, et les ports de pêche approvisionnent les marchés chaque matin.</p>
+
+      <p>Pour les retraités européens, la découverte gastronomique tunisienne est souvent l'une des grandes surprises — et l'un des plaisirs qui ne s'use pas.</p>
+
+      <h2>Le système de santé : réalités et stratégies</h2>
+
+      <p>C'est la question qui revient le plus souvent dans les projets d'expatriation retraite. La réponse honnête : le système de santé tunisien est à deux vitesses, et la qualité des soins dépend beaucoup de vos ressources et de votre capacité à naviguer dans le système privé.</p>
+
+      <p>Le secteur public tunisien (hôpitaux et centres de santé de base) est accessible et peu coûteux, mais souffre de sur-fréquentation, de manque de moyens et de délais parfois longs. Pour des soins courants, il fonctionne. Pour des soins spécialisés ou urgents, le recours au privé est fortement conseillé.</p>
+
+      <p>Le secteur privé tunisien est en revanche de bonne qualité, avec des cliniques modernes, des médecins souvent formés en France et des délais d'attente courts. Une consultation chez un spécialiste privé coûte entre 60 et 150 DT (18 à 45 €). Une hospitalisation en clinique privée revient à 30 à 60 % du tarif français équivalent.</p>
+
+      <h3>La stratégie recommandée</h3>
+
+      <p>Souscrire une assurance santé internationale (CFE + complémentaire, ou assurance expatrié type AXA, Henner, MGEN Monde) qui couvre les soins en Tunisie et le rapatriement sanitaire vers la France si nécessaire.</p>
+
+      <p>Budget : 150 à 300 €/mois selon l'âge et les garanties. C'est l'investissement le plus important de votre installation. Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement</a></strong> incluent des conseils sur les assurances santé adaptées.</p>
+
+      <h2>Le cadre de vie : paysages, climat et art de vivre</h2>
+
+      <p>La Tunisie est un pays d'une diversité géographique surprenante pour sa taille (162 000 km², soit moins d'un tiers de la France). En quelques heures de route, vous passez des plages de sable blanc de Hammamet aux ruines romaines de Dougga, des montagnes boisées de la Kroumirie aux dunes de sable du Grand Erg Oriental, des medinas millénaires aux villes modernes du littoral.</p>
+
+      <p>Le climat est l'un des grands atouts. Les hivers sont doux (12 à 18°C en journée à Tunis, plus chaud encore à <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong>), ensoleillés, avec de la pluie surtout en novembre-décembre.</p>
+
+      <p>Les étés sont chauds (32 à 38°C) mais tempérés sur le littoral par la brise marine. Le printemps et l'automne sont parfaits — 22 à 28°C, ciel bleu, mer encore chaude en octobre.</p>
+
+      <p>Pour un retraité qui vient de passer des décennies sous le ciel gris de la France ou de la Belgique, vivre dans un pays où le soleil brille plus de 300 jours par an a un impact réel sur la santé et l'humeur — c'est documenté, et les <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">retraités expatriés</a></strong> en Tunisie le confirment unanimement.</p>
+
+      <h2>Les démarches administratives pour s'installer</h2>
+
+      <p>L'installation en Tunisie pour un ressortissant européen est administrativement plus simple que dans beaucoup d'autres destinations d'expatriation. Les principales démarches :</p>
+
+      <h3>Le visa de long séjour</h3>
+
+      <p>Les ressortissants français peuvent entrer en Tunisie sans visa pour un séjour de moins de 3 mois. Pour un séjour plus long, il faut demander une <strong>carte de séjour</strong> auprès du gouvernorat compétent.</p>
+
+      <p>Les documents requis incluent : passeport valide, justificatif de domicile en Tunisie, justificatifs de ressources (attestation de retraite, relevés bancaires). La procédure prend 2 à 4 semaines.</p>
+
+      <h3>L'immatriculation consulaire</h3>
+
+      <p>Déclarez votre installation au Consulat général de France à Tunis. C'est gratuit, facultatif mais fortement conseillé : cela vous donne accès aux services consulaires, à la liste électorale française, et facilite les démarches administratives en cas de problème.</p>
+
+      <h3>Le compte bancaire</h3>
+
+      <p>Ouvrez un compte en devises dans une banque tunisienne agréée pour recevoir votre retraite française et gérer vos finances locales. Les principales banques acceptent les non-résidents avec des justificatifs standard.</p>
+
+      <p>Cette étape est cruciale si vous envisagez d'<strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheter un bien immobilier</a></strong>, car tous les fonds doivent transiter par le circuit bancaire officiel.</p>
+
+      <h2>Fiscalité : où payez-vous vos impôts ?</h2>
+
+      <p>Point crucial : la <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">convention fiscale franco-tunisienne</a></strong> détermine où vous payez vos impôts.</p>
+
+      <h3>Règle générale</h3>
+
+      <p>Si vous êtes <strong>résident fiscal tunisien</strong> (plus de 183 jours/an en Tunisie), vos pensions de retraite sont imposables EN FRANCE uniquement. La Tunisie ne taxe pas les pensions françaises.</p>
+
+      <p>Vous ne payez donc l'impôt qu'une seule fois, en France. Exception : les pensions de la fonction publique restent imposables en France même si vous êtes résident tunisien.</p>
+
+      <p>Cette fiscalité avantageuse est l'une des raisons pour lesquelles tant de retraités choisissent la Tunisie. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent un conseil fiscal personnalisé.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zones recommandées pour s'installer</p>
+        <p><strong>Hammamet</strong> : station balnéaire prisée, infrastructures développées, grande communauté française. <strong>La Marsa et Gammarth</strong> : banlieue chic de Tunis, restaurants, proximité aéroport. <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> : île méditerranéenne, climat exceptionnel, authenticité. <strong>Sousse et Monastir</strong> : villes dynamiques, coût de vie modéré. Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones.</p>
+      </div>
+
+      <h2>Les meilleures villes pour s'installer à la retraite</h2>
+
+      <h3>1. Hammamet</h3>
+      <p>Station balnéaire prisée, infrastructures développées, grande communauté française. <strong><a href="/biens" class="text-[#1B6CA8] underline">Prix immobiliers</a></strong> : 900-1 800 DT/m². Idéale pour une vie active avec plage, golf, et restaurants.</p>
+
+      <h3>2. La Marsa et Gammarth</h3>
+      <p>Banlieue résidentielle chic de Tunis, bord de mer, restaurants de qualité, proximité de l'aéroport. Prix : 1 800-3 500 DT/m². Parfait pour ceux qui veulent le calme sans s'éloigner de la capitale.</p>
+
+      <h3>3. Djerba</h3>
+      <p>Île méditerranéenne, climat exceptionnel toute l'année, authenticité préservée, classement UNESCO. Prix : 600-1 500 DT/m². Notre <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">guide complet Djerba</a></strong> détaille tous les avantages.</p>
+
+      <h3>4. Sousse et Monastir</h3>
+      <p>Villes dynamiques, coût de la vie modéré, bon compromis entre ville et plage. Excellentes pour ceux qui recherchent l'animation urbaine.</p>
+
+      <h2>Témoignages de retraités français installés</h2>
+
+      <p><strong>Jean et Marie, 68 ans, Hammamet depuis 2022 :</strong></p>
+
+      <p><em>"Avec nos retraites cumulées de 2 400€/mois, nous vivons comme des rois. Nous avons acheté un appartement avec vue mer pour 95 000€, nos charges mensuelles sont de 800€, et il nous reste 1 600€ pour voyager et profiter. En France, on survivait. Ici, on vit !"</em></p>
+
+      <p><strong>Pierre, 72 ans, La Marsa depuis 2020 :</strong></p>
+
+      <p><em>"Le climat a changé ma vie. Mes douleurs articulaires ont disparu avec le soleil et la chaleur. Je joue au golf trois fois par semaine, je nage toute l'année, et je dîne en terrasse même en janvier. À 72 ans, je me sens mieux qu'à 60."</em></p>
+
+      <h2>Préparer son installation : checklist complète</h2>
+
+      <ol class="space-y-2 my-6 list-decimal list-inside">
+        <li>Visiter la Tunisie plusieurs fois pour choisir sa ville d'installation</li>
+        <li>Louer un logement pour 6-12 mois avant d'acheter définitivement</li>
+        <li>Ouvrir un compte bancaire tunisien</li>
+        <li>Souscrire une assurance santé internationale</li>
+        <li>Faire une demande de carte de séjour</li>
+        <li>S'immatriculer au Consulat de France</li>
+        <li>Transférer progressivement ses affaires</li>
+        <li>Garder un pied-à-terre en France (famille, santé)</li>
+      </ol>
+
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement</a></strong> incluent l'assistance complète à l'installation : recherche de logement, démarches administratives, ouverture de compte bancaire, mise en relation avec professionnels locaux.</p>
+
+      <p>Pour comprendre comment <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acquérir un bien en toute sécurité</a></strong>, consultez notre guide complet. Découvrez aussi notre analyse du <strong><a href="/blog/investissement-immobilier-tunisie-2026" class="text-[#1B6CA8] underline">marché immobilier tunisien en 2026</a></strong>.</p>
+
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Prêt à préparer votre retraite en Tunisie ?</p>
+        <p class="text-white/80 mb-6">Accompagnement complet, aide aux démarches, recherche de bien, installation clés en main.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
+    `
   }
 ]
