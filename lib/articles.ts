@@ -49,8 +49,8 @@ export const articles: Article[] = [
 
       <p>Votre notaire tunisien vous guidera sur ce point au cas par cas.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">📍 Point clé à retenir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">📍 Point clé à retenir</p>
         <p>Les ressortissants français n'ont pas le droit d'acquérir des terres agricoles ou des forêts en Tunisie. L'achat se limite aux biens immobiliers urbains ou destinés à l'usage résidentiel ou commercial.</p>
       </div>
 
@@ -68,8 +68,8 @@ export const articles: Article[] = [
 
       <p>Ne signez jamais un document rédigé dans une langue que vous ne comprenez pas.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">⚠️ Point clé à retenir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">⚠️ Point clé à retenir</p>
         <p>Tout paiement, même partiel, doit passer par le circuit bancaire officiel. Le paiement en cash, la remise de chèques non tracés, ou les virements via des tiers non identifiés vous privent définitivement de votre droit au rapatriement des fonds lors de la revente.</p>
       </div>
 
@@ -134,8 +134,8 @@ export const articles: Article[] = [
 
       <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens disponibles</a></strong> dans ces zones.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zone géographique recommandée</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Zone géographique recommandée</p>
         <p>Pour un premier investissement, privilégiez Hammamet ou Djerba : excellente liquidité du marché, forte demande locative saisonnière, infrastructures touristiques développées et connexions aériennes directes depuis la France toute l'année.</p>
       </div>
 
@@ -153,10 +153,10 @@ export const articles: Article[] = [
 
       <p>Pour approfondir certains aspects spécifiques, lisez aussi nos articles : <strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">les 10 erreurs à ne pas commettre</a></strong>, <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">la fiscalité pour les non-résidents</a></strong>, et <strong><a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">comment financer votre achat depuis la France</a></strong>.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Votre projet immobilier en Tunisie mérite un accompagnement sérieux</p>
-        <p class="text-white/80 mb-6">Premier échange gratuit et sans engagement pour définir ensemble votre stratégie d'achat.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Nous contacter</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Votre projet immobilier en Tunisie mérite un accompagnement sérieux</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Premier échange gratuit et sans engagement pour définir ensemble votre stratégie d'achat.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Nous contacter</a>
       </div>
     `
   },
@@ -212,8 +212,8 @@ export const articles: Article[] = [
 
       <p>Rentabilité : 6 à 10%. La valorisation à long terme est privilégiée ici, portée par la rareté croissante des biens en bord de mer préservé. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens disponibles sur la côte est</a></strong>.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Notre recommandation géographique</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Notre recommandation géographique</p>
         <p>Pour un premier investissement à Djerba, privilégiez <strong>Midoun</strong> : excellente liquidité du marché, forte demande locative saisonnière, infrastructures touristiques développées. Pour un projet patrimonial à 10-15 ans, explorez <strong>Aghir</strong> et la côte est.</p>
       </div>
 
@@ -266,8 +266,8 @@ export const articles: Article[] = [
 
       <p>La <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">location annuelle</a></strong> offre une rentabilité supérieure avec une gestion quasi-nulle. C'est une option sous-estimée par beaucoup d'investisseurs.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Point clé sur la rentabilité</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💰 Point clé sur la rentabilité</p>
         <p>La rentabilité brute affichée par les promoteurs ne tient jamais compte des charges, des périodes creuses et des imprévus. Calculez toujours la rentabilité NETTE, charges et fiscalité déduites. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent une simulation financière réaliste.</p>
       </div>
 
@@ -323,10 +323,10 @@ export const articles: Article[] = [
 
       <p>Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Sécurité</a></strong> inclut l'assistance au transfert de fonds et la vérification de la conformité bancaire.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Prêt à investir à Djerba ?</p>
-        <p class="text-white/80 mb-6">Échangeons sur votre projet : simulation financière, sélection de biens, accompagnement juridique complet.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Prêt à investir à Djerba ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Échangeons sur votre projet : simulation financière, sélection de biens, accompagnement juridique complet.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -378,8 +378,8 @@ export const articles: Article[] = [
 
       <p>Le paiement peut être effectué en ligne via le portail fiscal tunisien, ou auprès des recettes des finances locales. Pour les non-résidents, le paiement par virement bancaire international est accepté.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Bon à savoir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Bon à savoir</p>
         <p>La TFB tunisienne est nettement inférieure à la taxe foncière française. Sur un bien équivalent en France, vous paieriez 3 à 5 fois plus. C'est un avantage comparatif réel pour les <strong><a href="/biens" class="text-[#1B6CA8] underline">investisseurs</a></strong>.</p>
       </div>
 
@@ -437,8 +437,8 @@ export const articles: Article[] = [
 
       <p>Pour une <strong><a href="/services" class="text-[#1B6CA8] underline">stratégie patrimoniale</a></strong> sur le long terme, consultez nos experts.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Recommandation géographique</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Recommandation géographique</p>
         <p>Les biens dans les zones protégées UNESCO (Djerba, médina de Tunis, Sidi Bou Saïd) bénéficient d'une protection réglementaire qui limite l'offre et soutient les prix à long terme, optimisant ainsi la plus-value potentielle. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens en zones classées</a></strong>.</p>
       </div>
 
@@ -512,10 +512,10 @@ export const articles: Article[] = [
 
       <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent l'assistance déclarative pour garantir votre conformité fiscale.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'un conseil fiscal personnalisé ?</p>
-        <p class="text-white/80 mb-6">Échangeons sur votre situation : simulation fiscale, optimisation légale, accompagnement déclaratif.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Nous contacter</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Besoin d'un conseil fiscal personnalisé ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Échangeons sur votre situation : simulation fiscale, optimisation légale, accompagnement déclaratif.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Nous contacter</a>
       </div>
     `
   },
@@ -540,8 +540,8 @@ export const articles: Article[] = [
 
       <p>Notre <strong><a href="/services" class="text-[#1B6CA8] underline">service de vérification juridique</a></strong> inclut systématiquement cette étape critique. Ne signez jamais un compromis avant cette vérification.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">⚠️ Signal d'alerte</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">⚠️ Signal d'alerte</p>
         <p>Si le vendeur ou l'agent immobilier vous dit que "le titre foncier est en cours" ou "on le régularisera après la vente", FUYEZ. Un bien sans titre foncier définitif ne peut être vendu légalement à un non-résident.</p>
       </div>
 
@@ -618,8 +618,8 @@ export const articles: Article[] = [
 
       <p>Consultez notre <strong><a href="/blog/frais-notaire-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide détaillé des frais de notaire</a></strong> pour tout comprendre.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Astuce</p>
         <p>Privilégiez les biens de plus de 5 ans pour éviter la TVA à 19%. Sur un achat à 100 000 euros, cela représente 19 000 euros d'économie immédiate. Découvrez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens anciens disponibles</a></strong>.</p>
       </div>
 
@@ -694,10 +694,10 @@ export const articles: Article[] = [
 
       <p>Le coût de l'accompagnement est largement compensé par les erreurs évitées, le temps gagné, et la sécurisation de votre investissement.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Évitez les pièges de l'achat immobilier en Tunisie</p>
-        <p class="text-white/80 mb-6">Échangeons sur votre projet : accompagnement complet, vérification juridique, sécurisation financière.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Évitez les pièges de l'achat immobilier en Tunisie</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Échangeons sur votre projet : accompagnement complet, vérification juridique, sécurisation financière.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -742,8 +742,8 @@ export const articles: Article[] = [
 
       <p>Cette TVA est le poste de frais le plus important. Beaucoup d'acheteurs privilégient les <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">biens anciens</a></strong> pour éviter cette taxe.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce fiscale</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Astuce fiscale</p>
         <p>Sur un achat à 100 000 euros, choisir un bien de plus de 5 ans (exonéré de TVA) plutôt qu'un bien neuf vous fait économiser 19 000 euros immédiatement.</p>
       </div>
 
@@ -774,10 +774,10 @@ export const articles: Article[] = [
 
       <p>Pour une simulation personnalisée, <strong><a href="/contact" class="text-[#1B6CA8] underline">contactez nos experts</a></strong>. Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules</a></strong> incluent cette simulation.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'une simulation personnalisée ?</p>
-        <p class="text-white/80 mb-6">Calcul complet des frais, optimisation fiscale, accompagnement notarial.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Besoin d'une simulation personnalisée ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Calcul complet des frais, optimisation fiscale, accompagnement notarial.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -814,8 +814,8 @@ export const articles: Article[] = [
 
       <p>Exemple : 80 000€ sur 15 ans à 5,5% = 654€/mois.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Astuce</p>
         <p>Proposez une hypothèque sur votre résidence principale en France. Cette garantie facilite l'obtention du prêt.</p>
       </div>
 
@@ -838,10 +838,10 @@ export const articles: Article[] = [
 
       <p>Pour une simulation personnalisée, <strong><a href="/contact" class="text-[#1B6CA8] underline">contactez-nous</a></strong>.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'aide pour financer votre achat ?</p>
-        <p class="text-white/80 mb-6">Simulation financière, accompagnement bancaire, assistance au transfert.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Besoin d'aide pour financer votre achat ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Simulation financière, accompagnement bancaire, assistance au transfert.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -901,8 +901,8 @@ export const articles: Article[] = [
 
       <p>Pour une simulation personnalisée, consultez nos <strong><a href="/services" class="text-[#1B6CA8] underline">services</a></strong>.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Point clé</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💰 Point clé</p>
         <p>Calculez toujours la rentabilité NETTE, charges et fiscalité déduites. Les chiffres bruts des promoteurs sont trompeurs.</p>
       </div>
 
@@ -935,10 +935,10 @@ export const articles: Article[] = [
 
       <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Simulation de rentabilité personnalisée</p>
-        <p class="text-white/80 mb-6">Calculs réels selon votre projet, stratégie locative optimisée.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Simulation de rentabilité personnalisée</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Calculs réels selon votre projet, stratégie locative optimisée.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -1027,8 +1027,8 @@ export const articles: Article[] = [
 
       <p>Consultez notre <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">guide complet de la fiscalité</a></strong> pour tout comprendre.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Bon à savoir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Bon à savoir</p>
         <p>En tant que résident tunisien, vous ne payez PAS d'impôt en Tunisie sur votre pension française. C'est un avantage fiscal majeur.</p>
       </div>
 
@@ -1066,10 +1066,10 @@ export const articles: Article[] = [
 
       <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement</a></strong> incluent l'assistance complète à l'installation.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Préparez votre retraite en Tunisie</p>
-        <p class="text-white/80 mb-6">Accompagnement complet, aide aux démarches, recherche de bien, installation.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Préparez votre retraite en Tunisie</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Accompagnement complet, aide aux démarches, recherche de bien, installation.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -1125,8 +1125,8 @@ export const articles: Article[] = [
 
       <p>La progression est modérée mais régulière, signe d'un marché sain. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens disponibles</a></strong> dans ces zones.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Opportunité géographique</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Opportunité géographique</p>
         <p>Les zones UNESCO (Djerba, médina de Tunis, Sidi Bou Saïd) bénéficient de protections réglementaires qui limitent l'offre et soutiennent les prix à long terme. Excellent choix pour un investissement patrimonial.</p>
       </div>
 
@@ -1206,10 +1206,10 @@ export const articles: Article[] = [
 
       <p>Notre recommandation : visez janvier-mars pour maximiser votre pouvoir de négociation.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Prêt à investir en Tunisie en 2026 ?</p>
-        <p class="text-white/80 mb-6">Accompagnement complet, sélection de biens, sécurisation juridique, optimisation fiscale.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Prêt à investir en Tunisie en 2026 ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Accompagnement complet, sélection de biens, sécurisation juridique, optimisation fiscale.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -1246,8 +1246,8 @@ export const articles: Article[] = [
 
       <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services de négociation</a></strong> vous accompagnent pour obtenir le meilleur prix et les meilleures conditions.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce négociation</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Astuce négociation</p>
         <p>Demandez toujours un état des lieux complet et un historique des travaux réalisés. Ces éléments peuvent justifier une baisse de prix si des rénovations sont nécessaires.</p>
       </div>
 
@@ -1290,10 +1290,10 @@ export const articles: Article[] = [
 
       <p>Le notaire procède ensuite à l'immatriculation du bien à votre nom au registre foncier. Vous recevez le nouveau titre foncier à votre nom sous 4 à 8 semaines.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Un accompagnement de A à Z pour sécuriser votre achat</p>
-        <p class="text-white/80 mb-6">De la recherche du bien à la signature finale, nous vous accompagnons à chaque étape du processus.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Un accompagnement de A à Z pour sécuriser votre achat</p>
+        <p class="mb-6" style="color:white;opacity:0.9">De la recherche du bien à la signature finale, nous vous accompagnons à chaque étape du processus.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -1358,8 +1358,8 @@ export const articles: Article[] = [
 
       <p>En France, ce même niveau de vie nécessiterait 3 500 à 4 500 € par mois à deux. Pour optimiser votre budget, nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent des conseils sur le coût de la vie réel.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Le pouvoir d'achat en chiffres</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💰 Le pouvoir d'achat en chiffres</p>
         <p>En 2026, 1 € s'échange contre environ 3,35 DT. Le salaire minimum tunisien (SMIG) est de 530 DT/mois dans le secteur non agricole (≈ 158 €). Cela signifie qu'une heure de femme de ménage coûte 3 à 5 DT (1 à 1,50 €), et qu'un plombier facture 30 à 50 DT (9 à 15 €) pour une intervention. Le différentiel de pouvoir d'achat avec la France est structurel et durable.</p>
       </div>
 
@@ -1429,8 +1429,8 @@ export const articles: Article[] = [
 
       <p>Cette fiscalité avantageuse est l'une des raisons pour lesquelles tant de retraités choisissent la Tunisie. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent un conseil fiscal personnalisé.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zones recommandées pour s'installer</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Zones recommandées pour s'installer</p>
         <p><strong>Hammamet</strong> : station balnéaire prisée, infrastructures développées, grande communauté française. <strong>La Marsa et Gammarth</strong> : banlieue chic de Tunis, restaurants, proximité aéroport. <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> : île méditerranéenne, climat exceptionnel, authenticité. <strong>Sousse et Monastir</strong> : villes dynamiques, coût de vie modéré. Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones.</p>
       </div>
 
@@ -1475,10 +1475,10 @@ export const articles: Article[] = [
 
       <p>Pour comprendre comment <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acquérir un bien en toute sécurité</a></strong>, consultez notre guide complet. Découvrez aussi notre analyse du <strong><a href="/blog/investissement-immobilier-tunisie-2026" class="text-[#1B6CA8] underline">marché immobilier tunisien en 2026</a></strong>.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Prêt à préparer votre retraite en Tunisie ?</p>
-        <p class="text-white/80 mb-6">Accompagnement complet, aide aux démarches, recherche de bien, installation clés en main.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Prêt à préparer votre retraite en Tunisie ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Accompagnement complet, aide aux démarches, recherche de bien, installation clés en main.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   },
@@ -1527,8 +1527,8 @@ export const articles: Article[] = [
 
       <p>Si votre travail nécessite une connexion fiable et rapide, restez sur le littoral nord (Grand Tunis, Cap Bon) ou les grandes villes du Sahel (Sousse, Monastir). Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones connectées.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Conseil pratique</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💡 Conseil pratique</p>
         <p>Avant de signer un bail ou d'<strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheter un bien</a></strong> pour y télétravailler, testez la connexion sur place avec votre propre appareil. Demandez à faire un test de débit (speedtest.net) depuis l'appartement à visiter. Une connexion fibre bien configurée doit donner 80 à 200 Mbps en débit descendant et 40 à 100 Mbps en montant. En dessous, négociez un upgrade ou cherchez ailleurs.</p>
       </div>
 
@@ -1578,8 +1578,8 @@ export const articles: Article[] = [
 
       <p>Il permet de séjourner légalement en Tunisie au-delà des 3 mois de séjour touristique, sans obligation de s'enregistrer comme résident fiscal tunisien, et avec un accès simplifié aux services bancaires et administratifs. C'est une avancée significative qui légalise et facilite le télétravail longue durée depuis la Tunisie.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zones recommandées pour télétravailler</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Zones recommandées pour télétravailler</p>
         <p><strong>La Marsa</strong> : fibre partout, cafés modernes, communauté expatriée, proximité Tunis. <strong>Hammamet</strong> : plage, villas avec piscine, bon Wi-Fi, calme. <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> : île, rythme lent, concentration, authenticité. <strong>Sousse</strong> : urbain, coworking, université, dynamique. Découvrez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens disponibles</a></strong> dans ces zones.</p>
       </div>
 
@@ -1651,8 +1651,8 @@ export const articles: Article[] = [
 
       <p>Apprenez quelques mots d'arabe tunisien (darija), participez aux événements communautaires, explorez le pays. La Tunisie n'est pas qu'un bureau avec vue sur mer — c'est un pays riche culturellement qui mérite d'être découvert.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">✅ À retenir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">✅ À retenir</p>
         <p>La Tunisie est en 2026 l'une des meilleures destinations méditerranéennes pour le télétravail et le nomadisme numérique. Le coût de la vie très bas, la connexion fibre dans les zones urbaines, le visa nomade officiel et la proximité culturelle avec l'Europe en font une alternative sérieuse aux Canaries, au Portugal ou à la Géorgie — avec en plus la mer, le soleil, la gastronomie et une hospitalité sans équivalent.</p>
       </div>
 
@@ -1664,10 +1664,10 @@ export const articles: Article[] = [
 
       <p>Pour notre accompagnement personnalisé (recherche de logement, démarches administratives, conseils fiscaux), visitez notre page <strong><a href="/services" class="text-[#1B6CA8] underline">services</a></strong> ou <strong><a href="/contact" class="text-[#1B6CA8] underline">contactez notre équipe</a></strong> pour un premier échange.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Vous cherchez un logement pour télétravailler en Tunisie ?</p>
-        <p class="text-white/80 mb-6">Fibre optique, espaces de travail, confort — nous sélectionnons des biens adaptés aux travailleurs à distance.</p>
-        <a href="/biens" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Voir les biens disponibles</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Vous cherchez un logement pour télétravailler en Tunisie ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Fibre optique, espaces de travail, confort — nous sélectionnons des biens adaptés aux travailleurs à distance.</p>
+        <a href="/biens" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Voir les biens disponibles</a>
       </div>
     `
   },
@@ -1704,8 +1704,8 @@ export const articles: Article[] = [
 
       <p>Avec ces précautions élémentaires, l'immense majorité des expatriés décrivent une vie quotidienne sans inquiétude sécuritaire particulière.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">💬 Ce que disent les expatriés</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">💬 Ce que disent les expatriés</p>
         <p>"Je me sens plus en sécurité à La Marsa qu'à Marseille ou à Paris", confie Sophie, 54 ans, <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">retraitée installée à La Marsa</a></strong> depuis 2023. "Les gens sont attentionnés, les voisins se connaissent, il y a une vraie vie de quartier. La nuit, je me promène sans aucune crainte."</p>
       </div>
 
@@ -1739,8 +1739,8 @@ export const articles: Article[] = [
 
       <p>Certaines familles d'expatriés choisissent cette voie pour des enfants nés en Tunisie ou qui y grandissent depuis la petite enfance — c'est possible, mais demande une bonne maîtrise de l'arabe.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zones recommandées pour familles</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">🌍 Zones recommandées pour familles</p>
         <p><strong>La Marsa</strong> : lycée Louis-Massignon, quartier francophone, sécurité maximale. <strong>Hammamet</strong> : école française, plage, qualité de vie. <strong>Sousse</strong> : établissements français, ville dynamique, coût modéré. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent des conseils scolarité pour familles expatriées.</p>
       </div>
 
@@ -1826,8 +1826,8 @@ export const articles: Article[] = [
 
       <p>Les <strong><a href="/blog/teletravail-tunisie-nomade-numerique" class="text-[#1B6CA8] underline">nomades numériques</a></strong> et <strong><a href="/blog/vivre-tunisie-retraite-expatrie" class="text-[#1B6CA8] underline">retraités</a></strong> qui s'installent en Tunisie témoignent unanimement de cette chaleur humaine qui fait toute la différence.</p>
 
-      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">✅ À retenir</p>
+      <div class="bg-gradient-to-r from-[#FFF9F0] to-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r-2xl shadow-md">
+        <p class="font-bold text-[#B8923A] text-sm uppercase tracking-wide mb-3">✅ À retenir</p>
         <p>La Tunisie n'est pas qu'une destination immobilière avantageuse — c'est un pays à part entière, avec une histoire de 3 000 ans, une culture vivante et complexe, une gastronomie inventive, des paysages d'une diversité incroyable et des habitants d'une hospitalité sincère. Ceux qui s'y installent ne reviennent généralement pas en arrière — non pas par obligation, mais par choix.</p>
       </div>
 
@@ -1841,10 +1841,10 @@ export const articles: Article[] = [
 
       <p>Pour approfondir certains aspects, consultez nos guides complets : <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheter en tant que Français</a></strong>, <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité pour non-résidents</a></strong>, <strong><a href="/blog/investissement-immobilier-tunisie-2026" class="text-[#1B6CA8] underline">opportunités d'investissement 2026</a></strong>.</p>
 
-      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Prêt à découvrir la Tunisie de l'intérieur ?</p>
-        <p class="text-white/80 mb-6">Accompagnement complet, de la recherche du bien à l'installation. Parlons de votre projet.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      <div style="background:linear-gradient(135deg,#1B6CA8 0%,#0d4a7a 100%);color:white;padding:2.5rem 2rem;border-radius:1.5rem;margin:2.5rem 0;text-align:center;box-shadow:0 20px 40px rgba(27,108,168,0.25)">
+        <p class="font-cormorant text-2xl font-light mb-3" style="color:white">Prêt à découvrir la Tunisie de l'intérieur ?</p>
+        <p class="mb-6" style="color:white;opacity:0.9">Accompagnement complet, de la recherche du bien à l'installation. Parlons de votre projet.</p>
+        <a href="/contact" style="background:#B8923A;color:white;border-radius:0.75rem;padding:0.75rem 2rem;display:inline-block;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,0.25);transition:opacity 0.3s" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Parler à un expert</a>
       </div>
     `
   }
