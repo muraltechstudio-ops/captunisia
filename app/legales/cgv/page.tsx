@@ -6,7 +6,7 @@ export const metadata = {
 export default function CGVPage() {
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-3xl mx-auto px-6 py-20">
+      <div className="max-w-3xl mx-auto px-6 pt-32 pb-20">
         <p className="text-sm text-gray-500 mb-4">Derniere mise a jour : octobre 2026</p>
         <h1 className="font-display text-5xl text-nuit mb-12">Conditions generales de service</h1>
 

@@ -30,7 +30,7 @@ export default function BiensPage() {
   return (
     <div className="min-h-screen bg-sable">
       {/* Header */}
-      <div className="bg-nuit text-white py-20">
+      <div className="bg-[#1B6CA8] text-white pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-5xl md:text-6xl font-bold mb-4">
             Nos biens en Tunisie
