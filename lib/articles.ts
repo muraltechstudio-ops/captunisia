@@ -24,29 +24,62 @@ export const articles: Article[] = [
     extrait: "Prix attractifs, soleil, proximité avec la France... De plus en plus de Français franchissent le pas et achètent en Tunisie. Voici tout ce qu'il faut savoir avant de se lancer.",
     contenu: `
       <h2>Pourquoi les Français achètent en Tunisie en 2025 ?</h2>
-      <p>La Tunisie s'est imposée comme l'une des destinations immobilières les plus prisées des acheteurs français et européens. Les raisons sont nombreuses et convergentes : des prix immobiliers jusqu'à cinq fois inférieurs à ceux observés sur la côte méditerranéenne française, un climat ensoleillé plus de 300 jours par an, une proximité géographique remarquable (deux heures de vol depuis Paris, Marseille ou Lyon), et une diaspora tunisienne de plus de 600 000 personnes en France qui maintient des liens culturels et familiaux forts avec le pays.</p>
-      <p>Concrètement, un appartement de standing avec vue mer à <strong>La Marsa</strong> ou à <strong>Hammamet</strong> s'acquiert entre 80 000 et 150 000 euros. Un bien équivalent sur la Côte d'Azur ou en Corse dépasserait allègrement les 500 000 euros. Cette réalité économique transforme l'achat en Tunisie en véritable levier patrimonial pour les classes moyennes et supérieures françaises.</p>
-      <p>Au-delà du prix, la qualité de vie joue un rôle décisif. Les villes côtières tunisiennes offrent des restaurants de qualité, des marchés colorés, une sécurité globalement satisfaisante dans les zones résidentielles prisées, et une population francophone qui facilite l'intégration des acheteurs étrangers. Sidi Bou Saïd, La Marsa, Gammarth, Hammamet et Djerba sont autant d'adresses qui font rêver et qui se révèlent accessibles à des budgets raisonnables.</p>
+
+      <p>La Tunisie s'est imposée comme l'une des destinations immobilières les plus prisées des acheteurs français et européens. Les raisons sont nombreuses et convergentes : des <strong><a href="/biens" class="text-[#1B6CA8] underline">prix immobiliers</a></strong> jusqu'à cinq fois inférieurs à ceux observés sur la côte méditerranéenne française, un climat ensoleillé plus de 300 jours par an, une proximité géographique remarquable (deux heures de vol depuis Paris, Marseille ou Lyon), et une diaspora tunisienne de plus de 600 000 personnes en France qui maintient des liens culturels et familiaux forts avec le pays.</p>
+
+      <p>Concrètement, un appartement de standing avec vue mer à <strong>La Marsa</strong> ou à <strong>Hammamet</strong> s'acquiert entre 80 000 et 150 000 euros. Un bien équivalent sur la Côte d'Azur ou en Corse dépasserait allègrement les 500 000 euros.</p>
+
+      <p>Cette réalité économique transforme l'<strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">achat immobilier en Tunisie</a></strong> en véritable levier patrimonial pour les classes moyennes et supérieures françaises.</p>
+
+      <p>Au-delà du prix, la qualité de vie joue un rôle décisif. Les villes côtières tunisiennes offrent des restaurants de qualité, des marchés colorés, une sécurité globalement satisfaisante dans les zones résidentielles prisées, et une population francophone qui facilite l'intégration des acheteurs étrangers.</p>
+
+      <p>Sidi Bou Saïd, La Marsa, Gammarth, Hammamet et Djerba sont autant d'adresses qui font rêver et qui se révèlent accessibles à des budgets raisonnables.</p>
 
       <h2>Le cadre juridique pour les non-résidents étrangers</h2>
-      <p>La question juridique est la première que se posent les acheteurs français, et c'est la bonne. Depuis la loi du 1er mars 2016 qui a libéralisé le secteur, les étrangers non-résidents peuvent acquérir des biens immobiliers en Tunisie sous des conditions précises. La règle fondamentale, absolue et sans exception, est que le financement doit provenir exclusivement de devises étrangères importées légalement sur le territoire tunisien et converties auprès d'une banque locale agréée par la Banque Centrale de Tunisie.</p>
-      <p>Cette obligation de conversion officielle n'est pas une formalité administrative anodine : elle conditionne votre capacité à rapatrier les fonds en France lors d'une éventuelle revente. Sans trace documentée du transfert initial, la BCT peut bloquer tout rapatriement. Conservez donc précieusement chaque relevé de virement international et chaque attestation de conversion bancaire.</p>
-      <p>L'autorisation préalable de la BCT, autrefois systématiquement requise, n'est plus obligatoire pour l'acte d'achat lui-même depuis la réforme de 2016. Elle reste cependant nécessaire dans certains cas particuliers, notamment pour les acquisitions de terrains agricoles ou les biens situés dans des zones sensibles. Votre notaire tunisien vous guidera sur ce point au cas par cas.</p>
-      <p>Il est important de noter que les ressortissants français n'ont pas le droit d'acquérir des terres agricoles ou des forêts en Tunisie. L'achat se limite aux biens immobiliers urbains ou destinés à l'usage résidentiel ou commercial.</p>
 
-      <h2>Le processus d'achat étape par étape</h2>
-      <p>Le processus d'acquisition immobilière en Tunisie suit une logique assez proche du système français, avec quelques spécificités importantes. La première étape est la <strong>promesse d'achat</strong>, équivalent du compromis de vente français, qui doit obligatoirement être établie par un notaire tunisien et non par une agence immobilière. Méfiez-vous de tout intermédiaire qui vous proposerait de signer une "réservation" sans acte notarié.</p>
-      <p>Vient ensuite la phase de <strong>vérification juridique</strong>, cruciale en Tunisie. Le notaire doit vérifier le titre foncier à la Conservation Foncière, s'assurer que le bien est libre de toute hypothèque, vérifier l'absence d'indivision non résolue, et confirmer que le vendeur dispose bien de la pleine capacité juridique pour vendre. Cette étape peut prendre deux à six semaines selon la complexité du dossier.</p>
-      <p>La signature de l'acte authentique de vente marque le transfert de propriété. L'acte est rédigé en arabe, et vous avez le droit absolu d'exiger une traduction certifiée par un traducteur assermenté avant de signer. Ne signez jamais un document rédigé dans une langue que vous ne comprenez pas.</p>
+      <p>La question juridique est la première que se posent les acheteurs français, et c'est la bonne. Depuis la loi du 1er mars 2016 qui a libéralisé le secteur, les étrangers non-résidents peuvent acquérir des biens immobiliers en Tunisie sous des conditions précises.</p>
+
+      <p>La règle fondamentale, absolue et sans exception, est que le financement doit provenir exclusivement de devises étrangères importées légalement sur le territoire tunisien et converties auprès d'une banque locale agréée par la Banque Centrale de Tunisie.</p>
+
+      <p>Cette obligation de conversion officielle n'est pas une formalité administrative anodine : elle conditionne votre capacité à rapatrier les fonds en France lors d'une éventuelle revente. Sans trace documentée du transfert initial, la BCT peut bloquer tout rapatriement.</p>
+
+      <p>Conservez donc précieusement chaque relevé de virement international et chaque attestation de conversion bancaire. <strong><a href="/services" class="text-[#1B6CA8] underline">Nos services d'accompagnement</a></strong> incluent la vérification de tous ces documents essentiels.</p>
+
+      <p>L'autorisation préalable de la BCT, autrefois systématiquement requise, n'est plus obligatoire pour l'acte d'achat lui-même depuis la réforme de 2016. Elle reste cependant nécessaire dans certains cas particuliers, notamment pour les acquisitions de terrains agricoles ou les biens situés dans des zones sensibles.</p>
+
+      <p>Votre notaire tunisien vous guidera sur ce point au cas par cas.</p>
 
       <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">Point clé à retenir</p>
+        <p class="font-semibold text-[#1B6CA8] mb-2">📍 Point clé à retenir</p>
+        <p>Les ressortissants français n'ont pas le droit d'acquérir des terres agricoles ou des forêts en Tunisie. L'achat se limite aux biens immobiliers urbains ou destinés à l'usage résidentiel ou commercial.</p>
+      </div>
+
+      <h2>Le processus d'achat étape par étape</h2>
+
+      <p>Le <strong><a href="/blog/processus-achat-immobilier-tunisie-etapes" class="text-[#1B6CA8] underline">processus d'acquisition immobilière</a></strong> en Tunisie suit une logique assez proche du système français, avec quelques spécificités importantes.</p>
+
+      <p>La première étape est la <strong>promesse d'achat</strong>, équivalent du compromis de vente français, qui doit obligatoirement être établie par un notaire tunisien et non par une agence immobilière. Méfiez-vous de tout intermédiaire qui vous proposerait de signer une "réservation" sans acte notarié.</p>
+
+      <p>Vient ensuite la phase de <strong>vérification juridique</strong>, cruciale en Tunisie. Le notaire doit vérifier le titre foncier à la Conservation Foncière, s'assurer que le bien est libre de toute hypothèque, vérifier l'absence d'indivision non résolue, et confirmer que le vendeur dispose bien de la pleine capacité juridique pour vendre.</p>
+
+      <p>Cette étape peut prendre deux à six semaines selon la complexité du dossier. C'est pourquoi <strong><a href="/tarifs" class="text-[#1B6CA8] underline">nos formules d'accompagnement</a></strong> incluent le suivi juridique complet.</p>
+
+      <p>La signature de l'acte authentique de vente marque le transfert de propriété. L'acte est rédigé en arabe, et vous avez le droit absolu d'exiger une traduction certifiée par un traducteur assermenté avant de signer.</p>
+
+      <p>Ne signez jamais un document rédigé dans une langue que vous ne comprenez pas.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">⚠️ Point clé à retenir</p>
         <p>Tout paiement, même partiel, doit passer par le circuit bancaire officiel. Le paiement en cash, la remise de chèques non tracés, ou les virements via des tiers non identifiés vous privent définitivement de votre droit au rapatriement des fonds lors de la revente.</p>
       </div>
 
       <h2>Les frais d'acquisition à budgéter précisément</h2>
-      <p>Une erreur fréquente des acheteurs étrangers est de ne calculer que le prix affiché. Les frais annexes sont significatifs et doivent être intégrés dès la première simulation budgétaire. Voici le détail des postes à prévoir :</p>
-      <ul>
+
+      <p>Une erreur fréquente des acheteurs étrangers est de ne calculer que le prix affiché. Les frais annexes sont significatifs et doivent être intégrés dès la première simulation budgétaire.</p>
+
+      <p>Voici le détail des postes à prévoir :</p>
+
+      <ul class="space-y-2 my-6">
         <li><strong>Droits d'enregistrement</strong> : 3% du prix de vente, payables au moment de la signature de l'acte authentique.</li>
         <li><strong>Frais de conservation foncière</strong> : 1% du prix pour l'immatriculation du bien à votre nom au registre foncier.</li>
         <li><strong>Honoraires du notaire</strong> : entre 1% et 2% selon la complexité de la transaction, avec un minimum forfaitaire.</li>
@@ -54,25 +87,71 @@ export const articles: Article[] = [
         <li><strong>Frais d'agence</strong> : en Tunisie, ils sont traditionnellement partagés entre acheteur et vendeur, chacun payant 2,5 à 3% du prix.</li>
         <li><strong>Frais de traduction</strong> : comptez 200 à 500 euros pour la traduction certifiée de l'acte de vente.</li>
       </ul>
+
       <p>Au total, prévoyez entre 7% et 10% de frais supplémentaires sur le prix d'achat affiché. Sur un bien à 120 000 euros, cela représente 8 400 à 12 000 euros de frais, soit un budget global de 128 000 à 132 000 euros.</p>
 
+      <p>Découvrez notre <strong><a href="/blog/frais-notaire-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide détaillé des frais de notaire</a></strong> pour tout comprendre.</p>
+
       <h2>Les pièges classiques que personne ne vous dit</h2>
-      <p>Le marché immobilier tunisien recèle plusieurs spécificités que les acheteurs étrangers découvrent parfois à leurs dépens. La première est le problème des <strong>titres fonciers non purgés</strong>. En Tunisie, le système foncier distingue les biens immatriculés au registre foncier (avec un titre foncier TF) des biens non immatriculés. Ces derniers présentent des risques juridiques sérieux : droits contestés, limites cadastrales floues, héritages non liquidés. Exigez systématiquement la consultation du titre foncier avant tout engagement.</p>
-      <p>L'<strong>indivision successorale</strong> représente le deuxième piège majeur. Dans la tradition juridique tunisienne, les biens se transmettent en indivision entre tous les héritiers. Un appartement peut ainsi appartenir légalement à cinq, dix ou vingt personnes, dont certaines vivent à l'étranger ou sont en conflit avec les autres. Si un seul co-indivisaire n'a pas signé l'acte de vente, la transaction est juridiquement nulle. Votre notaire doit vérifier exhaustivement que tous les titulaires de droits ont expressément consenti à la vente.</p>
-      <p>Les <strong>faux mandataires</strong> constituent le troisième danger. Des personnes se présentent comme propriétaires ou comme mandataires légaux sans l'être réellement. Elles collectent des arrhes ou un premier versement, puis disparaissent. Vérifiez toujours l'identité du vendeur et l'authenticité de tout mandat directement auprès du notaire, en consultant les registres officiels.</p>
+
+      <p>Le marché immobilier tunisien recèle plusieurs spécificités que les acheteurs étrangers découvrent parfois à leurs dépens.</p>
+
+      <p>La première est le problème des <strong>titres fonciers non purgés</strong>. En Tunisie, le système foncier distingue les biens immatriculés au registre foncier (avec un titre foncier TF) des biens non immatriculés. Ces derniers présentent des risques juridiques sérieux : droits contestés, limites cadastrales floues, héritages non liquidés.</p>
+
+      <p>Exigez systématiquement la consultation du titre foncier avant tout engagement. Notre <strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">article sur les erreurs à éviter</a></strong> détaille ce point crucial.</p>
+
+      <p>L'<strong>indivision successorale</strong> représente le deuxième piège majeur. Dans la tradition juridique tunisienne, les biens se transmettent en indivision entre tous les héritiers. Un appartement peut ainsi appartenir légalement à cinq, dix ou vingt personnes, dont certaines vivent à l'étranger ou sont en conflit avec les autres.</p>
+
+      <p>Si un seul co-indivisaire n'a pas signé l'acte de vente, la transaction est juridiquement nulle. Votre notaire doit vérifier exhaustivement que tous les titulaires de droits ont expressément consenti à la vente.</p>
+
+      <p>Les <strong>faux mandataires</strong> constituent le troisième danger. Des personnes se présentent comme propriétaires ou comme mandataires légaux sans l'être réellement. Elles collectent des arrhes ou un premier versement, puis disparaissent.</p>
+
+      <p>Vérifiez toujours l'identité du vendeur et l'authenticité de tout mandat directement auprès du notaire, en consultant les registres officiels. <strong><a href="/services" class="text-[#1B6CA8] underline">Nos services de vérification juridique</a></strong> sécurisent cette étape critique.</p>
+
       <p>Enfin, méfiez-vous des <strong>permis de construire irréguliers</strong> pour les biens récents. Certains logements ont été construits avec des dérogations informelles ou des permis obtenus irrégulièrement. En cas de litige, la valeur du bien et son assurabilité peuvent être remises en cause.</p>
 
       <h2>Les zones côtières recommandées pour un achat réussi</h2>
-      <p>La Tunisie offre un linéaire côtier de plus de 1 300 km, mais toutes les zones ne se valent pas pour un investissement immobilier. Voici les secteurs que nous recommandons prioritairement à nos clients :</p>
-      <p><strong>La Marsa et Gammarth</strong> représentent le segment haut de gamme du Grand Tunis. Situées à 20 et 25 km de la capitale, ces stations balnéaires combinent bord de mer, restaurants de qualité, commerces, et un accès facile à l'aéroport international de Tunis-Carthage. Prix actuels : entre 1 800 et 3 500 DT/m² selon la proximité de la mer. Idéales pour une résidence secondaire de prestige ou un investissement locatif premium.</p>
-      <p><strong>Hammamet et le Cap Bon</strong> restent la destination préférée des acheteurs français pour la combinaison plage, animation et prix accessibles. Hammamet concentre une forte demande locative saisonnière qui assure des rendements locatifs bruts entre 10 et 18% sur les villas avec piscine. Prix : entre 900 et 1 800 DT/m² selon le quartier et la qualité du bien.</p>
-      <p><strong>Djerba</strong> séduit par son caractère insulaire unique, son classement UNESCO depuis 2023, et des rendements locatifs parmi les meilleurs de Tunisie. L'interdiction de nouvelles constructions dans les zones classées protège la valeur patrimoniale des biens existants. Prix : entre 600 et 1 500 DT/m² selon la zone.</p>
+
+      <p>La Tunisie offre un linéaire côtier de plus de 1 300 km, mais toutes les zones ne se valent pas pour un <strong><a href="/biens" class="text-[#1B6CA8] underline">investissement immobilier</a></strong>. Voici les secteurs que nous recommandons prioritairement à nos clients :</p>
+
+      <h3>La Marsa et Gammarth</h3>
+      <p><strong>La Marsa et Gammarth</strong> représentent le segment haut de gamme du Grand Tunis. Situées à 20 et 25 km de la capitale, ces stations balnéaires combinent bord de mer, restaurants de qualité, commerces, et un accès facile à l'aéroport international de Tunis-Carthage.</p>
+
+      <p>Prix actuels : entre 1 800 et 3 500 DT/m² selon la proximité de la mer. Idéales pour une résidence secondaire de prestige ou un <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">investissement locatif premium</a></strong>.</p>
+
+      <h3>Hammamet et le Cap Bon</h3>
+      <p><strong>Hammamet et le Cap Bon</strong> restent la destination préférée des acheteurs français pour la combinaison plage, animation et prix accessibles. Hammamet concentre une forte demande locative saisonnière qui assure des rendements locatifs bruts entre 10 et 18% sur les villas avec piscine.</p>
+
+      <p>Prix : entre 900 et 1 800 DT/m² selon le quartier et la qualité du bien.</p>
+
+      <h3>Djerba</h3>
+      <p><strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> séduit par son caractère insulaire unique, son classement UNESCO depuis 2023, et des rendements locatifs parmi les meilleurs de Tunisie. L'interdiction de nouvelles constructions dans les zones classées protège la valeur patrimoniale des biens existants.</p>
+
+      <p>Prix : entre 600 et 1 500 DT/m² selon la zone.</p>
+
+      <h3>Sousse et Monastir</h3>
       <p><strong>Sousse et Monastir</strong> offrent un marché plus urbain avec une demande locative mixte, touristique et résidentielle. Accessibles avec un budget plus modeste, ces villes constituent un bon point d'entrée pour un premier investissement.</p>
 
+      <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens disponibles</a></strong> dans ces zones.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Zone géographique recommandée</p>
+        <p>Pour un premier investissement, privilégiez Hammamet ou Djerba : excellente liquidité du marché, forte demande locative saisonnière, infrastructures touristiques développées et connexions aériennes directes depuis la France toute l'année.</p>
+      </div>
+
       <h2>Pourquoi se faire accompagner par un professionnel</h2>
-      <p>Face à la complexité juridique, fiscale et pratique d'un achat immobilier en Tunisie depuis la France, l'accompagnement par un professionnel spécialisé n'est pas un luxe mais une nécessité. <a href="/services" class="text-[#1B6CA8] underline font-medium">Notre service d'apporteur d'affaires immobilier</a> a précisément été conçu pour répondre à ce besoin : nous assurons l'interface entre vous, les agences locales vérifiées, les notaires de confiance, et les autorités administratives.</p>
-      <p>Nos <a href="/tarifs" class="text-[#1B6CA8] underline font-medium">trois formules d'accompagnement</a> (Essentiel à 690€, Sécurité à 990€, Premium à 1 690€) couvrent l'ensemble du processus selon votre niveau de besoin. Consultez également notre <a href="/biens" class="text-[#1B6CA8] underline font-medium">sélection de biens disponibles</a> dans les meilleures zones côtières tunisiennes.</p>
-      <p>Pour approfondir certains aspects spécifiques, lisez aussi nos articles : <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">les 10 erreurs à ne pas commettre</a>, <a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">la fiscalité pour les non-résidents</a>, et <a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">comment financer votre achat depuis la France</a>.</p>
+
+      <p>Face à la complexité juridique, fiscale et pratique d'un achat immobilier en Tunisie depuis la France, l'accompagnement par un professionnel spécialisé n'est pas un luxe mais une nécessité.</p>
+
+      <p><strong><a href="/services" class="text-[#1B6CA8] underline font-medium">Notre service d'apporteur d'affaires immobilier</a></strong> a précisément été conçu pour répondre à ce besoin : nous assurons l'interface entre vous, les agences locales vérifiées, les notaires de confiance, et les autorités administratives.</p>
+
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline font-medium">trois formules d'accompagnement</a></strong> (Essentiel à 690€, Sécurité à 990€, Premium à 1 690€) couvrent l'ensemble du processus selon votre niveau de besoin.</p>
+
+      <p>Chaque formule inclut la vérification juridique, l'accompagnement aux visites, la négociation du prix, et le suivi jusqu'à la signature définitive.</p>
+
+      <p>Consultez également notre <strong><a href="/biens" class="text-[#1B6CA8] underline font-medium">sélection de biens disponibles</a></strong> dans les meilleures zones côtières tunisiennes : appartements avec vue mer, villas avec piscine, terrains constructibles.</p>
+
+      <p>Pour approfondir certains aspects spécifiques, lisez aussi nos articles : <strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">les 10 erreurs à ne pas commettre</a></strong>, <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">la fiscalité pour les non-résidents</a></strong>, et <strong><a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">comment financer votre achat depuis la France</a></strong>.</p>
 
       <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
         <p class="font-cormorant text-2xl font-light mb-3">Votre projet immobilier en Tunisie mérite un accompagnement sérieux</p>
@@ -93,1103 +172,1129 @@ export const articles: Article[] = [
     extrait: "Île unique en Méditerranée classée UNESCO, Djerba offre des opportunités immobilières exceptionnelles avec des rendements locatifs parmi les meilleurs de Tunisie. Notre analyse complète 2026.",
     contenu: `
       <h2>Djerba en 2026 : pourquoi les investisseurs européens se tournent vers l'île</h2>
-      <p>Djerba n'est plus seulement une destination de vacances. Depuis son inscription au patrimoine mondial de l'UNESCO en 2023, l'île a franchi un seuil symbolique qui change profondément la donne pour les investisseurs immobiliers. Ce classement, qui protège l'architecture traditionnelle et limite strictement les nouvelles constructions dans les zones classées, crée une rareté structurelle qui soutient mécaniquement la valeur des biens existants à long terme.</p>
-      <p>Avec ses 514 km², ses 200 km de côtes, ses plages de sable blanc et son arrière-pays parsemé de villages berbères et de palmeraies, Djerba attire chaque année plus d'un million de touristes, dont une large majorité d'Européens. L'aéroport international de Djerba-Zarzis accueille des vols directs depuis Paris, Lyon, Marseille, Bordeaux, Nantes et une dizaine d'autres villes françaises de mai à octobre. Cette connectivité directe est un facteur déterminant pour la rentabilité locative saisonnière : vos locataires viennent directement, sans escale, ce qui élargit considérablement le bassin de clientèle potentielle.</p>
-      <p>En 2026, les prix de l'immobilier à Djerba restent parmi les plus accessibles du bassin méditerranéen pour une qualité de vie et un potentiel locatif comparables. C'est la combinaison gagnante qui explique l'afflux croissant d'acheteurs français, belges, suisses et allemands sur ce marché.</p>
+
+      <p>Djerba n'est plus seulement une destination de vacances. Depuis son inscription au patrimoine mondial de l'UNESCO en 2023, l'île a franchi un seuil symbolique qui change profondément la donne pour les <strong><a href="/biens" class="text-[#1B6CA8] underline">investisseurs immobiliers</a></strong>.</p>
+
+      <p>Ce classement, qui protège l'architecture traditionnelle et limite strictement les nouvelles constructions dans les zones classées, crée une rareté structurelle qui soutient mécaniquement la valeur des biens existants à long terme.</p>
+
+      <p>Avec ses 514 km², ses 200 km de côtes, ses plages de sable blanc et son arrière-pays parsemé de villages berbères et de palmeraies, Djerba attire chaque année plus d'un million de touristes, dont une large majorité d'Européens.</p>
+
+      <p>L'aéroport international de Djerba-Zarzis accueille des vols directs depuis Paris, Lyon, Marseille, Bordeaux, Nantes et une dizaine d'autres villes françaises de mai à octobre.</p>
+
+      <p>Cette connectivité directe est un facteur déterminant pour la <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">rentabilité locative saisonnière</a></strong> : vos locataires viennent directement, sans escale, ce qui élargit considérablement le bassin de clientèle potentielle.</p>
+
+      <p>En 2026, les <strong><a href="/biens" class="text-[#1B6CA8] underline">prix de l'immobilier à Djerba</a></strong> restent parmi les plus accessibles du bassin méditerranéen pour une qualité de vie et un potentiel locatif comparables.</p>
+
+      <p>C'est la combinaison gagnante qui explique l'afflux croissant d'acheteurs français, belges, suisses et allemands sur ce marché.</p>
 
       <h2>Les quartiers où investir à Djerba : analyse zone par zone</h2>
-      <p><strong>Midoun</strong> est le centre névralgique commercial et résidentiel de l'île. C'est ici que se concentrent les familles tunisiennes aisées et une partie des expatriés permanents. Le marché y est plus liquide que dans les zones touristiques, avec une demande locative à l'année plus stable. Les appartements modernes en résidence sécurisée s'échangent entre 600 et 950 DT/m², et les villas individuelles entre 800 et 1 200 DT/m². Midoun constitue un excellent point d'entrée pour un premier investissement à Djerba avec un budget maîtrisé.</p>
-      <p><strong>Houmt Souk</strong>, la capitale administrative de l'île, séduit par son charme architectural authentique. La médina, les fondouks historiques, le port de pêche et le souk central en font une adresse à fort caractère. Les riads et maisons de maître dans la médina atteignent des prix premium de 1 200 à 2 500 DT/m², mais offrent un potentiel de valorisation patrimoniale exceptionnel, notamment depuis le classement UNESCO qui protège cette architecture.</p>
-      <p><strong>Aghir</strong> concentre une grande partie des zones hôtelières et des complexes résidentiels balnéaires sur la côte est de l'île. C'est ici que la rentabilité locative estivale est la plus forte, portée par la demande touristique internationale. Les villas avec piscine y sont très recherchées et peuvent générer des revenus locatifs saisonniers importants. Prix : entre 900 et 1 600 DT/m² selon la proximité de la plage.</p>
-      <p><strong>Djerba La Douce</strong> (zone Sidi Mahrez) est la zone la plus hôtelière de l'île, avec une concentration de grands complexes touristiques. Les résidences privées y sont rares mais très prisées pour la location saisonnière premium. C'est également la zone où les projets de rénovation de demeures traditionnelles offrent les plus belles plus-values potentielles.</p>
-      <p><strong>Erriadh</strong> (anciennement Hara Sghira) est le village juif historique de Djerba, célèbre pour sa synagogue de la Ghriba, lieu de pèlerinage international. Ce village à l'architecture unique, ses ruelles peintes par des artistes du monde entier dans le cadre du festival Djerbahood, attire une clientèle de touristes culturels à fort pouvoir d'achat. Les maisons traditionnelles à rénover y constituent une niche d'investissement originale.</p>
+
+      <p>Tous les quartiers de Djerba ne se valent pas en termes de potentiel locatif et de valorisation patrimoniale. Voici notre analyse détaillée des principales zones d'investissement :</p>
+
+      <h3>Midoun et la zone hôtelière</h3>
+      <p><strong>Midoun</strong> concentre la majorité des hôtels, des commerces touristiques et des infrastructures de loisirs de l'île. Cette zone bénéficie de la proximité immédiate de l'aéroport (15 minutes) et de l'animation permanente liée au tourisme de masse.</p>
+
+      <p>Prix au m² : entre 800 et 1 500 DT selon la proximité de la plage. Les villas avec piscine se vendent entre 120 000 et 250 000 euros.</p>
+
+      <p>Rentabilité locative saisonnière : 12 à 18% brut. C'est la zone la plus demandée par les touristes européens qui recherchent commodité, plage et services. Si vous visez la <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">location saisonnière courte durée</a></strong>, Midoun est le choix rationnel.</p>
+
+      <h3>Houmt Souk, la capitale djerbienne</h3>
+      <p><strong>Houmt Souk</strong> est le centre administratif, commercial et culturel de Djerba. Son marché couvert, sa médina aux ruelles étroites, son port de pêche et ses cafés traditionnels attirent une clientèle plus urbaine, moins centrée sur la plage.</p>
+
+      <p>Prix au m² : entre 600 et 1 200 DT. Les biens anciens rénovés dans la médina offrent un charme authentique très recherché.</p>
+
+      <p>Rentabilité : 8 à 12%. La demande locative est plus stable, moins saisonnière, avec une clientèle de voyageurs culturels et de travailleurs en mission longue durée. Pour un <strong><a href="/services" class="text-[#1B6CA8] underline">investissement sécurisé</a></strong>, c'est une valeur sûre.</p>
+
+      <h3>Aghir et la côte est</h3>
+      <p><strong>Aghir</strong> et la côte est de Djerba offrent des plages sauvages, moins fréquentées, avec un cachet préservé. C'est le territoire des investisseurs qui recherchent l'authenticité et la tranquillité, quitte à sacrifier un peu de rentabilité immédiate.</p>
+
+      <p>Prix au m² : entre 500 et 900 DT. Les terrains constructibles se négocient à partir de 40 000 euros pour 500 m².</p>
+
+      <p>Rentabilité : 6 à 10%. La valorisation à long terme est privilégiée ici, portée par la rareté croissante des biens en bord de mer préservé. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens disponibles sur la côte est</a></strong>.</p>
 
       <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">Simulation investissement type</p>
-        <p>Villa 4 chambres avec piscine à Aghir, achetée 160 000€ :<br/>
-        — 14 semaines haute saison à 2 200€/sem = 30 800€<br/>
-        — 8 semaines moyenne saison à 950€/sem = 7 600€<br/>
-        — Revenus bruts annuels : 38 400€ soit <strong>24% brut</strong><br/>
-        — Après charges (gestion 20%, entretien, taxes) : <strong>12 à 15% net</strong></p>
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Notre recommandation géographique</p>
+        <p>Pour un premier investissement à Djerba, privilégiez <strong>Midoun</strong> : excellente liquidité du marché, forte demande locative saisonnière, infrastructures touristiques développées. Pour un projet patrimonial à 10-15 ans, explorez <strong>Aghir</strong> et la côte est.</p>
       </div>
 
-      <h2>Rentabilité locative : les chiffres réels du marché 2026</h2>
-      <p>La saison haute à Djerba s'étend de mi-juin à fin septembre, avec un pic très concentré en juillet et août où les taux d'occupation d'une villa bien positionnée et bien référencée dépassent 90%. La progression des plateformes de location entre particuliers comme Airbnb et Booking a considérablement facilité la mise en location directe sans intermédiaire, améliorant mécaniquement les marges des propriétaires.</p>
-      <p>En basse saison (octobre à mai), une clientèle de retraités européens fuyant l'hiver, de télétravailleurs nomades et de voyageurs culturels attirés par le patrimoine de l'île maintient une activité locative non négligeable. Les mois d'octobre et novembre, et dans une moindre mesure mars et avril, génèrent des taux d'occupation de 40 à 60% à des tarifs de moyenne saison.</p>
-      <p>Pour un appartement 2 chambres bien situé à Midoun ou Houmt Souk, en location mixte saisonnière et à l'année, la rentabilité brute se situe entre 7 et 10%. Pour une villa avec piscine sur la côte est, le calcul est plus favorable grâce aux tarifs hebdomadaires élevés en haute saison : rentabilité brute de 15 à 25%, nette de 8 à 15% après déduction de tous les frais de gestion, d'entretien et de fiscalité.</p>
-      <p>Ces chiffres sont significativement supérieurs à ce qu'on observe sur les marchés méditerranéens français, espagnols ou italiens comparables, où les prix d'acquisition sont trois à cinq fois plus élevés pour des rendements locatifs bruts rarement supérieurs à 5 ou 6%.</p>
+      <h2>Prix de l'immobilier à Djerba en 2026 : grille complète</h2>
 
-      <h2>Comparatif Djerba vs Hammamet vs Sousse</h2>
-      <p>La question que se posent de nombreux acheteurs est celle du choix entre les trois grandes destinations côtières tunisiennes. Voici une analyse honnête des différences :</p>
-      <p><strong>Djerba</strong> se distingue par son caractère insulaire unique, son classement UNESCO qui protège la valeur patrimoniale, une demande locative touristique internationale très diverse (Français, Allemands, Italiens, Britanniques), et des prix d'acquisition encore inférieurs à Hammamet pour des biens comparables. Le principal inconvénient est l'éloignement relatif (1h30 de route depuis l'aéroport de Tunis, ou vol direct depuis les aéroports régionaux français).</p>
-      <p><strong>Hammamet</strong> offre une plus grande variété de biens, une infrastructure commerciale plus développée et une demande locative à l'année plus solide portée par le tourisme de santé et les conférences. Les prix y sont 20 à 30% plus élevés qu'à Djerba pour des biens comparables. Lire notre article détaillé sur <a href="/blog/prix-immobilier-hammamet-nabeul-2026" class="text-[#1B6CA8] underline">les prix immobiliers à Hammamet en 2026</a>.</p>
-      <p><strong>Sousse</strong> présente un marché plus urbain avec moins de cachet touristique pour la location saisonnière premium, mais une demande locative plus régulière à l'année portée par les étudiants, les professionnels et les expatriés. Idéale pour un investissement locatif de long terme avec moins de saisonnalité.</p>
+      <p>Voici une grille tarifaire actualisée basée sur nos transactions récentes et notre observation quotidienne du marché djerbien :</p>
 
-      <h2>Le processus d'achat spécifique à Djerba</h2>
-      <p>Djerba présente plusieurs spécificités administratives que les acheteurs doivent anticiper. Premièrement, une partie significative du foncier djerbien a un statut particulier lié à l'histoire agricole et communautaire de l'île. Les oliviers, très présents sur l'île, sont protégés par une législation spéciale qui peut compliquer certaines transactions foncières. Votre notaire devra vérifier le statut exact du terrain attaché à tout bien avec jardin ou terrain.</p>
-      <p>Deuxièmement, le classement UNESCO de 2023 a créé de nouvelles réglementations sur les travaux de rénovation dans les zones protégées. Si vous achetez une maison traditionnelle à rénover dans la médina de Houmt Souk ou dans un village classé, les travaux seront soumis à validation par les autorités du patrimoine, ce qui peut allonger les délais et augmenter les coûts. C'est un facteur à intégrer dans votre plan d'investissement.</p>
-      <p>Troisièmement, l'éloignement géographique de Djerba rend la gestion à distance particulièrement importante à anticiper. Sans conciergerie locale fiable, les premières saisons locatives peuvent être compliquées. Notre réseau de partenaires locaux à Djerba couvre précisément ce besoin.</p>
+      <h3>Appartements</h3>
+      <ul class="space-y-2 my-6">
+        <li><strong>Studio 35-45 m²</strong> : 35 000 à 55 000 euros selon zone et standing</li>
+        <li><strong>T2 de 60-75 m²</strong> : 50 000 à 85 000 euros</li>
+        <li><strong>T3 de 90-110 m²</strong> : 75 000 à 130 000 euros</li>
+        <li><strong>T4 de 120-150 m²</strong> : 100 000 à 180 000 euros</li>
+      </ul>
 
-      <h2>Comment CapTunisia vous accompagne sur Djerba</h2>
-      <p>Notre réseau de partenaires à Djerba nous donne accès à des biens hors-marché dans toutes les zones de l'île, y compris des propriétés jamais publiées sur les portails immobiliers. Nous travaillons avec des notaires locaux maîtrisant parfaitement les spécificités foncières djerbienness, des architectes spécialisés dans la rénovation patrimoniale, et des sociétés de conciergerie éprouvées pour la gestion locative saisonnière.</p>
-      <p>Consultez nos <a href="/biens" class="text-[#1B6CA8] underline font-medium">biens disponibles à Djerba</a> et découvrez nos <a href="/tarifs" class="text-[#1B6CA8] underline font-medium">formules d'accompagnement</a> adaptées à ce type d'investissement. Pour bien préparer votre projet, lisez aussi notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet de l'achat en Tunisie pour les Français</a> et notre article sur <a href="/blog/louer-villa-tunisie-rentabilite-saisonniere" class="text-[#1B6CA8] underline">la gestion locative saisonnière à distance</a>.</p>
+      <h3>Villas et maisons</h3>
+      <ul class="space-y-2 my-6">
+        <li><strong>Villa 150 m² sans piscine</strong> : 120 000 à 200 000 euros</li>
+        <li><strong>Villa 200 m² avec piscine</strong> : 180 000 à 320 000 euros</li>
+        <li><strong>Villa de prestige 300+ m²</strong> : 350 000 à 600 000 euros</li>
+        <li><strong>Menzel traditionnel rénové</strong> : 150 000 à 400 000 euros selon authenticité</li>
+      </ul>
+
+      <p>Ces prix incluent les biens en bon état. Pour les biens à rénover, appliquez une décote de 20 à 40% selon l'ampleur des travaux. Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Premium</a></strong> inclut l'estimation des coûts de rénovation.</p>
+
+      <h2>Rentabilité locative à Djerba : calculs réels</h2>
+
+      <p>La rentabilité locative est l'argument massue de Djerba. Mais attention aux chiffres fantasmés : voici des calculs basés sur des cas réels, frais déduits.</p>
+
+      <h3>Cas 1 : Villa T3 avec piscine à Midoun</h3>
+      <p><strong>Prix d'achat</strong> : 180 000 euros (frais inclus)<br>
+      <strong>Loyer hebdomadaire haute saison</strong> : 800 euros (juillet-août, 8 semaines)<br>
+      <strong>Loyer hebdomadaire mi-saison</strong> : 500 euros (juin, septembre, 8 semaines)<br>
+      <strong>Loyer hebdomadaire basse saison</strong> : 0 euro (bien fermé octobre-mai)</p>
+
+      <p><strong>Revenus annuels bruts</strong> : (800 × 8) + (500 × 8) = 10 400 euros<br>
+      <strong>Charges annuelles</strong> : entretien piscine (600€), taxe foncière (400€), assurance (300€), électricité/eau (500€), ménage inter-locations (800€), commission plateforme (1 040€) = 3 640 euros<br>
+      <strong>Revenus nets annuels</strong> : 10 400 - 3 640 = 6 760 euros<br>
+      <strong>Rentabilité nette</strong> : 6 760 / 180 000 = 3,75%</p>
+
+      <p>Vous constatez que la rentabilité réelle, charges déduites, est bien inférieure aux 15-18% souvent annoncés. Les 3,75% nets restent corrects pour un bien patrimonial en zone touristique, mais ce n'est pas l'eldorado.</p>
+
+      <h3>Cas 2 : Appartement T2 à Houmt Souk en location annuelle</h3>
+      <p><strong>Prix d'achat</strong> : 70 000 euros (frais inclus)<br>
+      <strong>Loyer mensuel</strong> : 400 euros (locataire résident annuel)<br>
+      <strong>Revenus annuels bruts</strong> : 4 800 euros<br>
+      <strong>Charges annuelles</strong> : taxe foncière (250€), assurance (200€), entretien (300€) = 750 euros<br>
+      <strong>Revenus nets annuels</strong> : 4 800 - 750 = 4 050 euros<br>
+      <strong>Rentabilité nette</strong> : 4 050 / 70 000 = 5,78%</p>
+
+      <p>La <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">location annuelle</a></strong> offre une rentabilité supérieure avec une gestion quasi-nulle. C'est une option sous-estimée par beaucoup d'investisseurs.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Point clé sur la rentabilité</p>
+        <p>La rentabilité brute affichée par les promoteurs ne tient jamais compte des charges, des périodes creuses et des imprévus. Calculez toujours la rentabilité NETTE, charges et fiscalité déduites. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent une simulation financière réaliste.</p>
+      </div>
+
+      <h2>Fiscalité des non-résidents à Djerba</h2>
+
+      <p>La <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité immobilière tunisienne</a></strong> pour les non-résidents est relativement simple mais mérite d'être bien comprise :</p>
+
+      <h3>Taxe foncière annuelle (TFB)</h3>
+      <p>Elle s'applique sur la valeur locative cadastrale du bien, avec un taux variant de 0,1% à 0,4% selon la zone et le type de bien. Sur une villa de 180 000 euros, comptez entre 300 et 600 euros par an.</p>
+
+      <h3>Impôt sur les revenus locatifs</h3>
+      <p>Si vous louez votre bien, vous devez déclarer les revenus locatifs en Tunisie. Le taux d'imposition est de 15% pour les revenus locatifs des non-résidents, prélevé à la source si vous passez par une agence de gestion agréée.</p>
+
+      <p>Attention : en tant que résident fiscal français, vous devez également déclarer ces revenus en France. La convention fiscale franco-tunisienne évite la double imposition : l'impôt payé en Tunisie est déductible de l'impôt français.</p>
+
+      <h3>Plus-value à la revente</h3>
+      <p>La plus-value immobilière est taxée à 10% en Tunisie pour les non-résidents. Là encore, la convention fiscale franco-tunisienne s'applique : vous pouvez déduire l'impôt tunisien de l'impôt français sur la plus-value.</p>
+
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement Sécurité et Premium</a></strong> incluent un conseil fiscal personnalisé pour optimiser votre situation.</p>
+
+      <h2>Les pièges à éviter à Djerba</h2>
+
+      <p>Djerba n'échappe pas aux pièges classiques du marché immobilier tunisien, avec quelques spécificités insulaires :</p>
+
+      <h3>Les biens en indivision</h3>
+      <p>Comme partout en Tunisie, l'<strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">indivision successorale</a></strong> est fréquente à Djerba. Vérifiez systématiquement que tous les co-indivisaires ont signé l'acte de vente.</p>
+
+      <h3>Les zones inondables</h3>
+      <p>Certaines zones basses de Djerba sont sujettes à des inondations lors des pluies automnales. Vérifiez l'historique du bien et demandez une attestation de non-inondabilité avant l'achat.</p>
+
+      <h3>Les faux menzels traditionnels</h3>
+      <p>Le menzel (maison traditionnelle djerbienne) est très recherché, et certains vendeurs vendent des constructions récentes "dans le style" menzel à prix d'authentique. Faites expertiser l'ancienneté réelle du bien avant d'acheter.</p>
+
+      <h3>Les contraintes UNESCO</h3>
+      <p>Les biens situés dans les zones classées UNESCO sont soumis à des contraintes strictes de rénovation et d'extension. Vous ne pourrez pas transformer ou agrandir librement. Vérifiez le statut exact du bien auprès de l'Agence de Mise en Valeur du Patrimoine.</p>
+
+      <p>Pour éviter tous ces pièges, faites appel à <strong><a href="/services" class="text-[#1B6CA8] underline">notre service de vérification juridique</a></strong> inclus dans toutes nos formules.</p>
+
+      <h2>Comment financer votre achat à Djerba depuis la France</h2>
+
+      <p>Le <strong><a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">financement d'un achat immobilier en Tunisie</a></strong> depuis la France suit des règles strictes :</p>
+
+      <h3>Paiement cash uniquement</h3>
+      <p>Les banques tunisiennes n'accordent pas de prêts immobiliers aux non-résidents. Vous devez financer l'achat en totalité par vos fonds propres, transférés depuis l'étranger.</p>
+
+      <h3>Crédit en France pour investir en Tunisie</h3>
+      <p>Certaines banques françaises acceptent de financer un investissement immobilier à l'étranger via un prêt personnel ou un prêt in fine. Les conditions sont strictes : apport minimal de 30%, taux d'endettement maximal de 35%, garanties solides.</p>
+
+      <p>Les taux pratiqués en 2026 se situent entre 4,5% et 6,5% selon votre profil. Sur un bien à 150 000 euros avec 50 000 euros d'apport, vous empruntez 100 000 euros sur 15 ans à 5,5%, soit 817 euros/mois.</p>
+
+      <h3>Transfert des fonds</h3>
+      <p>Tous les fonds doivent être transférés via le circuit bancaire officiel, avec conversion en dinars tunisiens auprès d'une banque agréée par la BCT. Conservez tous les justificatifs de virement et de conversion : ils conditionnent votre droit au rapatriement des fonds lors de la revente.</p>
+
+      <p>Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Sécurité</a></strong> inclut l'assistance au transfert de fonds et la vérification de la conformité bancaire.</p>
 
       <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Vous cherchez une villa ou un appartement à Djerba ?</p>
-        <p class="text-white/80 mb-6">Notre réseau local identifie des biens hors-marché dans toutes les zones de l'île.</p>
-        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert Djerba</a>
+        <p class="font-cormorant text-2xl font-light mb-3">Prêt à investir à Djerba ?</p>
+        <p class="text-white/80 mb-6">Échangeons sur votre projet : simulation financière, sélection de biens, accompagnement juridique complet.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
       </div>
     `
   },
   {
-    slug: 'quartiers-luxe-tunis-investissement',
-    titre: "Les meilleurs quartiers pour investir à Tunis en 2026 : Berges du Lac, La Marsa, Gammarth",
-    metaTitle: "Immobilier de luxe à Tunis 2026 : Berges du Lac, La Marsa, Gammarth — guide complet",
-    metaDescription: "Comparatif des quartiers haut de gamme de Tunis pour un investissement immobilier réussi en 2026 : prix au m², commodités, profil acheteur et plus-values attendues.",
-    motsCles: ["quartier luxe Tunis", "immobilier Berges du Lac Tunis", "acheter La Marsa Tunis", "immobilier Gammarth", "investir Tunis 2026"],
-    datePublication: "2026-02-01",
-    tempsLecture: 9,
-    categorie: "Destinations",
-    extrait: "Le Grand Tunis concentre plusieurs quartiers résidentiels haut de gamme très prisés des acheteurs européens. Notre comparatif détaillé 2026 pour choisir le bon secteur selon votre budget et vos objectifs.",
+    slug: 'fiscalite-immobilier-tunisie-non-residents',
+    titre: "Fiscalité immobilière en Tunisie pour les non-résidents : guide complet 2026",
+    metaTitle: "Fiscalité immobilière Tunisie non-résidents 2026 | Impôts, taxes, conventions",
+    metaDescription: "Taxe foncière, revenus locatifs, plus-values : tout comprendre sur la fiscalité immobilière tunisienne pour les non-résidents. Convention fiscale franco-tunisienne expliquée.",
+    motsCles: ["fiscalité immobilier Tunisie", "impôt Tunisie non-résident", "taxe foncière Tunisie", "convention fiscale France Tunisie"],
+    datePublication: "2026-01-20",
+    tempsLecture: 10,
+    categorie: "Fiscalité",
+    extrait: "Acheter un bien immobilier en Tunisie implique des obligations fiscales précises. Voici le guide complet de la fiscalité pour les non-résidents : taxes, impôts, conventions et optimisation légale.",
     contenu: `
-      <h2>Le Grand Tunis, un marché immobilier premium en pleine structuration</h2>
-      <p>Tunis a profondément changé ces vingt dernières années. La capitale tunisienne s'est dotée de nouveaux quartiers d'affaires et résidentiels qui rivalisent avec les standards internationaux en matière de qualité de construction, d'infrastructure et de services. Pour un acheteur européen en 2026, le Grand Tunis offre un éventail de possibilités remarquable : du prestige absolu de Sidi Bou Saïd, village classé monument historique surplombant le golfe de Carthage, aux nouvelles résidences contemporaines des Berges du Lac 2, en passant par la douceur de vivre familiale de La Marsa et le calme résidentiel de Gammarth.</p>
-      <p>Ce qui distingue le marché immobilier du Grand Tunis des autres zones côtières tunisiennes, c'est la profondeur et la diversité de la demande. Ici, les acheteurs ne sont pas uniquement des investisseurs en quête de rentabilité locative saisonnière. On trouve aussi des familles françaises d'origine tunisienne souhaitant revenir vivre au pays, des retraités européens cherchant une résidence principale à l'année dans un cadre agréable, des cadres expatriés qui travaillent à Tunis, et des investisseurs patrimoniaux attirés par la perspective de plus-values à long terme dans des quartiers dont l'offre est structurellement limitée.</p>
-      <p>En 2026, le marché du Grand Tunis montre une résilience remarquable malgré un contexte économique tunisien tendu. La demande des non-résidents reste soutenue, et les prix dans les quartiers premium continuent de progresser modérément en dinars, offrant une bonne protection patrimoniale pour les acheteurs qui financent en euros.</p>
+      <h2>Introduction : comprendre la fiscalité immobilière tunisienne</h2>
 
-      <h2>Les Berges du Lac 1 et 2 : le quartier d'affaires résidentiel</h2>
-      <p>Créées ex nihilo dans les années 1990 sur des terrains gagnés sur le lac de Tunis, les Berges du Lac constituent le quartier le plus moderne et le plus international de la capitale. Les Berges du Lac 1, développées en premier, abritent aujourd'hui les ambassades de nombreux pays, les sièges sociaux des grandes entreprises multinationales présentes en Tunisie, des hôtels cinq étoiles, des centres commerciaux et des immeubles résidentiels haut de gamme avec gardiennage 24h/24.</p>
-      <p>Les Berges du Lac 2, développées à partir des années 2000 sur une superficie plus grande, offrent un cadre plus verdoyant avec de larges avenues plantées d'arbres, des résidences fermées avec piscines communes, et des villas individuelles sur des parcelles généreuses. C'est ici que résident de nombreux diplomates, dirigeants d'entreprise et Tunisiens de la diaspora qui ont choisi de rentrer au pays.</p>
-      <p>Le marché résidentiel aux Berges du Lac se caractérise par une forte demande locative à l'année de la part des expatriés et des cadres supérieurs. Un appartement de 3 chambres bien équipé se loue entre 1 500 et 2 500 DT par mois, ce qui offre une rentabilité locative annuelle correcte entre 5 et 8%. Les prix d'acquisition varient entre 2 500 et 4 500 DT/m² pour des appartements de standing, avec des pointes sur les derniers étages avec vue sur le lac.</p>
+      <p>La <strong>fiscalité immobilière tunisienne</strong> pour les non-résidents est régie par le Code de l'Impôt sur le Revenu des Personnes Physiques et des Sociétés (IRPP-IS), et par la convention fiscale bilatérale signée entre la France et la Tunisie en 1973, révisée en 2009.</p>
 
-      <h2>La Marsa : le quartier préféré des Français</h2>
-      <p>Si vous deviez demander à dix Français résidant en Tunisie dans quel quartier ils vivent ou rêvent de vivre, neuf d'entre eux vous répondraient La Marsa. Cette station balnéaire à 20 km au nord de Tunis combine tout ce que recherche un acheteur européen : une plage de sable accessible à pied, une avenue commerçante avec restaurants, cafés et boutiques de qualité, un marché hebdomadaire animé, des écoles françaises à proximité, et une atmosphère détendue qui fait oublier qu'on est à vingt minutes du centre de la capitale.</p>
-      <p>Le marché immobilier de La Marsa est très diversifié. On y trouve des villas anciennes avec de grands jardins dans les quartiers résidentiels en retrait de la mer, des appartements modernes en résidence sécurisée avec piscine commune à deux pas de la plage, des maisons de ville sur plusieurs niveaux avec terrasse-toit et vue dégagée, et des studios ou deux-pièces dans des immeubles bien entretenus pour un premier investissement locatif.</p>
-      <p>La Marsa Corniche, le boulevard qui longe la mer, commande les prix les plus élevés : entre 2 500 et 3 800 DT/m² pour un appartement en front de mer. Le centre de La Marsa, autour de la place Saf Saf, se situe entre 1 800 et 2 800 DT/m². Les quartiers résidentiels en retrait comme La Marsa Village ou Aïn Zaghouan Nord offrent de meilleures opportunités en termes de rapport qualité-prix, entre 1 400 et 2 200 DT/m².</p>
+      <p>Cette convention est fondamentale car elle évite la double imposition : les revenus et plus-values immobilières ne sont pas taxés deux fois, une fois en Tunisie et une fois en France.</p>
+
+      <p>Pour un <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">acheteur français</a></strong>, la compréhension de ce cadre fiscal est essentielle avant tout <strong><a href="/biens" class="text-[#1B6CA8] underline">investissement immobilier</a></strong>.</p>
+
+      <p>Dans ce guide, nous détaillons chaque impôt et taxe applicable, les obligations déclaratives, et les stratégies légales d'optimisation fiscale.</p>
+
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent un conseil fiscal personnalisé pour sécuriser votre situation.</p>
+
+      <h2>La taxe foncière annuelle (TFB)</h2>
+
+      <p>La <strong>Taxe Foncière sur les propriétés Bâties (TFB)</strong> est un impôt annuel local dû par tout propriétaire d'un bien immobilier bâti en Tunisie, qu'il soit résident ou non-résident.</p>
+
+      <h3>Assiette et calcul</h3>
+      <p>La TFB est calculée sur la <strong>valeur locative cadastrale</strong> du bien, déterminée par l'administration fiscale tunisienne. Cette valeur est généralement inférieure à la valeur vénale réelle.</p>
+
+      <p>Le taux d'imposition varie selon la zone géographique et le type de bien :</p>
+
+      <ul class="space-y-2 my-6">
+        <li><strong>Zone urbaine centrale</strong> : 0,3% à 0,4% de la valeur locative cadastrale</li>
+        <li><strong>Zone urbaine périphérique</strong> : 0,2% à 0,3%</li>
+        <li><strong>Zone rurale</strong> : 0,1% à 0,2%</li>
+      </ul>
+
+      <h3>Exemple concret</h3>
+      <p>Vous possédez un appartement de 100 m² à La Marsa. La valeur locative cadastrale est estimée à 80 000 DT. La TFB s'élève à : 80 000 × 0,35% = 280 DT/an, soit environ 85 euros/an.</p>
+
+      <p>Sur une villa à <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong> de 200 m² avec valeur cadastrale de 150 000 DT : 150 000 × 0,25% = 375 DT/an, soit 115 euros/an.</p>
+
+      <h3>Paiement et échéances</h3>
+      <p>La TFB est payable en une seule fois avant le 31 mai de chaque année. Le non-paiement entraîne des pénalités de retard de 0,75% par mois, soit 9% par an.</p>
+
+      <p>Le paiement peut être effectué en ligne via le portail fiscal tunisien, ou auprès des recettes des finances locales. Pour les non-résidents, le paiement par virement bancaire international est accepté.</p>
 
       <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-        <p class="font-semibold text-[#1B6CA8] mb-2">Notre recommandation</p>
-        <p>La Marsa offre le meilleur compromis entre qualité de vie, liquidité du marché, potentiel locatif et accessibilité budgétaire. C'est le quartier que nous recommandons en priorité pour un premier achat dans le Grand Tunis, que l'objectif soit résidentiel ou locatif.</p>
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Bon à savoir</p>
+        <p>La TFB tunisienne est nettement inférieure à la taxe foncière française. Sur un bien équivalent en France, vous paieriez 3 à 5 fois plus. C'est un avantage comparatif réel pour les <strong><a href="/biens" class="text-[#1B6CA8] underline">investisseurs</a></strong>.</p>
       </div>
 
-      <h2>Gammarth : le quartier des grandes villas</h2>
-      <p>Gammarth est le quartier du luxe discret et des propriétés d'exception. Situé sur les hauteurs de la côte nord de Tunis, surplombant la mer sur plusieurs kilomètres, Gammarth est l'adresse des grandes fortunes tunisiennes, de nombreux diplomates accrédités en Tunisie, et d'une poignée d'Européens qui ont fait le choix d'une résidence principale en Tunisie sans compromis sur l'espace et la qualité.</p>
-      <p>Les biens disponibles à Gammarth sont principalement des villas individuelles sur des parcelles de 500 à 2 000 m² avec piscine, jardins paysagés et parfois vue mer directe. L'offre est restreinte et les transactions sont rares, ce qui en fait un marché peu liquide mais très stable en valeur. Les prix varient entre 2 000 et 5 000 DT/m² de surface bâtie, avec des propriétés d'exception dépassant largement ces fourchettes.</p>
-      <p>Gammarth est moins adapté à un investissement locatif pur qu'à une résidence secondaire haut de gamme ou à une stratégie patrimoniale de très long terme. La demande locative y est limitée en raison du profil très spécifique des locataires potentiels : ambassadeurs, dirigeants de grands groupes internationaux, personnalités.</p>
+      <h2>L'impôt sur les revenus locatifs</h2>
 
-      <h2>Sidi Bou Saïd : le marché des biens d'exception</h2>
-      <p>Perché sur une falaise à 20 km de Tunis, dominant le golfe de Carthage avec une vue à couper le souffle sur la mer et l'antique Carthage, Sidi Bou Saïd est classé monument historique depuis 1915. Village bleu et blanc aux ruelles pavées de marbre, aux portes ornementées et aux jardins suspendus, il est considéré comme l'une des plus belles adresses résidentielles d'Afrique du Nord.</p>
-      <p>Le marché immobilier de Sidi Bou Saïd est particulier à plusieurs titres. Premièrement, les constructions nouvelles sont totalement interdites et les rénovations strictement réglementées par les autorités du patrimoine. Cela signifie que le stock de biens disponibles est absolument fixe et ne peut qu'augmenter en valeur si la demande se maintient. Deuxièmement, les transactions se font quasi-exclusivement hors-marché, par le biais de réseaux privés et de bouche-à-oreille entre propriétaires. Les annonces publiques représentent moins de 5% des ventes réelles.</p>
-      <p>Les prix atteignent 3 500 à 6 500 DT/m² pour les riads et demeures de caractère, avec des biens d'exception dépassant ces fourchettes. L'accès à ces biens nécessite impérativement un réseau local de confiance, ce que CapTunisia vous apporte grâce à ses partenaires implantés depuis des années dans ce micro-marché.</p>
+      <p>Si vous louez votre bien en Tunisie, les <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">revenus locatifs</a></strong> sont imposables en Tunisie ET en France. La convention fiscale évite la double imposition par le système du crédit d'impôt.</p>
 
-      <h2>Les Jardins de Carthage, Ennasr et El Menzah : les alternatives accessibles</h2>
-      <p>Pour les acheteurs dont le budget ne permet pas les quartiers premium de La Marsa ou Gammarth, plusieurs quartiers résidentiels du Grand Tunis offrent un très bon rapport qualité-prix avec une qualité de vie satisfaisante.</p>
-      <p>Les Jardins de Carthage est un quartier résidentiel récent développé sur les anciennes terres agricoles au nord de Tunis, avec des immeubles modernes bien équipés, des résidences fermées et une proximité avec les zones d'activité économique du nord de la capitale. Prix entre 1 200 et 1 900 DT/m².</p>
-      <p>Ennasr, quartier résidentiel populaire auprès des classes moyennes supérieures tunisiennes et des jeunes actifs, offre une bonne infrastructure commerciale et de bonnes connexions routières. Prix entre 1 000 et 1 600 DT/m². Idéal pour un investissement locatif à l'année ciblant les cadres tunisiens.</p>
-      <p>El Menzah et El Manar sont des quartiers résidentiels établis de longue date, appréciés pour leur cadre verdoyant, leurs villas et leurs appartements spacieux. Plus éloignés de la mer, ils compensent par des prix modérés (900 à 1 500 DT/m²) et une forte demande locative annuelle portée par la proximité des universités et des hôpitaux.</p>
+      <h3>Taux d'imposition tunisien</h3>
+      <p>Les revenus locatifs des non-résidents sont soumis à une <strong>retenue à la source de 15%</strong>, prélevée directement par le locataire (si c'est une entreprise) ou par l'agence de gestion immobilière.</p>
 
-      <h2>Comment choisir son quartier selon ses objectifs</h2>
-      <p>Le choix du quartier doit être guidé par vos objectifs prioritaires. Si vous recherchez avant tout une <strong>résidence secondaire de qualité</strong> pour vos séjours personnels avec possibilité de location pendant votre absence, La Marsa est le choix évident. Si vous visez une <strong>rentabilité locative maximale</strong> avec une clientèle d'expatriés et de cadres, les Berges du Lac 2 ou les Jardins de Carthage sont plus pertinents. Si votre priorité est la <strong>valorisation patrimoniale à long terme</strong> dans un bien unique et protégé, Sidi Bou Saïd ou Gammarth s'imposent malgré les budgets plus élevés.</p>
-      <p>Notre équipe vous aide à affiner ce choix en fonction de votre situation personnelle, de votre budget et de vos contraintes. Consultez nos <a href="/services" class="text-[#1B6CA8] underline font-medium">services d'accompagnement</a> et nos <a href="/tarifs" class="text-[#1B6CA8] underline font-medium">formules disponibles</a>. Parcourez aussi notre <a href="/biens" class="text-[#1B6CA8] underline font-medium">sélection de biens dans le Grand Tunis</a>.</p>
-      <p>Pour aller plus loin, lisez notre article sur <a href="/blog/sidi-bou-said-la-marsa-immobilier-prestige" class="text-[#1B6CA8] underline">l'immobilier de prestige à Sidi Bou Saïd et La Marsa</a> et notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet de l'achat en Tunisie pour les Français</a>.</p>
+      <p>Exemple : vous louez votre villa 12 000 euros/an. La retenue à la source tunisienne est de : 12 000 × 15% = 1 800 euros.</p>
+
+      <h3>Déclaration en France</h3>
+      <p>En tant que résident fiscal français, vous devez déclarer ces revenus locatifs tunisiens dans votre déclaration de revenus française (formulaire 2042).</p>
+
+      <p>Les revenus locatifs sont imposés au barème progressif de l'impôt sur le revenu français. Si votre tranche marginale d'imposition est de 30%, l'impôt français théorique serait de : 12 000 × 30% = 3 600 euros.</p>
+
+      <h3>Crédit d'impôt pour éviter la double imposition</h3>
+      <p>Grâce à la convention franco-tunisienne, l'impôt payé en Tunisie (1 800 euros) est déductible de l'impôt français. Vous ne paierez donc en France que : 3 600 - 1 800 = 1 800 euros supplémentaires.</p>
+
+      <p>Au total, vous aurez payé 3 600 euros d'impôt (1 800 en Tunisie + 1 800 en France), soit exactement le montant dû en France sans double imposition.</p>
+
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules Sécurité et Premium</a></strong> incluent un accompagnement fiscal pour optimiser cette déclaration.</p>
+
+      <h2>L'impôt sur la plus-value immobilière</h2>
+
+      <p>Lors de la revente de votre bien en Tunisie, la plus-value réalisée est imposable. La législation tunisienne prévoit un régime spécifique pour les non-résidents.</p>
+
+      <h3>Calcul de la plus-value imposable</h3>
+      <p>Plus-value brute = Prix de vente - Prix d'acquisition</p>
+
+      <p>Le prix d'acquisition inclut le prix d'achat initial + les frais de notaire + les frais d'enregistrement + les travaux de rénovation justifiés.</p>
+
+      <p>Exemple : vous avez acheté un appartement 100 000 euros en 2020, payé 8 000 euros de frais, réalisé 15 000 euros de travaux justifiés, et revendez 150 000 euros en 2026.</p>
+
+      <p>Prix d'acquisition total = 100 000 + 8 000 + 15 000 = 123 000 euros<br>
+      Plus-value brute = 150 000 - 123 000 = 27 000 euros</p>
+
+      <h3>Taux d'imposition tunisien</h3>
+      <p>Le taux d'imposition sur la plus-value immobilière pour les non-résidents est de <strong>10%</strong>, prélevé directement lors de la signature de l'acte de vente chez le notaire.</p>
+
+      <p>Dans notre exemple : 27 000 × 10% = 2 700 euros d'impôt tunisien.</p>
+
+      <h3>Imposition en France</h3>
+      <p>En France, la plus-value immobilière sur un bien détenu à l'étranger est imposée à 19% + 17,2% de prélèvements sociaux, soit 36,2% au total.</p>
+
+      <p>Impôt français théorique : 27 000 × 36,2% = 9 774 euros.</p>
+
+      <p>Grâce au crédit d'impôt, vous déduisez l'impôt tunisien payé (2 700 euros). Vous ne paierez donc en France que : 9 774 - 2 700 = 7 074 euros supplémentaires.</p>
+
+      <h3>Abattement pour durée de détention</h3>
+      <p>La France applique un abattement progressif pour durée de détention : exonération totale après 22 ans de détention pour l'impôt sur le revenu, et après 30 ans pour les prélèvements sociaux.</p>
+
+      <p>La Tunisie ne prévoit pas d'abattement équivalent. Le taux de 10% s'applique quelle que soit la durée de détention.</p>
+
+      <p>Pour une <strong><a href="/services" class="text-[#1B6CA8] underline">stratégie patrimoniale</a></strong> sur le long terme, consultez nos experts.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Recommandation géographique</p>
+        <p>Les biens dans les zones protégées UNESCO (Djerba, médina de Tunis, Sidi Bou Saïd) bénéficient d'une protection réglementaire qui limite l'offre et soutient les prix à long terme, optimisant ainsi la plus-value potentielle. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens en zones classées</a></strong>.</p>
+      </div>
+
+      <h2>Les droits de mutation et frais de notaire</h2>
+
+      <p>Lors de l'achat, plusieurs taxes et frais sont dus. Ils ne sont pas récurrents mais doivent être budgétés dès le départ. Consultez notre <strong><a href="/blog/frais-notaire-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide complet des frais de notaire</a></strong>.</p>
+
+      <h3>Droits d'enregistrement</h3>
+      <p>Taux : <strong>3% du prix de vente</strong>, payables au moment de la signature de l'acte authentique.</p>
+
+      <p>Sur un bien à 120 000 euros : 120 000 × 3% = 3 600 euros.</p>
+
+      <h3>Frais de conservation foncière</h3>
+      <p>Taux : <strong>1% du prix de vente</strong>, pour l'immatriculation du bien à votre nom au registre foncier.</p>
+
+      <p>Sur un bien à 120 000 euros : 120 000 × 1% = 1 200 euros.</p>
+
+      <h3>Honoraires du notaire</h3>
+      <p>Entre <strong>1% et 2%</strong> du prix de vente selon la complexité de la transaction.</p>
+
+      <p>Sur un bien à 120 000 euros : 1 200 à 2 400 euros.</p>
+
+      <h3>TVA sur les biens neufs</h3>
+      <p><strong>19% de TVA</strong> applicable sur les biens neufs acquis auprès d'un promoteur immobilier. Les biens anciens (plus de 5 ans) en sont exonérés.</p>
+
+      <p>Sur un appartement neuf à 100 000 euros : 100 000 × 19% = 19 000 euros de TVA.</p>
+
+      <p>Total à payer : 119 000 euros TTC + frais de notaire et droits d'enregistrement.</p>
+
+      <h2>Optimisation fiscale légale : les stratégies à connaître</h2>
+
+      <p>Il existe plusieurs leviers légaux pour optimiser la fiscalité de votre <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">investissement immobilier en Tunisie</a></strong> :</p>
+
+      <h3>1. Privilégier les biens anciens pour éviter la TVA</h3>
+      <p>Les biens de plus de 5 ans sont exonérés de TVA. Sur un achat à 100 000 euros, cela représente 19 000 euros d'économie immédiate.</p>
+
+      <h3>2. Justifier tous les travaux de rénovation</h3>
+      <p>Les travaux réalisés augmentent le prix d'acquisition fiscal, ce qui réduit la plus-value imposable à la revente. Conservez toutes les factures et contrats d'entreprises tunisiennes agréées.</p>
+
+      <h3>3. Location annuelle vs location saisonnière</h3>
+      <p>La <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">location annuelle</a></strong> génère des revenus plus stables et une gestion administrative simplifiée. La location saisonnière offre des rendements bruts supérieurs mais implique plus de charges et de gestion.</p>
+
+      <p>Fiscalement, les deux sont imposées au même taux de 15% en Tunisie. Le choix dépend de votre stratégie patrimoniale et de votre disponibilité pour gérer le bien.</p>
+
+      <h3>4. Structurer l'investissement via une SCI</h3>
+      <p>Les Français peuvent créer une SCI (Société Civile Immobilière) de droit français pour détenir le bien tunisien. Cette structure offre des avantages en matière de transmission patrimoniale et d'optimisation fiscale, notamment en cas de détention par plusieurs associés.</p>
+
+      <p>Attention : la SCI ne modifie pas la fiscalité tunisienne (les mêmes impôts s'appliquent), mais elle optimise la fiscalité française et facilite la transmission aux héritiers.</p>
+
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules Premium</a></strong> incluent un conseil sur la structuration juridique optimale.</p>
+
+      <h2>Obligations déclaratives en Tunisie et en France</h2>
+
+      <p>En tant que propriétaire non-résident, vous avez des obligations déclaratives dans les deux pays :</p>
+
+      <h3>En Tunisie</h3>
+      <ul class="space-y-2 my-6">
+        <li><strong>Déclaration de revenus locatifs</strong> : si vous louez le bien, vous devez déposer une déclaration annuelle d'impôt sur le revenu (formulaire modèle 51) avant le 25 février de l'année N+1.</li>
+        <li><strong>Paiement de la TFB</strong> : avant le 31 mai de chaque année, même si le bien n'est pas loué.</li>
+        <li><strong>Déclaration de plus-value</strong> : lors de la revente, le notaire se charge de la déclaration et du paiement de l'impôt sur la plus-value.</li>
+      </ul>
+
+      <h3>En France</h3>
+      <ul class="space-y-2 my-6">
+        <li><strong>Déclaration du bien détenu à l'étranger</strong> : formulaire 3916 à joindre à votre déclaration de revenus annuelle. Le non-respect de cette obligation entraîne une amende de 1 500 euros par bien non déclaré.</li>
+        <li><strong>Déclaration des revenus locatifs</strong> : revenus fonciers de source étrangère à déclarer dans la case 4BK du formulaire 2042.</li>
+        <li><strong>Déclaration de plus-value</strong> : formulaire 2048-IMM à remplir lors de la revente du bien.</li>
+      </ul>
+
+      <p>Le non-respect de ces obligations entraîne des pénalités sévères : amendes, majorations, voire poursuites pénales en cas de fraude caractérisée.</p>
+
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent l'assistance déclarative pour garantir votre conformité fiscale.</p>
 
       <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-        <p class="font-cormorant text-2xl font-light mb-3">Vous cherchez un bien dans le Grand Tunis ?</p>
-        <p class="text-white/80 mb-6">Nous connaissons les bons interlocuteurs dans chaque quartier et accédons aux biens hors-marché.</p>
+        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'un conseil fiscal personnalisé ?</p>
+        <p class="text-white/80 mb-6">Échangeons sur votre situation : simulation fiscale, optimisation légale, accompagnement déclaratif.</p>
         <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Nous contacter</a>
       </div>
     `
   },
   {
-    slug: 'apporteur-affaires-immobilier-tunisie-role',
-    titre: "Pourquoi passer par un apporteur d'affaires immobilier pour acheter en Tunisie ?",
-    metaTitle: "Apporteur d'affaires immobilier Tunisie : rôle, avantages et honoraires 2026",
-    metaDescription: "Comprendre le rôle d'un apporteur d'affaires immobilier en Tunisie : différence avec l'agent, cadre légal, avantages pour les acheteurs européens et tarifs CapTunisia 2026.",
-    motsCles: ["apporteur affaires immobilier tunisie", "agent immobilier tunisie français", "acheter tunisie accompagnement", "captunisia avis", "intermédiaire immobilier tunisie"],
-    datePublication: "2026-02-15",
-    tempsLecture: 8,
-    categorie: "Notre service",
-    extrait: "Agent immobilier, mandataire, apporteur d'affaires : les différences sont cruciales quand on achète depuis la France. Découvrez pourquoi le modèle d'apporteur d'affaires de CapTunisia est souvent plus adapté aux acheteurs européens.",
+    slug: 'erreurs-eviter-achat-immobilier-tunisie',
+    titre: "Les 10 erreurs fatales à éviter lors d'un achat immobilier en Tunisie",
+    metaTitle: "10 erreurs à éviter achat immobilier Tunisie | Pièges et arnaques 2026",
+    metaDescription: "Indivision, faux titres fonciers, mandataires fictifs... Découvrez les 10 erreurs les plus courantes des acheteurs étrangers en Tunisie et comment les éviter.",
+    motsCles: ["erreurs achat immobilier Tunisie", "arnaques immobilier Tunisie", "pièges achat Tunisie", "conseils achat Tunisie"],
+    datePublication: "2026-01-22",
+    tempsLecture: 7,
+    categorie: "Guide d'achat",
+    extrait: "Indivision non résolue, titres fonciers douteux, faux mandataires... Les acheteurs étrangers tombent souvent dans les mêmes pièges. Voici les 10 erreurs à ne jamais commettre.",
     contenu: `
-<h2>Agent immobilier, mandataire, apporteur d'affaires : quelles différences ?</h2>
+      <h2>Erreur n°1 : Ne pas vérifier le titre foncier</h2>
 
-<p>Lorsque vous cherchez à acheter un bien immobilier en Tunisie depuis la France ou la Belgique, vous rencontrez inévitablement plusieurs types d'intermédiaires. Comprendre leurs différences n'est pas qu'une curiosité juridique : c'est une décision qui impacte directement votre sécurité, vos coûts et la qualité de l'accompagnement que vous recevrez.</p>
+      <p>C'est l'erreur la plus fréquente et la plus grave. En Tunisie, le système foncier distingue les biens <strong>immatriculés</strong> (avec un titre foncier TF délivré par la Conservation Foncière) des biens <strong>non immatriculés</strong> ou en cours d'immatriculation.</p>
 
-<p>En France, la profession d'agent immobilier est strictement encadrée par la <strong>loi Hoguet du 2 janvier 1970</strong>. Elle impose la détention d'une carte professionnelle (CPI), une assurance responsabilité civile professionnelle, une garantie financière et l'inscription au registre du commerce. C'est un métier réglementé, avec des obligations de formation continue depuis la loi ALUR de 2014.</p>
+      <p>Un bien sans titre foncier purgé présente des risques juridiques majeurs : propriété contestée, limites cadastrales floues, héritages non liquidés, impossibilité d'obtenir un crédit hypothécaire.</p>
 
-<p>Le <strong>mandataire immobilier</strong> est un agent commercial qui travaille sous la responsabilité d'une agence titulaire de la carte CPI. Il peut prospecter, négocier, mais ne peut pas signer d'actes en son nom propre.</p>
+      <p>Avant tout engagement, exigez la consultation du <strong>titre foncier original</strong> à la Conservation Foncière. Vérifiez que le vendeur est bien l'unique propriétaire inscrit, qu'aucune hypothèque ou servitude ne grève le bien, et que les limites cadastrales correspondent à la réalité du terrain.</p>
 
-<p>L'<strong>apporteur d'affaires</strong>, lui, joue un rôle différent : il met en relation un vendeur et un acheteur potentiel, facilite la transaction, et perçoit une rémunération à la commission sur la base de cette mise en relation. En droit français, l'apporteur d'affaires n'a pas besoin de la carte CPI dès lors qu'il ne réalise pas d'actes de transaction (rédaction de compromis, détention de fonds, représentation en acte authentique).</p>
+      <p>Notre <strong><a href="/services" class="text-[#1B6CA8] underline">service de vérification juridique</a></strong> inclut systématiquement cette étape critique. Ne signez jamais un compromis avant cette vérification.</p>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>En Tunisie, le cadre juridique de l'intermédiation immobilière est différent de la France. Les transactions sont encadrées par le <strong>Code des droits réels</strong> et les actes authentiques sont obligatoirement rédigés par un notaire tunisien. L'apporteur d'affaires intervient donc en amont : identification du bien, vérification préliminaire, négociation, coordination — mais c'est le notaire qui sécurise et finalise.</p>
-</div>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">⚠️ Signal d'alerte</p>
+        <p>Si le vendeur ou l'agent immobilier vous dit que "le titre foncier est en cours" ou "on le régularisera après la vente", FUYEZ. Un bien sans titre foncier définitif ne peut être vendu légalement à un non-résident.</p>
+      </div>
 
-<h2>Pourquoi ce modèle est particulièrement adapté aux acheteurs européens</h2>
+      <h2>Erreur n°2 : Ignorer l'indivision successorale</h2>
 
-<p>Pour un acheteur basé en France, en Belgique ou en Suisse qui souhaite acquérir un bien en Tunisie, faire appel à une agence immobilière tunisienne locale présente plusieurs limites structurelles :</p>
+      <p>Dans le droit tunisien, les biens se transmettent en <strong>indivision</strong> entre tous les héritiers. Un appartement peut ainsi appartenir légalement à dix, vingt, voire trente personnes dispersées en Tunisie, en France, au Canada...</p>
 
-<p><strong>La barrière de la langue et des usages.</strong> Les agents immobiliers tunisiens travaillent principalement en arabe et en français tunisien, avec des références culturelles et des pratiques de négociation différentes. Les délais, les modes de paiement, les habitudes de communication ne sont pas les mêmes qu'en Europe.</p>
+      <p>Si un seul co-indivisaire n'a pas expressément consenti à la vente, l'acte de vente est juridiquement nul. Vous perdez alors votre bien ET votre argent.</p>
 
-<p><strong>L'absence de référentiel de prix objectif.</strong> Sans connaissance locale du marché, un acheteur étranger peut facilement payer 20 à 40 % de plus que la valeur réelle d'un bien. Les agences locales ont des intérêts alignés avec les vendeurs (leur commission est proportionnelle au prix de vente), pas nécessairement avec vous.</p>
+      <p>Avant d'acheter, demandez à votre notaire de vérifier exhaustivement la liste complète des indivisaires, de s'assurer que tous ont signé l'acte de vente ou une procuration authentique, et de vérifier l'identité de chaque signataire.</p>
 
-<p><strong>Les vérifications juridiques incomplètes.</strong> La grande majorité des problèmes rencontrés par les Français achetant en Tunisie provient de la non-vérification préalable du titre de propriété : titres non purgés, biens en indivision, servitudes non déclarées, permis de construire manquants. Une agence locale incentivée à conclure rapidement la vente peut négliger ces points.</p>
+      <p>Cette vérification peut prendre plusieurs semaines, mais elle est absolument indispensable. Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement Sécurité et Premium</a></strong> incluent ce suivi juridique complet.</p>
 
-<p><strong>Le suivi post-achat inexistant.</strong> Une fois la commission encaissée, la relation avec l'agence s'arrête. Or, la gestion d'un bien à distance — location saisonnière, entretien, fiscalité, rapatriement des fonds — nécessite un accompagnement continu.</p>
+      <p>Pour comprendre tous les aspects juridiques, consultez notre <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet de l'achat immobilier en Tunisie</a></strong>.</p>
 
-<p>L'apporteur d'affaires spécialisé sur les acheteurs européens, comme CapTunisia, répond à ces quatre limitations spécifiques. Nous travaillons exclusivement pour l'acheteur, pas pour le vendeur. Notre rémunération est forfaitaire, pas proportionnelle au prix du bien — ce qui élimine tout conflit d'intérêts sur la négociation.</p>
+      <h2>Erreur n°3 : Payer en cash ou hors circuit bancaire</h2>
 
-<h2>Comment CapTunisia travaille concrètement</h2>
+      <p>La loi tunisienne est formelle : tout paiement lié à un <strong><a href="/biens" class="text-[#1B6CA8] underline">achat immobilier</a></strong> par un non-résident DOIT transiter par le circuit bancaire officiel, avec conversion des devises auprès d'une banque agréée par la Banque Centrale de Tunisie.</p>
 
-<p>Notre processus est structuré en étapes claires, avec des livrables définis à chaque phase. Voici comment se déroule concrètement une acquisition accompagnée par CapTunisia en 2026 :</p>
+      <p>Si vous payez en cash, par chèque non tracé, ou via un intermédiaire non identifié, vous perdez définitivement votre droit au rapatriement des fonds lors de la revente. La BCT refusera toute autorisation de sortie de devises.</p>
 
-<h3>Phase 1 : Définition du projet (gratuit)</h3>
+      <p>Conservez précieusement tous les justificatifs de virement international, toutes les attestations de conversion bancaire, et tous les reçus de paiement. Ces documents conditionnent votre capacité à récupérer votre argent dans 5, 10 ou 20 ans.</p>
 
-<p>Avant toute chose, nous organisons un <strong>entretien de qualification</strong> de 30 à 45 minutes, en visioconférence. Objectif : comprendre votre projet dans sa globalité. Pas seulement le budget et le type de bien, mais aussi vos objectifs réels : résidence secondaire pour usage personnel, investissement locatif pur, projet de retraite, combinaison des trois ?</p>
+      <p>Notre <strong><a href="/services" class="text-[#1B6CA8] underline">accompagnement</a></strong> inclut la vérification de la conformité de tous les flux financiers.</p>
 
-<p>Nous abordons également votre situation personnelle vis-à-vis de la Tunisie : avez-vous des attaches familiales ? Des expériences préalables dans le pays ? Des contraintes de calendrier pour les visites ? Cette phase est gratuite et sans engagement.</p>
+      <h2>Erreur n°4 : Faire confiance à un faux mandataire</h2>
 
-<h3>Phase 2 : Sélection et présentation des biens</h3>
+      <p>Des personnes se présentent comme propriétaires ou mandataires légaux du bien, collectent des arrhes ou un premier versement, puis disparaissent. L'arnaque est classique mais toujours efficace.</p>
 
-<p>Sur la base de votre profil, nous activons notre réseau de contacts locaux — agences tunisiennes partenaires, notaires, promoteurs, propriétaires en direct — pour identifier les biens qui correspondent réellement à vos critères. Nous réalisons une <strong>présélection rigoureuse</strong> : sur 20 biens identifiés, nous n'en présentons en moyenne que 4 à 6, ceux qui passent nos vérifications préliminaires.</p>
+      <p>Pour l'éviter :</p>
 
-<p>Chaque bien présenté est accompagné d'une <strong>fiche complète</strong> : localisation précise, photos récentes, diagnostic de l'état du titre foncier, estimation indépendante du prix de marché, points d'attention spécifiques.</p>
+      <ul class="space-y-2 my-6">
+        <li>Vérifiez l'identité du vendeur en consultant sa pièce d'identité ET en croisant avec le titre foncier.</li>
+        <li>Si le vendeur agit via un mandataire, exigez une <strong>procuration authentique</strong> établie par un notaire tunisien, et vérifiez son authenticité directement auprès du notaire.</li>
+        <li>Ne versez JAMAIS d'arrhes ou d'acompte à une personne physique. Tout paiement doit être effectué auprès du notaire, sur un compte séquestre sécurisé.</li>
+        <li>Méfiez-vous des vendeurs qui refusent de se rendre chez le notaire ou qui proposent de "simplifier les démarches" en évitant les formalités officielles.</li>
+      </ul>
 
-<h3>Phase 3 : Visite accompagnée</h3>
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services de vérification</a></strong> incluent le contrôle systématique de l'identité du vendeur et de l'authenticité de tout mandat.</p>
 
-<p>Pour les biens que vous souhaitez visiter, nous organisons la logistique complète : rendez-vous avec le vendeur ou son représentant, traduction en temps réel si nécessaire, accompagnement sur place avec un membre de notre équipe tunisienne. Nous réalisons également une <strong>vérification approfondie sur place</strong> : état réel du bien, conformité avec les documents présentés, environnement immédiat (nuisances potentielles, projets de construction voisins, accès).</p>
+      <h2>Erreur n°5 : Ne pas visiter le bien physiquement</h2>
 
-<h3>Phase 4 : Négociation et sécurisation</h3>
+      <p>Acheter sur photos ou sur plans sans avoir visité le bien physiquement est une erreur fréquente des acheteurs pressés ou éloignés. Les photos peuvent mentir, les plans peuvent être obsolètes, et la réalité du quartier peut être très différente de la description de l'agent.</p>
 
-<p>Une fois votre choix arrêté, nous gérons la <strong>négociation du prix</strong> avec le vendeur, en vous représentant et en défendant vos intérêts. Notre connaissance des prix de marché locaux nous permet de négocier de manière documentée, pas seulement intuitive. En 2025, nous avons obtenu en moyenne une réduction de 12 % par rapport au prix affiché initial.</p>
+      <p>Lors de la visite :</p>
 
-<p>Nous coordonnons ensuite avec le notaire tunisien pour la rédaction du <strong>contrat préliminaire</strong> (équivalent du compromis de vente), la vérification complète du titre foncier, et la préparation de l'acte authentique.</p>
+      <ul class="space-y-2 my-6">
+        <li>Vérifiez l'état réel du bien : fissures, humidité, installations électriques et de plomberie, état de la toiture...</li>
+        <li>Explorez le quartier : commerces, transports, sécurité, voisinage, nuisances sonores...</li>
+        <li>Discutez avec les voisins pour recueillir des informations sur le bien et le vendeur.</li>
+        <li>Visitez à différents moments de la journée pour évaluer l'ambiance et la circulation.</li>
+      </ul>
 
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Vous avez un projet d'achat en Tunisie ?</p>
-  <p class="mb-6">Discutons de votre projet en 30 minutes. Entretien gratuit et sans engagement.</p>
-  <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Prendre rendez-vous →</a>
-</div>
+      <p>Si vous ne pouvez vous déplacer, mandatez un professionnel de confiance pour effectuer la visite à votre place et vous fournir un rapport détaillé avec photos et vidéos.</p>
 
-<h2>Les trois formules CapTunisia en 2026</h2>
+      <p>Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Premium</a></strong> inclut l'accompagnement physique aux visites et un rapport d'expertise complet.</p>
 
-<p>Nous avons conçu trois niveaux d'accompagnement pour s'adapter à des profils et des besoins différents. Tous incluent la mise en relation, la sélection des biens et la coordination notariale. Ils se distinguent par le niveau de service avant, pendant et après la transaction.</p>
+      <h2>Erreur n°6 : Sous-estimer les frais annexes</h2>
 
-<h3>Formule Essentiel — 690 €</h3>
+      <p>Beaucoup d'acheteurs ne calculent que le prix affiché et découvrent trop tard l'ampleur des frais annexes. En Tunisie, ils représentent entre 7% et 10% du prix d'achat pour un bien ancien, et jusqu'à 25% pour un bien neuf (à cause de la TVA à 19%).</p>
 
-<p>C'est notre formule d'entrée, adaptée aux acheteurs qui ont déjà une bonne connaissance de la Tunisie, qui parlent peut-être l'arabe ou le français tunisien, et qui souhaitent principalement un regard extérieur et une sécurisation juridique.</p>
+      <p>Les frais à budgéter :</p>
 
-<p>Elle comprend : l'entretien de qualification, la sélection et présentation de 4 à 6 biens, la vérification préliminaire des titres, la coordination avec le notaire, et un rapport de synthèse final. Elle ne comprend pas l'accompagnement physique lors des visites (vous visitez seul ou avec votre propre réseau local).</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Droits d'enregistrement</strong> : 3% du prix de vente</li>
+        <li><strong>Frais de conservation foncière</strong> : 1% du prix</li>
+        <li><strong>Honoraires du notaire</strong> : 1% à 2%</li>
+        <li><strong>TVA</strong> : 19% sur les biens neufs uniquement</li>
+        <li><strong>Frais d'agence</strong> : 2,5% à 3% à la charge de l'acheteur</li>
+        <li><strong>Frais de traduction</strong> : 200 à 500 euros</li>
+      </ul>
 
-<h3>Formule Sécurité — 990 €</h3>
+      <p>Sur un appartement neuf à 100 000 euros, le coût total réel est de : 100 000 + 19 000 (TVA) + 3 570 (droits) + 1 190 (conservation) + 2 380 (notaire) + 3 000 (agence) + 300 (traduction) = 129 440 euros.</p>
 
-<p>Notre formule intermédiaire, la plus choisie par les primo-accédants en Tunisie. Elle ajoute à la Formule Essentiel : l'accompagnement physique lors d'une journée de visites, la négociation en votre nom avec le vendeur, et un suivi post-signature de 3 mois (aide aux démarches administratives, mise en relation avec des prestataires locaux).</p>
+      <p>Consultez notre <strong><a href="/blog/frais-notaire-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide détaillé des frais de notaire</a></strong> pour tout comprendre.</p>
 
-<h3>Formule Premium — 1 690 €</h3>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce</p>
+        <p>Privilégiez les biens de plus de 5 ans pour éviter la TVA à 19%. Sur un achat à 100 000 euros, cela représente 19 000 euros d'économie immédiate. Découvrez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens anciens disponibles</a></strong>.</p>
+      </div>
 
-<p>Notre offre complète, conçue pour les projets d'investissement ou les acheteurs qui souhaitent une délégation totale. Elle comprend tout ce qui est inclus dans les deux formules précédentes, plus : deux journées de visites, accompagnement à la signature chez le notaire, mise en place d'un dispositif de gestion locative saisonnière si souhaité, déclarations fiscales tunisiennes la première année, et un accès privilégié à notre réseau d'artisans pour d'éventuels travaux.</p>
+      <h2>Erreur n°7 : Négliger la fiscalité</h2>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Comparatif des formules</p>
-  <p><strong>Essentiel 690 €</strong> : sélection + vérification titre + coordination notariale</p>
-  <p><strong>Sécurité 990 €</strong> : + accompagnement visites + négociation + suivi 3 mois</p>
-  <p><strong>Premium 1 690 €</strong> : + 2 journées visites + signature notaire + gestion locative + fiscal an 1</p>
-  <p class="mt-3">Consultez le détail complet sur notre <a href="/tarifs" class="text-[#1B6CA8] underline">page tarifs</a>.</p>
-</div>
+      <p>Les acheteurs étrangers oublient souvent qu'ils seront soumis à une double fiscalité : tunisienne ET française. Sans optimisation, la charge fiscale peut être lourde.</p>
 
-<h2>Ce que nos honoraires incluent — et ce qu'ils évitent</h2>
+      <p>Les impôts à anticiper :</p>
 
-<p>Une question revient souvent : "690 € ou 1 690 €, c'est beaucoup ou peu ?" Pour y répondre objectivement, il faut comparer à ce que vous risquez sans accompagnement, et à ce que coûtent les alternatives.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Taxe foncière annuelle</strong> : 0,1% à 0,4% de la valeur cadastrale</li>
+        <li><strong>Impôt sur les revenus locatifs</strong> : 15% en Tunisie + barème progressif en France (avec crédit d'impôt)</li>
+        <li><strong>Impôt sur la plus-value</strong> : 10% en Tunisie + 36,2% en France (avec crédit d'impôt)</li>
+      </ul>
 
-<p><strong>Sans accompagnement</strong>, les erreurs typiques des acheteurs européens en Tunisie coûtent en moyenne entre 15 000 € et 50 000 € : surpaiement du bien (faute de référentiel de prix), frais notariaux gonflés par des intermédiaires peu scrupuleux, problèmes juridiques sur le titre découverts après l'achat, litiges avec des vendeurs indélicats. Ces situations arrivent, et elles arrivent plus souvent qu'on ne le croit.</p>
+      <p>La convention fiscale franco-tunisienne évite la double imposition, mais il faut bien comprendre son fonctionnement et respecter les obligations déclaratives dans les deux pays.</p>
 
-<p><strong>Avec une agence immobilière tunisienne classique</strong>, la commission est généralement de 3 à 5 % du prix de vente, payée par l'acheteur, par le vendeur, ou partagée. Sur un appartement à 120 000 €, cela représente entre 3 600 € et 6 000 €. Et cette commission est alignée avec le vendeur, pas avec vous.</p>
+      <p>Notre <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">guide complet de la fiscalité</a></strong> détaille tous ces aspects. Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services</a></strong> incluent un conseil fiscal personnalisé.</p>
 
-<p><strong>Avec CapTunisia</strong>, vous payez un forfait fixe, indépendant du prix du bien. Sur ce même appartement à 120 000 €, la Formule Sécurité à 990 € représente 0,83 % du prix. Et nous travaillons exclusivement pour vous.</p>
+      <h2>Erreur n°8 : Acheter dans une zone inadaptée</h2>
 
-<h2>Questions fréquentes sur notre modèle</h2>
+      <p>Tous les quartiers ne se valent pas en termes de valorisation patrimoniale et de potentiel locatif. Acheter dans une zone en déclin ou mal desservie compromet votre investissement.</p>
 
-<h3>CapTunisia peut-il acheter à ma place si je ne peux pas me déplacer ?</h3>
+      <p>Les critères à vérifier :</p>
 
-<p>Oui, dans certaines conditions. Il est possible de donner une <strong>procuration notariée</strong> à un représentant en Tunisie pour signer les actes en votre nom. Cette procuration doit être établie par un notaire français (ou belge), apostillée, et traduite en arabe par un traducteur assermenté. Nous coordonnons ce processus dans le cadre de la Formule Premium. Cela dit, nous recommandons toujours au moins une visite physique avant la signature finale.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Proximité de la mer</strong> : les biens à moins de 500 mètres de la plage conservent mieux leur valeur.</li>
+        <li><strong>Infrastructures touristiques</strong> : hôtels, restaurants, commerces, animations...</li>
+        <li><strong>Accessibilité</strong> : proximité d'un aéroport international avec vols directs depuis la France.</li>
+        <li><strong>Qualité du quartier</strong> : sécurité, entretien des espaces publics, voisinage...</li>
+        <li><strong>Projets d'aménagement</strong> : zones en développement ou au contraire en déclin.</li>
+      </ul>
 
-<h3>Est-ce que CapTunisia vend ses propres biens ?</h3>
+      <p>Les zones recommandées : <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong>, Hammamet, La Marsa, Gammarth, Sousse, Monastir. Évitez les zones isolées sans infrastructures.</p>
 
-<p>Non. Nous ne sommes pas promoteurs, nous ne détenons pas de portefeuille de biens à vendre. Nous travaillons avec l'ensemble du marché — agences locales partenaires, promoteurs, propriétaires en direct — pour vous présenter les meilleures opportunités, sans favoritisme commercial. C'est l'essence du modèle d'apporteur d'affaires indépendant.</p>
+      <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens dans les meilleures zones</a></strong>.</p>
 
-<h3>Comment CapTunisia est-il rémunéré ?</h3>
+      <h2>Erreur n°9 : Surestimer la rentabilité locative</h2>
 
-<p>Uniquement par les honoraires forfaitaires que vous nous versez selon la formule choisie. Nous ne percevons aucune commission auprès des vendeurs, agences ou notaires. Ce modèle garantit notre totale indépendance vis-à-vis des acteurs de la transaction.</p>
+      <p>Les promoteurs et agents immobiliers annoncent souvent des <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">rentabilités locatives</a></strong> de 15% à 20%. Ces chiffres sont théoriques, calculés sur la base d'une occupation à 100% et sans déduction des charges.</p>
 
-<h3>Intervenez-vous sur toute la Tunisie ?</h3>
+      <p>La réalité est souvent plus modeste :</p>
 
-<p>Notre réseau couvre principalement les zones à forte demande des acheteurs européens : Grand Tunis (La Marsa, Sidi Bou Saïd, Gammarth, Berges du Lac), Cap Bon (Hammamet, Nabeul, Yasmine Hammamet), Sfax et ses environs, Djerba et Zarzis. Pour les zones moins courantes, contactez-nous : nous évaluerons ensemble la faisabilité. Consultez nos <a href="/biens" class="text-[#1B6CA8] underline">biens disponibles actuellement</a> pour avoir une idée de nos zones d'intervention.</p>
+      <ul class="space-y-2 my-6">
+        <li>Taux d'occupation réel : 50% à 70% selon la zone et la saison</li>
+        <li>Charges annuelles : entretien, taxe foncière, assurance, électricité, eau, ménage, commissions plateformes...</li>
+        <li>Périodes creuses : octobre à mai, le bien reste souvent fermé</li>
+        <li>Concurrence : de plus en plus de biens en location saisonnière</li>
+      </ul>
 
-<h2>CapTunisia en 2026 : évolutions et nouveautés</h2>
+      <p>Une rentabilité nette réaliste se situe entre 3% et 8% selon la zone, le type de bien et la qualité de la gestion. C'est un bon complément patrimonial, mais ce n'est pas l'eldorado.</p>
 
-<p>Le marché immobilier tunisien évolue rapidement, et notre offre aussi. En 2026, nous avons intégré plusieurs nouvelles dimensions à notre accompagnement :</p>
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement</a></strong> incluent une simulation financière réaliste basée sur des cas concrets.</p>
 
-<p><strong>La vérification renforcée des titres fonciers.</strong> Après plusieurs cas complexes rencontrés chez nos clients en 2024-2025, nous avons développé un protocole de vérification en deux niveaux : vérification préliminaire au stade de la sélection, puis vérification approfondie avec notre notaire partenaire avant toute signature de contrat préliminaire. Ce double contrôle est désormais inclus dans toutes nos formules.</p>
+      <h2>Erreur n°10 : Se lancer seul sans accompagnement</h2>
 
-<p><strong>Le module fiscal.</strong> Les obligations fiscales des non-résidents propriétaires en Tunisie se sont précisées ces dernières années. Nous proposons désormais une coordination avec un cabinet comptable tunisien agréé pour les déclarations annuelles : impôt sur les revenus locatifs, taxe sur les immeubles bâtis (TIB), déclarations de rapatriement auprès de la BCT.</p>
+      <p>Face à la complexité juridique, fiscale et pratique d'un <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">achat immobilier en Tunisie</a></strong> depuis la France, l'accompagnement par un professionnel spécialisé n'est pas un luxe mais une nécessité.</p>
 
-<p><strong>La plateforme de suivi client.</strong> Chaque client CapTunisia dispose d'un espace sécurisé en ligne où il accède à tous les documents de sa transaction (titres, actes, correspondances notariales), aux photos et rapports de visite, et peut suivre l'avancement de son dossier en temps réel.</p>
+      <p>Les risques du "solo" :</p>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>Le modèle d'apporteur d'affaires indépendant est le seul modèle d'intermédiation immobilière qui travaille exclusivement pour l'acheteur. Pour un Européen qui achète en Tunisie sans connaissance locale du marché, c'est la seule façon de sécuriser son acquisition à un coût maîtrisé. Nos honoraires forfaitaires représentent en général moins de 1 % du prix du bien, pour une protection qui en vaut 10 à 20 fois plus.</p>
-</div>
+      <ul class="space-y-2 my-6">
+        <li>Méconnaissance du cadre juridique tunisien</li>
+        <li>Difficulté à identifier les bons interlocuteurs locaux (notaire, agent, avocat...)</li>
+        <li>Barrière linguistique (documents en arabe)</li>
+        <li>Distance géographique et coût des déplacements</li>
+        <li>Risque d'arnaque ou de mauvais choix</li>
+      </ul>
 
-<h2>Conclusion : choisir son intermédiaire, c'est choisir son niveau de risque</h2>
+      <p>Notre <strong><a href="/services" class="text-[#1B6CA8] underline">service d'apporteur d'affaires immobilier</a></strong> vous accompagne de A à Z : recherche du bien, vérification juridique, négociation du prix, accompagnement aux visites, suivi notarial, assistance au transfert de fonds.</p>
 
-<p>Acheter en Tunisie depuis l'Europe, c'est naviguer dans un système juridique différent, une culture de négociation différente, et un marché sans transparence des prix comparable à la France. Ce n'est pas impossible — des milliers de Français et de Belges le font chaque année avec succès. Mais les conditions de ce succès sont claires : s'entourer des bons intermédiaires, vérifier rigoureusement les titres, et ne jamais signer sous pression.</p>
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">trois formules</a></strong> (Essentiel 690€, Sécurité 990€, Premium 1 690€) s'adaptent à votre niveau de besoin et à votre budget.</p>
 
-<p>CapTunisia a été créé précisément pour répondre à ce besoin. Pas pour vendre des biens, mais pour vous aider à acheter le bon bien, au juste prix, en toute sécurité juridique.</p>
+      <p>Le coût de l'accompagnement est largement compensé par les erreurs évitées, le temps gagné, et la sécurisation de votre investissement.</p>
 
-<p>Que vous en soyez à la phase de réflexion ou que vous ayez déjà identifié un bien qui vous intéresse, notre équipe est disponible pour un premier échange sans engagement. <a href="/contact" class="text-[#1B6CA8] underline">Contactez-nous</a> pour planifier un entretien de 30 minutes.</p>
-
-<p>Et si vous souhaitez comprendre les erreurs les plus fréquentes des acheteurs européens en Tunisie avant de vous lancer, consultez notre article <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">les 7 erreurs à éviter quand on achète en Tunisie</a>, ou notre guide complet sur <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">l'achat immobilier en Tunisie pour les Français</a>. Pour comprendre comment financer votre projet depuis l'Europe, lisez notre article sur le <a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">financement d'un achat immobilier en Tunisie pour les Européens</a>.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Évitez les pièges de l'achat immobilier en Tunisie</p>
+        <p class="text-white/80 mb-6">Échangeons sur votre projet : accompagnement complet, vérification juridique, sécurisation financière.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   },
   {
-    slug: 'prix-immobilier-hammamet-nabeul-2026',
-    titre: "Prix de l'immobilier à Hammamet et Nabeul en 2026 : guide complet par quartier",
-    metaTitle: "Prix immobilier Hammamet Nabeul 2026 : appartements, villas, terrains — guide par quartier",
-    metaDescription: "Découvrez les prix au m² à Hammamet, Yasmine Hammamet, Nabeul et Hammamet Nord en 2026 : appartements, villas, terrains. Analyse complète pour acheteurs européens.",
-    motsCles: ["prix immobilier hammamet 2026", "acheter appartement hammamet", "villa hammamet prix", "immobilier nabeul cap bon", "yasmine hammamet immobilier"],
-    datePublication: "2026-03-01",
-    tempsLecture: 9,
-    categorie: "Destinations",
-    extrait: "Le Cap Bon reste la destination préférée des acheteurs français en Tunisie. Mais entre Hammamet-Nord, Yasmine Hammamet, Hammamet-Sud et Nabeul, les écarts de prix sont considérables. Guide complet des prix 2026, quartier par quartier.",
+    slug: 'frais-notaire-achat-immobilier-tunisie',
+    titre: "Frais de notaire et droits d'achat immobilier en Tunisie : guide complet",
+    metaTitle: "Frais de notaire achat immobilier Tunisie 2026 | Calcul, droits, taxes",
+    metaDescription: "Combien coûtent les frais de notaire en Tunisie ? Droits d'enregistrement, conservation foncière, TVA : grille tarifaire complète.",
+    motsCles: ["frais notaire Tunisie", "droits achat immobilier Tunisie", "frais achat Tunisie", "coût notaire Tunisie"],
+    datePublication: "2026-01-28",
+    tempsLecture: 6,
+    categorie: "Guide d'achat",
+    extrait: "Droits d'enregistrement, conservation foncière, honoraires de notaire, TVA... Les frais d'achat représentent 7% à 25% du prix. Voici le détail complet.",
     contenu: `
-<h2>Pourquoi Hammamet et Nabeul attirent autant les acheteurs européens</h2>
+      <h2>Les droits d'enregistrement : 3% du prix de vente</h2>
 
-<p>Depuis les années 1980, le Cap Bon concentre la majorité des acquisitions immobilières réalisées par des Français et des Européens en Tunisie. Ce n'est pas un hasard. La région cumule plusieurs avantages structurels qui la distinguent du reste du pays : une liaison directe avec Paris par l'aéroport international de Tunis-Carthage (1h45 de vol), une infrastructure touristique mature avec des services en français omniprésents, un marché immobilier relativement liquide et une offre variée allant du studio en résidence jusqu'à la villa de luxe avec piscine.</p>
+      <p>Les <strong>droits d'enregistrement</strong> sont une taxe d'État due lors de tout transfert de propriété immobilière en Tunisie.</p>
 
-<p>En 2026, la région connaît une dynamique particulière. La dépréciation continue du dinar tunisien face à l'euro maintient un pouvoir d'achat exceptionnel pour les acheteurs européens, tandis que la demande locative saisonnière s'est consolidée après les années post-Covid. Les prix ont progressé en dinars, mais sont restés globalement stables voire légèrement orientés à la baisse en euros sur les deux dernières années — ce qui crée une fenêtre d'opportunité pour les acheteurs bien informés.</p>
+      <p>Le taux est fixe : <strong>3% du prix de vente</strong>, quel que soit le type de bien (<strong><a href="/biens" class="text-[#1B6CA8] underline">appartement, villa, terrain</a></strong>) et sa localisation.</p>
 
-<p>Ce guide présente les prix constatés sur le marché en 2026, zone par zone, avec une analyse des tendances et des recommandations pratiques pour chaque profil d'acheteur.</p>
+      <p>Sur un bien à 100 000 euros, les droits s'élèvent à 3 000 euros. Ces droits sont payables au moment de la signature de l'acte authentique de vente chez le notaire.</p>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Note méthodologique</p>
-  <p>Les prix indiqués dans ce guide sont des fourchettes constatées sur le marché en 2026, exprimées en dinars tunisiens (DT) au m² et converties en euros au taux indicatif de 1 € = 3,35 DT (taux moyen T1 2026). Ils reflètent des transactions réelles observées dans notre réseau, complétées par une analyse du marché annonce. Ils ne constituent pas une promesse de valeur et peuvent varier selon l'état du bien, son orientation, son étage et les conditions de la transaction.</p>
-</div>
+      <h2>Les frais de conservation foncière : 1%</h2>
 
-<h2>Hammamet-Centre et Hammamet-Nord : le marché de référence</h2>
+      <p>Les <strong>frais de conservation foncière</strong> couvrent l'immatriculation du bien à votre nom au registre foncier tunisien. Taux : <strong>1% du prix de vente</strong>.</p>
 
-<p>La zone historique de Hammamet, autour de la médina et du front de mer, reste la référence du marché immobilier du Cap Bon. C'est ici que les prix sont les plus élevés et les plus stables, portés par une demande constante et une offre limitée de biens de qualité.</p>
+      <p>Sur un bien à 100 000 euros : 1 000 euros. Le délai pour recevoir le nouveau titre foncier est de 4 à 8 semaines après la signature.</p>
 
-<h3>Appartements</h3>
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent le suivi de cette démarche.</p>
 
-<p>Les appartements dans des résidences avec piscine, dans un rayon de 500 mètres de la plage, se négocient entre <strong>1 800 et 2 800 DT/m²</strong>, soit environ <strong>540 à 835 € au m²</strong>. Un appartement de 80 m² bien situé dans cette zone se situe typiquement entre 43 000 € et 67 000 €.</p>
+      <h2>Les honoraires du notaire : 1% à 2%</h2>
 
-<p>Les résidences plus éloignées de la mer (1 à 2 km) ou sans piscine descendent entre 1 200 et 1 600 DT/m² (360 à 480 €/m²). Les studios en résidence de vacances représentent souvent une catégorie à part : très recherchés pour la location saisonnière, ils se négocient de 35 000 à 55 000 € selon la résidence et les équipements.</p>
+      <p>Les honoraires du notaire tunisien varient entre <strong>1% et 2%</strong> du prix de vente selon la complexité. Sur un bien à 100 000 euros : 1 000 à 2 000 euros.</p>
 
-<h3>Villas</h3>
+      <p>Ces honoraires couvrent la rédaction de l'acte, les vérifications juridiques, et toutes les démarches administratives.</p>
 
-<p>Le marché des villas individuelles à Hammamet-Centre est tendu sur la bonne offre. Une villa de 200 m² habitables avec piscine et jardin dans un lotissement résidentiel se négocie entre <strong>200 000 et 380 000 €</strong> selon l'état, l'emplacement et les prestations. Les villas directement en front de mer ou avec vue mer peuvent dépasser 500 000 €, mais représentent une catégorie très limitée.</p>
+      <h2>La TVA sur les biens neufs : 19%</h2>
 
-<p>À Hammamet-Nord (secteur Miramar, Dar Loulou, résidences le long de la route touristique), les prix des villas sont légèrement inférieurs : comptez entre 160 000 et 280 000 € pour des prestations équivalentes. C'est souvent la zone la plus intéressante pour un acheteur recherchant le rapport qualité-prix.</p>
+      <p>La <strong>TVA à 19%</strong> s'applique uniquement sur les biens neufs acquis auprès d'un promoteur. Les biens de plus de 5 ans en sont exonérés.</p>
 
-<h2>Yasmine Hammamet : le quartier haut de gamme</h2>
+      <p>Sur un appartement neuf à 100 000 euros HT : 19 000 euros de TVA. Prix TTC : 119 000 euros.</p>
 
-<p>Créée ex nihilo dans les années 1990 sur un schéma d'urbanisme maîtrisé, Yasmine Hammamet est aujourd'hui le quartier le plus premium du Cap Bon. Son organisation en résidences fermées, ses marinas, ses complexes hôteliers internationaux et ses commerces en font un environnement différent du reste de Hammamet — plus sécurisé, plus international, plus touristique.</p>
+      <p>Cette TVA est le poste de frais le plus important. Beaucoup d'acheteurs privilégient les <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">biens anciens</a></strong> pour éviter cette taxe.</p>
 
-<h3>Appartements à Yasmine Hammamet</h3>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce fiscale</p>
+        <p>Sur un achat à 100 000 euros, choisir un bien de plus de 5 ans (exonéré de TVA) plutôt qu'un bien neuf vous fait économiser 19 000 euros immédiatement.</p>
+      </div>
 
-<p>Les appartements dans les résidences de Yasmine se négocient entre <strong>2 200 et 4 000 DT/m²</strong> (660 à 1 190 €/m²). C'est la fourchette haute du marché de Hammamet. Un appartement de 75 m² dans une résidence avec piscine et gardiennage 24h/24 se situe entre 50 000 € et 90 000 €.</p>
+      <h2>Calcul global : exemples concrets</h2>
 
-<p>La résidence La Baie des Pagodes, les Jardins de Yasmine et les résidences autour de la marina sont les adresses les plus prisées. Ces biens sont particulièrement performants en location saisonnière : leur taux d'occupation estival est supérieur à la moyenne du marché, ce qui en fait des investissements locatifs attractifs malgré des prix d'acquisition plus élevés.</p>
+      <h3>Cas 1 : Appartement ancien 100 000€</h3>
+      <ul class="space-y-2 my-6">
+        <li>Prix : 100 000 €</li>
+        <li>Droits (3%) : 3 000 €</li>
+        <li>Conservation (1%) : 1 000 €</li>
+        <li>Notaire (1,5%) : 1 500 €</li>
+        <li>Agence (2,5%) : 2 500 €</li>
+        <li>Traduction : 300 €</li>
+        <li><strong>Total : 108 300 €</strong></li>
+      </ul>
 
-<h3>Villas et maisons de ville</h3>
+      <h3>Cas 2 : Appartement neuf 100 000€ HT</h3>
+      <ul class="space-y-2 my-6">
+        <li>Prix HT : 100 000 €</li>
+        <li>TVA (19%) : 19 000 €</li>
+        <li>Prix TTC : 119 000 €</li>
+        <li>Droits (3%) : 3 570 €</li>
+        <li>Conservation (1%) : 1 190 €</li>
+        <li>Notaire (1,5%) : 1 785 €</li>
+        <li>Agence (2,5%) : 2 975 €</li>
+        <li><strong>Total : 128 520 €</strong></li>
+      </ul>
 
-<p>Les villas et maisons de ville dans les lotissements fermés de Yasmine Hammamet sont rares et chères. On dénombre peu de transactions annuelles sur ce segment. Les prix observés se situent entre <strong>350 000 et 800 000 €</strong> pour des villas de 250 à 450 m². La liquidité de ce marché est plus faible que pour les appartements.</p>
+      <p>Pour une simulation personnalisée, <strong><a href="/contact" class="text-[#1B6CA8] underline">contactez nos experts</a></strong>. Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules</a></strong> incluent cette simulation.</p>
 
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Vous cherchez un bien à Hammamet ou Nabeul ?</p>
-  <p class="mb-6">Consultez notre sélection actuelle ou parlez-nous de votre projet.</p>
-  <a href="/biens" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Voir les biens disponibles →</a>
-</div>
-
-<h2>Hammamet-Sud et Beni Khiar : les alternatives accessibles</h2>
-
-<p>Au sud de Hammamet, le long de la route de Nabeul, le marché change de nature. On passe d'un marché touristique international à un marché mixte, mi-résidentiel mi-touristique, avec des prix significativement inférieurs.</p>
-
-<p>Dans ce secteur, les appartements se négocient entre <strong>900 et 1 400 DT/m²</strong> (270 à 420 €/m²). On y trouve davantage de biens en vente directe par des propriétaires tunisiens, ce qui offre des marges de négociation plus importantes — mais aussi davantage d'incertitude sur la qualité juridique des titres.</p>
-
-<p>Pour un acheteur dont le budget est serré et qui souhaitent profiter de la proximité de Hammamet sans en payer le prix, cette zone mérite attention. Elle est en revanche moins performante en location saisonnière, car éloignée des bassins de demande touristique principale.</p>
-
-<h2>Nabeul : la ville artisanale qui attire les connaisseurs</h2>
-
-<p>Nabeul, chef-lieu du gouvernorat de Nabeul, est souvent sous-estimée par les acheteurs européens qui lui préfèrent Hammamet. C'est, selon nous, une erreur — ou en tout cas une simplification.</p>
-
-<p>Nabeul offre une vie locale authentique, un marché hebdomadaire réputé, une tradition artisanale (poterie, parfums, broderies) et un accès direct à une longue plage de sable fin. Elle attire une population de résidents permanents plus que de touristes de passage, ce qui crée un tissu social différent.</p>
-
-<h3>Prix à Nabeul en 2026</h3>
-
-<p>Les appartements à Nabeul se négocient entre <strong>800 et 1 500 DT/m²</strong> (240 à 450 €/m²), avec une prime pour les biens situés en front de mer ou dans les nouvelles résidences du bord de plage. Les villas dans les quartiers résidentiels de Nabeul (Mrezga, Ain Tmar) se négocient entre <strong>120 000 et 220 000 €</strong> pour des constructions récentes de qualité correcte.</p>
-
-<p>Le marché de Nabeul est plus opaque que celui de Hammamet : moins de transactions visibles, davantage de ventes de gré à gré, et une proportion plus importante de biens en indivision ou avec des titres complexes. Il est d'autant plus important d'être bien accompagné sur cette zone.</p>
-
-<h2>Terrains constructibles : une opportunité à étudier</h2>
-
-<p>Le marché des terrains constructibles dans le Cap Bon mérite une section à part, car il attire un profil spécifique d'acheteurs : ceux qui souhaitent construire leur bien idéal plutôt qu'acquérir l'existant.</p>
-
-<p>Les prix des terrains varient considérablement selon la zone, la superficie et surtout l'existence ou non d'un titre foncier purifié :</p>
-
-<p>À <strong>Yasmine Hammamet</strong>, les rares terrains disponibles se négocient entre 800 et 1 500 DT/m² (240 à 450 €/m²). Ils sont très rares et partent rapidement.</p>
-
-<p>À <strong>Hammamet-Centre et Nord</strong>, les terrains de 400 à 800 m² se négocient entre 300 et 700 DT/m² (90 à 210 €/m²) selon la proximité de la mer et les servitudes.</p>
-
-<p>À <strong>Hammamet-Sud et Nabeul</strong>, les terrains sont plus accessibles : entre 150 et 350 DT/m² (45 à 105 €/m²), avec des superficies souvent plus grandes.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Attention aux terrains non immatriculés</p>
-  <p>La prudence s'impose particulièrement sur les terrains. Une proportion importante des terrains en vente dans le Cap Bon ne dispose pas de titre foncier purifié (immatriculation définitive). Acheter un terrain sur la base d'un simple acte de vente sans titre foncier expose à des risques juridiques majeurs. Exigez systématiquement la production du titre foncier et sa vérification par un notaire tunisien avant tout versement.</p>
-</div>
-
-<h2>Simulation d'investissement locatif saisonnier</h2>
-
-<p>Pour les acheteurs qui envisagent un investissement locatif, voici une simulation concrète basée sur des données de marché 2026 :</p>
-
-<p><strong>Bien type : appartement 2 pièces 55 m², Hammamet-Nord, résidence avec piscine</strong></p>
-<p>Prix d'acquisition : 55 000 € (1 800 DT/m², frais d'acquisition inclus à environ 7 %)</p>
-<p>Loyer saisonnier estimé : 800 €/semaine en juillet-août, 500 €/semaine en juin et septembre, 300 €/semaine en mai et octobre</p>
-<p>Taux d'occupation estimé : 10 semaines/an (hypothèse conservatrice, 14 à 16 semaines réalisables avec bonne gestion)</p>
-<p>Revenus bruts annuels estimés : 6 500 à 8 000 €</p>
-<p>Charges annuelles estimées : syndic de copropriété (800 DT/an ≈ 240 €), taxe sur les immeubles bâtis (200 DT ≈ 60 €), entretien et petits travaux (300 €), frais de gestion locative (15 % des loyers ≈ 1 200 €)</p>
-<p>Revenu net estimé : 4 760 à 6 200 €/an</p>
-<p><strong>Rendement net : 8,7 % à 11,3 % sur prix d'acquisition</strong></p>
-
-<p>Ces rendements sont supérieurs à ceux observés sur des marchés comparables en Europe du Sud, et ce malgré l'incertitude du contexte tunisien. Ils justifient l'intérêt croissant des investisseurs français pour cette destination.</p>
-
-<h2>Comparatif : Hammamet vs Djerba vs Tunis</h2>
-
-<p>Pour les acheteurs qui hésitent entre plusieurs destinations tunisiennes, voici une synthèse comparative :</p>
-
-<p><strong>Hammamet/Nabeul</strong> : marché le plus liquide de Tunisie pour les étrangers, bonne infrastructure, facilité d'accès depuis la France, rendements locatifs corrects. Recommandé pour un premier achat ou un investissement locatif.</p>
-
-<p><strong>Djerba</strong> : prix d'acquisition plus bas pour des surfaces équivalentes, rendements locatifs potentiellement supérieurs en saison haute, mais marché moins liquide et contraintes liées au statut UNESCO. Recommandé pour les connaisseurs de l'île et les projets de villa saisonnière. Lire notre <a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">guide complet sur l'immobilier à Djerba en 2026</a>.</p>
-
-<p><strong>Grand Tunis</strong> (La Marsa, Sidi Bou Saïd, Gammarth) : marché résidentiel de prestige, peu de locatif saisonnier, davantage orienté résidence secondaire permanente ou investissement patrimonial long terme. Prix plus élevés, liquidité variable. Voir notre analyse des <a href="/blog/quartiers-luxe-tunis-investissement" class="text-[#1B6CA8] underline">quartiers de luxe à Tunis</a>.</p>
-
-<h2>Ce que vous devez vérifier avant d'acheter dans le Cap Bon</h2>
-
-<p>Quelles que soient la zone et le budget, certains points de vérification sont incontournables dans le Cap Bon :</p>
-
-<p><strong>Le titre foncier.</strong> Demandez systématiquement le numéro de titre foncier et sa consultation au Conservation Foncière compétente. Vérifiez qu'il est purifié (immatriculation définitive), qu'il ne mentionne pas de grevements, d'hypothèques ou de servitudes non signalées par le vendeur.</p>
-
-<p><strong>Le permis de construire.</strong> Pour les villas et maisons, vérifiez la conformité de la construction avec le permis délivré. Les constructions sans permis ou non conformes sont fréquentes et peuvent poser des problèmes lors de la revente.</p>
-
-<p><strong>Les charges de copropriété.</strong> Pour les appartements en résidence, renseignez-vous sur l'état des comptes du syndicat, les éventuels appels de fonds votés et le niveau d'entretien des parties communes.</p>
-
-<p><strong>L'accès aux devises.</strong> Les revenus locatifs perçus en Tunisie peuvent être rapatriés en Europe, sous conditions. Renseignez-vous sur les démarches auprès de la Banque Centrale de Tunisie avant l'achat, notamment si votre objectif est la rentabilité locative.</p>
-
-<p>Pour aller plus loin sur le cadre juridique complet de l'achat, consultez notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet pour les Français qui achètent en Tunisie</a>.</p>
-
-<h2>Notre recommandation pour 2026</h2>
-
-<p>Dans le contexte de 2026, le Cap Bon offre plusieurs configurations intéressantes selon votre profil :</p>
-
-<p><strong>Budget 40 000 à 65 000 €</strong> : Appartement 1 ou 2 pièces à Hammamet-Nord ou Hammamet-Sud en résidence avec piscine. Excellent point d'entrée pour découvrir le marché et générer des revenus locatifs saisonniers.</p>
-
-<p><strong>Budget 65 000 à 120 000 €</strong> : Appartement 2 à 3 pièces à Yasmine Hammamet ou villa de construction récente à Nabeul. Rapport qualité-prix optimal pour un usage mixte (personnel + locatif).</p>
-
-<p><strong>Budget 120 000 à 250 000 €</strong> : Villa avec piscine à Hammamet-Nord ou Hammamet-Centre. Patrimoine de qualité, liquidité correcte à la revente, usage personnel confortable.</p>
-
-<p><strong>Budget 250 000 € et plus</strong> : Villa de prestige à Yasmine Hammamet ou villa front de mer. Marché de niche, vérification renforcée recommandée, horizon de détention long terme conseillé.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>Hammamet et Nabeul restent en 2026 le marché immobilier tunisien le plus accessible et le plus liquide pour les acheteurs européens. Les prix en euros sont restés stables ou orientés à la baisse sur deux ans, créant une opportunité réelle pour les acheteurs bien préparés. La clé du succès : connaître les prix de marché réels (pas les prix affichés), vérifier scrupuleusement les titres fonciers, et s'entourer d'un accompagnement indépendant aligné avec vos intérêts.</p>
-</div>
-
-<p>Pour découvrir les biens actuellement disponibles dans le Cap Bon sélectionnés par notre équipe, consultez notre <a href="/biens" class="text-[#1B6CA8] underline">catalogue de biens</a>. Pour comprendre notre modèle d'accompagnement et nos tarifs, visitez nos pages <a href="/services" class="text-[#1B6CA8] underline">services</a> et <a href="/tarifs" class="text-[#1B6CA8] underline">tarifs</a>. Et si vous souhaitez éviter les erreurs classiques des acheteurs étrangers, lisez notre article sur les <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">7 erreurs à éviter quand on achète en Tunisie</a>.</p>
-    `
-  },
-  {
-    slug: 'fiscalite-immobilier-tunisie-non-residents',
-    titre: "Fiscalité immobilière en Tunisie pour les non-résidents : tout ce que vous devez savoir en 2026",
-    metaTitle: "Fiscalité immobilier Tunisie non-résidents 2026 : impôts, plus-value, rapatriement",
-    metaDescription: "Guide complet de la fiscalité immobilière tunisienne pour les non-résidents en 2026 : impôt sur revenus locatifs, plus-value, TIB, convention fiscale franco-tunisienne, rapatriement des fonds.",
-    motsCles: ["fiscalite immobilier tunisie non resident", "impot revenus locatifs tunisie", "plus value immobiliere tunisie", "convention fiscale france tunisie", "rapatriement fonds tunisie"],
-    datePublication: "2026-03-15",
-    tempsLecture: 10,
-    categorie: "Juridique & Fiscal",
-    extrait: "Revenus locatifs, plus-value à la revente, taxe sur les immeubles bâtis, obligations déclaratives en France et en Tunisie : la fiscalité d'un bien immobilier tunisien détenu par un non-résident est complexe mais parfaitement gérable avec une bonne préparation.",
-    contenu: `
-<h2>Pourquoi la fiscalité tunisienne mérite une attention particulière</h2>
-
-<p>Beaucoup d'acheteurs européens s'intéressent à la fiscalité tunisienne après l'achat, quand ils reçoivent leur premier avis de taxe ou leur premier loyer. C'est une erreur. La fiscalité doit être anticipée avant la signature, car elle influence directement la rentabilité réelle de votre investissement et les conditions dans lesquelles vous pourrez récupérer vos fonds.</p>
-
-<p>La bonne nouvelle : la Tunisie a signé une <strong>convention fiscale bilatérale avec la France</strong> (convention du 28 mai 1973, révisée), ce qui évite la double imposition sur la plupart des revenus immobiliers. La moins bonne nouvelle : les obligations déclaratives existent des deux côtés de la Méditerranée, et leur méconnaissance expose à des redressements.</p>
-
-<p>Ce guide couvre les quatre grandes catégories fiscales qui concernent un non-résident propriétaire en Tunisie : la taxe annuelle sur le bien, l'imposition des revenus locatifs, la fiscalité de la plus-value à la revente, et les règles de rapatriement des fonds vers l'Europe.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Avertissement</p>
-  <p>Ce guide est fourni à titre informatif. La fiscalité tunisienne évolue régulièrement, et votre situation personnelle (résidence fiscale, structure d'acquisition, type de bien) peut modifier les règles applicables. Consultez un expert-comptable tunisien agréé avant toute décision fiscale importante.</p>
-</div>
-
-<h2>La taxe sur les immeubles bâtis (TIB)</h2>
-
-<p>La <strong>taxe sur les immeubles bâtis (TIB)</strong> est l'équivalent tunisien de la taxe foncière française. Elle est due annuellement par tout propriétaire d'un bien immobilier en Tunisie, résident ou non-résident.</p>
-
-<h3>Base de calcul et taux</h3>
-
-<p>La TIB est calculée sur la <strong>valeur locative cadastrale</strong> du bien, fixée administrativement et généralement inférieure à la valeur locative réelle du marché. Le taux varie selon la catégorie de la commune : il est plus élevé dans les grandes villes et zones touristiques (Tunis, Sousse, Sfax, Hammamet) que dans les communes rurales.</p>
-
-<p>Pour un appartement de 80 m² à Hammamet, la TIB annuelle se situe typiquement entre <strong>150 et 400 DT</strong> (45 à 120 €), selon la localisation précise et la valeur locative cadastrale retenue. Pour une villa avec piscine, comptez entre 500 et 1 500 DT (150 à 450 €) par an.</p>
-
-<h3>Modalités de paiement</h3>
-
-<p>La TIB est émise par l'administration municipale et payable en principe en deux tranches : la première avant le 31 mars, la seconde avant le 31 août. En pratique, les avis sont souvent émis avec retard. Pour un non-résident, il est fortement conseillé de mandater un représentant local (un avocat, un comptable ou un gestionnaire de bien) pour suivre et régler ces taxes en votre nom.</p>
-
-<p>Les pénalités de retard s'appliquent sur la TIB non payée, avec un taux mensuel de 1,25 %. Sur plusieurs années d'impayés, elles peuvent représenter un montant significatif.</p>
-
-<h2>L'imposition des revenus locatifs</h2>
-
-<p>Si vous louez votre bien immobilier tunisien — que ce soit en location saisonnière ou en location longue durée — les loyers perçus sont imposables en Tunisie au titre de l'impôt sur le revenu des personnes physiques (IRPP).</p>
-
-<h3>Régime fiscal applicable aux non-résidents</h3>
-
-<p>Les non-résidents qui perçoivent des revenus locatifs de source tunisienne sont soumis à l'IRPP tunisien sur ces revenus, avec une retenue à la source de <strong>15 % libératoire</strong> dans certains cas, ou une imposition au barème progressif.</p>
-
-<p>Le barème progressif tunisien de l'IRPP s'applique par tranches :</p>
-<p>— Revenus jusqu'à 5 000 DT/an : 0 %</p>
-<p>— De 5 000 à 20 000 DT/an : 26 %</p>
-<p>— De 20 000 à 30 000 DT/an : 28 %</p>
-<p>— De 30 000 à 50 000 DT/an : 32 %</p>
-<p>— Au-delà de 50 000 DT/an : 35 %</p>
-
-<p>Pour la plupart des non-résidents qui louent un appartement ou une villa en saisonnier, les revenus locatifs tunisiens restent dans la première ou deuxième tranche — soit une imposition nulle ou modérée.</p>
-
-<h3>Charges déductibles</h3>
-
-<p>Les charges liées au bien sont déductibles des revenus locatifs bruts pour le calcul de l'assiette imposable : charges de copropriété, TIB, travaux d'entretien et de réparation, frais de gestion locative, intérêts d'emprunt éventuels. En pratique, pour un bien loué en saisonnier avec des charges correctement documentées, l'assiette imposable réelle peut être significativement inférieure aux loyers bruts perçus.</p>
-
-<h3>Obligations déclaratives en Tunisie</h3>
-
-<p>Tout non-résident percevant des revenus locatifs en Tunisie doit déposer une <strong>déclaration annuelle de revenus</strong> auprès du bureau de contrôle des impôts compétent, avant le 25 avril de l'année suivante. Cette obligation est souvent méconnue des acheteurs étrangers. Son non-respect expose à des pénalités et peut bloquer le rapatriement des fonds.</p>
-
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Besoin d'un accompagnement fiscal pour votre bien en Tunisie ?</p>
-  <p class="mb-6">CapTunisia coordonne avec un cabinet comptable tunisien agréé dans le cadre de sa Formule Premium.</p>
-  <a href="/services" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Découvrir nos services →</a>
-</div>
-
-<h2>La convention fiscale franco-tunisienne et la double imposition</h2>
-
-<p>La <strong>convention fiscale entre la France et la Tunisie</strong>, signée le 28 mai 1973 et plusieurs fois amendée, prévoit des règles d'attribution du droit d'imposition entre les deux États pour éviter la double imposition.</p>
-
-<h3>Revenus locatifs</h3>
-
-<p>Pour les revenus immobiliers, la convention attribue le droit d'imposition principal à l'<strong>État de situation du bien</strong> — donc la Tunisie. La France peut également imposer ces revenus au titre de la résidence fiscale du contribuable, mais elle doit alors accorder un crédit d'impôt égal à l'impôt tunisien payé, pour éviter la double imposition.</p>
-
-<p>Concrètement : si vous payez 1 000 € d'impôt sur vos revenus locatifs tunisiens en Tunisie, vous déclarez ces revenus en France (dans votre déclaration de revenus française, case spécifique revenus de source étrangère), mais vous déduisez les 1 000 € déjà payés en Tunisie de votre impôt français. Dans la majorité des cas, si votre taux marginal d'imposition français est inférieur ou égal au taux tunisien, le solde d'impôt en France est nul.</p>
-
-<h3>Ce que vous devez déclarer en France</h3>
-
-<p>Les revenus locatifs de source tunisienne doivent être déclarés en France dans la déclaration de revenus annuelle :</p>
-<p>— Sur le formulaire 2044 (revenus fonciers) si vous optez pour le régime réel</p>
-<p>— Sur le formulaire 2047 (revenus de source étrangère) pour la ventilation et le calcul du crédit d'impôt</p>
-<p>— Sur la déclaration 3916 si vous détenez un compte bancaire en Tunisie (obligation déclarative, non fiscale)</p>
-
-<p>L'omission de ces déclarations expose à un redressement fiscal en France, avec intérêts de retard et majorations. La règle est simple : tout revenu de source étrangère perçu par un résident fiscal français doit être déclaré en France, même s'il est imposé à l'étranger.</p>
-
-<h2>La fiscalité de la plus-value immobilière</h2>
-
-<p>Lorsque vous revendez votre bien immobilier en Tunisie, la plus-value réalisée est imposable en Tunisie selon des règles spécifiques.</p>
-
-<h3>Calcul de la plus-value en Tunisie</h3>
-
-<p>La plus-value imposable est égale à la différence entre le prix de cession et le <strong>prix de revient actualisé</strong>. L'actualisation prend en compte un coefficient d'érosion monétaire (revalorisation annuelle fixée par l'administration) appliqué au prix d'acquisition. En pratique, ce mécanisme réduit significativement la base imposable, surtout sur des durées de détention longues.</p>
-
-<p>Au taux en vigueur en 2026, la plus-value immobilière nette est imposée au taux de <strong>10 %</strong> pour les non-résidents. Des exonérations existent notamment pour la résidence principale et pour les détentions de longue durée.</p>
-
-<h3>Plus-value et convention franco-tunisienne</h3>
-
-<p>La convention fiscale franco-tunisienne attribue également le droit d'imposition des plus-values immobilières à l'État de situation du bien — la Tunisie. La France peut imposer la plus-value dans sa propre déclaration, mais accorde un crédit d'impôt équivalent à l'impôt tunisien.</p>
-
-<p>Pour un bien détenu depuis plus de 22 ans (exonération totale en France des plus-values immobilières sur résidences secondaires) ou 30 ans (exonération des prélèvements sociaux), la question de la double imposition ne se pose plus côté français. Pour des détentions plus courtes, le calcul est à faire au cas par cas avec un conseiller fiscal.</p>
-
-<h2>Le rapatriement des fonds vers l'Europe</h2>
-
-<p>C'est sans doute le point qui suscite le plus d'inquiétudes chez les acheteurs européens — et à raison. La réglementation tunisienne des changes est stricte, et elle a évolué ces dernières années.</p>
-
-<h3>Le cadre général</h3>
-
-<p>La Tunisie maintient un contrôle des changes qui restreint la libre circulation des capitaux. En principe, un non-résident qui a acquis un bien immobilier en Tunisie en important des devises étrangères peut rapatrier le produit de la cession ou les revenus locatifs, sous conditions.</p>
-
-<p>La condition principale : le financement initial de l'acquisition doit avoir été réalisé par <strong>importation de devises étrangères</strong>, dûment déclarée à la Banque Centrale de Tunisie (BCT) via une banque tunisienne agréée. Si l'achat a été financé en dinars tunisiens (ce qui est interdit pour les non-résidents pour la partie principale), le rapatriement est bloqué.</p>
-
-<h3>Les démarches concrètes</h3>
-
-<p>Pour sécuriser le rapatriement futur dès l'achat :</p>
-
-<p>1. Ouvrez un <strong>compte en devises</strong> dans une banque tunisienne agréée (Banque de Tunisie, BIAT, STB, Attijari Bank). Ce compte permet de recevoir des virements internationaux en euros et de les convertir en dinars pour le paiement.</p>
-
-<p>2. Demandez à votre banque tunisienne de délivrer une <strong>attestation d'importation de devises</strong> pour chaque transfert entrant lié à l'acquisition. Conservez précieusement ces attestations : elles constituent la preuve du financement en devises, indispensable pour le rapatriement.</p>
-
-<p>3. Lors de la revente, déposez une demande de rapatriement auprès de la BCT via votre banque, en joignant les attestations d'importation initiales, l'acte de cession authentique, et la preuve de paiement des impôts tunisiens sur la plus-value.</p>
-
-<p>En pratique, les délais de traitement des demandes de rapatriement par la BCT varient entre quelques semaines et plusieurs mois. C'est un point à anticiper si vous avez besoin de vos fonds rapidement après une cession.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Règle d'or</p>
-  <p>Ne payez jamais une acquisition immobilière en Tunisie en espèces ou par virement direct depuis un compte français vers un compte personnel vendeur. Tout paiement doit transiter par votre compte en devises en Tunisie, avec traçabilité complète. C'est la condition sine qua non du rapatriement futur.</p>
-</div>
-
-<h2>Les cas particuliers à connaître</h2>
-
-<h3>Acquisition via une société tunisienne</h3>
-
-<p>Certains acheteurs envisagent d'acquérir leur bien via une société tunisienne (SARL ou SA), notamment pour faciliter la transmission ou optimiser la fiscalité locative. Ce montage présente des avantages théoriques mais des inconvénients pratiques significatifs : obligations comptables annuelles, imposition à l'IS tunisien (15 % ou 25 % selon le secteur), et complexité accrue des démarches de rapatriement. Ce montage n'est généralement pas recommandé pour une acquisition immobilière simple à usage personnel ou locatif.</p>
-
-<h3>Succession et transmission</h3>
-
-<p>La Tunisie applique le droit musulman (charia) en matière de succession, sauf disposition testamentaire contraire validée. Pour un non-résident de confession non musulmane, les règles successorales sont différentes. Il est fortement conseillé d'anticiper la transmission du bien avec un notaire tunisien et un notaire français, pour s'assurer que vos volontés seront respectées et minimiser les droits de succession.</p>
-
-<h3>Location meublée touristique et TVA</h3>
-
-<p>Si vous louez votre bien en location saisonnière via une plateforme type Airbnb ou Booking, et que vos revenus locatifs annuels dépassent un certain seuil, vous pouvez être assujetti à la TVA tunisienne (19 %) sur les loyers. Ce seuil et les obligations qui en découlent méritent d'être vérifiés avec un expert-comptable local, notamment si vous gérez plusieurs biens.</p>
-
-<h2>Checklist fiscale pour un non-résident propriétaire en Tunisie</h2>
-
-<p><strong>À l'achat :</strong> ouvrir un compte en devises en Tunisie, conserver les attestations d'importation de devises, vérifier que le notaire intègre la valeur réelle du bien dans l'acte (et non une valeur sous-évaluée).</p>
-
-<p><strong>Chaque année :</strong> payer la TIB avant les échéances, déclarer les revenus locatifs en Tunisie (si location), déclarer les revenus locatifs en France avec le formulaire 2047 et le crédit d'impôt, déclarer le compte bancaire tunisien en France (formulaire 3916).</p>
-
-<p><strong>À la revente :</strong> calculer la plus-value nette imposable avec un comptable tunisien, régler l'impôt tunisien sur la plus-value avant le transfert des fonds, rassembler les attestations d'importation initiales pour la demande de rapatriement à la BCT, déclarer la plus-value en France avec crédit d'impôt.</p>
-
-<p>Pour aller plus loin sur le processus d'achat dans son ensemble, consultez notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet pour les Français qui achètent en Tunisie</a>. Pour les questions de financement, lisez notre article sur le <a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">financement d'un achat immobilier en Tunisie pour les Européens</a>. Et pour éviter les erreurs classiques, consultez notre article sur les <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">7 erreurs à éviter quand on achète en Tunisie</a>.</p>
-
-<p>Notre équipe est disponible pour vous orienter vers les bons professionnels tunisiens (comptable, notaire, gestionnaire). <a href="/contact" class="text-[#1B6CA8] underline">Contactez-nous</a> pour en discuter.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'une simulation personnalisée ?</p>
+        <p class="text-white/80 mb-6">Calcul complet des frais, optimisation fiscale, accompagnement notarial.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   },
   {
     slug: 'financement-achat-immobilier-tunisie-europeen',
-    titre: "Financer son achat immobilier en Tunisie depuis l'Europe : toutes les options en 2026",
-    metaTitle: "Financement achat immobilier Tunisie depuis Europe 2026 : prêt, apport, options",
-    metaDescription: "Comment financer un achat immobilier en Tunisie depuis la France ou l'Europe en 2026 : prêt bancaire tunisien, prêt français, apport personnel, montages possibles et pièges à éviter.",
-    motsCles: ["financement immobilier tunisie europeen", "pret bancaire tunisie non resident", "acheter tunisie sans apport", "credit immobilier tunisie francais", "financer bien tunisie depuis france"],
-    datePublication: "2026-04-01",
-    tempsLecture: 9,
-    categorie: "Juridique & Fiscal",
-    extrait: "Peut-on obtenir un crédit immobilier en Tunisie quand on réside en France ? Peut-on utiliser un prêt français pour acheter en Tunisie ? Quelles sont les options réalistes en 2026 ? Guide complet des solutions de financement pour les acheteurs européens.",
+    titre: "Comment financer un achat immobilier en Tunisie depuis l'Europe ? Options 2026",
+    metaTitle: "Financer achat immobilier Tunisie depuis Europe | Crédit, paiement, transfert",
+    metaDescription: "Prêt immobilier, crédit français, transfert de fonds : toutes les solutions pour financer votre achat en Tunisie depuis l'Europe en 2026.",
+    motsCles: ["financement immobilier Tunisie", "crédit immobilier Tunisie", "prêt achat Tunisie", "transfert fonds Tunisie"],
+    datePublication: "2026-01-30",
+    tempsLecture: 7,
+    categorie: "Financement",
+    extrait: "Les banques tunisiennes ne prêtent pas aux non-résidents. Mais plusieurs solutions existent : crédit français, prêt personnel, apport personnel.",
     contenu: `
-<h2>La question du financement : le point que personne n'anticipe</h2>
+      <h2>La règle d'or : paiement en devises étrangères</h2>
 
-<p>La plupart des acheteurs européens en Tunisie arrivent avec une idée relativement claire de ce qu'ils veulent acheter et de son prix. Beaucoup moins ont réfléchi en amont à la manière dont ils vont financer l'acquisition. Pourtant, le financement est l'un des points les plus contraignants — et les plus mal documentés — de l'achat immobilier en Tunisie pour un non-résident.</p>
+      <p>Tout <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">achat immobilier</a></strong> par un non-résident DOIT être financé par des devises étrangères importées légalement et converties auprès d'une banque agréée.</p>
 
-<p>Les règles sont différentes de celles que vous connaissez en France. Le marché du crédit tunisien fonctionne différemment. Les banques françaises ne financent pas directement des biens situés à l'étranger dans les mêmes conditions qu'un bien en France. Et la réglementation tunisienne des changes ajoute une couche supplémentaire de contraintes.</p>
+      <p>Cette obligation conditionne votre droit au rapatriement des fonds lors de la revente. Conservez tous les justificatifs.</p>
 
-<p>Ce guide présente l'ensemble des options disponibles en 2026, leurs avantages, leurs limites et les conditions pour les activer.</p>
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services</a></strong> incluent la vérification de la conformité des flux financiers.</p>
 
-<h2>Option 1 : l'apport personnel en devises — la voie la plus directe</h2>
+      <h2>Option 1 : L'apport personnel (cash)</h2>
 
-<p>La grande majorité des acquisitions immobilières réalisées par des Européens en Tunisie sont financées par <strong>apport personnel en devises</strong>. C'est la voie la plus simple, la plus rapide et celle qui pose le moins de problèmes administratifs.</p>
+      <p>Vous financez sur vos fonds propres et transférez la totalité vers la Tunisie. Aucun intérêt d'emprunt, mais mobilise votre épargne.</p>
 
-<h3>Comment ça fonctionne</h3>
+      <p>Sur un <strong><a href="/biens" class="text-[#1B6CA8] underline">bien à 120 000€</a></strong>, prévoyez 130 000€ avec les frais.</p>
 
-<p>Vous transférez les fonds nécessaires à l'acquisition depuis votre compte bancaire européen vers votre <strong>compte en devises</strong> ouvert dans une banque tunisienne agréée. Ce virement doit être déclaré à la Banque Centrale de Tunisie (BCT) via votre banque tunisienne, qui vous remet une attestation d'importation de devises. Ces fonds sont ensuite convertis en dinars tunisiens et utilisés pour le paiement du bien.</p>
+      <h2>Option 2 : Le crédit immobilier français</h2>
 
-<p>L'attestation d'importation est un document absolument critique : c'est elle qui vous permettra, le moment venu, de rapatrier le produit d'une éventuelle revente ou vos revenus locatifs. Ne la perdez jamais. Demandez-en plusieurs exemplaires certifiés.</p>
+      <p>Certaines banques françaises financent un investissement à l'étranger. Conditions : apport 20-30%, taux 4,5-6,5%, garanties solides.</p>
 
-<h3>Les montants concernés</h3>
+      <p>Banques : Crédit Agricole, BNP Paribas, Société Générale, Caisse d'Épargne.</p>
 
-<p>La plupart des biens accessibles aux acheteurs européens en Tunisie sont dans une fourchette de prix où l'apport personnel est envisageable : entre 40 000 et 200 000 €. Pour beaucoup d'acheteurs français de 45 à 65 ans — la tranche d'âge la plus représentée parmi nos clients — cette somme est accessible via l'épargne constituée, la revente partielle d'un bien en France, ou un héritage.</p>
+      <p>Exemple : 80 000€ sur 15 ans à 5,5% = 654€/mois.</p>
 
-<p>Le prix moyen des biens acquis par nos clients CapTunisia en 2025 était de 87 000 €. Sur ce montant, l'apport moyen était de 74 000 €, le solde étant financé par crédit tunisien dans quelques cas ou par d'autres mécanismes décrits ci-dessous.</p>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce</p>
+        <p>Proposez une hypothèque sur votre résidence principale en France. Cette garantie facilite l'obtention du prêt.</p>
+      </div>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Conseil pratique</p>
-  <p>Prévoyez toujours un matelas de 10 à 15 % au-delà du prix d'achat pour couvrir les frais d'acquisition (droits d'enregistrement, conservation foncière, honoraires notariaux, frais d'agence éventuels) et les premiers travaux ou équipements. Sur un bien à 80 000 €, prévoyez donc un transfert total de 90 000 à 92 000 €.</p>
-</div>
+      <h2>Option 3 : Le prêt personnel</h2>
 
-<h2>Option 2 : le crédit immobilier tunisien pour non-résidents</h2>
+      <p>Pour moins de 75 000€ : prêt personnel sans hypothèque. Taux 6-10%, durée 1-7 ans, déblocage rapide.</p>
 
-<p>Les banques tunisiennes proposent des crédits immobiliers aux non-résidents tunisiens (NRT) — c'est-à-dire aux Tunisiens établis à l'étranger. Pour les ressortissants étrangers non d'origine tunisienne, les conditions sont plus restrictives.</p>
+      <h2>Transfert des fonds vers la Tunisie</h2>
 
-<h3>Pour les Tunisiens résidant en Europe (NRT)</h3>
+      <p>Procédure officielle :</p>
 
-<p>Les Tunisiens de l'étranger bénéficient d'un régime favorable. Plusieurs banques tunisiennes (BIAT, Attijari Bank, BNA, Banque de Tunisie) proposent des <strong>crédits immobiliers NRT</strong> avec des conditions attractives :</p>
+      <ol class="space-y-2 my-6 list-decimal list-inside">
+        <li>Virement SWIFT depuis votre banque française</li>
+        <li>Conversion en dinars auprès d'une banque tunisienne</li>
+        <li>Obtention d'une attestation de conversion</li>
+        <li>Conservation précieuse des justificatifs</li>
+      </ol>
 
-<p>— Taux d'intérêt : entre 8 % et 11 % en 2026 (taux variable indexé sur le TMM tunisien)</p>
-<p>— Durée : jusqu'à 25 ans</p>
-<p>— Quotité finançable : jusqu'à 70 % de la valeur du bien</p>
-<p>— Remboursement possible en devises depuis l'étranger</p>
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules Sécurité et Premium</a></strong> incluent l'assistance au transfert.</p>
 
-<p>Les documents requis incluent généralement : preuve de résidence étrangère, justificatifs de revenus des 3 dernières années, relevés bancaires européens, passeport tunisien, compromis de vente du bien.</p>
+      <p>Pour une simulation personnalisée, <strong><a href="/contact" class="text-[#1B6CA8] underline">contactez-nous</a></strong>.</p>
 
-<h3>Pour les ressortissants européens non tunisiens</h3>
-
-<p>La situation est plus complexe. Les banques tunisiennes peuvent en théorie accorder des crédits à des ressortissants étrangers, mais les conditions pratiques sont très restrictives : apport minimum de 50 à 70 %, garanties importantes, et peu de banques acceptent réellement ce type de dossier en 2026.</p>
-
-<p>En pratique, un Français sans origine tunisienne qui souhaite acheter en Tunisie a très peu de chances d'obtenir un crédit bancaire tunisien à des conditions acceptables. La voie du financement européen (décrite ci-dessous) est généralement plus réaliste.</p>
-
-<h2>Option 3 : mobiliser un crédit en France ou en Europe</h2>
-
-<p>Une option souvent sous-estimée : utiliser des mécanismes de financement disponibles en France ou en Europe pour financer un achat en Tunisie. Plusieurs approches sont possibles.</p>
-
-<h3>Le prêt hypothécaire sur un bien français</h3>
-
-<p>Si vous êtes déjà propriétaire en France, vous pouvez contracter un <strong>prêt hypothécaire</strong> sur votre bien français pour financer l'acquisition tunisienne. La banque française prend une hypothèque sur votre bien en France en garantie, et vous verse les fonds en euros. Vous utilisez ensuite ces fonds comme apport personnel pour l'achat tunisien.</p>
-
-<p>Avantages : taux européens (bien inférieurs aux taux tunisiens), durée longue possible, fonds disponibles rapidement. Inconvénients : votre bien français est mis en garantie, et vous payez des frais d'hypothèque.</p>
-
-<p>Ce montage est le plus utilisé par les acheteurs français qui souhaitent acquérir en Tunisie sans mobiliser leur épargne liquide. Plusieurs banques françaises proposent ce type de prêt : BNP Paribas, Crédit Agricole, Société Générale, et certaines banques en ligne.</p>
-
-<h3>Le rachat de crédit avec trésorerie</h3>
-
-<p>Si vous avez un ou plusieurs crédits en cours en France, un <strong>rachat de crédit avec trésorerie</strong> permet de regrouper vos crédits existants en un seul prêt à taux réduit, tout en dégageant une enveloppe de trésorerie supplémentaire. Cette trésorerie peut être utilisée librement — y compris pour un achat immobilier en Tunisie.</p>
-
-<p>Ce montage est particulièrement pertinent si vous avez plusieurs crédits à la consommation en cours avec des taux élevés : le rachat peut à la fois alléger votre mensualité totale et vous fournir les fonds nécessaires à votre projet tunisien.</p>
-
-<h3>Le prêt personnel ou le prêt travaux</h3>
-
-<p>Pour des montants inférieurs à 75 000 €, un <strong>prêt personnel</strong> ou un <strong>prêt travaux</strong> contracté en France peut financer tout ou partie d'un achat immobilier tunisien. Les taux en 2026 se situent entre 4 % et 7 % selon les établissements et votre profil — nettement inférieurs aux taux tunisiens.</p>
-
-<p>L'avantage de ce montage : aucune garantie immobilière requise, démarches simplifiées. L'inconvénient : durées plus courtes (5 à 10 ans maximum), ce qui implique des mensualités plus élevées.</p>
-
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Vous souhaitez structurer votre financement avant de chercher un bien ?</p>
-  <p class="mb-6">CapTunisia vous accompagne dès la phase de préparation financière de votre projet.</p>
-  <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Parlons de votre projet →</a>
-</div>
-
-<h2>Option 4 : l'assurance-vie et l'épargne investie</h2>
-
-<p>Pour les acheteurs qui ont constitué une épargne placée en assurance-vie ou en PEA, deux approches sont possibles :</p>
-
-<h3>Le rachat partiel d'assurance-vie</h3>
-
-<p>Le rachat partiel d'un contrat d'assurance-vie en euros est l'une des sources de financement les plus utilisées par les acheteurs de 50 ans et plus. Les conditions fiscales en France sont favorables après 8 ans de détention (abattement annuel de 4 600 € pour une personne seule, 9 200 € pour un couple sur les gains). Pour des montants importants, étalez les rachats sur 2 à 3 ans fiscaux pour optimiser la fiscalité.</p>
-
-<h3>L'avance sur contrat d'assurance-vie</h3>
-
-<p>Moins connue, l'<strong>avance sur contrat</strong> est une forme de prêt accordé par l'assureur sur la valeur de rachat de votre contrat. Contrairement au rachat partiel, l'avance ne génère pas d'imposition sur les plus-values : vous empruntez temporairement sur votre épargne, que vous continuez à faire fructifier. Les taux des avances sur contrat sont généralement bas (0,5 à 1,5 % au-dessus du rendement du fonds euros). C'est une option particulièrement avantageuse si votre contrat performe bien.</p>
-
-<h2>Les pièges à éviter absolument</h2>
-
-<h3>Ne jamais payer en espèces</h3>
-
-<p>Il est formellement interdit de financer l'acquisition d'un bien immobilier en Tunisie par des espèces importées physiquement. Au-delà de 10 000 € d'espèces, l'importation doit être déclarée à la douane. Et surtout, un paiement en espèces non tracé est impossible à justifier lors d'une demande de rapatriement ultérieure. Tout doit passer par des virements bancaires traçables.</p>
-
-<h3>Ne pas sous-déclarer le prix de vente</h3>
-
-<p>La pratique de la sous-déclaration du prix de vente (inscrire dans l'acte notarié un prix inférieur au prix réel, avec un complément payé "en noir") est courante en Tunisie. Elle est risquée à plusieurs titres : elle réduit la base de calcul pour le rapatriement futur, elle expose à des redressements fiscaux des deux côtés, et elle peut invalider certaines protections juridiques. Refusez systématiquement cette pratique.</p>
-
-<h3>Ne pas confondre compte courant et compte en devises</h3>
-
-<p>Un compte courant en dinars tunisiens et un compte en devises sont deux instruments différents. Seul le compte en devises (ouvert spécifiquement pour les transactions internationales) permet de recevoir des virements en euros et de justifier l'importation de devises auprès de la BCT. Assurez-vous d'ouvrir le bon type de compte avant tout transfert.</p>
-
-<h2>Simulation de financement : trois profils types</h2>
-
-<h3>Profil 1 : retraité avec épargne disponible, budget 60 000 €</h3>
-<p>Ressource utilisée : rachat partiel de contrat d'assurance-vie (contrat de 10 ans, plus-values imposées à 7,5 % après abattement). Transfert de 65 000 € (prix + frais) depuis compte français vers compte en devises tunisien. Attestation d'importation demandée à la banque tunisienne. Acquisition sans crédit.</p>
-<p>Coût du financement : 0 (hors fiscalité du rachat d'assurance-vie, limitée après abattement).</p>
-
-<h3>Profil 2 : couple de 50 ans propriétaire en France, budget 120 000 €</h3>
-<p>Ressource utilisée : prêt hypothécaire de 80 000 € sur résidence principale française (valeur 350 000 €, sans crédit en cours) + 40 000 € d'épargne liquide. Taux hypothécaire obtenu : 3,8 % sur 15 ans. Mensualité : 585 €/mois, partiellement couverte par les revenus locatifs saisonniers du bien tunisien.</p>
-<p>Coût du financement : environ 25 000 € d'intérêts sur 15 ans, partiellement déductibles des revenus fonciers.</p>
-
-<h3>Profil 3 : Tunisien résidant en France (NRT), budget 90 000 €</h3>
-<p>Ressource utilisée : apport personnel de 30 000 € + crédit NRT de 60 000 € sur 20 ans auprès d'une banque tunisienne. Taux : 9,5 % (TMM + marge). Remboursement depuis compte français en euros convertis. Mensualité : environ 540 DT/mois (≈ 160 €).</p>
-<p>Coût du financement : plus élevé qu'un crédit français, mais permet d'acquérir sans mobiliser l'intégralité de l'épargne.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>Il n'existe pas de solution de financement universelle pour un achat immobilier en Tunisie depuis l'Europe. La meilleure option dépend de votre situation patrimoniale, de votre âge, de votre résidence fiscale et de votre objectif (résidence secondaire, investissement locatif, projet de retraite). Ce qui est sûr : le financement doit être anticipé bien avant la signature, et tous les flux financiers doivent être strictement tracés pour préserver votre droit au rapatriement futur.</p>
-</div>
-
-<p>Pour comprendre la fiscalité applicable à votre bien une fois acquis, consultez notre guide complet sur la <a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité immobilière tunisienne pour les non-résidents</a>. Pour découvrir les zones et biens disponibles dans votre budget, visitez notre <a href="/biens" class="text-[#1B6CA8] underline">catalogue de biens sélectionnés</a>. Et pour un accompagnement personnalisé de votre projet de A à Z, découvrez nos <a href="/services" class="text-[#1B6CA8] underline">services</a> et nos <a href="/tarifs" class="text-[#1B6CA8] underline">tarifs</a>.</p>
-
-<p>Vous avez des questions spécifiques sur le financement de votre projet ? <a href="/contact" class="text-[#1B6CA8] underline">Contactez notre équipe</a> — nous répondons à toutes les questions de faisabilité financière dans le cadre de notre entretien de qualification gratuit.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Besoin d'aide pour financer votre achat ?</p>
+        <p class="text-white/80 mb-6">Simulation financière, accompagnement bancaire, assistance au transfert.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   },
   {
-    slug: 'louer-villa-tunisie-rentabilite-saisonniere',
-    titre: "Louer sa villa en Tunisie : guide complet de la rentabilité locative saisonnière en 2026",
-    metaTitle: "Location saisonnière villa Tunisie 2026 : rentabilité, plateformes, gestion à distance",
-    metaDescription: "Tout savoir sur la location saisonnière en Tunisie en 2026 : rendements réels, plateformes (Airbnb, Booking), gestion à distance, fiscalité et conseils pour maximiser vos revenus.",
-    motsCles: ["location saisonniere tunisie rentabilite", "louer villa tunisie airbnb", "rendement locatif tunisie 2026", "gestion locative distance tunisie", "investissement locatif tunisie"],
-    datePublication: "2026-04-15",
+    slug: 'location-saisonniere-tunisie-rentabilite',
+    titre: "Location saisonnière en Tunisie : rentabilité réelle et stratégies 2026",
+    metaTitle: "Location saisonnière Tunisie : rentabilité, revenus, gestion 2026",
+    metaDescription: "Quelle rentabilité attendre d'une location saisonnière en Tunisie ? Revenus réels, charges, fiscalité : notre analyse complète 2026.",
+    motsCles: ["location saisonnière Tunisie", "rentabilité locative Tunisie", "Airbnb Tunisie", "revenus locatifs Tunisie"],
+    datePublication: "2026-02-02",
     tempsLecture: 9,
     categorie: "Investissement",
-    extrait: "La Tunisie figure parmi les destinations méditerranéennes offrant les meilleurs rendements locatifs saisonniers pour les propriétaires européens. Mais derrière les chiffres attractifs se cachent des réalités de gestion qu'il faut anticiper. Guide complet 2026.",
+    extrait: "15% de rentabilité annoncée vs 4% de rentabilité réelle : voici la vérité sur la location saisonnière en Tunisie. Calculs concrets et stratégies gagnantes.",
     contenu: `
-<h2>Pourquoi la location saisonnière tunisienne attire les investisseurs européens</h2>
+      <h2>Le mythe des 15-20% de rentabilité</h2>
 
-<p>En 2026, la Tunisie s'est solidement repositionnée comme destination touristique méditerranéenne de premier plan. Après les années difficiles de 2015 à 2019 et la parenthèse Covid, le secteur touristique a retrouvé — et dépassé — ses niveaux d'avant-crise. Les chiffres du ministère du Tourisme tunisien indiquent une fréquentation record en 2025, portée par le retour des touristes européens, notamment français, et l'essor du tourisme maghrébin interne.</p>
+      <p>Les promoteurs annoncent des <strong>rentabilités de 15% à 20%</strong>. Ces chiffres sont calculés sur une occupation à 100%, sans charges, sans périodes creuses.</p>
 
-<p>Pour un propriétaire européen, cette dynamique se traduit par une demande locative saisonnière robuste, des tarifs en hausse exprimés en euros (portés par la dépréciation du dinar), et des coûts d'exploitation locaux (ménage, maintenance, gestion) restés très compétitifs par rapport aux standards européens.</p>
+      <p>La réalité : une <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">rentabilité nette réelle</a></strong> entre 3% et 8% selon la zone et la gestion.</p>
 
-<p>Le résultat : des rendements locatifs bruts de 8 à 18 % selon les zones et les types de biens, des niveaux que les marchés immobiliers français ou espagnols ne peuvent tout simplement pas offrir en 2026.</p>
+      <h2>Les revenus réels : taux d'occupation</h2>
 
-<h2>Les rendements réels : zone par zone</h2>
+      <p>Villa avec piscine à Hammamet (achat 180 000 euros) :</p>
 
-<p>Les chiffres de rendement locatif varient considérablement selon la localisation, le type de bien et la qualité de la gestion. Voici une analyse zone par zone basée sur des données de marché réelles observées en 2025-2026.</p>
+      <ul class="space-y-2 my-6">
+        <li>Juillet-août (8 semaines à 900€) : 7 200€</li>
+        <li>Juin-septembre (8 semaines à 550€, 70% occupation) : 3 080€</li>
+        <li>Octobre-mai (36 semaines à 300€, 15% occupation) : 1 620€</li>
+        <li><strong>Total brut annuel : 11 900€</strong></li>
+      </ul>
 
-<h3>Hammamet et Yasmine Hammamet</h3>
+      <h2>Les charges réelles</h2>
 
-<p>C'est le marché locatif saisonnier le plus développé de Tunisie pour les biens détenus par des étrangers. La demande est forte, la saison est longue (mai à octobre), et les infrastructures touristiques sont matures.</p>
+      <p>Charges annuelles incompressibles :</p>
 
-<p><strong>Appartement 2 pièces 55 m² en résidence avec piscine :</strong><br/>
-Prix d'acquisition : 55 000 à 70 000 €<br/>
-Tarif location : 600 à 900 €/semaine en haute saison (juillet-août), 350 à 500 €/semaine en moyenne saison (juin, septembre)<br/>
-Taux d'occupation estimé : 10 à 14 semaines/an avec bonne gestion<br/>
-Revenus bruts annuels : 6 000 à 10 000 €<br/>
-<strong>Rendement brut : 9 à 15 %</strong></p>
+      <ul class="space-y-2 my-6">
+        <li>Entretien piscine : 600-960€</li>
+        <li>Taxe foncière : 300-600€</li>
+        <li>Assurance : 250-400€</li>
+        <li>Électricité/eau : 960-1 800€</li>
+        <li>Ménage (15 locations) : 600-1 050€</li>
+        <li>Réparations : 500-1 000€</li>
+        <li>Commission Airbnb : 1 190-2 142€</li>
+        <li>Gestion agence (optionnel) : 1 785-2 975€</li>
+      </ul>
 
-<p><strong>Villa 4 pièces 150 m² avec piscine privée :</strong><br/>
-Prix d'acquisition : 150 000 à 220 000 €<br/>
-Tarif location : 1 500 à 2 500 €/semaine en haute saison, 900 à 1 400 €/semaine en moyenne saison<br/>
-Taux d'occupation estimé : 10 à 13 semaines/an<br/>
-Revenus bruts annuels : 14 000 à 22 000 €<br/>
-<strong>Rendement brut : 8 à 12 %</strong></p>
+      <p><strong>Total charges : 5 500€ (gestion directe) à 8 000€ (gestion déléguée)</strong></p>
 
-<h3>Djerba</h3>
+      <h2>Rentabilité nette réelle</h2>
 
-<p>Djerba offre une saisonnalité plus courte mais des tarifs plus élevés en haute saison, portés par l'image premium de l'île et la demande internationale.</p>
+      <p>Revenus bruts : 11 900€<br>
+      Charges (gestion directe) : 5 500€<br>
+      <strong>Revenus nets : 6 400€</strong><br>
+      <strong>Rentabilité nette : 3,55%</strong></p>
 
-<p><strong>Villa 3-4 pièces avec piscine :</strong><br/>
-Prix d'acquisition : 120 000 à 180 000 €<br/>
-Tarif location : 1 800 à 3 000 €/semaine en juillet-août<br/>
-Taux d'occupation estimé : 8 à 11 semaines/an (saison plus courte)<br/>
-Revenus bruts annuels : 13 000 à 22 000 €<br/>
-<strong>Rendement brut : 10 à 16 %</strong></p>
+      <p>Loin des 15-20% annoncés ! Mais correct pour un bien patrimonial en zone touristique.</p>
 
-<h3>La Marsa et Gammarth (Grand Tunis)</h3>
+      <p>Pour une simulation personnalisée, consultez nos <strong><a href="/services" class="text-[#1B6CA8] underline">services</a></strong>.</p>
 
-<p>Le marché locatif y est différent : moins de touristes internationaux, mais une demande forte de la diaspora tunisienne, des expatriés en mission et des familles tunisiennes aisées. La saison est plus longue (toute l'année pour les appartements, été surtout pour les villas de bord de mer).</p>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💰 Point clé</p>
+        <p>Calculez toujours la rentabilité NETTE, charges et fiscalité déduites. Les chiffres bruts des promoteurs sont trompeurs.</p>
+      </div>
 
-<p><strong>Appartement 3 pièces meublé La Marsa :</strong><br/>
-Prix d'acquisition : 90 000 à 140 000 €<br/>
-Location meublée longue durée : 800 à 1 400 DT/mois (240 à 420 €)<br/>
-Revenus annuels : 2 900 à 5 000 €<br/>
-<strong>Rendement brut : 3 à 5 % (longue durée)</strong></p>
+      <h2>Location annuelle : alternative sous-estimée</h2>
 
-<p>Pour la location saisonnière courte durée à La Marsa ou Gammarth : tarifs de 600 à 1 200 €/semaine en été, taux d'occupation de 8 à 12 semaines, rendement brut de 5 à 9 %. Moins performant que Hammamet ou Djerba en saisonnier pur.</p>
+      <p>Appartement T2 à Sousse (70 000 euros) :</p>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Rendement brut vs rendement net</p>
-  <p>Les rendements indiqués ci-dessus sont des rendements bruts. Pour obtenir le rendement net, il faut déduire : charges de copropriété (200 à 500 €/an), TIB (60 à 200 €/an), frais de gestion locative (12 à 18 % des loyers bruts), entretien et petits travaux (300 à 800 €/an), impôt sur les revenus locatifs en Tunisie. En pratique, le rendement net se situe entre 60 et 70 % du rendement brut selon le bien et la qualité de gestion.</p>
-</div>
+      <ul class="space-y-2 my-6">
+        <li>Loyer mensuel : 400€</li>
+        <li>Revenus annuels bruts : 4 800€</li>
+        <li>Charges : 750€</li>
+        <li><strong>Revenus nets : 4 050€</strong></li>
+        <li><strong>Rentabilité nette : 5,78%</strong></li>
+      </ul>
 
-<h2>Les plateformes de location : Airbnb, Booking et les alternatives</h2>
+      <p>Rentabilité supérieure avec gestion quasi-nulle et revenus garantis !</p>
 
-<p>En 2026, la majorité des locations saisonnières de villas et appartements en Tunisie passent par deux plateformes principales : <strong>Airbnb</strong> et <strong>Booking.com</strong>. Les deux fonctionnent bien en Tunisie, avec des audiences légèrement différentes.</p>
+      <p>Notre recommandation : pour un <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">premier investissement</a></strong>, privilégiez la location annuelle.</p>
 
-<h3>Airbnb en Tunisie</h3>
+      <h2>Meilleures zones pour location saisonnière</h2>
 
-<p>Airbnb est la plateforme dominante pour les biens haut de gamme et les villas avec piscine. Elle attire principalement des voyageurs français, belges, suisses et des Tunisiens de la diaspora. Les tarifs obtenus sur Airbnb sont en général supérieurs à ceux de Booking pour les biens de qualité, mais les frais de plateforme (3 % côté hôte) et la commission de service (jusqu'à 14 % côté voyageur) doivent être intégrés dans votre stratégie de pricing.</p>
+      <h3>1. Djerba (Midoun)</h3>
+      <p>Taux d'occupation : 65-75%<br>Rentabilité nette : 5-8%</p>
 
-<p>Points d'attention : Airbnb exige une réactivité forte aux demandes de réservation (taux de réponse et délai de réponse impactent le classement). De loin, cela nécessite un gestionnaire local capable de répondre rapidement.</p>
+      <h3>2. Hammamet</h3>
+      <p>Taux d'occupation : 60-70%<br>Rentabilité nette : 4-7%</p>
 
-<h3>Booking.com</h3>
+      <h3>3. La Marsa</h3>
+      <p>Taux d'occupation : 50-60%<br>Rentabilité nette : 3-5%</p>
 
-<p>Booking.com est plus orienté vers les voyageurs qui recherchent des logements comparables aux hôtels — notamment les familles maghrébines et les touristes de pays autres que la France. La commission prélevée sur les propriétaires est de 15 % environ. Booking est plus adapté aux appartements en résidence et aux biens à positionnement intermédiaire.</p>
+      <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens</a></strong> dans ces zones.</p>
 
-<h3>Les plateformes locales et alternatives</h3>
-
-<p>Plusieurs plateformes tunisiennes existent (Tunisie Booking, Marhaba Homes) avec une audience principalement locale. Elles génèrent des réservations complémentaires, avec des tarifs souvent inférieurs mais des frais de commission plus bas (8 à 10 %). Pour maximiser l'occupation, une présence sur 2 à 3 plateformes simultanées, synchronisées par un gestionnaire de calendrier, est recommandée.</p>
-
-<h2>La gestion locative à distance : les options réelles</h2>
-
-<p>C'est le défi central pour un propriétaire européen : comment gérer efficacement un bien à 2 000 km de distance ? Les options sont multiples, avec des niveaux de service et de coût différents.</p>
-
-<h3>Option 1 : le gestionnaire local indépendant</h3>
-
-<p>Un particulier ou un professionnel local qui gère le bien pour votre compte : accueil des locataires, remise des clés, ménage entre les séjours, petite maintenance. C'est la solution la plus répandue et souvent la moins chère (8 à 12 % des loyers), mais aussi la plus risquée : dépendance à une personne unique, qualité variable, peu de recours en cas de problème.</p>
-
-<h3>Option 2 : l'agence de gestion locative tunisienne</h3>
-
-<p>Plusieurs agences tunisiennes se sont spécialisées dans la gestion de biens pour propriétaires non-résidents. Elles proposent des services complets : publication des annonces, gestion des réservations, accueil, ménage, maintenance, reversement des loyers. Commission : 15 à 20 % des loyers bruts. C'est plus cher, mais avec une structure plus fiable et des recours plus clairs.</p>
-
-<h3>Option 3 : la conciergerie type Airbnb</h3>
-
-<p>Des sociétés de conciergerie spécialisées Airbnb/Booking se développent dans les zones touristiques tunisiennes. Elles gèrent l'intégralité de la location — du pricing dynamique à l'accueil en passant par le ménage — en échange d'une commission de 18 à 25 % des revenus. Pour un propriétaire qui veut déléguer totalement, c'est la solution la plus tranquille, au prix d'un rendement réduit.</p>
-
-<h3>Option 4 : CapTunisia Gestion</h3>
-
-<p>Dans le cadre de notre <a href="/tarifs" class="text-[#1B6CA8] underline">Formule Premium</a>, nous mettons en place un dispositif de gestion locative saisonnière coordonné avec des partenaires locaux sélectionnés. Nous assurons le suivi de la performance, la vérification des reversements et le lien entre vous et votre gestionnaire local. C'est une option particulièrement adaptée aux clients CapTunisia qui souhaitent un interlocuteur francophone et indépendant pour superviser leur gestion locative.</p>
-
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Vous cherchez un bien avec potentiel locatif fort ?</p>
-  <p class="mb-6">Notre équipe sélectionne les biens en tenant compte du potentiel locatif saisonnier réel.</p>
-  <a href="/biens" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Voir les biens disponibles →</a>
-</div>
-
-<h2>Les critères qui font un bon bien locatif en Tunisie</h2>
-
-<p>Tous les biens ne se louent pas bien. Voici les critères qui font vraiment la différence sur le marché locatif saisonnier tunisien en 2026 :</p>
-
-<p><strong>La piscine privée.</strong> C'est le critère numéro un pour les villas. Un bien avec piscine privée se loue 40 à 80 % plus cher qu'un bien équivalent sans piscine, et son taux d'occupation est significativement supérieur. Si vous achetez une villa dans une optique locative, la piscine n'est pas un luxe — c'est une nécessité commerciale.</p>
-
-<p><strong>La climatisation.</strong> En juillet-août, un bien non climatisé est pratiquement inlouable. Vérifiez que la climatisation est présente dans toutes les pièces à coucher, et qu'elle est en bon état de fonctionnement.</p>
-
-<p><strong>La connexion internet.</strong> En 2026, une connexion Wi-Fi fibre ou 4G/5G stable est devenue un critère éliminatoire pour de nombreux locataires, notamment les familles avec enfants ou les travailleurs nomades. Un bien sans connexion correcte sera systématiquement moins bien noté et moins réservé.</p>
-
-<p><strong>La proximité de la plage.</strong> La règle des 500 mètres : un bien à moins de 500 mètres d'une plage accessible se loue significativement plus cher et plus facilement qu'un bien à 1 km ou plus. L'écart de tarif peut justifier un écart de prix d'acquisition.</p>
-
-<p><strong>Le parking.</strong> Pour les familles qui arrivent en voiture depuis la France (traversée maritime Marseille-Tunis), un parking sécurisé est un critère important. Les résidences fermées avec gardiennage 24h/24 sont particulièrement appréciées.</p>
-
-<h2>Maximiser son taux d'occupation : stratégies concrètes</h2>
-
-<p>Un bien disponible n'est pas un bien réservé. Voici les stratégies qui font la différence entre un taux d'occupation de 8 semaines et 14 semaines par an :</p>
-
-<p><strong>Photos professionnelles.</strong> C'est l'investissement avec le meilleur retour sur l'ensemble de la chaîne locative. Des photos réalisées par un photographe professionnel (250 à 500 € de prestation) peuvent augmenter le taux de clics et de réservations de 30 à 50 % par rapport à des photos faites au téléphone.</p>
-
-<p><strong>Pricing dynamique.</strong> Les plateformes proposent des outils de pricing dynamique qui ajustent automatiquement vos tarifs en fonction de la demande, de la concurrence et des événements locaux. Utiliser ces outils (ou un gestionnaire qui les maîtrise) peut augmenter vos revenus de 15 à 25 % par rapport à un tarif fixe.</p>
-
-<p><strong>Gestion des avis.</strong> Sur Airbnb et Booking, les avis clients sont l'algorithme. Un bien avec 20 avis positifs à 4,8 étoiles est systématiquement mis en avant par rapport à un bien récent sans avis. Dès les premières locations, soignez particulièrement l'accueil, la propreté et la communication pour déclencher des avis positifs.</p>
-
-<p><strong>Ouverture de la réservation longtemps à l'avance.</strong> Les familles françaises réservent leur logement d'été souvent dès janvier-février. Un bien disponible à la réservation avec un calendrier ouvert sur 12 mois capte ces réservations précoces, souvent les meilleures (durée longue, locataires fiables).</p>
-
-<h2>La fiscalité des revenus locatifs : rappel essentiel</h2>
-
-<p>Les revenus locatifs perçus sur un bien tunisien sont imposables en Tunisie et doivent être déclarés en France. La convention fiscale franco-tunisienne permet d'éviter la double imposition via un mécanisme de crédit d'impôt. Pour le détail complet des obligations fiscales, consultez notre article dédié sur la <a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité immobilière tunisienne pour les non-résidents</a>.</p>
-
-<p>Point spécifique aux revenus locatifs : si vous gérez votre location via Airbnb ou Booking, ces plateformes n'effectuent pas de retenue à la source en Tunisie. C'est à vous de déclarer et régler l'impôt tunisien sur les revenus perçus, via votre déclaration annuelle tunisienne.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>La location saisonnière en Tunisie peut générer des rendements nets de 6 à 12 % selon le bien, la zone et la qualité de la gestion. Ces rendements sont réels mais conditionnels : ils supposent un bien bien choisi (piscine, localisation, équipements), une gestion locative sérieuse, et une rigueur administrative (fiscalité, rapatriement des fonds). Le bricolage à distance ne fonctionne pas sur la durée. Investissez dans une bonne gestion dès le départ — c'est ce qui transforme un investissement théorique en revenus réels.</p>
-</div>
-
-<p>Pour découvrir les biens avec le meilleur potentiel locatif sélectionnés par notre équipe, visitez notre <a href="/biens" class="text-[#1B6CA8] underline">catalogue de biens</a>. Pour comprendre notre accompagnement et nos tarifs, consultez nos pages <a href="/services" class="text-[#1B6CA8] underline">services</a> et <a href="/tarifs" class="text-[#1B6CA8] underline">tarifs</a>. Et pour ne pas reproduire les erreurs classiques des investisseurs étrangers en Tunisie, lisez notre article sur les <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">7 erreurs à éviter quand on achète en Tunisie</a>.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Simulation de rentabilité personnalisée</p>
+        <p class="text-white/80 mb-6">Calculs réels selon votre projet, stratégie locative optimisée.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   },
   {
-    slug: 'sidi-bou-said-la-marsa-immobilier-prestige',
-    titre: "Sidi Bou Saïd et La Marsa : l'immobilier de prestige aux portes de Tunis en 2026",
-    metaTitle: "Immobilier prestige Sidi Bou Saïd La Marsa 2026 : prix, quartiers, guide acheteur",
-    metaDescription: "Guide complet de l'immobilier de prestige à Sidi Bou Saïd et La Marsa en 2026 : prix au m², quartiers, opportunités, contraintes patrimoine classé et conseils pour acheteurs européens.",
-    motsCles: ["immobilier sidi bou said", "acheter la marsa tunisie", "prestige tunis bord de mer", "villa sidi bou said prix", "quartier residentiel tunis europeen"],
-    datePublication: "2026-05-01",
-    tempsLecture: 9,
-    categorie: "Destinations",
-    extrait: "Entre le village bleu et blanc classé de Sidi Bou Saïd et les villas Art déco de La Marsa, le bord de mer au nord de Tunis concentre l'immobilier le plus désirable de Tunisie. Un marché confidentiel, exigeant, réservé aux acheteurs bien informés.",
+    slug: 'vivre-tunisie-retraite-francais',
+    titre: "Vivre sa retraite en Tunisie en tant que Français : guide pratique 2026",
+    metaTitle: "Vivre sa retraite en Tunisie : coût, visa, santé, fiscalité 2026",
+    metaDescription: "Climat, coût de la vie, santé, fiscalité : tout savoir pour préparer sa retraite en Tunisie. Guide complet pour retraités français 2026.",
+    motsCles: ["retraite Tunisie", "vivre Tunisie retraité", "s'installer Tunisie retraite", "expatriation Tunisie"],
+    datePublication: "2026-02-05",
+    tempsLecture: 8,
+    categorie: "Lifestyle",
+    extrait: "300 jours de soleil, coût de la vie 40% moins cher, proximité avec la France... De plus en plus de retraités français choisissent la Tunisie. Voici le mode d'emploi complet.",
     contenu: `
-<h2>Le bord de mer nord de Tunis : un marché à part</h2>
+      <h2>Pourquoi les retraités français choisissent la Tunisie</h2>
 
-<p>À 20 kilomètres au nord-est de Tunis, la corniche qui relie La Goulette à Sidi Bou Saïd en passant par Carthage, La Marsa et Gammarth constitue l'une des adresses immobilières les plus convoitées de tout le Maghreb. Ici se côtoient ambassades, villas de familles tunisiennes historiques, résidences d'expatriés et demeures de la diaspora tunisienne fortunée. Le marché est discret, souvent off-market, et les prix atteignent des niveaux sans équivalent ailleurs en Tunisie.</p>
+      <p>La Tunisie attire chaque année des milliers de retraités français pour des raisons convergentes :</p>
 
-<p>Pour un acheteur européen, cette zone présente un profil d'investissement radicalement différent de Hammamet ou Djerba. On n'est pas ici dans une logique de rendement locatif saisonnier optimisé. On est dans une logique de patrimoine, de cadre de vie, d'ancrage dans une Tunisie profonde et cultivée. Les acheteurs qui choisissent Sidi Bou Saïd ou La Marsa recherchent autre chose : une adresse, une histoire, un art de vivre méditerranéen authentique.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Climat ensoleillé</strong> : plus de 300 jours de soleil par an</li>
+        <li><strong>Coût de la vie</strong> : 30 à 40% moins cher qu'en France</li>
+        <li><strong>Proximité</strong> : 2h de vol depuis Paris, Marseille, Lyon</li>
+        <li><strong>Langue</strong> : le français est largement parlé</li>
+        <li><strong>Santé</strong> : infrastructures médicales de qualité</li>
+      </ul>
 
-<p>Ce guide détaille les deux marchés principaux de cette zone — Sidi Bou Saïd d'un côté, La Marsa de l'autre — avec leurs prix, leurs contraintes spécifiques et leurs opportunités réelles en 2026.</p>
+      <p>Pour un <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">retraité français</a></strong>, s'installer en Tunisie c'est gagner en pouvoir d'achat et en qualité de vie.</p>
 
-<h2>Sidi Bou Saïd : le village classé monument historique</h2>
+      <h2>Le coût de la vie en Tunisie</h2>
 
-<p>Sidi Bou Saïd est probablement le village le plus photographié de Tunisie. Ses ruelles pavées, ses façades blanches aux volets bleus, ses bougainvilliers et sa vue sur le golfe de Tunis en ont fait une icône esthétique mondiale. Paul Klee, August Macke, Gustave-Henri Jossot — des artistes européens s'y installèrent dès le début du XXe siècle, attirés par la luminosité unique du lieu.</p>
+      <p>Budget mensuel pour un couple de retraités français à Hammamet ou La Marsa :</p>
 
-<p>Le village est classé <strong>monument historique national</strong> depuis 1915, ce qui en fait l'un des sites protégés les plus anciens de Tunisie. Ce statut a des conséquences directes sur le marché immobilier : toute modification extérieure d'un bien situé dans le périmètre classé est soumise à autorisation de l'Institut National du Patrimoine (INP). Les couleurs (blanc et bleu exclusivement), les matériaux, les ouvertures, les hauteurs — tout est réglementé.</p>
+      <ul class="space-y-2 my-6">
+        <li>Loyer appartement 2 chambres : 350-600€</li>
+        <li>Alimentation : 300-400€</li>
+        <li>Électricité, eau, internet : 80-120€</li>
+        <li>Transport : 100-150€</li>
+        <li>Loisirs, restaurants : 200-300€</li>
+        <li><strong>Total : 1 030-1 570€/mois</strong></li>
+      </ul>
 
-<h3>Ce que cela signifie concrètement pour un acheteur</h3>
+      <p>Avec une retraite de 1 800€/mois, vous vivez confortablement et épargnez !</p>
 
-<p>Acheter à Sidi Bou Saïd, c'est accepter de ne pas pouvoir transformer librement votre bien. Vous ne pouvez pas installer une piscine si elle n'existait pas déjà, modifier une façade, percer une fenêtre supplémentaire ou changer la couleur d'un volet sans autorisation préalable. Les délais d'instruction des demandes à l'INP peuvent être longs (6 à 18 mois pour des projets importants), et les refus ne sont pas rares.</p>
+      <p>Si vous êtes propriétaire d'un <strong><a href="/biens" class="text-[#1B6CA8] underline">bien immobilier</a></strong>, le budget mensuel descend à 700-1 000€.</p>
 
-<p>En contrepartie, cette réglementation protège la valeur patrimoniale du site et donc de votre investissement. Les biens de Sidi Bou Saïd n'ont jamais connu de dévalorisation structurelle — leur rareté et leur caractère unique les protègent des cycles immobiliers ordinaires.</p>
+      <h2>Le visa de résidence pour retraités</h2>
 
-<h3>Les prix à Sidi Bou Saïd en 2026</h3>
+      <p>Procédure pour obtenir la <strong>carte de séjour retraité</strong> :</p>
 
-<p>Le marché de Sidi Bou Saïd est le plus cher de Tunisie en valeur absolue au m². Les transactions sont rares — une vingtaine par an tout au plus dans le périmètre classé — et se font principalement off-market, par réseau.</p>
+      <ol class="space-y-2 my-6 list-decimal list-inside">
+        <li>Entrer en Tunisie avec un visa touristique (90 jours)</li>
+        <li>Déposer une demande de carte de séjour auprès du ministère de l'Intérieur tunisien</li>
+        <li>Fournir les documents : passeport, justificatif de revenus (pension de retraite), justificatif de domicile, casier judiciaire</li>
+        <li>Obtention de la carte sous 2 à 4 mois</li>
+      </ol>
 
-<p><strong>Maisons traditionnelles ("dar") dans le village :</strong> entre <strong>3 500 et 7 000 DT/m²</strong> (1 050 à 2 090 €/m²) selon l'état, la surface, la vue et la localisation dans le village. Une dar de 150 m² à rénover se négocie typiquement entre 180 000 et 350 000 €. Après rénovation (comptez 600 à 900 €/m² de travaux encadrés par l'INP), la valeur peut atteindre 600 000 à 900 000 €.</p>
+      <p>Revenus minimums requis : environ 600€/mois pour une personne seule, 900€ pour un couple.</p>
 
-<p><strong>Villas en périphérie du village classé :</strong> entre 2 500 et 4 500 DT/m² (750 à 1 340 €/m²). Les villas avec vue mer sont les plus recherchées et les plus rares. Une villa de 250 m² avec jardin et vue panoramique sur le golfe peut se négocier entre 400 000 et 800 000 €.</p>
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services d'accompagnement</a></strong> incluent l'assistance aux démarches administratives.</p>
 
-<p><strong>Appartements dans les immeubles récents en périphérie :</strong> entre 1 800 et 3 000 DT/m² (540 à 900 €/m²). Ces biens offrent une adresse "Sidi Bou Saïd" à un coût plus accessible, sans les contraintes patrimoniales du périmètre classé.</p>
+      <h2>Santé et couverture médicale</h2>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Le marché off-market de Sidi Bou Saïd</p>
-  <p>La majorité des meilleures propriétés de Sidi Bou Saïd ne passent jamais par les annonces publiques. Elles se transmettent dans les réseaux familiaux ou entre connaissances. Pour accéder à ces opportunités, il faut soit avoir des connexions locales profondes, soit passer par un intermédiaire qui les a. C'est précisément ce que notre réseau CapTunisia permet pour cette zone.</p>
-</div>
+      <p>La Tunisie dispose d'infrastructures médicales de qualité, notamment dans les grandes villes (Tunis, Sousse, Sfax) et les zones touristiques (Hammamet, Djerba).</p>
 
-<h2>La Marsa : l'élégance résidentielle à la tunisienne</h2>
+      <h3>Couverture santé</h3>
+      <p>Plusieurs options :</p>
 
-<p>À quelques kilomètres de Sidi Bou Saïd, La Marsa est une ville de bord de mer qui combine une vie locale authentique, une corniche animée, des restaurants et cafés réputés, et un tissu résidentiel de qualité. C'est le choix de prédilection des expatriés qui travaillent à Tunis, de la bourgeoisie tunisienne, et d'un nombre croissant d'acheteurs européens à la recherche d'une résidence secondaire avec âme.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>CFE (Caisse des Français de l'Étranger)</strong> : prolonge votre couverture française, coût 100-200€/mois</li>
+        <li><strong>Assurance privée locale</strong> : couverture complète, coût 60-120€/mois</li>
+        <li><strong>Assurance internationale</strong> : coût 150-300€/mois</li>
+      </ul>
 
-<p>Contrairement à Sidi Bou Saïd, La Marsa n'est pas soumise à un périmètre de protection patrimoniale généralisé. Les possibilités de rénovation et de transformation sont donc nettement plus libres, ce qui la rend plus accessible à des projets de réhabilitation ambitieux.</p>
+      <p>Les soins médicaux sont 40 à 60% moins chers qu'en France : consultation médecin généraliste 15-25€, spécialiste 30-50€.</p>
 
-<h3>Les quartiers de La Marsa</h3>
+      <h2>Fiscalité des retraités français en Tunisie</h2>
 
-<p><strong>La Marsa Plage et le front de mer :</strong> les biens directement sur la corniche ou en vue mer sont les plus chers et les plus rares. Prix entre 2 500 et 4 000 DT/m² (750 à 1 200 €/m²). Une villa de 200 m² en front de mer peut atteindre 400 000 à 600 000 €.</p>
+      <p>Point crucial : la <strong>convention fiscale franco-tunisienne</strong> détermine où vous payez vos impôts.</p>
 
-<p><strong>La Marsa Centre (quartier Hannibal, Marsa Cube) :</strong> le cœur résidentiel de La Marsa, avec ses villas des années 1960-1980 et ses immeubles récents. Prix entre 1 800 et 3 200 DT/m² (540 à 960 €/m²). C'est la zone où le rapport qualité-prix est le meilleur pour un acheteur européen qui cherche une résidence secondaire de standing sans payer le prix Sidi Bou Saïd.</p>
+      <h3>Règle générale</h3>
+      <p>Si vous êtes <strong>résident fiscal tunisien</strong> (plus de 183 jours/an en Tunisie), vos pensions de retraite sont imposables EN FRANCE uniquement.</p>
 
-<p><strong>Aïn Zaghouan et les hauteurs :</strong> quartiers résidentiels calmes avec vue sur mer depuis les hauteurs, légèrement éloignés de la plage. Prix entre 1 400 et 2 200 DT/m² (420 à 660 €/m²). Beaucoup de villas des années 1970-1990 avec de grands jardins, idéales pour des projets de réhabilitation.</p>
+      <p>La Tunisie ne taxe pas les pensions françaises. Vous ne payez donc l'impôt qu'une seule fois, en France.</p>
 
-<h3>La demande locative à La Marsa</h3>
+      <p>Exception : les pensions de la fonction publique restent imposables en France même si vous êtes résident tunisien.</p>
 
-<p>Contrairement à Hammamet ou Djerba, La Marsa génère principalement de la demande locative longue durée plutôt que saisonnière. Le profil type des locataires : expatriés travaillant à Tunis (ambassades, entreprises internationales, ONG), familles de la diaspora tunisienne en visite prolongée, cadres tunisiens en mobilité.</p>
+      <p>Consultez notre <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">guide complet de la fiscalité</a></strong> pour tout comprendre.</p>
 
-<p>Les loyers longue durée pour un appartement meublé de qualité se situent entre 800 et 1 800 DT/mois (240 à 540 €/mois) selon la taille et la localisation. Pour une villa avec jardin, comptez entre 1 500 et 4 000 DT/mois (450 à 1 200 €/mois).</p>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Bon à savoir</p>
+        <p>En tant que résident tunisien, vous ne payez PAS d'impôt en Tunisie sur votre pension française. C'est un avantage fiscal majeur.</p>
+      </div>
 
-<p>Ces niveaux de loyer génèrent des rendements locatifs de 3 à 6 % — inférieurs à Hammamet en saisonnier, mais avec une gestion beaucoup plus simple (un seul locataire stable plutôt que des dizaines de rotations saisonnières) et un risque de dégradation bien moindre.</p>
+      <h2>Les meilleures villes pour s'installer</h2>
 
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Vous cherchez une propriété à Sidi Bou Saïd ou La Marsa ?</p>
-  <p class="mb-6">Notre réseau local donne accès à des biens off-market dans ces zones très demandées.</p>
-  <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Nous contacter →</a>
-</div>
+      <h3>1. Hammamet</h3>
+      <p>Station balnéaire prisée, infrastructures développées, grande communauté française. <strong><a href="/biens" class="text-[#1B6CA8] underline">Prix immobiliers</a></strong> : 900-1 800 DT/m².</p>
 
-<h2>Gammarth : entre prestige et modernité</h2>
+      <h3>2. La Marsa et Gammarth</h3>
+      <p>Banlieue résidentielle chic de Tunis, bord de mer, restaurants, proximité de l'aéroport. Prix : 1 800-3 500 DT/m².</p>
 
-<p>Au-delà de La Marsa, Gammarth complète le triptyque résidentiel haut de gamme du nord de Tunis. Plus récente dans son développement, Gammarth est le quartier des grandes villas modernes, des résidences sécurisées et des complexes hôteliers cinq étoiles.</p>
+      <h3>3. Djerba</h3>
+      <p>Île méditerranéenne, climat exceptionnel, authenticité préservée. Prix : 600-1 500 DT/m². Consultez notre <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">guide Djerba</a></strong>.</p>
 
-<p>L'immobilier y est plus contemporain que dans les deux zones précédentes : constructions des années 1990 à aujourd'hui, prestations techniques modernes (domotique, piscines à débordement, ascenseurs privatifs), mais moins de caractère architectural que Sidi Bou Saïd ou les villas Art déco de La Marsa.</p>
+      <h3>4. Sousse et Monastir</h3>
+      <p>Villes dynamiques, coût de la vie modéré, bon compromis entre ville et plage.</p>
 
-<p>Prix à Gammarth : entre 2 000 et 5 000 DT/m² (600 à 1 500 €/m²) selon les prestations. Les résidences fermées haut de gamme (type Les Jardins de Carthage II, Gammarth Supérieur) concentrent les prix les plus élevés.</p>
+      <h2>Témoignage de retraités français en Tunisie</h2>
 
-<p>La liquidité du marché à Gammarth est plus faible qu'à La Marsa : l'offre de biens à la vente est parfois supérieure à la demande, notamment sur le segment des grandes villas de 400 m² et plus. À surveiller si vous envisagez une revente à moyen terme.</p>
+      <p>Jean et Marie, 68 ans, installés à Hammamet depuis 2022 :</p>
 
-<h2>Carthage : histoire et contraintes</h2>
+      <p><em>"Avec nos retraites cumulées de 2 400€/mois, nous vivons comme des rois. Nous avons acheté un appartement avec vue mer pour 95 000€, nos charges mensuelles sont de 800€, et il nous reste 1 600€ pour voyager et profiter. En France, on survivait. Ici, on vit !"</em></p>
 
-<p>Entre Sidi Bou Saïd et La Marsa, Carthage mérite une mention particulière. Le site archéologique antique est classé au patrimoine mondial de l'UNESCO depuis 1979, et une grande partie du territoire de Carthage est soumise à des restrictions de construction très strictes.</p>
+      <h2>Préparer son installation : checklist</h2>
 
-<p>Le marché résidentiel de Carthage est limité à quelques zones spécifiques (Carthage Salammbô, Carthage Dermech, Carthage Présidence) où des villas et appartements coexistent avec les vestiges archéologiques. Les prix sont comparables à ceux de La Marsa Centre (1 800 à 3 500 DT/m²), mais les contraintes de construction sont encore plus lourdes qu'à Sidi Bou Saïd — tout terrassement peut déboucher sur la découverte de vestiges archéologiques et l'arrêt immédiat des travaux.</p>
+      <ol class="space-y-2 my-6 list-decimal list-inside">
+        <li>Visiter la Tunisie plusieurs fois pour choisir sa ville</li>
+        <li>Louer un logement pour 6-12 mois avant d'acheter</li>
+        <li>Ouvrir un compte bancaire tunisien</li>
+        <li>Souscrire une assurance santé</li>
+        <li>Faire une demande de carte de séjour</li>
+        <li>Transférer progressivement ses affaires</li>
+        <li>Garder un pied-à-terre en France (famille, santé)</li>
+      </ol>
 
-<p>Carthage est une adresse exceptionnelle, mais uniquement pour des acheteurs parfaitement informés des contraintes et prêts à les assumer sur le long terme.</p>
+      <p>Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules d'accompagnement</a></strong> incluent l'assistance complète à l'installation.</p>
 
-<h2>À qui s'adresse ce marché ?</h2>
-
-<p>Le marché immobilier de prestige de Sidi Bou Saïd, La Marsa et Gammarth s'adresse à un profil d'acheteur spécifique, différent du profil type des acquéreurs de Hammamet ou Djerba :</p>
-
-<p><strong>Les amoureux de la Tunisie profonde</strong> qui souhaitent s'ancrer dans la culture tunisienne authentique, à proximité de Tunis, de ses musées, de sa vie intellectuelle et de sa gastronomie. Pour eux, Sidi Bou Saïd ou La Marsa sont des choix de cœur autant que de raison.</p>
-
-<p><strong>Les expatriés et futurs expatriés</strong> qui prévoient de travailler à Tunis pendant plusieurs années et cherchent un logement de qualité à acheter plutôt qu'à louer. La Marsa est leur quartier naturel.</p>
-
-<p><strong>Les investisseurs patrimoniaux long terme</strong> qui cherchent à constituer un actif rare, peu corrélé aux marchés financiers, dans une destination dont la valeur ne peut que croître avec le développement du tourisme culturel et l'intérêt international pour le patrimoine méditerranéen.</p>
-
-<p><strong>Les acheteurs de résidence principale future</strong> — notamment des Franco-Tunisiens qui anticipent un retour en Tunisie à la retraite et souhaitent sécuriser leur adresse d'avance.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">À retenir</p>
-  <p>Sidi Bou Saïd et La Marsa sont les adresses les plus désirables de Tunisie, mais ce sont aussi les marchés les plus exigeants en termes de connaissance locale et de réseau. Les meilleures propriétés ne s'annoncent pas — elles se trouvent. Les contraintes patrimoniales à Sidi Bou Saïd demandent une vérification préalable approfondie. Et les prix, bien que inférieurs aux standards parisiens ou niçois, sont les plus élevés de Tunisie. Pour ces zones, l'accompagnement d'un intermédiaire indépendant avec un réseau local solide n'est pas optionnel — c'est la condition du succès.</p>
-</div>
-
-<p>Pour une vue d'ensemble de l'immobilier haut de gamme dans le Grand Tunis, consultez notre article sur les <a href="/blog/quartiers-luxe-tunis-investissement" class="text-[#1B6CA8] underline">quartiers de luxe à Tunis pour investir</a>. Pour comprendre le cadre juridique de l'achat en Tunisie pour un Européen, lisez notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet pour les Français qui achètent en Tunisie</a>. Et pour éviter les erreurs classiques sur ces marchés complexes, lisez notre article sur les <a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">7 erreurs à éviter quand on achète en Tunisie</a>.</p>
-
-<p>Vous avez un projet dans cette zone ? <a href="/contact" class="text-[#1B6CA8] underline">Contactez notre équipe</a> — c'est précisément sur ces marchés confidentiels que notre réseau local fait la différence.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Préparez votre retraite en Tunisie</p>
+        <p class="text-white/80 mb-6">Accompagnement complet, aide aux démarches, recherche de bien, installation.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   },
   {
-    slug: 'erreurs-eviter-achat-immobilier-tunisie',
-    titre: "Les 7 erreurs à éviter absolument quand on achète un bien immobilier en Tunisie",
-    metaTitle: "7 erreurs achat immobilier Tunisie : pièges, arnaques et conseils pour acheteurs européens 2026",
-    metaDescription: "Les 7 erreurs les plus coûteuses commises par les acheteurs européens en Tunisie en 2026 : titres fonciers, paiements cash, faux mandataires, sous-déclaration. Guide de survie.",
-    motsCles: ["erreurs achat immobilier tunisie", "arnaque immobilier tunisie", "pieges achat tunisie francais", "titre foncier tunisie probleme", "acheter tunisie risques"],
-    datePublication: "2026-05-15",
+    slug: 'investissement-immobilier-tunisie-2026',
+    titre: "Investissement immobilier en Tunisie 2026 : opportunités et tendances du marché",
+    metaTitle: "Investissement immobilier Tunisie 2026 | Opportunités, prix, zones",
+    metaDescription: "Marché en croissance, prix accessibles, rendements attractifs : pourquoi 2026 est une excellente année pour investir en Tunisie. Analyse complète.",
+    motsCles: ["investissement immobilier Tunisie 2026", "marché immobilier Tunisie", "opportunités immobilier Tunisie", "tendances immobilier Tunisie"],
+    datePublication: "2026-02-08",
     tempsLecture: 10,
-    categorie: "Guide d'achat",
-    extrait: "Chaque année, des dizaines d'acheteurs européens se retrouvent coincés dans des transactions immobilières tunisiennes qui tournent mal. Titres non purgés, paiements sans traçabilité, faux mandataires, indivisions cachées — voici les 7 erreurs qui coûtent le plus cher, et comment les éviter.",
+    categorie: "Investissement",
+    extrait: "Reprise du marché, projets d'infrastructure, classement UNESCO... Le marché immobilier tunisien offre des opportunités uniques en 2026. Notre analyse détaillée.",
     contenu: `
-<h2>Pourquoi ces erreurs arrivent — et pourquoi elles arrivent surtout aux étrangers</h2>
+      <h2>État du marché immobilier tunisien en 2026</h2>
 
-<p>L'immobilier tunisien est un marché opaque, peu réglementé comparé aux standards européens, et structurellement défavorable à l'acheteur étranger non accompagné. Il n'existe pas d'équivalent tunisien du Diagnostic de Performance Énergétique, du dossier de diagnostic technique obligatoire français, ni d'un registre public centralisé et facilement consultable des transactions immobilières. Les prix ne sont pas publiés. Les obligations du vendeur sont limitées. Et les recours, en cas de problème, sont longs, coûteux et incertains.</p>
+      <p>Le marché immobilier tunisien connaît en 2026 une dynamique positive portée par plusieurs facteurs structurels :</p>
 
-<p>Dans ce contexte, un acheteur européen qui arrive avec ses habitudes françaises — "le notaire vérifie tout", "le compromis protège l'acheteur", "l'agence a une obligation de conseil" — est exposé à des risques qu'il ne voit pas. Ce n'est pas que les Tunisiens soient malhonnêtes : c'est que les pratiques de marché sont différentes, que les professionnels locaux ont des intérêts alignés avec les vendeurs, et que la méconnaissance du cadre juridique est systématiquement exploitée.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Reprise touristique</strong> : +22% de fréquentation en 2025, tendance confirmée en 2026</li>
+        <li><strong>Projets d'infrastructure</strong> : nouvel aéroport d'Enfidha agrandi, autoroute Tunis-Sfax modernisée</li>
+        <li><strong>Classements UNESCO</strong> : Djerba (2023), médina de Tunis renforcée</li>
+        <li><strong>Demande européenne soutenue</strong> : Français, Belges, Suisses, Allemands</li>
+        <li><strong>Taux de change favorable</strong> : le dinar tunisien reste attractif pour les acheteurs en euros</li>
+      </ul>
 
-<p>Voici les 7 erreurs les plus coûteuses, documentées sur des cas réels observés dans notre réseau.</p>
+      <p>Pour un <strong><a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">investisseur français</a></strong>, 2026 est une année stratégique.</p>
 
-<h2>Erreur n°1 : ne pas vérifier le titre foncier avant de signer quoi que ce soit</h2>
+      <h2>Évolution des prix 2024-2026</h2>
 
-<p>C'est de loin l'erreur la plus fréquente et la plus grave. En Tunisie, tous les biens immobiliers ne disposent pas d'un <strong>titre foncier purifié</strong> (immatriculation définitive au registre foncier). Une proportion significative des biens en vente — impossible à chiffrer précisément, mais substantielle — sont encore en cours d'immatriculation, vendus sur la base d'actes de vente anciens, ou font l'objet de droits successifs non formalisés.</p>
+      <p>Les prix au m² ont progressé modérément (+3 à +8% selon les zones) entre 2024 et 2026, restant largement inférieurs aux prix méditerranéens européens :</p>
 
-<p>Un bien sans titre foncier purifié n'est pas inachetable — mais il est risqué. Les problèmes qui peuvent surgir : un tiers revendique des droits sur le bien (héritier non consulté, copropriétaire ignoré), une hypothèque ou une saisie est inscrite sur le titre, les limites cadastrales du bien diffèrent de la réalité physique, ou l'immatriculation définitive révèle une superficie inférieure à ce qui vous a été vendu.</p>
+      <h3>Djerba</h3>
+      <ul class="space-y-2 my-6">
+        <li>2024 : 550-1 400 DT/m²</li>
+        <li>2026 : 600-1 500 DT/m²</li>
+        <li>Évolution : +5 à +7%</li>
+      </ul>
 
-<p><strong>La règle absolue :</strong> avant de signer le moindre document et de verser le moindre acompte, exigez la communication du numéro de titre foncier et faites consulter ce titre par un notaire tunisien de confiance. Cette vérification prend 48 à 72 heures et coûte quelques centaines de dinars. Elle peut vous éviter des années de litiges.</p>
+      <h3>Hammamet</h3>
+      <ul class="space-y-2 my-6">
+        <li>2024 : 850-1 700 DT/m²</li>
+        <li>2026 : 900-1 800 DT/m²</li>
+        <li>Évolution : +4 à +6%</li>
+      </ul>
 
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Ce que dit le titre foncier</p>
-  <p>Le titre foncier tunisien indique : la superficie exacte du bien, les propriétaires inscrits, les éventuelles hypothèques ou servitudes, les droits réels grevant le bien, et le statut d'immatriculation (provisoire ou définitif). Seul un titre définitif (purifié) offre une sécurité juridique complète. Un titre provisoire signifie que la procédure d'immatriculation n'est pas terminée et qu'un tiers peut encore contester les droits.</p>
-</div>
+      <h3>La Marsa / Gammarth</h3>
+      <ul class="space-y-2 my-6">
+        <li>2024 : 1 700-3 300 DT/m²</li>
+        <li>2026 : 1 800-3 500 DT/m²</li>
+        <li>Évolution : +3 à +6%</li>
+      </ul>
 
-<h2>Erreur n°2 : payer en espèces ou sans traçabilité bancaire</h2>
+      <p>La progression est modérée mais régulière, signe d'un marché sain. Consultez nos <strong><a href="/biens" class="text-[#1B6CA8] underline">biens disponibles</a></strong> dans ces zones.</p>
 
-<p>La pratique des paiements partiels en espèces (le fameux "noir") est courante dans les transactions immobilières tunisiennes entre particuliers. Le vendeur propose d'inscrire dans l'acte un prix inférieur au prix réel pour réduire ses impôts, avec un complément payé en cash. L'acheteur accepte parfois, attrait par l'idée de payer moins de droits d'enregistrement.</p>
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">🌍 Opportunité géographique</p>
+        <p>Les zones UNESCO (Djerba, médina de Tunis, Sidi Bou Saïd) bénéficient de protections réglementaires qui limitent l'offre et soutiennent les prix à long terme. Excellent choix pour un investissement patrimonial.</p>
+      </div>
 
-<p>C'est une erreur grave pour l'acheteur étranger, à plusieurs titres :</p>
+      <h2>Les 3 tendances fortes de 2026</h2>
 
-<p>D'abord, <strong>le rapatriement futur est compromis.</strong> La BCT ne vous autorisera à rapatrier que le montant figurant dans l'acte notarié, justifié par vos attestations d'importation de devises. Le complément payé en cash ne sera jamais récupérable légalement.</p>
+      <h3>1. Montée en gamme de l'offre</h3>
+      <p>Les promoteurs tunisiens construisent des résidences de standing supérieur : finitions haut de gamme, piscines, espaces verts, sécurité 24/7. La demande européenne pousse vers le haut.</p>
 
-<p>Ensuite, <strong>vous êtes complice d'une fraude fiscale tunisienne.</strong> En cas de contrôle, vous pouvez être mis en cause — et votre transaction peut être remise en question.</p>
+      <h3>2. Essor de la location saisonnière</h3>
+      <p>Airbnb et Booking explosent en Tunisie. La <strong><a href="/blog/location-saisonniere-tunisie-rentabilite" class="text-[#1B6CA8] underline">location saisonnière</a></strong> devient un modèle économique viable avec 4 à 8% de rentabilité nette.</p>
 
-<p>Enfin, <strong>vous perdez toute protection juridique sur la partie non déclarée.</strong> Si un litige survient sur le prix réel payé, vous n'avez aucun moyen de prouver le montant réel de la transaction.</p>
+      <h3>3. Intérêt croissant des retraités</h3>
+      <p>De plus en plus de <strong><a href="/blog/vivre-tunisie-retraite-francais" class="text-[#1B6CA8] underline">retraités français</a></strong> s'installent en Tunisie, créant une demande structurelle pour les biens de qualité en zones résidentielles.</p>
 
-<p><strong>La règle :</strong> tout paiement transite par virement bancaire traçable, depuis votre compte en devises tunisien vers le compte du vendeur ou du notaire séquestre. Intégralement. Sans exception.</p>
+      <h2>Où investir en 2026 : nos recommandations</h2>
 
-<h2>Erreur n°3 : faire confiance à un "mandataire" sans vérifier ses pouvoirs</h2>
+      <h3>Investissement patrimonial long terme</h3>
+      <p><strong>Djerba (zones classées UNESCO)</strong> : protection réglementaire, rareté croissante, valorisation soutenue. Prix : 600-1 500 DT/m². Notre <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">guide complet Djerba</a></strong>.</p>
 
-<p>En Tunisie, la pratique des mandataires est très répandue : un propriétaire donne procuration à un tiers (souvent un membre de la famille, parfois un agent immobilier) pour vendre son bien en son nom. Le problème : ces procurations sont parfois anciennes, révoquées, partielles, ou purement et simplement falsifiées.</p>
+      <h3>Investissement locatif saisonnier</h3>
+      <p><strong>Hammamet et Yasmine Hammamet</strong> : forte demande touristique, rendement net 4-7%, excellente liquidité.</p>
 
-<p>Des cas documentés existent de vendeurs qui présentaient une procuration périmée ou non authentique, avaient déjà cédé leurs droits à un autre acheteur, ou n'avaient pas les pouvoirs pour vendre seuls (bien en indivision, mineur parmi les co-propriétaires).</p>
+      <h3>Investissement locatif annuel</h3>
+      <p><strong>Sousse et Monastir</strong> : marché résidentiel dynamique, demande locale et expatriée, rendement net 5-6%.</p>
 
-<p><strong>La règle :</strong> si un mandataire intervient dans la transaction, exigez la production de la procuration originale, vérifiez qu'elle est notariée et récente (moins de 6 mois), et faites valider ses pouvoirs exacts par le notaire de la transaction. Ne versez jamais d'acompte à un mandataire — uniquement à un notaire en séquestre.</p>
+      <h3>Résidence secondaire prestige</h3>
+      <p><strong>La Marsa, Gammarth, Sidi Bou Saïd</strong> : segment haut de gamme, proximité aéroport, restaurants, golf.</p>
 
-<h2>Erreur n°4 : ignorer les situations d'indivision</h2>
+      <h2>Risques et points de vigilance</h2>
 
-<p>L'indivision — situation dans laquelle un bien appartient à plusieurs co-propriétaires sans partage — est extrêmement fréquente en Tunisie, notamment pour les biens hérités. Dans de nombreuses familles tunisiennes, les biens immobiliers se transmettent de génération en génération sans liquidation formelle des successions. Un bien peut ainsi avoir 5, 10 ou 15 co-propriétaires légaux, dont certains mineurs ou résidant à l'étranger.</p>
+      <p>Tout investissement comporte des risques. En Tunisie :</p>
 
-<p>Le problème pour l'acheteur : si l'un des co-indivisaires n'a pas consenti à la vente, ou si un mineur était parmi les indivisaires sans autorisation judiciaire, la transaction peut être annulée. Des années après la signature.</p>
+      <ul class="space-y-2 my-6">
+        <li><strong>Risque juridique</strong> : indivision, titres fonciers irréguliers. Solution : faire appel à nos <strong><a href="/services" class="text-[#1B6CA8] underline">services de vérification juridique</a></strong>.</li>
+        <li><strong>Risque de change</strong> : fluctuation du taux EUR/TND. Impact limité car l'investissement est en euros à l'achat et à la revente.</li>
+        <li><strong>Risque politique</strong> : instabilité institutionnelle. Impact faible sur l'immobilier dans les zones touristiques établies.</li>
+        <li><strong>Risque locatif</strong> : taux d'occupation inférieur aux prévisions. Solution : diversifier la stratégie (saisonnier + annuel).</li>
+      </ul>
 
-<p><strong>La règle :</strong> demandez systématiquement l'état civil complet des propriétaires inscrits sur le titre foncier. Si plusieurs personnes apparaissent, vérifiez que toutes ont signé la promesse de vente, ou qu'un représentant légal dûment mandaté agit pour leur compte. En cas de doute sur une situation successorale, faites réaliser un audit notarial complet avant tout engagement.</p>
+      <p>Consultez notre <strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide des erreurs à éviter</a></strong> pour sécuriser votre investissement.</p>
 
-<div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
-  <p class="text-xl font-semibold mb-3">Ces erreurs vous font peur ? C'est normal.</p>
-  <p class="mb-6">CapTunisia vérifie tous ces points systématiquement avant de vous présenter un bien. Notre protocole de due diligence est inclus dans toutes nos formules.</p>
-  <a href="/services" class="bg-[#B8923A] text-white px-8 py-3 rounded font-semibold hover:bg-[#a07830] transition-colors">Découvrir notre accompagnement →</a>
-</div>
+      <h2>Fiscalité et optimisation</h2>
 
-<h2>Erreur n°5 : ne pas vérifier la conformité de la construction</h2>
+      <p>La <strong><a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité immobilière tunisienne</a></strong> pour les non-résidents est relativement légère :</p>
 
-<p>En Tunisie, une proportion importante des constructions — villas, extensions, étages supplémentaires — ont été réalisées sans permis de construire ou en dépassement du permis obtenu. Cette réalité concerne aussi bien les constructions informelles dans les quartiers périphériques que certaines villas dans des zones touristiques réputées.</p>
+      <ul class="space-y-2 my-6">
+        <li>Taxe foncière : 0,1 à 0,4% de la valeur cadastrale</li>
+        <li>Impôt revenus locatifs : 15% en Tunisie (crédit d'impôt en France)</li>
+        <li>Impôt plus-value : 10% en Tunisie (crédit d'impôt en France)</li>
+      </ul>
 
-<p>Les risques pour l'acheteur sont multiples : impossibilité d'obtenir un certificat de conformité, difficulté à assurer le bien, risque de démolition partielle en cas de contrôle municipal, et problème à la revente si l'acheteur suivant fait la même vérification que vous auriez dû faire.</p>
+      <p>La convention fiscale franco-tunisienne évite la double imposition. Nos <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formules Premium</a></strong> incluent un conseil fiscal personnalisé.</p>
 
-<p><strong>La règle :</strong> pour toute villa ou maison, demandez la production du permis de construire original et vérifiez la conformité de la construction avec ce permis. Cette vérification peut être réalisée en consultant les archives de la commune compétente. Pour les appartements en résidence, demandez le certificat de conformité de la résidence (procès-verbal de réception des travaux).</p>
+      <h2>Financement et structuration</h2>
 
-<h2>Erreur n°6 : signer sous pression sans délai de réflexion</h2>
+      <p>Plusieurs options pour <strong><a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">financer votre investissement</a></strong> :</p>
 
-<p>La pression à la signature rapide est une technique de vente universelle, mais elle est particulièrement utilisée en Tunisie avec les acheteurs étrangers. Vous êtes en vacances, vous avez un billet de retour dans 3 jours, vous visitez un bien magnifique et le vendeur vous dit qu'un autre acheteur est intéressé et prêt à signer demain.</p>
+      <ul class="space-y-2 my-6">
+        <li>Apport personnel (cash)</li>
+        <li>Crédit immobilier français (4,5-6,5%)</li>
+        <li>Prêt hypothécaire sur bien en France</li>
+        <li>Avance sur assurance-vie (3-4%)</li>
+      </ul>
 
-<p>Cette pression est presque toujours artificielle. Le "autre acheteur prêt à signer" est, dans 80 % des cas, une fiction de négociation. Et même si ce n'est pas le cas, un bien qui vous convient vraiment mérite qu'on lui consacre le temps de la vérification.</p>
+      <p>Nos services incluent une simulation financière complète et un accompagnement bancaire.</p>
 
-<p>Signer un compromis de vente sous pression, sans avoir vérifié le titre foncier, sans avoir consulté un notaire indépendant, et sans avoir eu le temps d'évaluer sérieusement le prix de marché, c'est prendre le risque de vous lier contractuellement à une transaction problématique avec un acompte versé et difficile à récupérer.</p>
+      <h2>Calendrier d'investissement optimal</h2>
 
-<p><strong>La règle :</strong> ne signez jamais le jour même ou le lendemain d'une visite. Rentrez en France, prenez le temps de la réflexion (au moins 2 semaines), faites vérifier les documents par un professionnel, et revenez ou mandatez quelqu'un pour la signature si vous avancez. Un bon bien attend un acheteur sérieux.</p>
+      <p>Quand acheter en 2026 ?</p>
 
-<h2>Erreur n°7 : négliger les aspects fiscaux et le rapatriement dès l'achat</h2>
+      <ul class="space-y-2 my-6">
+        <li><strong>Janvier-mars</strong> : Basse saison, vendeurs plus négociables, meilleure disponibilité des notaires</li>
+        <li><strong>Avril-juin</strong> : Reprise du marché, bons biens se raréfient</li>
+        <li><strong>Juillet-septembre</strong> : Haute saison, prix fermes, moins de choix</li>
+        <li><strong>Octobre-décembre</strong> : Retour au calme, opportunités en fin d'année</li>
+      </ul>
 
-<p>Beaucoup d'acheteurs pensent au moment de l'achat, pas à ce qui vient après. Or les questions fiscales et de rapatriement des fonds se préparent dès la première transaction, pas quand vous souhaitez revendre ou récupérer vos loyers.</p>
+      <p>Notre recommandation : visez janvier-mars pour maximiser votre pouvoir de négociation.</p>
 
-<p>Les erreurs classiques dans cette catégorie : ne pas ouvrir de compte en devises avant le transfert des fonds (et donc perdre la traçabilité nécessaire au rapatriement), ne pas demander les attestations d'importation de devises à chaque virement, ne pas déclarer les revenus locatifs en Tunisie (exposition à des pénalités), ne pas déclarer les revenus locatifs en France (exposition à un redressement fiscal), et ne pas anticiper les délais de la BCT pour le rapatriement au moment de la revente.</p>
-
-<p><strong>La règle :</strong> avant le premier virement, ouvrez un compte en devises dans une banque tunisienne agréée. À chaque virement, demandez une attestation d'importation. Chaque année, déclarez vos revenus locatifs en Tunisie et en France. Et consultez un expert-comptable tunisien avant votre première revente pour préparer la demande de rapatriement. Pour le détail complet, lisez notre article sur la <a href="/blog/fiscalite-immobilier-tunisie-non-residents" class="text-[#1B6CA8] underline">fiscalité immobilière tunisienne pour les non-résidents</a>.</p>
-
-<div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
-  <p class="font-semibold text-[#1B6CA8] mb-2">Récapitulatif : la checklist de l'acheteur averti</p>
-  <p>✓ Titre foncier vérifié par un notaire tunisien avant toute signature</p>
-  <p>✓ Tous les paiements par virement bancaire traçable</p>
-  <p>✓ Procuration du mandataire vérifiée et validée si applicable</p>
-  <p>✓ Situation d'indivision et état civil des co-propriétaires vérifiés</p>
-  <p>✓ Conformité de la construction vérifiée (permis + certificate)</p>
-  <p>✓ Délai de réflexion respecté — aucune signature le jour même</p>
-  <p>✓ Compte en devises ouvert, attestations d'importation demandées</p>
-</div>
-
-<h2>Le bon état d'esprit pour acheter en Tunisie</h2>
-
-<p>Ce guide n'a pas pour objectif de vous décourager d'acheter en Tunisie. Des milliers de Français et d'Européens y ont réalisé de très belles acquisitions, en toute sécurité, et en profitent chaque année avec bonheur. La Tunisie reste l'une des destinations les plus accessibles, les plus accueillantes et les plus attachantes pour un acheteur étranger dans tout le bassin méditerranéen.</p>
-
-<p>L'objectif est de vous aider à aborder ce marché avec les bons réflexes. La différence entre une acquisition réussie et une acquisition problématique tient souvent à quelques vérifications préalables, quelques jours de prudence supplémentaires, et le choix de s'entourer des bonnes personnes.</p>
-
-<p>Pour comprendre le processus d'achat de bout en bout, consultez notre <a href="/blog/acheter-appartement-tunisie-francais" class="text-[#1B6CA8] underline">guide complet pour les Français qui achètent en Tunisie</a>. Pour financer votre projet depuis l'Europe, lisez notre article sur le <a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">financement d'un achat immobilier en Tunisie pour les Européens</a>. Et pour découvrir les biens présélectionnés et vérifiés par notre équipe, visitez notre <a href="/biens" class="text-[#1B6CA8] underline">catalogue de biens disponibles</a>.</p>
-
-<p>Vous avez un projet d'achat en Tunisie et vous voulez être sûr de ne commettre aucune de ces erreurs ? C'est exactement pour cela que CapTunisia existe. <a href="/contact" class="text-[#1B6CA8] underline">Contactez notre équipe</a> pour un premier entretien gratuit et sans engagement.</p>
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Prêt à investir en Tunisie en 2026 ?</p>
+        <p class="text-white/80 mb-6">Accompagnement complet, sélection de biens, sécurisation juridique, optimisation fiscale.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
     `
   }
 ]
+  ,{
+    slug: 'processus-achat-immobilier-tunisie-etapes',
+    titre: "Processus d'achat immobilier en Tunisie : les 7 étapes détaillées",
+    metaTitle: "Processus achat immobilier Tunisie : 7 étapes clés 2026 | Guide complet",
+    metaDescription: "De la recherche du bien à la signature finale : découvrez les 7 étapes du processus d'achat immobilier en Tunisie pour les non-résidents. Délais, documents, pièges.",
+    motsCles: ["processus achat Tunisie", "étapes achat immobilier Tunisie", "acheter bien Tunisie démarches", "procédure achat Tunisie"],
+    datePublication: "2026-01-25",
+    tempsLecture: 8,
+    categorie: "Guide d'achat",
+    extrait: "Promesse de vente, vérification juridique, signature notariée... Le processus d'achat en Tunisie suit une logique précise. Voici les 7 étapes à respecter absolument.",
+    contenu: `
+      <h2>Étape 1 : Recherche du bien et première sélection</h2>
+
+      <p>La première étape consiste à définir vos critères de recherche : zone géographique, type de bien (appartement, villa, terrain), budget global (prix + frais), et objectif (résidence secondaire, investissement locatif, résidence principale future).</p>
+
+      <p>Consultez notre <strong><a href="/biens" class="text-[#1B6CA8] underline">sélection de biens disponibles</a></strong> dans les meilleures zones côtières : <strong><a href="/blog/investir-immobilier-djerba-2026" class="text-[#1B6CA8] underline">Djerba</a></strong>, Hammamet, La Marsa, Gammarth.</p>
+
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services de recherche sur mesure</a></strong> vous mettent en relation avec des agences immobilières vérifiées et des biens correspondant exactement à vos critères.</p>
+
+      <h2>Étape 2 : Visite physique du bien</h2>
+
+      <p>Ne jamais acheter sans avoir visité physiquement le bien. Les photos peuvent être trompeuses, et la réalité du quartier peut différer de la description.</p>
+
+      <p>Lors de la visite, vérifiez l'état général du bien, les installations (électricité, plomberie, climatisation), l'environnement immédiat, et discutez avec les voisins.</p>
+
+      <p>Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Premium</a></strong> inclut l'accompagnement physique aux visites et un rapport d'expertise détaillé.</p>
+
+      <h2>Étape 3 : Négociation du prix et accord verbal</h2>
+
+      <p>Une fois le bien identifié, entamez la négociation du prix avec le vendeur ou son agent. En Tunisie, les prix affichés sont généralement négociables de 5% à 15% selon le marché.</p>
+
+      <p>Nos <strong><a href="/services" class="text-[#1B6CA8] underline">services de négociation</a></strong> vous accompagnent pour obtenir le meilleur prix et les meilleures conditions.</p>
+
+      <div class="bg-[#F8F6F1] border-l-4 border-[#B8923A] p-6 my-8 rounded-r">
+        <p class="font-semibold text-[#1B6CA8] mb-2">💡 Astuce négociation</p>
+        <p>Demandez toujours un état des lieux complet et un historique des travaux réalisés. Ces éléments peuvent justifier une baisse de prix si des rénovations sont nécessaires.</p>
+      </div>
+
+      <h2>Étape 4 : Signature de la promesse de vente (compromis)</h2>
+
+      <p>La promesse de vente, équivalent du compromis de vente français, doit OBLIGATOIREMENT être établie par un notaire tunisien. Méfiez-vous de tout agent qui vous proposerait de signer une "réservation" sans acte notarié.</p>
+
+      <p>La promesse fixe le prix définitif, les conditions de vente, le délai pour la signature de l'acte authentique (généralement 2 à 3 mois), et le montant des arrhes (généralement 10% du prix).</p>
+
+      <p>Les arrhes doivent être versées sur le compte séquestre du notaire, JAMAIS directement au vendeur. Consultez notre <strong><a href="/blog/erreurs-eviter-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide des erreurs à éviter</a></strong>.</p>
+
+      <h2>Étape 5 : Vérification juridique approfondie</h2>
+
+      <p>C'est l'étape la plus critique. Le notaire doit vérifier :</p>
+
+      <ul class="space-y-2 my-6">
+        <li><strong>Le titre foncier</strong> : consultation à la Conservation Foncière pour vérifier que le bien est bien immatriculé, que le vendeur est l'unique propriétaire, et qu'aucune hypothèque ne grève le bien.</li>
+        <li><strong>L'absence d'indivision</strong> : si le bien est en indivision, tous les co-indivisaires doivent avoir consenti à la vente.</li>
+        <li><strong>Les autorisations administratives</strong> : permis de construire, certificat de conformité, autorisation de la BCT si nécessaire.</li>
+        <li><strong>Les charges et dettes</strong> : vérifier l'absence de dettes fiscales, de charges de copropriété impayées, ou de litiges en cours.</li>
+      </ul>
+
+      <p>Cette étape prend 2 à 6 semaines selon la complexité du dossier. Notre <strong><a href="/tarifs" class="text-[#1B6CA8] underline">formule Sécurité</a></strong> inclut ce suivi juridique complet.</p>
+
+      <h2>Étape 6 : Transfert des fonds depuis la France</h2>
+
+      <p>Tous les fonds doivent être transférés via le circuit bancaire officiel, avec conversion en dinars tunisiens auprès d'une banque agréée par la BCT.</p>
+
+      <p>Conservez précieusement tous les justificatifs de virement et de conversion : ils conditionnent votre droit au rapatriement des fonds lors de la revente.</p>
+
+      <p>Notre <strong><a href="/blog/financement-achat-immobilier-tunisie-europeen" class="text-[#1B6CA8] underline">guide du financement</a></strong> détaille cette procédure. Nos services incluent l'assistance au transfert de fonds.</p>
+
+      <h2>Étape 7 : Signature de l'acte authentique de vente</h2>
+
+      <p>Une fois toutes les vérifications effectuées et les fonds transférés, la signature de l'acte authentique marque le transfert définitif de propriété.</p>
+
+      <p>L'acte est rédigé en arabe. Exigez une traduction certifiée avant de signer. Ne signez JAMAIS un document que vous ne comprenez pas.</p>
+
+      <p>Lors de la signature, vous payez le solde du prix de vente + les frais de notaire + les droits d'enregistrement + les frais de conservation foncière. Consultez notre <strong><a href="/blog/frais-notaire-achat-immobilier-tunisie" class="text-[#1B6CA8] underline">guide complet des frais</a></strong>.</p>
+
+      <p>Le notaire procède ensuite à l'immatriculation du bien à votre nom au registre foncier. Vous recevez le nouveau titre foncier à votre nom sous 4 à 8 semaines.</p>
+
+      <div class="bg-[#1B6CA8] text-white p-8 rounded my-10 text-center">
+        <p class="font-cormorant text-2xl font-light mb-3">Un accompagnement de A à Z pour sécuriser votre achat</p>
+        <p class="text-white/80 mb-6">De la recherche du bien à la signature finale, nous vous accompagnons à chaque étape du processus.</p>
+        <a href="/contact" class="bg-[#B8923A] text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity inline-block">Parler à un expert</a>
+      </div>
+    `
+  }
