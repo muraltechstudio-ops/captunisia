@@ -9,6 +9,7 @@ const FADE_S = 1.5
 
 export default function VideoHero() {
   const [current, setCurrent] = useState(0)
+  const [next, setNext] = useState(1)
   const [fading, setFading] = useState(false)
   const [errors, setErrors] = useState<boolean[]>([false, false, false, false, false, false])
   const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null, null, null, null])
@@ -17,22 +18,45 @@ export default function VideoHero() {
   const parallaxY = useTransform(scrollY, [0, 800], [0, 300])
 
   useEffect(() => {
-    refs.current[0]?.play().catch(() => {})
+    const firstVideo = refs.current[0]
+    if (firstVideo) {
+      firstVideo.currentTime = 0
+      firstVideo.play().catch(() => {})
+    }
+    const secondVideo = refs.current[1]
+    if (secondVideo) {
+      secondVideo.currentTime = 0
+    }
   }, [])
 
   useEffect(() => {
     timer.current = setTimeout(() => {
+      const nextIndex = (current + 1) % VIDEOS.length
+      const nextVideo = refs.current[nextIndex]
+
+      if (nextVideo) {
+        nextVideo.currentTime = 0
+        nextVideo.play().catch(() => {})
+      }
+
+      setNext(nextIndex)
       setFading(true)
+
       setTimeout(() => {
-        const next = (current + 1) % VIDEOS.length
-        setCurrent(next)
+        setCurrent(nextIndex)
         setFading(false)
-        refs.current[next]?.play().catch(() => {})
-        const afterNext = refs.current[(next + 1) % VIDEOS.length]
-        if (afterNext) afterNext.currentTime = 0
+
+        const afterNext = (nextIndex + 1) % VIDEOS.length
+        const afterNextVideo = refs.current[afterNext]
+        if (afterNextVideo) {
+          afterNextVideo.currentTime = 0
+        }
       }, FADE_S * 1000)
     }, DISPLAY_MS)
-    return () => { if (timer.current) clearTimeout(timer.current) }
+
+    return () => {
+      if (timer.current) clearTimeout(timer.current)
+    }
   }, [current])
 
   const allFailed = errors.every(Boolean)
@@ -45,7 +69,7 @@ export default function VideoHero() {
         ) : (
           VIDEOS.map((src, i) => {
             const isCurrent = i === current
-            const isNext = i === (current + 1) % VIDEOS.length
+            const isNext = i === next
             let opacity = 0
             if (isCurrent && !fading) opacity = 1
             if (isCurrent && fading) opacity = 0
@@ -58,6 +82,7 @@ export default function VideoHero() {
                 muted
                 playsInline
                 loop={false}
+                preload="auto"
                 suppressHydrationWarning
                 onError={() => setErrors(e => { const n = [...e]; n[i] = true; return n })}
                 className="absolute inset-0 w-full h-full object-cover"
