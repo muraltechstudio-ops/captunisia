@@ -38,10 +38,10 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-sable">
       {/* Hero */}
       <div
-        className="relative py-32 bg-cover bg-center"
+        className="relative pt-32 pb-20 bg-cover bg-center"
         style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1920&q=80)' }}
       >
-        <div className="absolute inset-0 bg-nuit/70" />
+        <div className="absolute inset-0 bg-[#1B6CA8]/70" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-5xl md:text-6xl font-bold text-white mb-6">
             Notre accompagnement
