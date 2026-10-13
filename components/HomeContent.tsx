@@ -14,7 +14,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
     <div>
       <div className="bg-[#111009] py-5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
-          <span>690 à 1 690 euros TTC - Paiement unique - Engagement sans limite de durée</span>
+          <span>690 à 1 690 euros TTC · Paiement unique · Engagement sans limite de durée</span>
           <span className="hidden md:inline opacity-20">|</span>
           <span>100% dossiers vérifiés</span>
           <span className="hidden md:inline opacity-20">|</span>
@@ -87,7 +87,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {[
               { num: '1', title: 'Votre projet', text: 'Vous nous décrivez votre budget, la zone et le type de bien souhaité.' },
-              { num: '2', title: 'Selection', text: 'Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants.' },
+              { num: '2', title: 'Sélection', text: 'Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants.' },
               { num: '3', title: 'Visites', text: 'Organisation de visites en présentiel ou en visio depuis la France, avec compte-rendu en français.' },
               { num: '4', title: 'Audit juridique', text: 'Vérification du titre foncier, obtention de l'autorisation du gouverneur.' },
               { num: '5', title: 'Signature', text: 'Coordination notaire, banque tunisienne, remise des clés.' }
@@ -155,7 +155,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 100%)' }}>
         <div className="max-w-4xl mx-auto px-4 text-center">
           <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl md:text-6xl italic text-white">Votre projet en Tunisie commence ici</motion.h2>
-          <motion.p initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-white/70 font-sans mt-4 text-lg">Consultation gratuite - Reponse sous 24h - Aucun engagement</motion.p>
+          <motion.p initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-white/70 font-sans mt-4 text-lg">Consultation gratuite · Réponse sous 24h · Aucun engagement</motion.p>
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="mt-8">
             <Link href="/contact" className="inline-block px-10 py-4 bg-white font-sans font-medium hover:bg-white/90 transition-colors" style={{ color: '#1B6CA8' }}>Démarrer mon projet</Link>
           </motion.div>
