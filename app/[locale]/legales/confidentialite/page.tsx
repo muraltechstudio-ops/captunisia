@@ -1,9 +1,5 @@
 'use client'
 
-export const metadata = {
-  title: 'Politique de confidentialité — CapTunisia',
-  description: 'Politique de confidentialité et protection des données personnelles',
-}
 
 export default function ConfidentialitePage() {
   return (

@@ -2,10 +2,6 @@
 
 import TeamCard from '@/components/TeamCard'
 
-export const metadata = {
-  title: "L'équipe — CapTunisia",
-  description: 'Rencontrez l\'équipe franco-tunisienne de CapTunisia.',
-}
 
 export default function EquipePage() {
   return (

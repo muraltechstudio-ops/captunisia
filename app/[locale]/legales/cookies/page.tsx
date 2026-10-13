@@ -1,9 +1,5 @@
 'use client'
 
-export const metadata = {
-  title: 'Gestion des cookies — CapTunisia',
-  description: 'Politique de gestion des cookies',
-}
 
 export default function CookiesPage() {
   return (

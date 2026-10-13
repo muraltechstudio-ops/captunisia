@@ -1,9 +1,5 @@
 'use client'
 
-export const metadata = {
-  title: 'Conditions générales de service — CapTunisia',
-  description: 'Conditions générales de service CapTunisia',
-}
 
 export default function CGVPage() {
   return (

@@ -1,9 +1,5 @@
 'use client'
 
-export const metadata = {
-  title: 'Mentions légales — CapTunisia',
-  description: 'Mentions légales du site CapTunisia',
-}
 
 export default function MentionsLegalesPage() {
   return (

@@ -5,19 +5,6 @@ import { articles } from '@/lib/articles'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
-export const metadata: Metadata = {
-  title: 'Blog Immobilier Tunisie | Guides, Conseils & Actualités 2026 - CapTunisia',
-  description: 'Blog immobilier Tunisie : guides complets, conseils d\'experts, prix du marché, fiscalité, financement. Tout pour réussir votre achat immobilier en Tunisie.',
-  alternates: {
-    canonical: 'https://captunisia.com/blog'
-  },
-  openGraph: {
-    title: 'Blog Immobilier Tunisie | Guides & Conseils Experts 2026',
-    description: 'Guides complets, analyses de marché et conseils d\'experts pour acheter un bien immobilier en Tunisie en toute sécurité.',
-    type: 'website',
-    url: 'https://captunisia.com/blog'
-  }
-}
 
 export default function BlogPage() {
   const categories = Array.from(new Set(articles.map(a => a.categorie)))
