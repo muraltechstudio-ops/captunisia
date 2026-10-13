@@ -17,26 +17,30 @@ export default function LanguageSwitcher() {
     router.push(newPath)
   }
 
-  const flags = {
-    fr: '🇫🇷',
-    en: '🇬🇧'
-  }
-
   return (
     <div className="flex items-center gap-2">
-      {locales.map((loc) => (
-        <button
-          key={loc}
-          onClick={() => switchLocale(loc)}
-          className={`px-3 py-1.5 text-2xl transition-all ${
-            locale === loc
-              ? 'opacity-100 scale-110'
-              : 'opacity-50 hover:opacity-100'
-          }`}
-        >
-          {flags[loc as keyof typeof flags]}
-        </button>
-      ))}
+      <button
+        onClick={() => switchLocale('fr')}
+        className={`px-3 py-1.5 text-2xl transition-all ${
+          locale === 'fr'
+            ? 'opacity-100 scale-110'
+            : 'opacity-50 hover:opacity-100'
+        }`}
+        title="Français"
+      >
+        🇫🇷
+      </button>
+      <button
+        onClick={() => switchLocale('en')}
+        className={`px-3 py-1.5 text-2xl transition-all ${
+          locale === 'en'
+            ? 'opacity-100 scale-110'
+            : 'opacity-50 hover:opacity-100'
+        }`}
+        title="English"
+      >
+        🇬🇧
+      </button>
     </div>
   )
 }
