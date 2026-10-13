@@ -218,12 +218,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { img: 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800', label: 'Sidi Bou Saïd — Village emblématique aux portes bleues' },
-              { img: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800', label: 'Hammamet — Plages de sable fin et eaux turquoise' },
-              { img: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800', label: 'Médina de Tunis — Patrimoine UNESCO vivant' },
-              { img: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800', label: 'Sahara tunisien — Dunes à perte de vue' },
+              { img: 'https://images.unsplash.com/photo-1591825378508-c95b110a3b4f?w=800', label: 'Sidi Bou Saïd — Village emblématique aux portes bleues' },
+              { img: 'https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800', label: 'Hammamet — Plages de sable fin et eaux turquoise' },
+              { img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800', label: 'Médina de Tunis — Patrimoine UNESCO vivant' },
+              { img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800', label: 'Gastronomie tunisienne — Saveurs méditerranéennes authentiques' },
               { img: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800', label: 'Villa de luxe — Piscine privée et jardin paysagé' },
-              { img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800', label: 'Méditerranée — 300 jours de soleil par an' }
+              { img: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=800', label: 'Colisée d'El Jem — Monument romain majestueux' }
             ].map((item, i) => (
               <motion.div
                 key={i}
