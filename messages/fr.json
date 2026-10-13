@@ -230,5 +230,30 @@
     "timezone": "(heure française)",
     "responseTitle": "Délai de réponse",
     "responseText": "Nous nous engageons à vous répondre dans les 24 heures ouvrées. Pour toute urgence, privilégiez l'appel téléphonique."
+  },
+  "contactForm": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "budget": "Budget",
+    "zone": "Zone souhaitée",
+    "type": "Type de bien",
+    "formule": "Formule souhaitée",
+    "message": "Message",
+    "select": "Sélectionner",
+    "budget1": "< 80k€",
+    "budget2": "80-150k€",
+    "budget3": "150-300k€",
+    "budget4": "> 300k€",
+    "formule0": "Je ne sais pas encore",
+    "formule1": "Essentiel - 690€",
+    "formule2": "Sécurité - 990€ (recommandé)",
+    "formule3": "Premium - 1 690€",
+    "formule4": "Option déplacement physique - +290€/jour",
+    "success": "Merci ! Votre message a été envoyé avec succès.",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "sending": "Envoi en cours...",
+    "send": "Envoyer"
   }
 }

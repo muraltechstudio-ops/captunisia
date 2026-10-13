@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function ContactForm() {
+  const t = useTranslations('contactForm')
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -60,7 +62,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="firstName" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-            Prénom
+            {t('firstName')}
           </label>
           <input
             type="text"
@@ -74,7 +76,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="lastName" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-            Nom
+            {t('lastName')}
           </label>
           <input
             type="text"
@@ -90,7 +92,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="email" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-          Email
+          {t('email')}
         </label>
         <input
           type="email"
@@ -105,7 +107,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="phone" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-          Téléphone
+          {t('phone')}
         </label>
         <input
           type="tel"
@@ -121,7 +123,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <label htmlFor="budget" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-            Budget
+            {t('budget')}
           </label>
           <select
             id="budget"
@@ -131,16 +133,16 @@ export default function ContactForm() {
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-azur focus:border-transparent"
           >
-            <option value="">Sélectionner</option>
-            <option value="< 80k€">{'< 80k€'}</option>
-            <option value="80-150k€">80-150k€</option>
-            <option value="150-300k€">150-300k€</option>
-            <option value="> 300k€">{`> 300k€`}</option>
+            <option value="">{t('select')}</option>
+            <option value="< 80k€">{t('budget1')}</option>
+            <option value="80-150k€">{t('budget2')}</option>
+            <option value="150-300k€">{t('budget3')}</option>
+            <option value="> 300k€">{t('budget4')}</option>
           </select>
         </div>
         <div>
           <label htmlFor="zone" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-            Zone souhaitée
+            {t('zone')}
           </label>
           <select
             id="zone"
@@ -150,7 +152,7 @@ export default function ContactForm() {
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-azur focus:border-transparent"
           >
-            <option value="">Sélectionner</option>
+            <option value="">{t('select')}</option>
             <option value="Hammamet">Hammamet</option>
             <option value="La Marsa">La Marsa</option>
             <option value="Sousse">Sousse</option>
@@ -161,7 +163,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="type" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-            Type de bien
+            {t('type')}
           </label>
           <select
             id="type"
@@ -171,7 +173,7 @@ export default function ContactForm() {
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-azur focus:border-transparent"
           >
-            <option value="">Sélectionner</option>
+            <option value="">{t('select')}</option>
             <option value="Villa">Villa</option>
             <option value="Appartement">Appartement</option>
             <option value="Terrain">Terrain</option>
@@ -182,7 +184,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="formule" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-          Formule souhaitée
+          {t('formule')}
         </label>
         <select
           id="formule"
@@ -191,17 +193,17 @@ export default function ContactForm() {
           onChange={handleChange}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-azur focus:border-transparent"
         >
-          <option value="">Je ne sais pas encore</option>
-          <option value="Essentiel - 690€">Essentiel - 690€</option>
-          <option value="Sécurité - 990€ (recommandé)">Sécurité - 990€ (recommandé)</option>
-          <option value="Premium - 1 690€">Premium - 1 690€</option>
-          <option value="Option déplacement physique - +290€/jour">Option déplacement physique - +290€/jour</option>
+          <option value="">{t('formule0')}</option>
+          <option value="Essentiel - 690€">{t('formule1')}</option>
+          <option value="Sécurité - 990€ (recommandé)">{t('formule2')}</option>
+          <option value="Premium - 1 690€">{t('formule3')}</option>
+          <option value="Option déplacement physique - +290€/jour">{t('formule4')}</option>
         </select>
       </div>
 
       <div>
         <label htmlFor="message" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-          Message
+          {t('message')}
         </label>
         <textarea
           id="message"
@@ -216,13 +218,13 @@ export default function ContactForm() {
 
       {status === 'success' && (
         <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
-          <p className="font-sans text-sm text-green-800">Merci ! Votre message a été envoyé avec succès.</p>
+          <p className="font-sans text-sm text-green-800">{t('success')}</p>
         </div>
       )}
 
       {status === 'error' && (
         <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-          <p className="font-sans text-sm text-red-800">Une erreur est survenue. Veuillez réessayer.</p>
+          <p className="font-sans text-sm text-red-800">{t('error')}</p>
         </div>
       )}
 
@@ -231,7 +233,7 @@ export default function ContactForm() {
         disabled={status === 'loading'}
         className="w-full px-8 py-4 bg-azur text-white font-sans font-semibold rounded-lg hover:bg-azur/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
       >
-        {status === 'loading' ? 'Envoi en cours...' : 'Envoyer'}
+        {status === 'loading' ? t('sending') : t('send')}
       </button>
     </form>
   )

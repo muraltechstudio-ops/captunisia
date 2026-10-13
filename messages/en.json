@@ -230,5 +230,30 @@
     "timezone": "(French time)",
     "responseTitle": "Response time",
     "responseText": "We commit to responding within 24 business hours. For urgent matters, please call."
+  },
+  "contactForm": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "budget": "Budget",
+    "zone": "Desired area",
+    "type": "Property type",
+    "formule": "Desired package",
+    "message": "Message",
+    "select": "Select",
+    "budget1": "< €80k",
+    "budget2": "€80-150k",
+    "budget3": "€150-300k",
+    "budget4": "> €300k",
+    "formule0": "I don't know yet",
+    "formule1": "Essential - €690",
+    "formule2": "Security - €990 (recommended)",
+    "formule3": "Premium - €1,690",
+    "formule4": "On-site visit option - +€290/day",
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "An error occurred. Please try again.",
+    "sending": "Sending...",
+    "send": "Send"
   }
 }
