@@ -12,31 +12,17 @@ export default function Nav() {
   const locale = useLocale()
   const t = useTranslations('nav')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isTransparent, setIsTransparent] = useState(pathname === `/${locale}` || pathname === '/')
+  const [isTransparent, setIsTransparent] = useState(true)
 
   useEffect(() => {
-    const isHomePage = pathname === `/${locale}` || pathname === '/'
-    if (!isHomePage) {
-      setIsTransparent(false)
-      return
+    // Header transparent sur toutes les pages, devient opaque au scroll
+    const handleScroll = () => {
+      setIsTransparent(window.scrollY < 50)
     }
 
-    const sentinel = document.getElementById('hero-sentinel')
-    if (!sentinel) {
-      setIsTransparent(false)
-      return
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsTransparent(entry.isIntersecting)
-      },
-      { threshold: 0 }
-    )
-
-    observer.observe(sentinel)
-    return () => observer.disconnect()
-  }, [pathname, locale])
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const links = [
     { href: `/${locale}/biens`, label: t('properties') },

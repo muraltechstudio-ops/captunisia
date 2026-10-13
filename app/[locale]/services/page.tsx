@@ -66,22 +66,6 @@ export default function ServicesPage() {
         ))}
       </div>
 
-      {/* Pricing Section */}
-      <div className="bg-white py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-display text-4xl font-bold text-nuit mb-6">
-            {t('pricingTitle')}
-          </h2>
-          <div className="bg-azur/5 border-2 border-azur rounded-lg p-8 mb-6">
-            <p className="font-display text-5xl font-bold text-azur mb-4">{t('pricingPrice')}</p>
-            <p className="font-sans text-xl text-gray-700">{t('pricingFor')}</p>
-          </div>
-          <p className="font-sans text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-            {t('pricingText')}
-          </p>
-        </div>
-      </div>
-
       {/* FAQ */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h2 className="font-display text-4xl font-bold text-nuit mb-12 text-center">
