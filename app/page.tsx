@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <VideoHero />
 
-      {/* SECTION 1 — Pain Point France Inabordable */}
+      {/* SECTION 1 - Pain Point France Inabordable */}
       <section className="bg-[#111009] py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 2 — Comparatif France vs Tunisie */}
+      {/* SECTION 2 - Comparatif France vs Tunisie */}
       <section className="bg-white py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -70,7 +70,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              Tunisie vs France — La réalité des chiffres
+              Tunisie vs France - La réalité des chiffres
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-2xl mx-auto">
               Un comparatif sans concession qui montre pourquoi des milliers de Français font le choix de la Tunisie en 2026.
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 3 — Pourquoi la Tunisie plutôt qu'ailleurs */}
+      {/* SECTION 3 - Pourquoi la Tunisie plutôt qu'ailleurs */}
       <section className="bg-[#F8F6F1] py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -176,7 +176,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 'À seulement 2h de vol de Paris, Lyon, Marseille, Nice',
-                'Même fuseau horaire (GMT+1) — zéro décalage avec la France',
+                'Même fuseau horaire (GMT+1) - zéro décalage avec la France',
                 "Langue : le français est parlé partout, dans les affaires et l'administration",
                 "Immobilier 3 à 8x moins cher qu'en France",
                 'Coût de la vie 60 à 70% moins élevé',
@@ -198,7 +198,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 4 — Galerie Photos Tunisie */}
+      {/* SECTION 4 - Galerie Photos Tunisie */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -218,12 +218,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { img: 'https://images.unsplash.com/photo-1591825378508-c95b110a3b4f?w=800', label: 'Sidi Bou Saïd — Village emblématique aux portes bleues' },
-              { img: 'https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800', label: 'Hammamet — Plages de sable fin et eaux turquoise' },
-              { img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800', label: 'Médina de Tunis — Patrimoine UNESCO vivant' },
-              { img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800', label: 'Gastronomie tunisienne — Saveurs méditerranéennes authentiques' },
-              { img: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800', label: 'Villa de luxe — Piscine privée et jardin paysagé' },
-              { img: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=800', label: 'Colisée d'El Jem — Monument romain majestueux' }
+              { img: 'https://images.unsplash.com/photo-1591825378508-c95b110a3b4f?w=800', label: 'Sidi Bou Saïd - Village emblématique aux portes bleues' },
+              { img: 'https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800', label: 'Hammamet - Plages de sable fin et eaux turquoise' },
+              { img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800', label: 'Médina de Tunis - Patrimoine UNESCO vivant' },
+              { img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800', label: 'Gastronomie tunisienne - Saveurs méditerranéennes authentiques' },
+              { img: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800', label: 'Villa de luxe - Piscine privée et jardin paysagé' },
+              { img: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=800', label: 'Colisée d'El Jem - Monument romain majestueux' }
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -248,7 +248,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 5 — Pour qui est fait CapTunisia */}
+      {/* SECTION 5 - Pour qui est fait CapTunisia */}
       <section className="bg-[#F8F6F1] py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -318,7 +318,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 6 — FAQ SEO */}
+      {/* SECTION 6 - FAQ SEO */}
       <section className="bg-white py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
