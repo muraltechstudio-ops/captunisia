@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Politique de confidentialite — CapTunisia',
-  description: 'Politique de confidentialite et protection des donnees personnelles',
+  title: 'Politique de confidentialité — CapTunisia',
+  description: 'Politique de confidentialité et protection des données personnelles',
 }
 
 export default function ConfidentialitePage() {
@@ -8,7 +8,7 @@ export default function ConfidentialitePage() {
     <div className="min-h-screen bg-white">
       <div className="max-w-3xl mx-auto px-6 pt-32 pb-20">
         <p className="text-sm text-gray-500 mb-4">Derniere mise a jour : octobre 2026</p>
-        <h1 className="font-display text-5xl text-nuit mb-12">Politique de confidentialite</h1>
+        <h1 className="font-display text-5xl text-nuit mb-12">Politique de confidentialité</h1>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Responsable du traitement</h2>
@@ -18,16 +18,16 @@ export default function ConfidentialitePage() {
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Donnees collectees</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Données collectées</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Via le formulaire de contact : prenom, nom, email, telephone, budget, zone souhaitee, type de bien, message. Ces donnees sont collectees dans le seul but de repondre a la demande de l utilisateur.
+            Via le formulaire de contact : prénom, nom, email, téléphone, budget, zone souhaitée, type de bien, message. Ces données sont collectées dans le seul but de répondre à la demande de l'utilisateur.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Base légale</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Article 6.1.b du RGPD - execution de mesures precontractuelles a la demande de la personne concernee.
+            Article 6.1.b du RGPD - execution de mesures précontractuelles à la demande de la personne concernée.
           </p>
         </div>
 
@@ -41,14 +41,14 @@ export default function ConfidentialitePage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Destinataires</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Les donnees sont transmises par email a l equipe CapTunisia via Resend (sous-traitant, politique de confidentialite : <a href="https://resend.com/privacy" target="_blank" rel="noopener noreferrer" className="text-azur hover:underline">https://resend.com/privacy</a>). Elles ne sont pas vendues ni cedees a des tiers.
+            Les données sont transmises par email à l'équipe CapTunisia via Resend (sous-traitant, politique de confidentialité : <a href="https://resend.com/privacy" target="_blank" rel="noopener noreferrer" className="text-azur hover:underline">https://resend.com/privacy</a>). Elles ne sont pas vendues ni cédées à des tiers.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Droits des utilisateurs</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Conformement au RGPD (Reglement UE 2016/679) et a la loi Informatique et Libertes, vous disposez d un droit d acces, de rectification, d effacement, de limitation et d opposition. Pour exercer ces droits : contact@captunisia.com.
+            Conformément au RGPD (Règlement UE 2016/679) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition. Pour exercer ces droits : contact@captunisia.com.
           </p>
         </div>
 
@@ -60,9 +60,9 @@ export default function ConfidentialitePage() {
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Reclamation</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Réclamation</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Vous pouvez adresser une reclamation a la CNIL : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="text-azur hover:underline">https://www.cnil.fr</a>
+            Vous pouvez adresser une réclamation à la CNIL : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="text-azur hover:underline">https://www.cnil.fr</a>
           </p>
         </div>
       </div>

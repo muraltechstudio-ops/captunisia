@@ -14,7 +14,7 @@ export default function MentionsLegalesPage() {
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Editeur du site</h2>
           <div className="font-sans text-gray-600 leading-relaxed space-y-2">
             <p><strong>Raison sociale :</strong> Open Crest LLC (French Branch)</p>
-            <p><strong>Forme juridique :</strong> Societe a responsabilite limitee de droit americain (LLC - New Mexico), succursale francaise</p>
+            <p><strong>Forme juridique :</strong> Société à responsabilité limitée de droit américain (LLC - New Mexico), succursale française</p>
             <p><strong>SIREN :</strong> 108390410</p>
             <p><strong>TVA intracommunautaire :</strong> FR82108390410</p>
             <p><strong>RCS :</strong> Montpellier</p>
@@ -34,23 +34,23 @@ export default function MentionsLegalesPage() {
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Activite</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Activité</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            CapTunisia est un service d'apport d'affaires. Il n'est pas agent immobilier et n'est pas soumis a la loi n 70-9 du 2 janvier 1970 (loi Hoguet) réglementant les activités des agents immobiliers en France. CapTunisia ne réalise aucune transaction immobilière, ne détient aucun fonds pour le compte de tiers et ne signe aucun acte au nom des parties. Son rôle se limite a la mise en relation entre acquéreurs et agences immobilières tunisiennes partenaires.
+            CapTunisia est un service d'apport d'affaires. Il n'est pas agent immobilier et n'est pas soumis à la loi n 70-9 du 2 janvier 1970 (loi Hoguet) réglementant les activités des agents immobiliers en France. CapTunisia ne réalise aucune transaction immobilière, ne détient aucun fonds pour le compte de tiers et ne signe aucun acte au nom des parties. Son rôle se limite à la mise en relation entre acquéreurs et agences immobilières tunisiennes partenaires.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Propriete intellectuelle</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Propriété intellectuelle</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
             L ensemble du contenu du site (textes, visuels, structure) est la propriété exclusive d Open Crest LLC. Toute reproduction sans autorisation est interdite.
           </p>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8">
-          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Donnees personnelles</h2>
+          <h2 className="font-sans font-semibold text-lg text-azur mb-3">Données personnelles</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Pour plus d informations sur le traitement de vos donnees personnelles, consultez notre <a href="/légales/confidentialite" className="text-azur hover:underline">politique de confidentialite</a>.
+            Pour plus d'informations sur le traitement de vos données personnelles, consultez notre <a href="/légales/confidentialité" className="text-azur hover:underline">politique de confidentialité</a>.
           </p>
         </div>
       </div>

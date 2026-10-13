@@ -182,7 +182,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="formule" className="block font-sans text-sm font-medium text-gray-700 mb-2">
-          Formule souhaitee
+          Formule souhaitée
         </label>
         <select
           id="formule"
@@ -193,9 +193,9 @@ export default function ContactForm() {
         >
           <option value="">Je ne sais pas encore</option>
           <option value="Essentiel - 690€">Essentiel - 690€</option>
-          <option value="Securite - 990€ (recommande)">Securite - 990€ (recommande)</option>
+          <option value="Sécurité - 990€ (recommandé)">Sécurité - 990€ (recommandé)</option>
           <option value="Premium - 1 690€">Premium - 1 690€</option>
-          <option value="Option deplacement physique - +290€/jour">Option deplacement physique - +290€/jour</option>
+          <option value="Option déplacement physique - +290€/jour">Option déplacement physique - +290€/jour</option>
         </select>
       </div>
 

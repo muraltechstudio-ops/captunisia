@@ -14,7 +14,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
     <div>
       <div className="bg-[#111009] py-5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
-          <span>690 a 1 690 euros TTC - Paiement unique - Engagement sans limite de duree</span>
+          <span>690 à 1 690 euros TTC - Paiement unique - Engagement sans limite de durée</span>
           <span className="hidden md:inline opacity-20">|</span>
           <span>100% dossiers vérifiés</span>
           <span className="hidden md:inline opacity-20">|</span>
@@ -28,13 +28,13 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center mb-16">
             <h2 className="font-display text-5xl italic text-nuit">La Tunisie, un marche immobilier d exception</h2>
-            <p className="text-gray-500 font-sans mt-4 max-w-2xl mx-auto leading-relaxed">Des prix 3 a 5 fois inferieurs a la France, un cadre de vie mediterraneen, et une equipe franco-tunisienne pour securiser chaque etape.</p>
+            <p className="text-gray-500 font-sans mt-4 max-w-2xl mx-auto leading-relaxed">Des prix 3 à 5 fois inférieurs à la France, un cadre de vie méditerranéen, et une équipe franco-tunisienne pour sécuriser chaque étape.</p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing a Hammamet. Des biens introuvables a ce prix en Europe mediterraneenne.' },
-              { title: 'Cadre légal maitrise', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gerons chaque etape juridique a votre place.' },
-              { title: 'Honoraires clairs', text: '3 formules de 690 a 1 690 euros TTC. Accompagnement physique en Tunisie inclus dans le pack Premium. Engagement sans limite de duree.', link: '/tarifs' }
+              { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing à Hammamet. Des biens introuvables à ce prix en Europe méditerranéenne.' },
+              { title: 'Cadre légal maîtrisé', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gérons chaque étape juridique à votre place.' },
+              { title: 'Honoraires clairs', text: '3 formules de 690 à 1 690 euros TTC. Accompagnement physique en Tunisie inclus dans le pack Premium. Engagement sans limite de durée.', link: '/tarifs' }
             ].map((item, i) => (
               <motion.div key={item.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="text-center">
                 <h3 className="font-display text-2xl mb-3 text-nuit">{item.title}</h3>
@@ -138,7 +138,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-4xl text-center text-nuit mb-16">Ils nous ont fait confiance</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { text: 'Nous avons achete notre villa a Hammamet en 8 mois. Cyril et Emna ont gere tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
+              { text: 'Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
               { text: 'Grace a CapTunisia, j ai investi dans un appartement a La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
               { text: 'La rigueur d Emna et la disponibilite de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
             ].map((t, i) => (

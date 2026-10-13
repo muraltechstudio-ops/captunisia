@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/equipe" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  L'equipe
+                  L'équipe
                 </Link>
               </li>
               <li>
@@ -49,7 +49,7 @@ export default function Footer() {
               <li>Recherche sur mesure</li>
               <li>Securisation juridique</li>
               <li>Visites organisees</li>
-              <li>Suivi jusqu a la signature</li>
+              <li>Suivi jusqu'à la signature</li>
             </ul>
           </div>
 

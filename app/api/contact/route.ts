@@ -3,10 +3,10 @@ import { z } from 'zod'
 import { resend } from '@/lib/resend'
 
 const contactSchema = z.object({
-  firstName: z.string().min(1, 'Prenom requis'),
+  firstName: z.string().min(1, 'Prénom requis'),
   lastName: z.string().min(1, 'Nom requis'),
   email: z.string().email('Email invalide'),
-  phone: z.string().min(1, 'Telephone requis'),
+  phone: z.string().min(1, 'Téléphone requis'),
   budget: z.string().min(1, 'Budget requis'),
   formule: z.string().optional(),
   zone: z.string().min(1, 'Zone requise'),
@@ -26,8 +26,8 @@ export async function POST(request: NextRequest) {
       <p><strong>Email :</strong> ${data.email}</p>
       <p><strong>Telephone :</strong> ${data.phone}</p>
       <p><strong>Budget :</strong> ${data.budget}</p>
-      ${data.formule ? `<p><strong>Formule souhaitee :</strong> ${data.formule}</p>` : ''}
-      <p><strong>Zone souhaitee :</strong> ${data.zone}</p>
+      ${data.formule ? `<p><strong>Formule souhaitée :</strong> ${data.formule}</p>` : ''}
+      <p><strong>Zone souhaitée :</strong> ${data.zone}</p>
       <p><strong>Type de bien :</strong> ${data.type}</p>
       <p><strong>Message :</strong></p>
       <p>${data.message.replace(/\n/g, '<br>')}</p>

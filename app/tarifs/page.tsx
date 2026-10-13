@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Nos tarifs — CapTunisia",
-  description: "3 formules d'accompagnement immobilier franco-tunisien de 690€ a 1 690€ TTC. Paiement en deux fois. Option deplacement physique en Tunisie disponible.",
+  description: "3 formules d'accompagnement immobilier franco-tunisien de 690€ à 1 690€ TTC. Paiement en deux fois. Option déplacement physique en Tunisie disponible.",
 }
 
 export default function TarifsPage() {
@@ -53,17 +53,17 @@ export default function TarifsPage() {
                 </li>
               </ul>
               <Link href="/contact" className="block w-full text-center mt-8 py-3 border transition-colors" style={{ borderColor: '#1B6CA8', color: '#1B6CA8' }}>
-                Demarrer mon projet
+                Démarrer mon projet
               </Link>
             </div>
 
-            {/* Securite (recommande) */}
+            {/* Sécurité (recommandé) */}
             <div className="relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
-                <span className="inline-block px-4 py-1 text-xs text-white tracking-widest uppercase" style={{ backgroundColor: '#B8923A' }}>Recommande</span>
+                <span className="inline-block px-4 py-1 text-xs text-white tracking-widest uppercase" style={{ backgroundColor: '#B8923A' }}>Recommandé</span>
               </div>
               <div className="rounded-lg p-8 text-white" style={{ backgroundColor: '#1B6CA8' }}>
-                <h3 className="font-sans font-semibold text-xl">Securite</h3>
+                <h3 className="font-sans font-semibold text-xl">Sécurité</h3>
                 <div className="mt-4">
                   <span className="font-display text-5xl">990 €</span>
                   <span className="text-sm opacity-70 ml-2">TTC</span>
