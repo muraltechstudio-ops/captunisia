@@ -139,7 +139,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { text: 'Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
-              { text: 'Grace a CapTunisia, j ai investi dans un appartement a La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
+              { text: 'Grâce à CapTunisia, j'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
               { text: 'La rigueur d Emna et la disponibilite de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
             ].map((t, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="bg-white border border-gray-100 shadow-sm p-8">

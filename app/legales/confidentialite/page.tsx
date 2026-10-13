@@ -55,7 +55,7 @@ export default function ConfidentialitePage() {
         <div className="border-t border-gray-100 mt-8 pt-8">
           <h2 className="font-sans font-semibold text-lg text-azur mb-3">Cookies</h2>
           <p className="font-sans text-gray-600 leading-relaxed">
-            Ce site n utilise pas de cookies de tracking. Aucune donnee de navigation n est transmise a des tiers a des fins publicitaires.
+            Ce site n'utilise pas de cookies de tracking. Aucune donnée de navigation n'est transmise à des tiers à des fins publicitaires.
           </p>
         </div>
 
