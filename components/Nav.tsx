@@ -4,14 +4,19 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslations, useLocale } from 'next-intl'
+import LanguageSwitcher from './LanguageSwitcher'
 
 export default function Nav() {
   const pathname = usePathname()
+  const locale = useLocale()
+  const t = useTranslations('nav')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isTransparent, setIsTransparent] = useState(pathname === '/')
+  const [isTransparent, setIsTransparent] = useState(pathname === `/${locale}` || pathname === '/')
 
   useEffect(() => {
-    if (pathname !== '/') {
+    const isHomePage = pathname === `/${locale}` || pathname === '/'
+    if (!isHomePage) {
       setIsTransparent(false)
       return
     }
@@ -31,15 +36,15 @@ export default function Nav() {
 
     observer.observe(sentinel)
     return () => observer.disconnect()
-  }, [pathname])
+  }, [pathname, locale])
 
   const links = [
-    { href: '/biens', label: 'Nos biens' },
-    { href: '/services', label: 'Nos services' },
-    { href: '/tarifs', label: 'Tarifs' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/equipe', label: "L'équipe" },
-    { href: '/contact', label: 'Contact' },
+    { href: `/${locale}/biens`, label: t('properties') },
+    { href: `/${locale}/services`, label: 'Services' },
+    { href: `/${locale}/tarifs`, label: t('pricing') },
+    { href: `/${locale}/blog`, label: 'Blog' },
+    { href: `/${locale}/equipe`, label: t('team') },
+    { href: `/${locale}/contact`, label: t('contact') },
   ]
 
   const isActive = (href: string) => pathname === href
@@ -56,7 +61,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href={`/${locale}`} className="flex items-center">
             <img
               src={isTransparent ? "/captunisia-logo-white.svg" : "/captunisia-logo-white.svg"}
               alt="CapTunisia"
@@ -93,6 +98,9 @@ export default function Nav() {
                 )}
               </Link>
             ))}
+
+            {/* Language Switcher */}
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile Menu Button */}

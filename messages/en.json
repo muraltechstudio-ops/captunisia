@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "team": "Our Team",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Your real estate project in Tunisia, secured from A to Z",
+    "links": "Quick Links",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookies",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "allRightsReserved": "All rights reserved"
+  },
+  "hero": {
+    "title": "Invest with Peace of Mind in Tunisian Real Estate",
+    "subtitle": "Personalized Franco-Tunisian Support - From Search to Key Handover",
+    "cta": "Start My Project",
+    "trust": "€690 to €1,690 incl. VAT · One-time payment · Unlimited commitment"
+  }
+}
