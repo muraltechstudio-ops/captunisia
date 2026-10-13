@@ -2,8 +2,10 @@
   "nav": {
     "home": "Home",
     "properties": "Properties",
+    "services": "Services",
     "team": "Our Team",
     "pricing": "Pricing",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "footer": {
@@ -23,5 +25,126 @@
     "subtitle": "Personalized Franco-Tunisian Support - From Search to Key Handover",
     "cta": "Start My Project",
     "trust": "€690 to €1,690 incl. VAT · One-time payment · Unlimited commitment"
+  },
+  "home": {
+    "section1": {
+      "title": "What if life in France cost you too much?",
+      "intro": "Galloping inflation, Parisian real estate at €10,000/m², exploding rents, plummeting purchasing power... Retirees can't make ends meet, families go into debt for 30 years for a 60m² apartment.",
+      "highlight": "There's an alternative just 2 hours away by flight.",
+      "stats": [
+        { "value": "€10,200/m²", "label": "Average price Paris 2026" },
+        { "value": "+47%", "label": "Rent increase in 10 years" },
+        { "value": "€1,500/month", "label": "Enough to live comfortably in Tunisia" },
+        { "value": "2h flight", "label": "From Paris or Lyon" }
+      ]
+    },
+    "section2": {
+      "title": "Tunisia vs France - The Reality in Numbers",
+      "subtitle": "An uncompromising comparison showing why thousands of French people are choosing Tunisia in 2026.",
+      "table": {
+        "headerFrance": "🇫🇷 France",
+        "headerTunisia": "🇹🇳 Tunisia",
+        "rows": [
+          { "item": "80m² apartment (purchase)", "france": "€350,000 in Paris", "tunisia": "€80,000 in Tunis" },
+          { "item": "Monthly rent 2-bedroom", "france": "€1,200 in Lyon", "tunisia": "€300 in La Marsa" },
+          { "item": "Restaurant meal", "france": "€20-35", "tunisia": "€5-10" },
+          { "item": "Housekeeper (monthly)", "france": "€400-600", "tunisia": "€80-120" },
+          { "item": "Electricity bill", "france": "€120/month", "tunisia": "€15-25/month" },
+          { "item": "Annual sunshine", "france": "1,800h (Paris)", "tunisia": "3,000h" },
+          { "item": "Comfortable retirement", "france": "€3,000/month", "tunisia": "€1,200/month" }
+        ]
+      },
+      "cta": "I want to know my exact budget"
+    },
+    "section3": {
+      "title": "Why Tunisia over Morocco, Spain or Portugal?",
+      "subtitle": "Every expat destination has its advantages. Here's why Tunisia surpasses all others in 2026.",
+      "comparisons": [
+        { "vs": "vs Morocco", "advantage": "100% secure property rights for foreigners, no restrictions on fund transfers" },
+        { "vs": "vs Spain/Portugal", "advantage": "3 to 5x lower prices, favorable taxation, no golden visa needed" },
+        { "vs": "vs Thailand/Bali", "advantage": "Same time zone as France, 2h direct flight, close Mediterranean culture" },
+        { "vs": "vs Greece", "advantage": "No banking crisis, growing political stability, non-saturated real estate market" }
+      ],
+      "advantages": {
+        "title": "Tunisia's 10 Concrete Advantages",
+        "list": [
+          "Just 2 hours flight from Paris, Lyon, Marseille, Nice",
+          "Same time zone (GMT+1) - zero jet lag with France",
+          "Language: French is spoken everywhere, in business and administration",
+          "Real estate 3 to 8x cheaper than in France",
+          "Cost of living 60 to 70% lower",
+          "Very favorable taxation for non-residents",
+          "Security: one of the best in North Africa",
+          "Exceptional Mediterranean cuisine",
+          "3,000 hours of sunshine per year, sea within reach",
+          "Quality private healthcare system at affordable prices"
+        ]
+      }
+    },
+    "section4": {
+      "title": "The Tunisia You Don't Know Yet",
+      "subtitle": "Beyond the stereotypes, discover a multifaceted country where life is good.",
+      "gallery": [
+        { "label": "Sidi Bou Saïd - Iconic village with blue doors" },
+        { "label": "Hammamet - Fine sandy beaches and turquoise waters" },
+        { "label": "Saint Vincent de Paul Cathedral - Majestic neo-Byzantine architecture" },
+        { "label": "Tunisian cuisine - Authentic Mediterranean flavors" },
+        { "label": "Luxury villa - Private pool and landscaped garden" },
+        { "label": "El Jem Colosseum - Majestic Roman monument" }
+      ]
+    },
+    "section5": {
+      "title": "CapTunisia is for you if...",
+      "subtitle": "Four profiles, one common goal: live better for less.",
+      "profiles": [
+        {
+          "icon": "🏖️",
+          "title": "French retiree",
+          "desc": "Your €1,500/month pension lets you live royally. Villa with pool, housekeeper, restaurants... The life you dreamed of, finally accessible."
+        },
+        {
+          "icon": "💻",
+          "title": "Digital nomad",
+          "desc": "Work remotely from Hammamet or La Marsa. Fiber optic, modern co-workings, digital nomad visa, and 300 days of sunshine."
+        },
+        {
+          "icon": "💰",
+          "title": "Investor",
+          "desc": "Rental yields of 6 to 10% on seasonal rentals. Tunisian real estate is undervalued: now is the time to invest."
+        },
+        {
+          "icon": "👨‍👩‍👧",
+          "title": "Expat family",
+          "desc": "French schools, international schools, safety, beaches... An exceptional living environment to raise your children."
+        }
+      ],
+      "cta": "Discover our services"
+    },
+    "section6": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know before buying in Tunisia.",
+      "faqs": [
+        {
+          "q": "Can a French citizen buy real estate in Tunisia?",
+          "r": "Yes, absolutely. French and European nationals can freely purchase real estate in Tunisia, without nationality restrictions. Fund repatriation is guaranteed by the Central Bank of Tunisia (BCT). Only agricultural land requires prior authorization from the governor."
+        },
+        {
+          "q": "Do I need to pay taxes in France on Tunisian property?",
+          "r": "The 1973 Franco-Tunisian tax treaty avoids double taxation. If you're a French tax resident receiving rental income in Tunisia, you declare this income in France and benefit from a tax credit for taxes already paid in Tunisia. We assist you with all these procedures."
+        },
+        {
+          "q": "What's the minimum budget to buy in Tunisia?",
+          "r": "From €40,000 for an apartment in a secure residence in Hammamet or Sousse. For a villa with pool, count between €120,000 and €250,000 depending on location and size. These prices are 3 to 8 times lower than in France for equivalent quality."
+        },
+        {
+          "q": "Is it safe to buy in Tunisia in 2026?",
+          "r": "Yes. Property rights are guaranteed by the Tunisian constitution and the land registry system (similar to French cadastre) legally secures your acquisition. CapTunisia systematically verifies property legality, absence of disputes, and accompanies you until signing at the notary."
+        },
+        {
+          "q": "How much does CapTunisia's support cost?",
+          "r": "Our fees are transparent: €690 incl. VAT for the Essential pack, €990 incl. VAT for the Security pack (recommended), and €1,690 incl. VAT for the Premium pack with physical trip to Tunisia included. Check our /pricing page for all details."
+        }
+      ]
+    }
   }
 }

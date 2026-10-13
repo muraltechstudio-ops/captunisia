@@ -1,14 +1,18 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 import VideoHero from '@/components/VideoHero'
 import HomeContent from '@/components/HomeContent'
 import { biens } from '@/data/biens'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useLocale } from 'next-intl'
 
 export default function Home() {
+  const t = useTranslations('home')
+  const locale = useLocale()
   const featuredBiens = [biens[0], biens[1], biens[2]]
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null)
 
@@ -27,22 +31,16 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-white mb-6">
-              Et si la vie en France vous coûtait trop cher ?
+              {t('section1.title')}
             </h2>
             <p className="text-white/70 font-sans text-lg max-w-3xl mx-auto leading-relaxed">
-              Inflation galopante, immobilier parisien à 10 000 €/m², loyers explosés, pouvoir d'achat en chute libre...
-              Les retraités ne s'en sortent plus, les familles s'endettent sur 30 ans pour un 60m².
-              <span className="text-[#B8923A] font-semibold block mt-4">Il existe une alternative à 2h de vol.</span>
+              {t('section1.intro')}
+              <span className="text-[#B8923A] font-semibold block mt-4">{t('section1.highlight')}</span>
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { stat: "10 200 €/m²", label: "Prix moyen Paris 2026" },
-              { stat: "+47%", label: "Hausse loyers en 10 ans" },
-              { stat: "1 500 €/mois", label: "Suffit pour vivre confortablement en Tunisie" },
-              { stat: "2h de vol", label: "Depuis Paris ou Lyon" }
-            ].map((item, i) => (
+            {t.raw('section1.stats').map((item: any, i: number) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -51,7 +49,7 @@ export default function Home() {
                 transition={{ duration: 0.7, delay: i * 0.1 }}
                 className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 text-center"
               >
-                <div className="text-5xl font-display font-bold text-[#B8923A] mb-3">{item.stat}</div>
+                <div className="text-5xl font-display font-bold text-[#B8923A] mb-3">{item.value}</div>
                 <div className="text-white/60 font-sans text-sm">{item.label}</div>
               </motion.div>
             ))}
@@ -70,10 +68,10 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              Tunisie vs France - La réalité des chiffres
+              {t('section2.title')}
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-2xl mx-auto">
-              Un comparatif sans concession qui montre pourquoi des milliers de Français font le choix de la Tunisie en 2026.
+              {t('section2.subtitle')}
             </p>
           </motion.div>
 
@@ -88,24 +86,16 @@ export default function Home() {
               <thead>
                 <tr className="bg-[#1B6CA8] text-white">
                   <th className="px-6 py-4 text-left font-sans font-semibold"></th>
-                  <th className="px-6 py-4 text-center font-sans font-semibold text-lg">🇫🇷 France</th>
-                  <th className="px-6 py-4 text-center font-sans font-semibold text-lg">🇹🇳 Tunisie</th>
+                  <th className="px-6 py-4 text-center font-sans font-semibold text-lg">{t('section2.table.headerFrance')}</th>
+                  <th className="px-6 py-4 text-center font-sans font-semibold text-lg">{t('section2.table.headerTunisia')}</th>
                 </tr>
               </thead>
               <tbody>
-                {[
-                  { item: "Appartement 80m² (achat)", france: "350 000 € à Paris", tunisie: "80 000 € à Tunis" },
-                  { item: "Loyer mensuel 2 pièces", france: "1 200 € à Lyon", tunisie: "300 € à La Marsa" },
-                  { item: "Repas au restaurant", france: "20-35 €", tunisie: "5-10 €" },
-                  { item: "Femme de ménage (mois)", france: "400-600 €", tunisie: "80-120 €" },
-                  { item: "Facture électricité", france: "120 €/mois", tunisie: "15-25 €/mois" },
-                  { item: "Soleil annuel", france: "1 800h (Paris)", tunisie: "3 000h" },
-                  { item: "Retraite confortable", france: "3 000 €/mois", tunisie: "1 200 €/mois" }
-                ].map((row, i) => (
+                {t.raw('section2.table.rows').map((row: any, i: number) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-[#F8F6F1]" : "bg-white"}>
                     <td className="px-6 py-4 font-sans font-medium text-[#111009]">{row.item}</td>
                     <td className="px-6 py-4 text-center font-sans text-gray-700">{row.france}</td>
-                    <td className="px-6 py-4 text-center font-sans font-semibold text-[#1B6CA8]">{row.tunisie}</td>
+                    <td className="px-6 py-4 text-center font-sans font-semibold text-[#1B6CA8]">{row.tunisia}</td>
                   </tr>
                 ))}
               </tbody>
@@ -119,8 +109,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-center mt-12"
           >
-            <Link href="/contact" className="inline-block px-10 py-4 bg-[#1B6CA8] text-white font-sans font-semibold rounded-lg hover:bg-[#1B6CA8]/90 transition-colors">
-              Je veux connaître mon budget exact
+            <Link href={`/${locale}/contact`} className="inline-block px-10 py-4 bg-[#1B6CA8] text-white font-sans font-semibold rounded-lg hover:bg-[#1B6CA8]/90 transition-colors">
+              {t('section2.cta')}
             </Link>
           </motion.div>
         </div>
@@ -137,20 +127,15 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              Pourquoi la Tunisie plutôt que le Maroc, l'Espagne ou le Portugal ?
+              {t('section3.title')}
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-3xl mx-auto">
-              Chaque destination d'expatriation a ses avantages. Voici pourquoi la Tunisie surpasse toutes les autres en 2026.
+              {t('section3.subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            {[
-              { vs: "vs Maroc", avantage: "Droit de propriété 100% sécurisé pour les étrangers, pas de restriction sur les virements de fonds" },
-              { vs: "vs Espagne/Portugal", avantage: "Prix 3 à 5x moins élevés, fiscalité avantageuse, pas de golden visa nécessaire" },
-              { vs: "vs Thaïlande/Bali", avantage: "Même fuseau horaire que la France, vol direct 2h, culture méditerranéenne proche" },
-              { vs: "vs Grèce", avantage: "Pas de crise bancaire, stabilité politique croissante, immobilier non saturé" }
-            ].map((item, i) => (
+            {t.raw('section3.comparisons').map((item: any, i: number) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -160,7 +145,7 @@ export default function Home() {
                 className="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#1B6CA8]/10 hover:border-[#1B6CA8] transition-all"
               >
                 <div className="text-[#B8923A] font-sans font-bold text-sm uppercase tracking-wide mb-3">{item.vs}</div>
-                <p className="text-gray-700 font-sans text-sm leading-relaxed">{item.avantage}</p>
+                <p className="text-gray-700 font-sans text-sm leading-relaxed">{item.advantage}</p>
               </motion.div>
             ))}
           </div>
@@ -172,20 +157,9 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="bg-white rounded-2xl p-10 shadow-xl"
           >
-            <h3 className="font-display text-3xl text-[#111009] mb-8 text-center">Les 10 avantages concrets de la Tunisie</h3>
+            <h3 className="font-display text-3xl text-[#111009] mb-8 text-center">{t('section3.advantages.title')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                "À seulement 2h de vol de Paris, Lyon, Marseille, Nice",
-                "Même fuseau horaire (GMT+1) - zéro décalage avec la France",
-                "Langue : le français est parlé partout, dans les affaires et l'administration",
-                "Immobilier 3 à 8x moins cher qu'en France",
-                "Coût de la vie 60 à 70% moins élevé",
-                "Fiscalité très avantageuse pour les non-résidents",
-                "Sécurité : l'une des meilleures en Afrique du Nord",
-                "Gastronomie méditerranéenne exceptionnelle",
-                "3 000 heures de soleil par an, mer à portée de main",
-                "Système de santé privé de qualité à des prix accessibles"
-              ].map((avantage, i) => (
+              {t.raw('section3.advantages.list').map((avantage: string, i: number) => (
                 <div key={i} className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-[#1B6CA8] flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-white text-xs font-bold">{i + 1}</span>
@@ -209,21 +183,21 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              La Tunisie que vous ne connaissez pas encore
+              {t('section4.title')}
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-2xl mx-auto">
-              Au-delà des clichés, découvrez un pays aux multiples facettes où il fait bon vivre.
+              {t('section4.subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { img: "/sidi-bou-said.jpg", label: "Sidi Bou Saïd - Village emblématique aux portes bleues" },
-              { img: "https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800", label: "Hammamet - Plages de sable fin et eaux turquoise" },
-              { img: "/cathedrale-tunis.webp", label: "Cathédrale Saint-Vincent de Paul - Architecture néo-byzantine majestueuse" },
-              { img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800", label: "Gastronomie tunisienne - Saveurs méditerranéennes authentiques" },
-              { img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800", label: "Villa de luxe - Piscine privée et jardin paysagé" },
-              { img: "/colisee-el-jem.webp", label: "Colisée d'El Jem - Monument romain majestueux" }
+              { img: "/sidi-bou-said.jpg" },
+              { img: "https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800" },
+              { img: "/cathedrale-tunis.webp" },
+              { img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800" },
+              { img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800" },
+              { img: "/colisee-el-jem.webp" }
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -235,12 +209,12 @@ export default function Home() {
               >
                 <Image
                   src={item.img}
-                  alt={item.label}
+                  alt={t.raw('section4.gallery')[i].label}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <p className="text-white font-sans font-semibold text-lg">{item.label}</p>
+                  <p className="text-white font-sans font-semibold text-lg">{t.raw('section4.gallery')[i].label}</p>
                 </div>
               </motion.div>
             ))}
@@ -259,36 +233,15 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              CapTunisia s'adresse à vous si...
+              {t('section5.title')}
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-2xl mx-auto">
-              Quatre profils, un même objectif : vivre mieux pour moins cher.
+              {t('section5.subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                icon: "🏖️",
-                title: "Retraité français",
-                desc: "Votre retraite de 1 500 €/mois vous permet de vivre royalement. Villa avec piscine, femme de ménage, restaurants... La vie dont vous rêviez, enfin accessible."
-              },
-              {
-                icon: "💻",
-                title: "Nomade numérique",
-                desc: "Télétravaillez depuis Hammamet ou La Marsa. Fibre optique, co-workings modernes, visa digital nomad, et 300 jours de soleil."
-              },
-              {
-                icon: "💰",
-                title: "Investisseur",
-                desc: "Rendements locatifs de 6 à 10% sur la location saisonnière. L'immobilier tunisien est sous-évalué : c'est maintenant qu'il faut investir."
-              },
-              {
-                icon: "👨‍👩‍👧",
-                title: "Famille expatriée",
-                desc: "Lycées français, écoles internationales, sécurité, plages... Un cadre de vie exceptionnel pour élever vos enfants."
-              }
-            ].map((profil, i) => (
+            {t.raw('section5.profiles').map((profil: any, i: number) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -311,8 +264,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-center mt-12"
           >
-            <Link href="/services" className="inline-block px-10 py-4 bg-[#1B6CA8] text-white font-sans font-semibold rounded-lg hover:bg-[#1B6CA8]/90 transition-colors">
-              Découvrir nos services
+            <Link href={`/${locale}/services`} className="inline-block px-10 py-4 bg-[#1B6CA8] text-white font-sans font-semibold rounded-lg hover:bg-[#1B6CA8]/90 transition-colors">
+              {t('section5.cta')}
             </Link>
           </motion.div>
         </div>
@@ -329,36 +282,15 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              Questions fréquentes
+              {t('section6.title')}
             </h2>
             <p className="text-gray-600 font-sans text-lg">
-              Tout ce que vous devez savoir avant d'acheter en Tunisie.
+              {t('section6.subtitle')}
             </p>
           </motion.div>
 
           <div className="space-y-4">
-            {[
-              {
-                q: "Un Français peut-il acheter un bien immobilier en Tunisie ?",
-                r: "Oui, absolument. Les ressortissants français et européens peuvent acheter librement un bien immobilier en Tunisie, sans restriction de nationalité. Le rapatriement des fonds est garanti par la Banque Centrale de Tunisie (BCT). Seules les terres agricoles sont soumises à autorisation préalable du gouverneur."
-              },
-              {
-                q: "Faut-il payer des impôts en France sur un bien en Tunisie ?",
-                r: "La convention fiscale franco-tunisienne de 1973 évite la double imposition. Si vous êtes résident fiscal français et que vous percevez des revenus locatifs en Tunisie, vous déclarez ces revenus en France et bénéficiez d'un crédit d'impôt pour les impôts déjà payés en Tunisie. Nous vous accompagnons dans toutes ces démarches."
-              },
-              {
-                q: "Quel budget minimum pour acheter en Tunisie ?",
-                r: "À partir de 40 000 € pour un appartement en résidence sécurisée à Hammamet ou Sousse. Pour une villa avec piscine, comptez entre 120 000 € et 250 000 € selon la localisation et la superficie. Ces prix sont 3 à 8 fois moins élevés qu'en France pour un standing équivalent."
-              },
-              {
-                q: "Est-ce sécurisé d'acheter en Tunisie en 2026 ?",
-                r: "Oui. Le droit de propriété est garanti par la constitution tunisienne et le système de titre foncier (similaire au cadastre français) sécurise juridiquement votre acquisition. CapTunisia vérifie systématiquement la légalité du bien, l'absence de contentieux, et vous accompagne jusqu'à la signature chez le notaire."
-              },
-              {
-                q: "Combien coûte l'accompagnement CapTunisia ?",
-                r: "Nos honoraires sont transparents : 690 € TTC pour le pack Essentiel, 990 € TTC pour le pack Sécurité (recommandé), et 1 690 € TTC pour le pack Premium avec déplacement physique en Tunisie inclus. Consultez notre page /tarifs pour tous les détails."
-              }
-            ].map((faq, i) => (
+            {t.raw('section6.faqs').map((faq: any, i: number) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -398,18 +330,6 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="text-center mt-12"
-          >
-            <Link href="/contact" className="inline-block px-10 py-4 bg-[#B8923A] text-white font-sans font-semibold rounded-lg hover:bg-[#B8923A]/90 transition-colors">
-              Une autre question ? Contactez-nous
-            </Link>
-          </motion.div>
         </div>
       </section>
 
