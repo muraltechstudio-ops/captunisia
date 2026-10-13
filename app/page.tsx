@@ -30,8 +30,8 @@ export default function Home() {
               Et si la vie en France vous coûtait trop cher ?
             </h2>
             <p className="text-white/70 font-sans text-lg max-w-3xl mx-auto leading-relaxed">
-              Inflation galopante, immobilier parisien à 10 000 €/m², loyers explosés, pouvoir d&apos;achat en chute libre...
-              Les retraités ne s&apos;en sortent plus, les familles s&apos;endettent sur 30 ans pour un 60m².
+              Inflation galopante, immobilier parisien à 10 000 €/m², loyers explosés, pouvoir d'achat en chute libre...
+              Les retraités ne s'en sortent plus, les familles s'endettent sur 30 ans pour un 60m².
               <span className="text-[#B8923A] font-semibold block mt-4">Il existe une alternative à 2h de vol.</span>
             </p>
           </motion.div>
@@ -137,10 +137,10 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              Pourquoi la Tunisie plutôt que le Maroc, l&apos;Espagne ou le Portugal ?
+              Pourquoi la Tunisie plutôt que le Maroc, l'Espagne ou le Portugal ?
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-3xl mx-auto">
-              Chaque destination d&apos;expatriation a ses avantages. Voici pourquoi la Tunisie surpasse toutes les autres en 2026.
+              Chaque destination d'expatriation a ses avantages. Voici pourquoi la Tunisie surpasse toutes les autres en 2026.
             </p>
           </motion.div>
 
@@ -177,11 +177,11 @@ export default function Home() {
               {[
                 "À seulement 2h de vol de Paris, Lyon, Marseille, Nice",
                 "Même fuseau horaire (GMT+1) - zéro décalage avec la France",
-                "Langue : le français est parlé partout, dans les affaires et l&apos;administration",
-                "Immobilier 3 à 8x moins cher qu&apos;en France",
+                "Langue : le français est parlé partout, dans les affaires et l'administration",
+                "Immobilier 3 à 8x moins cher qu'en France",
                 "Coût de la vie 60 à 70% moins élevé",
                 "Fiscalité très avantageuse pour les non-résidents",
-                "Sécurité : l&apos;une des meilleures en Afrique du Nord",
+                "Sécurité : l'une des meilleures en Afrique du Nord",
                 "Gastronomie méditerranéenne exceptionnelle",
                 "3 000 heures de soleil par an, mer à portée de main",
                 "Système de santé privé de qualité à des prix accessibles"
@@ -259,7 +259,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="font-display text-4xl md:text-5xl text-[#111009] mb-6">
-              CapTunisia s&apos;adresse à vous si...
+              CapTunisia s'adresse à vous si...
             </h2>
             <p className="text-gray-600 font-sans text-lg max-w-2xl mx-auto">
               Quatre profils, un même objectif : vivre mieux pour moins cher.
@@ -281,7 +281,7 @@ export default function Home() {
               {
                 icon: "💰",
                 title: "Investisseur",
-                desc: "Rendements locatifs de 6 à 10% sur la location saisonnière. L&apos;immobilier tunisien est sous-évalué : c&apos;est maintenant qu&apos;il faut investir."
+                desc: "Rendements locatifs de 6 à 10% sur la location saisonnière. L'immobilier tunisien est sous-évalué : c'est maintenant qu'il faut investir."
               },
               {
                 icon: "👨‍👩‍👧",
@@ -332,7 +332,7 @@ export default function Home() {
               Questions fréquentes
             </h2>
             <p className="text-gray-600 font-sans text-lg">
-              Tout ce que vous devez savoir avant d&apos;acheter en Tunisie.
+              Tout ce que vous devez savoir avant d'acheter en Tunisie.
             </p>
           </motion.div>
 
@@ -344,18 +344,18 @@ export default function Home() {
               },
               {
                 q: "Faut-il payer des impôts en France sur un bien en Tunisie ?",
-                r: "La convention fiscale franco-tunisienne de 1973 évite la double imposition. Si vous êtes résident fiscal français et que vous percevez des revenus locatifs en Tunisie, vous déclarez ces revenus en France et bénéficiez d&apos;un crédit d&apos;impôt pour les impôts déjà payés en Tunisie. Nous vous accompagnons dans toutes ces démarches."
+                r: "La convention fiscale franco-tunisienne de 1973 évite la double imposition. Si vous êtes résident fiscal français et que vous percevez des revenus locatifs en Tunisie, vous déclarez ces revenus en France et bénéficiez d'un crédit d'impôt pour les impôts déjà payés en Tunisie. Nous vous accompagnons dans toutes ces démarches."
               },
               {
                 q: "Quel budget minimum pour acheter en Tunisie ?",
-                r: "À partir de 40 000 € pour un appartement en résidence sécurisée à Hammamet ou Sousse. Pour une villa avec piscine, comptez entre 120 000 € et 250 000 € selon la localisation et la superficie. Ces prix sont 3 à 8 fois moins élevés qu&apos;en France pour un standing équivalent."
+                r: "À partir de 40 000 € pour un appartement en résidence sécurisée à Hammamet ou Sousse. Pour une villa avec piscine, comptez entre 120 000 € et 250 000 € selon la localisation et la superficie. Ces prix sont 3 à 8 fois moins élevés qu'en France pour un standing équivalent."
               },
               {
-                q: "Est-ce sécurisé d&apos;acheter en Tunisie en 2026 ?",
-                r: "Oui. Le droit de propriété est garanti par la constitution tunisienne et le système de titre foncier (similaire au cadastre français) sécurise juridiquement votre acquisition. CapTunisia vérifie systématiquement la légalité du bien, l&apos;absence de contentieux, et vous accompagne jusqu&apos;à la signature chez le notaire."
+                q: "Est-ce sécurisé d'acheter en Tunisie en 2026 ?",
+                r: "Oui. Le droit de propriété est garanti par la constitution tunisienne et le système de titre foncier (similaire au cadastre français) sécurise juridiquement votre acquisition. CapTunisia vérifie systématiquement la légalité du bien, l'absence de contentieux, et vous accompagne jusqu'à la signature chez le notaire."
               },
               {
-                q: "Combien coûte l&apos;accompagnement CapTunisia ?",
+                q: "Combien coûte l'accompagnement CapTunisia ?",
                 r: "Nos honoraires sont transparents : 690 € TTC pour le pack Essentiel, 990 € TTC pour le pack Sécurité (recommandé), et 1 690 € TTC pour le pack Premium avec déplacement physique en Tunisie inclus. Consultez notre page /tarifs pour tous les détails."
               }
             ].map((faq, i) => (
