@@ -34,16 +34,18 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params
+
   if (!locales.includes(locale as any)) {
     notFound()
   }
 
-  const messages = await getMessages()
+  const messages = await getMessages({ locale })
 
   return (
     <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`}>

@@ -2,12 +2,15 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import { useTranslations, useLocale } from 'next-intl'
 
 const VIDEOS = ['/videos/video1.mp4', '/videos/video2.mp4', '/videos/video3.mp4', '/videos/video4.mp4', '/videos/video5.mp4', '/videos/video6.mp4']
 const DISPLAY_MS = 6000
 const FADE_S = 1.5
 
 export default function VideoHero() {
+  const t = useTranslations('videoHero')
+  const locale = useLocale()
   const [current, setCurrent] = useState(0)
   const [next, setNext] = useState(1)
   const [fading, setFading] = useState(false)
@@ -97,18 +100,18 @@ export default function VideoHero() {
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
         <motion.p className="text-xs tracking-[0.25em] uppercase text-white/60 mb-6 font-sans" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.8 }}>
-          Accompagnement immobilier franco-tunisien
+          {t('tagline')}
         </motion.p>
         <motion.h1 className="font-display leading-tight" style={{ fontSize: 'clamp(2.8rem, 6vw, 5.5rem)' }} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4, duration: 1 }}>
-          <span className="text-white italic font-light">Investir en Tunisie,</span><br />
-          <span style={{ color: '#B8923A' }} className="font-light">en toute confiance.</span>
+          <span className="text-white italic font-light">{t('title1')}</span><br />
+          <span style={{ color: '#B8923A' }} className="font-light">{t('title2')}</span>
         </motion.h1>
         <motion.p className="mt-6 text-white/75 font-sans leading-relaxed max-w-lg" style={{ fontSize: '1.1rem' }} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.8 }}>
-          De la recherche du bien à la signature du contrat —<br />une équipe franco-tunisienne à vos côtés.
+          {t('subtitle')}
         </motion.p>
         <motion.div className="mt-10 flex flex-col sm:flex-row gap-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 0.8 }}>
-          <a href="/biens" className="px-8 py-3.5 text-white font-sans font-medium tracking-wide hover:opacity-90 transition-opacity" style={{ backgroundColor: '#1B6CA8' }}>Voir nos biens</a>
-          <a href="/contact" className="px-8 py-3.5 font-sans font-medium tracking-wide border border-white/70 text-white hover:bg-white/10 transition-colors">Parler à un conseiller</a>
+          <a href={`/${locale}/biens`} className="px-8 py-3.5 text-white font-sans font-medium tracking-wide hover:opacity-90 transition-opacity" style={{ backgroundColor: '#1B6CA8' }}>{t('ctaProperties')}</a>
+          <a href={`/${locale}/contact`} className="px-8 py-3.5 font-sans font-medium tracking-wide border border-white/70 text-white hover:bg-white/10 transition-colors">{t('ctaContact')}</a>
         </motion.div>
       </div>
 
