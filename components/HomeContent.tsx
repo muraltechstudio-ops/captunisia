@@ -126,7 +126,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
                   src="/Emna.jpeg"
                   alt="Emna Rancurel"
                   className="w-full h-full"
-                  style={{ objectFit: 'cover', objectPosition: 'center center', transform: 'none', scale: 'none' }}
+                  style={{ objectFit: 'cover', objectPosition: 'center 45%', transform: 'none', scale: 'none' }}
                 />
               </div>
               <h3 className="font-display text-2xl text-nuit">Emna Rancurel</h3>
