@@ -218,7 +218,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { img: "/Sidi-Bou-Said.jpg", label: "Sidi Bou Saïd - Village emblématique aux portes bleues" },
+              { img: "/sidi-bou-said.jpg", label: "Sidi Bou Saïd - Village emblématique aux portes bleues" },
               { img: "https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800", label: "Hammamet - Plages de sable fin et eaux turquoise" },
               { img: "/cathedrale-tunis.webp", label: "Cathédrale Saint-Vincent de Paul - Architecture néo-byzantine majestueuse" },
               { img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800", label: "Gastronomie tunisienne - Saveurs méditerranéennes authentiques" },
