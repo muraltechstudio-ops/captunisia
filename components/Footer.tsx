@@ -1,42 +1,48 @@
+'use client'
+
 import Link from 'next/link'
+import { useTranslations, useLocale } from 'next-intl'
 
 export default function Footer() {
+  const t = useTranslations('footer')
+  const locale = useLocale()
+
   return (
     <footer className="bg-nuit text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Navigation */}
           <div>
-            <h3 className="font-display text-xl font-semibold mb-4">Navigation</h3>
+            <h3 className="font-display text-xl font-semibold mb-4">{t('navigation')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/biens" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Nos biens
+                <Link href={`/${locale}/biens`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('properties')}
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Nos services
+                <Link href={`/${locale}/services`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('services')}
                 </Link>
               </li>
               <li>
-                <Link href="/tarifs" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Tarifs
+                <Link href={`/${locale}/tarifs`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('pricing')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Blog
+                <Link href={`/${locale}/blog`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('blog')}
                 </Link>
               </li>
               <li>
-                <Link href="/equipe" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  L'équipe
+                <Link href={`/${locale}/equipe`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('team')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Contact
+                <Link href={`/${locale}/contact`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('contact')}
                 </Link>
               </li>
             </ul>
@@ -44,37 +50,37 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-display text-xl font-semibold mb-4">Services</h3>
+            <h3 className="font-display text-xl font-semibold mb-4">{t('servicesTitle')}</h3>
             <ul className="space-y-2 font-sans text-sm text-gray-300">
-              <li>Recherche sur mesure</li>
-              <li>Securisation juridique</li>
-              <li>Visites organisees</li>
-              <li>Suivi jusqu'à la signature</li>
+              <li>{t('customSearch')}</li>
+              <li>{t('legalSecurity')}</li>
+              <li>{t('organizedVisits')}</li>
+              <li>{t('followUp')}</li>
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h3 className="font-display text-xl font-semibold mb-4">Legal</h3>
+            <h3 className="font-display text-xl font-semibold mb-4">{t('legalTitle')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/legales/mentions-legales" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Mentions légales
+                <Link href={`/${locale}/legales/mentions-legales`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('legalNotice')}
                 </Link>
               </li>
               <li>
-                <Link href="/legales/confidentialite" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Confidentialité
+                <Link href={`/${locale}/legales/confidentialite`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('privacy')}
                 </Link>
               </li>
               <li>
-                <Link href="/legales/cgv" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  CGS
+                <Link href={`/${locale}/legales/cgv`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('terms')}
                 </Link>
               </li>
               <li>
-                <Link href="/legales/cookies" className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
-                  Cookies
+                <Link href={`/${locale}/legales/cookies`} className="font-sans text-sm text-gray-300 hover:text-gold transition-colors">
+                  {t('cookies')}
                 </Link>
               </li>
             </ul>
@@ -82,7 +88,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-display text-xl font-semibold mb-4">Contact</h3>
+            <h3 className="font-display text-xl font-semibold mb-4">{t('contactTitle')}</h3>
             <ul className="space-y-2 font-sans text-sm text-gray-300">
               <li>
                 <a href="mailto:contact@captunisia.com" className="hover:text-gold transition-colors">
@@ -93,7 +99,7 @@ export default function Footer() {
               <li>+33 7 43 35 41 84</li>
               <li className="pt-2">4 rue du Labech</li>
               <li>34250 Palavas-les-Flots</li>
-              <li className="pt-2">Lun-Sam · 9h-19h</li>
+              <li className="pt-2">{t('schedule')}</li>
             </ul>
           </div>
         </div>
@@ -101,7 +107,7 @@ export default function Footer() {
         {/* Legal */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="font-sans text-sm text-gray-400 text-center md:text-left">
-            © 2026 CapTunisia · Open Crest LLC · Accompagnement immobilier franco-tunisien · Non mandataire
+            {t('copyright')}
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-gold transition-colors" aria-label="LinkedIn">

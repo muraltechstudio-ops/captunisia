@@ -9,16 +9,26 @@
     "contact": "Contact"
   },
   "footer": {
-    "tagline": "Votre projet immobilier en Tunisie, sécurisé de A à Z",
-    "links": "Liens rapides",
-    "legal": "Mentions légales",
-    "privacy": "Politique de confidentialité",
-    "terms": "CGV",
-    "cookies": "Cookies",
+    "navigation": "Navigation",
+    "properties": "Nos biens",
+    "services": "Nos services",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "team": "L'équipe",
     "contact": "Contact",
-    "email": "E-mail",
-    "phone": "Téléphone",
-    "allRightsReserved": "Tous droits réservés"
+    "servicesTitle": "Services",
+    "customSearch": "Recherche sur mesure",
+    "legalSecurity": "Sécurisation juridique",
+    "organizedVisits": "Visites organisées",
+    "followUp": "Suivi jusqu'à la signature",
+    "legalTitle": "Légal",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "CGS",
+    "cookies": "Cookies",
+    "contactTitle": "Contact",
+    "schedule": "Lun-Sam · 9h-19h",
+    "copyright": "© 2026 CapTunisia · Open Crest LLC · Accompagnement immobilier franco-tunisien · Non mandataire"
   },
   "hero": {
     "title": "Investir en toute sérénité dans l'immobilier tunisien",
@@ -154,5 +164,71 @@
         }
       ]
     }
+  },
+  "homeContent": {
+    "trustBar": "690 à 1 690 euros TTC · Paiement unique · Engagement sans limite de durée",
+    "verified": "100% dossiers vérifiés",
+    "support": "Accompagnement FR / AR / EN",
+    "contract": "Contrat sécurisé dès le départ",
+    "tunisiaTitle": "La Tunisie, un marché immobilier d'exception",
+    "tunisiaSubtitle": "Des prix 3 à 5 fois inférieurs à la France, un cadre de vie méditerranéen, et une équipe franco-tunisienne pour sécuriser chaque étape.",
+    "priceTitle": "Prix attractifs",
+    "priceText": "De 60 000 euros pour un appartement standing à Hammamet. Des biens introuvables à ce prix en Europe méditerranéenne.",
+    "legalTitle": "Cadre légal maîtrisé",
+    "legalText": "Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gérons chaque étape juridique à votre place.",
+    "feesTitle": "Honoraires clairs",
+    "feesText": "3 formules de 690 à 1 690 euros TTC. Accompagnement physique en Tunisie inclus dans le pack Premium. Engagement sans limite de durée.",
+    "seePricing": "Voir nos tarifs →",
+    "selectionTitle": "Sélection du moment",
+    "selectionSubtitle": "Des biens vérifiés, des prix transparents, une équipe disponible.",
+    "discover": "Découvrir ce bien",
+    "viewAll": "Voir tous nos biens",
+    "howTitle": "Comment ça marche ?",
+    "steps": [
+      { "num": "1", "title": "Votre projet", "text": "Vous nous décrivez votre budget, la zone et le type de bien souhaité." },
+      { "num": "2", "title": "Sélection", "text": "Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants." },
+      { "num": "3", "title": "Visites", "text": "Organisation de visites en présentiel ou en visio depuis la France, avec compte-rendu en français." },
+      { "num": "4", "title": "Audit juridique", "text": "Vérification du titre foncier, obtention de l'autorisation du gouverneur." },
+      { "num": "5", "title": "Signature", "text": "Coordination notaire, banque tunisienne, remise des clés." }
+    ],
+    "teamTitle": "Deux expertises, un seul interlocuteur",
+    "team": {
+      "cyril": {
+        "name": "Cyril Rancurel",
+        "role": "Conseiller et Fondateur",
+        "bio": "Ancien conseiller immobilier chez Propriétés-Privées.com, réseau mandataires numéro 1 en France. Entrepreneur digital depuis 15 ans.",
+        "languages": "Français · Anglais"
+      },
+      "emna": {
+        "name": "Emna Rancurel",
+        "role": "Juriste - Droit des affaires internationales",
+        "bio": "Spécialisée dans les transactions immobilières franco-tunisiennes. Maîtrise du cadre légal tunisien.",
+        "languages": "Français · Arabe · Allemand"
+      }
+    },
+    "testimonialsTitle": "Ils nous ont fait confiance",
+    "testimonials": [
+      { "text": "Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.", "author": "Marie et Pierre L., Lyon" },
+      { "text": "Grâce à CapTunisia, j'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.", "author": "Karim B., Paris" },
+      { "text": "La rigueur d'Emna et la disponibilité de Cyril. Autorisation obtenue en 5 mois.", "author": "Sophie D., Bordeaux" }
+    ],
+    "ctaTitle": "Votre projet en Tunisie commence ici",
+    "ctaSubtitle": "Consultation gratuite · Réponse sous 24h · Aucun engagement",
+    "ctaButton": "Démarrer mon projet"
+  },
+  "contactPage": {
+    "title": "Parlons de votre projet",
+    "subtitle": "Premier échange gratuit et sans engagement",
+    "formTitle": "Formulaire de contact",
+    "infoTitle": "Nos coordonnées",
+    "email": "Email",
+    "phoneFR": "Tél FR/EN",
+    "phoneAR": "Tél Tunisien/AR",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "schedule": "Lun–Sam · 9h–19h",
+    "timezone": "(heure française)",
+    "responseTitle": "Délai de réponse",
+    "responseText": "Nous nous engageons à vous répondre dans les 24 heures ouvrées. Pour toute urgence, privilégiez l'appel téléphonique."
   }
 }

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations, useLocale } from 'next-intl'
 import type { Bien } from '@/data/biens'
 
 interface HomeContentProps {
@@ -10,38 +11,41 @@ interface HomeContentProps {
 }
 
 export default function HomeContent({ featuredBiens }: HomeContentProps) {
+  const t = useTranslations('homeContent')
+  const locale = useLocale()
+
   return (
     <div>
       <div className="bg-[#111009] py-5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/70 font-sans text-[0.78rem] tracking-[0.12em] uppercase">
-          <span>690 à 1 690 euros TTC · Paiement unique · Engagement sans limite de durée</span>
+          <span>{t('trustBar')}</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>100% dossiers vérifiés</span>
+          <span>{t('verified')}</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>Accompagnement FR / AR / EN</span>
+          <span>{t('support')}</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>Contrat sécurisé dès le départ</span>
+          <span>{t('contract')}</span>
         </div>
       </div>
 
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center mb-16">
-            <h2 className="font-display text-5xl italic text-nuit">La Tunisie, un marché immobilier d'exception</h2>
-            <p className="text-gray-500 font-sans mt-4 max-w-2xl mx-auto leading-relaxed">Des prix 3 à 5 fois inférieurs à la France, un cadre de vie méditerranéen, et une équipe franco-tunisienne pour sécuriser chaque étape.</p>
+            <h2 className="font-display text-5xl italic text-nuit">{t('tunisiaTitle')}</h2>
+            <p className="text-gray-500 font-sans mt-4 max-w-2xl mx-auto leading-relaxed">{t('tunisiaSubtitle')}</p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { title: 'Prix attractifs', text: 'De 60 000 euros pour un appartement standing à Hammamet. Des biens introuvables à ce prix en Europe méditerranéenne.' },
-              { title: 'Cadre légal maîtrisé', text: 'Autorisation du gouverneur, titre foncier, loi 1964 sur les terres agricoles - nous gérons chaque étape juridique à votre place.' },
-              { title: 'Honoraires clairs', text: '3 formules de 690 à 1 690 euros TTC. Accompagnement physique en Tunisie inclus dans le pack Premium. Engagement sans limite de durée.', link: '/tarifs' }
+              { title: t('priceTitle'), text: t('priceText') },
+              { title: t('legalTitle'), text: t('legalText') },
+              { title: t('feesTitle'), text: t('feesText'), link: `/${locale}/tarifs` }
             ].map((item, i) => (
               <motion.div key={item.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="text-center">
                 <h3 className="font-display text-2xl mb-3 text-nuit">{item.title}</h3>
                 <p className="font-sans text-gray-600 leading-relaxed">{item.text}</p>
                 {item.link && (
                   <Link href={item.link} className="inline-block text-sm mt-2" style={{ color: '#1B6CA8' }}>
-                    Voir nos tarifs →
+                    {t('seePricing')}
                   </Link>
                 )}
               </motion.div>
@@ -53,8 +57,8 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
       <section className="bg-sable py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center mb-12">
-            <h2 className="font-display text-5xl text-nuit">Sélection du moment</h2>
-            <p className="text-gray-500 font-sans mt-4">Des biens vérifiés, des prix transparents, une équipe disponible.</p>
+            <h2 className="font-display text-5xl text-nuit">{t('selectionTitle')}</h2>
+            <p className="text-gray-500 font-sans mt-4">{t('selectionSubtitle')}</p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {featuredBiens.map((bien, i) => (
@@ -69,29 +73,23 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
                   <p className="text-xs uppercase tracking-wide text-gray-400 mb-1">{bien.zone}</p>
                   <h3 className="font-display text-xl text-nuit mb-3">{bien.title}</h3>
                   <p className="text-sm text-gray-500 mb-4">{bien.surface}m2 · {bien.rooms} ch. · {bien.baths} sdb</p>
-                  {bien.price && <p className="text-2xl font-semibold mb-4" style={{ color: '#1B6CA8' }}>{bien.price.toLocaleString('fr-FR')} euros</p>}
-                  <Link href={`/biens/${bien.id}`} className="block w-full text-center py-3 border font-sans font-medium transition-colors hover:bg-[#1B6CA8] hover:text-white" style={{ borderColor: '#1B6CA8', color: '#1B6CA8' }}>Découvrir ce bien</Link>
+                  {bien.price && <p className="text-2xl font-semibold mb-4" style={{ color: '#1B6CA8' }}>{bien.price.toLocaleString(locale === 'fr' ? 'fr-FR' : 'en-US')} euros</p>}
+                  <Link href={`/${locale}/biens/${bien.id}`} className="block w-full text-center py-3 border font-sans font-medium transition-colors hover:bg-[#1B6CA8] hover:text-white" style={{ borderColor: '#1B6CA8', color: '#1B6CA8' }}>{t('discover')}</Link>
                 </div>
               </motion.div>
             ))}
           </div>
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center mt-10">
-            <Link href="/biens" className="inline-block px-10 py-3.5 text-white font-sans font-medium hover:opacity-90 transition-opacity" style={{ backgroundColor: '#1B6CA8' }}>Voir tous nos biens</Link>
+            <Link href={`/${locale}/biens`} className="inline-block px-10 py-3.5 text-white font-sans font-medium hover:opacity-90 transition-opacity" style={{ backgroundColor: '#1B6CA8' }}>{t('viewAll')}</Link>
           </motion.div>
         </div>
       </section>
 
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl text-center text-nuit mb-16">Comment ça marche ?</motion.h2>
+          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl text-center text-nuit mb-16">{t('howTitle')}</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {[
-              { num: '1', title: 'Votre projet', text: 'Vous nous décrivez votre budget, la zone et le type de bien souhaité.' },
-              { num: '2', title: 'Sélection', text: 'Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants.' },
-              { num: '3', title: 'Visites', text: 'Organisation de visites en présentiel ou en visio depuis la France, avec compte-rendu en français.' },
-              { num: '4', title: 'Audit juridique', text: 'Vérification du titre foncier, obtention de l\'autorisation du gouverneur.' },
-              { num: '5', title: 'Signature', text: 'Coordination notaire, banque tunisienne, remise des clés.' }
-            ].map((step, i) => (
+            {(t.raw('steps') as Array<{num: string, title: string, text: string}>).map((step, i) => (
               <motion.div key={step.num} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.1 }} className="text-center">
                 <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4" style={{ backgroundColor: '#1B6CA8' }}>{step.num}</div>
                 <h3 className="font-sans font-semibold text-nuit mb-2">{step.title}</h3>
@@ -104,35 +102,35 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
 
       <section className="bg-sable py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl italic text-center text-nuit mb-16">Deux expertises, un seul interlocuteur</motion.h2>
+          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl italic text-center text-nuit mb-16">{t('teamTitle')}</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="bg-white shadow-sm p-8">
               <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 mb-4">
                 <img
                   src="/cyril-photo.jpg"
-                  alt="Cyril Rancurel"
+                  alt={t('team.cyril.name')}
                   className="w-full h-full"
                   style={{ objectFit: 'cover', objectPosition: 'center center', transform: 'none', scale: 'none' }}
                 />
               </div>
-              <h3 className="font-display text-2xl text-nuit">Cyril Rancurel</h3>
-              <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Conseiller et Fondateur</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Propriétés-Privées.com, réseau mandataires numéro 1 en France. Entrepreneur digital depuis 15 ans.</p>
-              <p className="text-sm text-gray-600">Français · Anglais</p>
+              <h3 className="font-display text-2xl text-nuit">{t('team.cyril.name')}</h3>
+              <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>{t('team.cyril.role')}</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">{t('team.cyril.bio')}</p>
+              <p className="text-sm text-gray-600">{t('team.cyril.languages')}</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }} className="bg-white shadow-sm p-8">
               <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 mb-4">
                 <img
                   src="/Emna.jpeg"
-                  alt="Emna Rancurel"
+                  alt={t('team.emna.name')}
                   className="w-full h-full"
                   style={{ objectFit: 'cover', objectPosition: 'center 45%', transform: 'none', scale: 'none' }}
                 />
               </div>
-              <h3 className="font-display text-2xl text-nuit">Emna Rancurel</h3>
-              <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Juriste - Droit des affaires internationales</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Spécialisée dans les transactions immobilières franco-tunisiennes. Maîtrise du cadre légal tunisien.</p>
-              <p className="text-sm text-gray-600">Français · Arabe · Allemand</p>
+              <h3 className="font-display text-2xl text-nuit">{t('team.emna.name')}</h3>
+              <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>{t('team.emna.role')}</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">{t('team.emna.bio')}</p>
+              <p className="text-sm text-gray-600">{t('team.emna.languages')}</p>
             </motion.div>
           </div>
         </div>
@@ -140,17 +138,13 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
 
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-4xl text-center text-nuit mb-16">Ils nous ont fait confiance</motion.h2>
+          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-4xl text-center text-nuit mb-16">{t('testimonialsTitle')}</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              { text: 'Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
-              { text: 'Grâce à CapTunisia, j\'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
-              { text: 'La rigueur d\'Emna et la disponibilité de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
-            ].map((t, i) => (
+            {(t.raw('testimonials') as Array<{text: string, author: string}>).map((testimonial, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="bg-white border border-gray-100 shadow-sm p-8">
                 <div className="text-yellow-500 text-lg mb-4">⭐⭐⭐⭐⭐</div>
-                <p className="font-sans text-gray-700 leading-relaxed mb-4 italic">{t.text}</p>
-                <p className="font-sans text-sm font-semibold text-gray-900">{t.author}</p>
+                <p className="font-sans text-gray-700 leading-relaxed mb-4 italic">{testimonial.text}</p>
+                <p className="font-sans text-sm font-semibold text-gray-900">{testimonial.author}</p>
               </motion.div>
             ))}
           </div>
@@ -159,10 +153,10 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
 
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 100%)' }}>
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl md:text-6xl italic text-white">Votre projet en Tunisie commence ici</motion.h2>
-          <motion.p initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-white/70 font-sans mt-4 text-lg">Consultation gratuite · Réponse sous 24h · Aucun engagement</motion.p>
+          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl md:text-6xl italic text-white">{t('ctaTitle')}</motion.h2>
+          <motion.p initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-white/70 font-sans mt-4 text-lg">{t('ctaSubtitle')}</motion.p>
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="mt-8">
-            <Link href="/contact" className="inline-block px-10 py-4 bg-white font-sans font-medium hover:bg-white/90 transition-colors" style={{ color: '#1B6CA8' }}>Démarrer mon projet</Link>
+            <Link href={`/${locale}/contact`} className="inline-block px-10 py-4 bg-white font-sans font-medium hover:bg-white/90 transition-colors" style={{ color: '#1B6CA8' }}>{t('ctaButton')}</Link>
           </motion.div>
         </div>
       </section>

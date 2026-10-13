@@ -9,16 +9,26 @@
     "contact": "Contact"
   },
   "footer": {
-    "tagline": "Your real estate project in Tunisia, secured from A to Z",
-    "links": "Quick Links",
-    "legal": "Legal Notice",
-    "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions",
-    "cookies": "Cookies",
+    "navigation": "Navigation",
+    "properties": "Properties",
+    "services": "Services",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "team": "Our Team",
     "contact": "Contact",
-    "email": "Email",
-    "phone": "Phone",
-    "allRightsReserved": "All rights reserved"
+    "servicesTitle": "Services",
+    "customSearch": "Custom search",
+    "legalSecurity": "Legal security",
+    "organizedVisits": "Organized viewings",
+    "followUp": "Follow-up to signing",
+    "legalTitle": "Legal",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "contactTitle": "Contact",
+    "schedule": "Mon-Sat · 9am-7pm",
+    "copyright": "© 2026 CapTunisia · Open Crest LLC · Franco-Tunisian real estate support · Not a mandatary"
   },
   "hero": {
     "title": "Invest with Peace of Mind in Tunisian Real Estate",
@@ -154,5 +164,71 @@
         }
       ]
     }
+  },
+  "homeContent": {
+    "trustBar": "€690 to €1,690 inc. VAT · One-time payment · No time limit",
+    "verified": "100% verified listings",
+    "support": "FR / AR / EN support",
+    "contract": "Secure contract from day one",
+    "tunisiaTitle": "Tunisia, an exceptional real estate market",
+    "tunisiaSubtitle": "Prices 3 to 5 times lower than France, a Mediterranean lifestyle, and a Franco-Tunisian team to secure every step.",
+    "priceTitle": "Attractive prices",
+    "priceText": "From €60,000 for a premium apartment in Hammamet. Properties unavailable at this price anywhere in Mediterranean Europe.",
+    "legalTitle": "Legal framework mastered",
+    "legalText": "Governor authorization, title deed, 1964 law on agricultural land - we handle every legal step for you.",
+    "feesTitle": "Transparent fees",
+    "feesText": "3 packages from €690 to €1,690 inc. VAT. Physical support in Tunisia included in Premium package. No time limit.",
+    "seePricing": "View pricing →",
+    "selectionTitle": "Featured properties",
+    "selectionSubtitle": "Verified properties, transparent prices, available team.",
+    "discover": "Discover this property",
+    "viewAll": "View all properties",
+    "howTitle": "How it works?",
+    "steps": [
+      { "num": "1", "title": "Your project", "text": "You describe your budget, desired area and property type." },
+      { "num": "2", "title": "Selection", "text": "We consult our Tunisian partner agencies and select matching properties." },
+      { "num": "3", "title": "Viewings", "text": "Organization of in-person or video viewings from France, with French reports." },
+      { "num": "4", "title": "Legal audit", "text": "Title deed verification, obtaining governor authorization." },
+      { "num": "5", "title": "Signing", "text": "Notary coordination, Tunisian bank, key handover." }
+    ],
+    "teamTitle": "Two expertises, one point of contact",
+    "team": {
+      "cyril": {
+        "name": "Cyril Rancurel",
+        "role": "Advisor and Founder",
+        "bio": "Former real estate advisor at Propriétés-Privées.com, France's #1 real estate agent network. Digital entrepreneur for 15 years.",
+        "languages": "French · English"
+      },
+      "emna": {
+        "name": "Emna Rancurel",
+        "role": "Lawyer - International Business Law",
+        "bio": "Specialized in Franco-Tunisian real estate transactions. Expert knowledge of Tunisian legal framework.",
+        "languages": "French · Arabic · German"
+      }
+    },
+    "testimonialsTitle": "They trusted us",
+    "testimonials": [
+      { "text": "We bought our villa in Hammamet in 8 months. Cyril and Emna handled all the legal aspects.", "author": "Marie and Pierre L., Lyon" },
+      { "text": "Thanks to CapTunisia, I invested in an apartment in La Marsa with a 7% gross yield.", "author": "Karim B., Paris" },
+      { "text": "Emna's rigor and Cyril's availability. Authorization obtained in 5 months.", "author": "Sophie D., Bordeaux" }
+    ],
+    "ctaTitle": "Your Tunisia project starts here",
+    "ctaSubtitle": "Free consultation · Response within 24h · No commitment",
+    "ctaButton": "Start my project"
+  },
+  "contactPage": {
+    "title": "Let's discuss your project",
+    "subtitle": "First conversation free and without commitment",
+    "formTitle": "Contact form",
+    "infoTitle": "Our contact information",
+    "email": "Email",
+    "phoneFR": "Phone FR/EN",
+    "phoneAR": "Tunisian/AR Phone",
+    "address": "Address",
+    "hours": "Hours",
+    "schedule": "Mon–Sat · 9am–7pm",
+    "timezone": "(French time)",
+    "responseTitle": "Response time",
+    "responseText": "We commit to responding within 24 business hours. For urgent matters, please call."
   }
 }
