@@ -20,14 +20,14 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <span className="hidden md:inline opacity-20">|</span>
           <span>Accompagnement FR / AR / EN</span>
           <span className="hidden md:inline opacity-20">|</span>
-          <span>Contrat securise des le depart</span>
+          <span>Contrat sécurisé dès le départ</span>
         </div>
       </div>
 
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="text-center mb-16">
-            <h2 className="font-display text-5xl italic text-nuit">La Tunisie, un marche immobilier d exception</h2>
+            <h2 className="font-display text-5xl italic text-nuit">La Tunisie, un marché immobilier d'exception</h2>
             <p className="text-gray-500 font-sans mt-4 max-w-2xl mx-auto leading-relaxed">Des prix 3 à 5 fois inférieurs à la France, un cadre de vie méditerranéen, et une équipe franco-tunisienne pour sécuriser chaque étape.</p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -62,7 +62,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
                 <div className="relative h-56">
                   <Image src={bien.img} alt={bien.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute top-4 left-4">
-                    <span className="inline-block px-3 py-1 text-white text-xs font-sans font-semibold" style={{ backgroundColor: bien.badge === 'Exclusivité' ? '#1B6CA8' : bien.badge === 'Coup de coeur' ? '#B8923A' : '#374151' }}>{bien.badge}</span>
+                    <span className="inline-block px-3 py-1 text-white text-xs font-sans font-semibold" style={{ backgroundColor: bien.badge === 'Exclusivité' ? '#1B6CA8' : bien.badge === 'Coup de cœur' ? '#B8923A' : '#374151' }}>{bien.badge}</span>
                   </div>
                 </div>
                 <div className="p-6">
@@ -83,14 +83,14 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
 
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl text-center text-nuit mb-16">Comment ca marche ?</motion.h2>
+          <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="font-display text-5xl text-center text-nuit mb-16">Comment ça marche ?</motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {[
-              { num: '1', title: 'Votre projet', text: 'Vous nous decrivez votre budget, la zone et le type de bien souhaite.' },
-              { num: '2', title: 'Selection', text: 'Nous interrogeons nos agences partenaires tunisiennes et selectionnons les biens correspondants.' },
-              { num: '3', title: 'Visites', text: 'Organisation de visites en presentiel ou en visio depuis la France, avec compte-rendu en francais.' },
-              { num: '4', title: 'Audit juridique', text: 'Verification du titre foncier, obtention de l autorisation du gouverneur.' },
-              { num: '5', title: 'Signature', text: 'Coordination notaire, banque tunisienne, remise des cles.' }
+              { num: '1', title: 'Votre projet', text: 'Vous nous décrivez votre budget, la zone et le type de bien souhaité.' },
+              { num: '2', title: 'Selection', text: 'Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants.' },
+              { num: '3', title: 'Visites', text: 'Organisation de visites en présentiel ou en visio depuis la France, avec compte-rendu en français.' },
+              { num: '4', title: 'Audit juridique', text: 'Vérification du titre foncier, obtention de l'autorisation du gouverneur.' },
+              { num: '5', title: 'Signature', text: 'Coordination notaire, banque tunisienne, remise des clés.' }
             ].map((step, i) => (
               <motion.div key={step.num} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.1 }} className="text-center">
                 <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4" style={{ backgroundColor: '#1B6CA8' }}>{step.num}</div>
@@ -117,7 +117,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               </div>
               <h3 className="font-display text-2xl text-nuit">Cyril Rancurel</h3>
               <p className="text-sm tracking-wide uppercase mt-1 mb-4" style={{ color: '#B8923A' }}>Conseiller et Fondateur</p>
-              <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Proprietes-Privees.com, réseau mandataires numéro 1 en France. Entrepreneur digital depuis 15 ans.</p>
+              <p className="font-sans text-gray-700 leading-relaxed mb-4">Ancien conseiller immobilier chez Propriétés-Privées.com, réseau mandataires numéro 1 en France. Entrepreneur digital depuis 15 ans.</p>
               <p className="text-sm text-gray-600">Français · Anglais</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }} className="bg-white shadow-sm p-8">
@@ -140,7 +140,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
             {[
               { text: 'Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
               { text: 'Grâce à CapTunisia, j'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
-              { text: 'La rigueur d Emna et la disponibilite de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
+              { text: 'La rigueur d'Emna et la disponibilité de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
             ].map((t, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="bg-white border border-gray-100 shadow-sm p-8">
                 <div className="text-yellow-500 text-lg mb-4">⭐⭐⭐⭐⭐</div>
