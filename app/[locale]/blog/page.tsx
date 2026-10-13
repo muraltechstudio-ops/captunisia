@@ -1,12 +1,12 @@
 'use client'
 
-import type { Metadata } from 'next'
 import { articles } from '@/lib/articles'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-
+import { useLocale } from 'next-intl'
 
 export default function BlogPage() {
+  const locale = useLocale()
   const categories = Array.from(new Set(articles.map(a => a.categorie)))
 
   return (
