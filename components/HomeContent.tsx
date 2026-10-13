@@ -89,7 +89,7 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
               { num: '1', title: 'Votre projet', text: 'Vous nous décrivez votre budget, la zone et le type de bien souhaité.' },
               { num: '2', title: 'Sélection', text: 'Nous interrogeons nos agences partenaires tunisiennes et sélectionnons les biens correspondants.' },
               { num: '3', title: 'Visites', text: 'Organisation de visites en présentiel ou en visio depuis la France, avec compte-rendu en français.' },
-              { num: '4', title: 'Audit juridique', text: 'Vérification du titre foncier, obtention de l'autorisation du gouverneur.' },
+              { num: '4', title: 'Audit juridique', text: 'Vérification du titre foncier, obtention de l\'autorisation du gouverneur.' },
               { num: '5', title: 'Signature', text: 'Coordination notaire, banque tunisienne, remise des clés.' }
             ].map((step, i) => (
               <motion.div key={step.num} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.1 }} className="text-center">
@@ -139,8 +139,8 @@ export default function HomeContent({ featuredBiens }: HomeContentProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { text: 'Nous avons acheté notre villa à Hammamet en 8 mois. Cyril et Emna ont géré tout le volet juridique.', author: 'Marie et Pierre L., Lyon' },
-              { text: 'Grâce à CapTunisia, j'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
-              { text: 'La rigueur d'Emna et la disponibilité de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
+              { text: 'Grâce à CapTunisia, j\'ai investi dans un appartement à La Marsa avec un rendement de 7% brut.', author: 'Karim B., Paris' },
+              { text: 'La rigueur d\'Emna et la disponibilité de Cyril. Autorisation obtenue en 5 mois.', author: 'Sophie D., Bordeaux' }
             ].map((t, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: i * 0.15 }} className="bg-white border border-gray-100 shadow-sm p-8">
                 <div className="text-yellow-500 text-lg mb-4">⭐⭐⭐⭐⭐</div>
