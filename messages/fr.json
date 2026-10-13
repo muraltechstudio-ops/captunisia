@@ -274,3 +274,61 @@
     "faqTitle": "Questions fréquentes"
   }
 }
+  },
+  "pricingPage": {
+    "title": "Nos formules d'accompagnement",
+    "subtitle": "Des honoraires transparents, sans surprise. Payés directement à CapTunisia, indépendants des honoraires de l'agence tunisienne.",
+    "pack1Name": "Essentiel",
+    "pack1Price": "690 €",
+    "pack1Feature1": "Sélection de biens sur mesure",
+    "pack1Feature2": "Mise en relation avec l'agence partenaire",
+    "pack1Feature3": "Suivi WhatsApp tout au long du projet",
+    "pack2Name": "Sécurité",
+    "pack2Price": "990 €",
+    "pack2Badge": "Recommandé",
+    "pack2Feature1": "Tout le pack Essentiel",
+    "pack2Feature2": "Audit juridique complet du bien",
+    "pack2Feature3": "Revue du compromis de vente",
+    "pack2Feature4": "Note de risques personnalisée",
+    "pack3Name": "Premium",
+    "pack3Price": "1 690 €",
+    "pack3Feature1": "Tout le pack Sécurité",
+    "pack3Feature2": "Déplacement physique en Tunisie inclus",
+    "pack3Feature3": "Présence aux visites et à la signature",
+    "pack3Feature4": "Accompagnement VIP sur place",
+    "cta": "Démarrer mon projet",
+    "ctaPack": "Choisir ce pack"
+  }
+    "service4Title": "Suivi jusqu'à la signature",
+    "service4Desc": "Coordination avec le notaire tunisien. Liaison avec votre banque si financement. Suivi du dossier d'autorisation du gouverneur. Organisation de la procuration notariée si vous signez depuis la France. Présence à la remise des clés. Nous restons votre interlocuteur unique du début à la fin.",
+    "pricingTitle": "Pack Accompagnement",
+    "pricingPrice": "0€",
+    "pricingFor": "pour l'acheteur",
+    "pricingText": "Notre rémunération est versée par l'agence partenaire. Vous ne payez que les frais légaux : frais de notaire (~3% du prix) et autorisation du gouverneur (~200 TND).",
+    "faqTitle": "Questions fréquentes"
+  }
+}
+  },
+  "pricingPage": {
+    "title": "Nos formules d'accompagnement",
+    "subtitle": "Des honoraires transparents, sans surprise. Payés directement à CapTunisia, indépendants des honoraires de l'agence tunisienne.",
+    "pack1Name": "Essentiel",
+    "pack1Price": "690 €",
+    "pack1Feature1": "Sélection de biens sur mesure",
+    "pack1Feature2": "Mise en relation avec l'agence partenaire",
+    "pack1Feature3": "Suivi WhatsApp tout au long du projet",
+    "pack2Name": "Sécurité",
+    "pack2Price": "990 €",
+    "pack2Badge": "Recommandé",
+    "pack2Feature1": "Tout le pack Essentiel",
+    "pack2Feature2": "Audit juridique complet du bien",
+    "pack2Feature3": "Revue du compromis de vente",
+    "pack2Feature4": "Note de risques personnalisée",
+    "pack3Name": "Premium",
+    "pack3Price": "1 690 €",
+    "pack3Feature1": "Tout le pack Sécurité",
+    "pack3Feature2": "Déplacement physique en Tunisie inclus",
+    "pack3Feature3": "Présence aux visites et à la signature",
+    "pack3Feature4": "Accompagnement VIP sur place",
+    "cta": "Démarrer mon projet",
+    "ctaPack": "Choisir ce pack"

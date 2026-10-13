@@ -274,3 +274,56 @@
     "faqTitle": "Frequently asked questions"
   }
 }
+  },
+  "pricingPage": {
+    "title": "Our support packages",
+    "subtitle": "Transparent fees, no surprises. Paid directly to CapTunisia, independent of the Tunisian agency fees.",
+    "pack1Name": "Essential",
+    "pack1Price": "€690",
+    "pack1Feature1": "Custom property selection",
+    "pack1Feature2": "Connection with partner agency",
+    "pack1Feature3": "WhatsApp follow-up throughout project",
+    "pack2Name": "Security",
+    "pack2Price": "€990",
+    "pack2Badge": "Recommended",
+    "pack2Feature1": "Everything in Essential pack",
+    "pack2Feature2": "Complete legal property audit",
+    "pack2Feature3": "Sales agreement review",
+    "pack2Feature4": "Personalized risk note",
+    "pack3Name": "Premium",
+    "pack3Price": "€1,690",
+    "pack3Feature1": "Everything in Security pack",
+    "pack3Feature2": "Physical trip to Tunisia included",
+    "pack3Feature3": "Presence at viewings and signing",
+    "pack3Feature4": "VIP on-site support",
+    "cta": "Start my project",
+    "ctaPack": "Choose this pack"
+  }
+    "pricingText": "Our fee is paid by the partner agency. You only pay legal fees: notary fees (~3% of price) and governor authorization (~200 TND).",
+    "faqTitle": "Frequently asked questions"
+  }
+}
+  },
+  "pricingPage": {
+    "title": "Our support packages",
+    "subtitle": "Transparent fees, no surprises. Paid directly to CapTunisia, independent of the Tunisian agency fees.",
+    "pack1Name": "Essential",
+    "pack1Price": "€690",
+    "pack1Feature1": "Custom property selection",
+    "pack1Feature2": "Connection with partner agency",
+    "pack1Feature3": "WhatsApp follow-up throughout project",
+    "pack2Name": "Security",
+    "pack2Price": "€990",
+    "pack2Badge": "Recommended",
+    "pack2Feature1": "Everything in Essential pack",
+    "pack2Feature2": "Complete legal property audit",
+    "pack2Feature3": "Sales agreement review",
+    "pack2Feature4": "Personalized risk note",
+    "pack3Name": "Premium",
+    "pack3Price": "€1,690",
+    "pack3Feature1": "Everything in Security pack",
+    "pack3Feature2": "Physical trip to Tunisia included",
+    "pack3Feature3": "Presence at viewings and signing",
+    "pack3Feature4": "VIP on-site support",
+    "cta": "Start my project",
+    "ctaPack": "Choose this pack"
