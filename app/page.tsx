@@ -223,7 +223,7 @@ export default function Home() {
               { img: "/cathedrale-tunis.webp", label: "Cathédrale Saint-Vincent de Paul - Architecture néo-byzantine majestueuse" },
               { img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800", label: "Gastronomie tunisienne - Saveurs méditerranéennes authentiques" },
               { img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800", label: "Villa de luxe - Piscine privée et jardin paysagé" },
-              { img: "/colisee-el-jem.webp", label: "Colisée d&apos;El Jem - Monument romain majestueux" }
+              { img: "/colisee-el-jem.webp", label: "Colisée d'El Jem - Monument romain majestueux" }
             ].map((item, i) => (
               <motion.div
                 key={i}
