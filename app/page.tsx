@@ -220,10 +220,10 @@ export default function Home() {
             {[
               { img: "/Sidi-Bou-Said.jpg", label: "Sidi Bou Saïd - Village emblématique aux portes bleues" },
               { img: "https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=800", label: "Hammamet - Plages de sable fin et eaux turquoise" },
-              { img: "/la-cathédrale-de-saint-vincent-paul-à-tunis-église-catholique-située-tunisie-le-temple-est-appelé-par-suite-tire-son-nom-198745661.webp", label: "Cathédrale Saint-Vincent de Paul - Architecture néo-byzantine majestueuse" },
+              { img: "/cathedrale-tunis.webp", label: "Cathédrale Saint-Vincent de Paul - Architecture néo-byzantine majestueuse" },
               { img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800", label: "Gastronomie tunisienne - Saveurs méditerranéennes authentiques" },
               { img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800", label: "Villa de luxe - Piscine privée et jardin paysagé" },
-              { img: "/amphithéâtre-el-jem-en-tunisie-un-jour-ensoleillé-avec-le-ciel-nuageux-à-arrière-plan-188077706.webp", label: "Colisée d&apos;El Jem - Monument romain majestueux" }
+              { img: "/colisee-el-jem.webp", label: "Colisée d&apos;El Jem - Monument romain majestueux" }
             ].map((item, i) => (
               <motion.div
                 key={i}
