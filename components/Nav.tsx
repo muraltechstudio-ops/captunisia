@@ -138,7 +138,13 @@ export default function Nav() {
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-8 space-y-2 text-center">
+
+              {/* Language Switcher Mobile */}
+              <div className="pt-4">
+                <LanguageSwitcher />
+              </div>
+
+              <div className="pt-4 space-y-2 text-center">
                 <p className="font-sans text-sm text-gray-600">+33 6 36 22 69 87</p>
                 <p className="font-sans text-sm text-gray-600">+33 7 43 35 41 84</p>
               </div>
