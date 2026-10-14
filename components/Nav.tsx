@@ -25,6 +25,7 @@ export default function Nav() {
   }, [])
 
   const links = [
+    { href: `/${locale}`, label: t('home') },
     { href: `/${locale}/biens`, label: t('properties') },
     { href: `/${locale}/services`, label: 'Services' },
     { href: `/${locale}/tarifs`, label: t('pricing') },
