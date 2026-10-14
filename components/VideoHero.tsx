@@ -4,20 +4,12 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useTranslations, useLocale } from 'next-intl'
 
-const VIDEOS = ['/videos/video1.mp4', '/videos/video2.mp4', '/videos/video3.mp4', '/videos/video4.mp4', '/videos/video5.mp4', '/videos/video6.mp4']
-const DISPLAY_MS = 6000
-const FADE_S = 1.5
-
 export default function VideoHero() {
   const t = useTranslations('videoHero')
   const locale = useLocale()
   const [isMobile, setIsMobile] = useState(false)
-  const [current, setCurrent] = useState(0)
-  const [next, setNext] = useState(1)
-  const [fading, setFading] = useState(false)
-  const [errors, setErrors] = useState<boolean[]>([false, false, false, false, false, false])
-  const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null, null, null, null])
-  const timer = useRef<NodeJS.Timeout | null>(null)
+  const [videoError, setVideoError] = useState(false)
+  const videoRef = useRef<HTMLVideoElement>(null)
   const { scrollY } = useScroll()
   const parallaxY = useTransform(scrollY, [0, 800], [0, 300])
 
@@ -30,88 +22,28 @@ export default function VideoHero() {
   }, [])
 
   useEffect(() => {
-    const firstVideo = refs.current[0]
-    if (firstVideo) {
-      firstVideo.load()
-      firstVideo.currentTime = 0
-      firstVideo.play().catch(() => {})
-    }
-    const secondVideo = refs.current[1]
-    if (secondVideo) {
-      secondVideo.load()
-      secondVideo.currentTime = 0
+    if (videoRef.current) {
+      videoRef.current.load()
+      videoRef.current.play().catch(() => {})
     }
   }, [])
-
-  useEffect(() => {
-    timer.current = setTimeout(() => {
-      const nextIndex = (current + 1) % VIDEOS.length
-      const nextVideo = refs.current[nextIndex]
-
-      if (nextVideo) {
-        nextVideo.load()
-        nextVideo.currentTime = 0
-        nextVideo.play().catch(() => {})
-      }
-
-      setNext(nextIndex)
-      setFading(true)
-
-      setTimeout(() => {
-        setCurrent(nextIndex)
-        setFading(false)
-
-        const afterNext = (nextIndex + 1) % VIDEOS.length
-        const afterNextVideo = refs.current[afterNext]
-        if (afterNextVideo) {
-          afterNextVideo.load()
-          afterNextVideo.currentTime = 0
-        }
-      }, FADE_S * 1000)
-    }, DISPLAY_MS)
-
-    return () => {
-      if (timer.current) clearTimeout(timer.current)
-    }
-  }, [current])
-
-  const allFailed = errors.every(Boolean)
 
   return (
     <div className="relative w-full overflow-hidden" style={{ height: '100dvh' }}>
       <motion.div className="absolute inset-0" style={{ y: isMobile ? 0 : parallaxY, height: '130%', top: '-15%' }}>
-        {allFailed ? (
+        {videoError ? (
           <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 50%, #B8923A 100%)' }} />
         ) : (
-          VIDEOS.map((src, i) => {
-            const isCurrent = i === current
-            const isNext = i === next
-            let opacity = 0
-            if (isCurrent && !fading) opacity = 1
-            if (isCurrent && fading) opacity = 0
-            if (isNext && fading) opacity = 1
-
-            // Sur mobile : ne rendre que current et next pour perf
-            if (isMobile && !isCurrent && !isNext) return null
-
-            return (
-              <motion.video
-                key={src}
-                ref={el => { refs.current[i] = el }}
-                src={src}
-                muted
-                playsInline
-                loop={false}
-                preload="none"
-                suppressHydrationWarning
-                onError={() => setErrors(e => { const n = [...e]; n[i] = true; return n })}
-                className="absolute inset-0 w-full h-full object-cover"
-                style={{ willChange: opacity > 0 ? 'opacity' : 'auto' }}
-                animate={{ opacity }}
-                transition={{ duration: fading ? FADE_S : 0, ease: 'easeInOut' }}
-              />
-            )
-          })
+          <video
+            ref={videoRef}
+            src="/videos/video1.mp4"
+            muted
+            playsInline
+            loop
+            preload="auto"
+            onError={() => setVideoError(true)}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
         )}
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.28) 100%)' }} />
       </motion.div>
