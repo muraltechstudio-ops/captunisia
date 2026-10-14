@@ -23,11 +23,13 @@ export default function VideoHero() {
   useEffect(() => {
     const firstVideo = refs.current[0]
     if (firstVideo) {
+      firstVideo.load()
       firstVideo.currentTime = 0
       firstVideo.play().catch(() => {})
     }
     const secondVideo = refs.current[1]
     if (secondVideo) {
+      secondVideo.load()
       secondVideo.currentTime = 0
     }
   }, [])
@@ -38,6 +40,7 @@ export default function VideoHero() {
       const nextVideo = refs.current[nextIndex]
 
       if (nextVideo) {
+        nextVideo.load()
         nextVideo.currentTime = 0
         nextVideo.play().catch(() => {})
       }
@@ -52,6 +55,7 @@ export default function VideoHero() {
         const afterNext = (nextIndex + 1) % VIDEOS.length
         const afterNextVideo = refs.current[afterNext]
         if (afterNextVideo) {
+          afterNextVideo.load()
           afterNextVideo.currentTime = 0
         }
       }, FADE_S * 1000)
@@ -85,10 +89,11 @@ export default function VideoHero() {
                 muted
                 playsInline
                 loop={false}
-                preload="auto"
+                preload="none"
                 suppressHydrationWarning
                 onError={() => setErrors(e => { const n = [...e]; n[i] = true; return n })}
                 className="absolute inset-0 w-full h-full object-cover"
+                style={{ willChange: opacity > 0 ? 'opacity' : 'auto' }}
                 animate={{ opacity }}
                 transition={{ duration: fading ? FADE_S : 0, ease: 'easeInOut' }}
               />
