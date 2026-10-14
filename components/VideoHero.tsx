@@ -11,6 +11,7 @@ const FADE_S = 1.5
 export default function VideoHero() {
   const t = useTranslations('videoHero')
   const locale = useLocale()
+  const [isMobile, setIsMobile] = useState(false)
   const [current, setCurrent] = useState(0)
   const [next, setNext] = useState(1)
   const [fading, setFading] = useState(false)
@@ -19,6 +20,14 @@ export default function VideoHero() {
   const timer = useRef<NodeJS.Timeout | null>(null)
   const { scrollY } = useScroll()
   const parallaxY = useTransform(scrollY, [0, 800], [0, 300])
+
+  // Détection mobile pour désactiver parallax
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768)
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
 
   useEffect(() => {
     const firstVideo = refs.current[0]
@@ -70,7 +79,7 @@ export default function VideoHero() {
 
   return (
     <div className="relative w-full overflow-hidden" style={{ height: '100dvh' }}>
-      <motion.div className="absolute inset-0" style={{ y: parallaxY, height: '130%', top: '-15%' }}>
+      <motion.div className="absolute inset-0" style={{ y: isMobile ? 0 : parallaxY, height: '130%', top: '-15%' }}>
         {allFailed ? (
           <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #0d3d6b 0%, #1B6CA8 50%, #B8923A 100%)' }} />
         ) : (
@@ -81,6 +90,10 @@ export default function VideoHero() {
             if (isCurrent && !fading) opacity = 1
             if (isCurrent && fading) opacity = 0
             if (isNext && fading) opacity = 1
+
+            // Sur mobile : ne rendre que current et next pour perf
+            if (isMobile && !isCurrent && !isNext) return null
+
             return (
               <motion.video
                 key={src}
